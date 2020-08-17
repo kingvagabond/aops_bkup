@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2007 AMC 12A Problems/Problem 22 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2007_AMC_12A_Problems/Problem_22","wgTitle":"2007 AMC 12A Problems/Problem 22","wgCurRevisionId":128820,"wgRevisionId":128820,"wgArticleId":5234,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Introductory Number Theory Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2007_AMC_12A_Problems/Problem_22","wgRelevantArticleId":5234,"wgRequestId":"18bdb3062a46e18171bbd090","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2007_AMC_12A_Problems_Problem_22 rootpage-2007_AMC_12A_Problems_Problem_22 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2007 AMC 12A Problems/Problem 22																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_22" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2007_AMC_12A_Problems/Problem_22&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2007_AMC_12A_Problems/Problem_22&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2007_AMC_12A_Problems/Problem_22&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2007_AMC_12A_Problems/Problem_22" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2007 AMC 12A Problems/Problem 22</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><dl><dd><i>The following problem is from both the <a href="/wiki/index.php/2007_AMC_12A_Problems" title="2007 AMC 12A Problems">2007 AMC 12A #22</a> and <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2007 AMC 10A Problems/Problem 25">2007 AMC 10A #25</a>, so both problems redirect to this page.</i></dd></dl>
+<div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution"><span class="tocnumber">2</span> <span class="toctext">Solution</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Solution_1"><span class="tocnumber">2.1</span> <span class="toctext">Solution 1</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Solution_2"><span class="tocnumber">2.2</span> <span class="toctext">Solution 2</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Solution_3"><span class="tocnumber">2.3</span> <span class="toctext">Solution 3</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Solution_4"><span class="tocnumber">2.4</span> <span class="toctext">Solution 4</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Solution_5_.28Rigorous.29"><span class="tocnumber">3</span> <span class="toctext">Solution 5 (Rigorous)</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem">Problem</span></h2>
+<p>For each positive integer <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, let <img src="//latex.artofproblemsolving.com/0/9/6/0965bf432b818b46740e3cd4d042899628c7ad0e.png" class="latex" alt="$S(n)$" style="vertical-align: -4px" width="35" height="18" /> denote the sum of the digits of <img src="//latex.artofproblemsolving.com/b/d/9/bd923e41635af40a1abe58f230732f2280b0723a.png" class="latex" alt="$n.$" width="14" height="8" /> For how many values of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is <img src="//latex.artofproblemsolving.com/5/b/e/5bef803263cb1ce266ce9c3a06b48fbfd31ddc38.png" class="latex" alt="$n + S(n) + S(S(n)) = 2007?$" style="vertical-align: -4px" width="224" height="18" /> 
+</p><p><img src="//latex.artofproblemsolving.com/3/e/f/3ef25b0f1a03505d9a6c329cce308510a4d6d444.png" class="latex" alt="$\mathrm{(A)}\ 1 \qquad \mathrm{(B)}\ 2 \qquad \mathrm{(C)}\ 3 \qquad \mathrm{(D)}\ 4 \qquad \mathrm{(E)}\ 5$" style="vertical-align: -4px" width="342" height="18" />
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>For the sake of notation let <img src="//latex.artofproblemsolving.com/5/2/0/5203df592e3d19fca5c239b8f28dd2bdd2d59fe0.png" class="latex" alt="$T(n) = n + S(n) + S(S(n))$" style="vertical-align: -4px" width="217" height="18" />. Obviously <img src="//latex.artofproblemsolving.com/0/b/b/0bb83a2f8cddd789fdc0de28670b869843094392.png" class="latex" alt="$n&lt;2007$" style="vertical-align: 0px" width="71" height="13" />. Then the maximum value of <img src="//latex.artofproblemsolving.com/0/2/0/020746ad79fa19d1fba2fc508e623aafb496e3e7.png" class="latex" alt="$S(n) + S(S(n))$" style="vertical-align: -4px" width="121" height="18" /> is when <img src="//latex.artofproblemsolving.com/a/b/d/abd4f7a1059eb6f7423946b543e871ac55d3183c.png" class="latex" alt="$n = 1999$" style="vertical-align: 0px" width="70" height="13" />, and the sum becomes <img src="//latex.artofproblemsolving.com/0/7/5/075fa160d42988f2f13ef70efe26c832097921ba.png" class="latex" alt="$28 + 10 = 38$" style="vertical-align: -1px" width="100" height="14" />. So the minimum bound is <img src="//latex.artofproblemsolving.com/5/c/3/5c38811df6141ccd82182455d35bb96ae30f697e.png" class="latex" alt="$1969$" style="vertical-align: 0px" width="35" height="13" />. We do <a href="/wiki/index.php/Casework" title="Casework">casework</a> upon the tens digit:
+</p><p>Case 1: <img src="//latex.artofproblemsolving.com/3/5/c/35cec661f982b57e6a4303aa376b55f9de15e72b.png" class="latex" alt="$196u \Longrightarrow u = 9$" style="vertical-align: 0px" width="120" height="13" />. Easy to directly disprove.
+</p><p>Case 2: <img src="//latex.artofproblemsolving.com/b/3/5/b35bbc68c7bb82eb2fe422b1e0762cb541aaceef.png" class="latex" alt="$197u$" style="vertical-align: 0px" width="37" height="13" />. <img src="//latex.artofproblemsolving.com/9/5/d/95dfc6aa313b3c1bb5eaf90ef78e3bc994321379.png" class="latex" alt="$S(n) = 1 + 9 + 7 + u = 17 + u$" style="vertical-align: -4px" width="240" height="18" />, and <img src="//latex.artofproblemsolving.com/8/6/4/864e36c274bc563bccfc995777d90cb86ca2cdfb.png" class="latex" alt="$S(S(n)) = 8+u$" style="vertical-align: -4px" width="129" height="18" /> if <img src="//latex.artofproblemsolving.com/e/3/d/e3d4fa8a8973bb542049ffe7a1adbcc99443f620.png" class="latex" alt="$u \le 2$" style="vertical-align: -2px" width="43" height="14" /> and <img src="//latex.artofproblemsolving.com/b/4/7/b471ed87845cbeed1062e930605812c75ad3e5f9.png" class="latex" alt="$S(S(n)) = 2 + (u-3) = u-1$" style="vertical-align: -4px" width="240" height="18" /> otherwise. 
+</p>
+<dl><dd>Subcase a: <img src="//latex.artofproblemsolving.com/6/a/0/6a09cf8aa0c90923a082582cdd9f710b5f5b5ab2.png" class="latex" alt="$T(n) = 1970 + u + 17 + u + 8 + u = 1995 + 3u = 2007 \Longrightarrow u = 4$" style="vertical-align: -4px" width="514" height="18" />. This exceeds our bounds, so no solution here.</dd>
+<dd>Subcase b: <img src="//latex.artofproblemsolving.com/0/2/9/0294af35f6aee4545d2fa9b8aaccda2a54f6daf5.png" class="latex" alt="$T(n) = 1970 + u + 17 + u + u - 1 = 1986 + 3u = 2007 \Longrightarrow u = 7$" style="vertical-align: -4px" width="514" height="18" />. First solution.</dd></dl>
+<p>Case 3: <img src="//latex.artofproblemsolving.com/d/9/5/d95c1e321ad22c8b00682f7ccfac375bf948998e.png" class="latex" alt="$198u$" style="vertical-align: 0px" width="37" height="13" />. <img src="//latex.artofproblemsolving.com/b/1/6/b168b00ba1d3745595118a907f1e641b40fd291e.png" class="latex" alt="$S(n) = 18 + u$" style="vertical-align: -4px" width="112" height="18" />, and <img src="//latex.artofproblemsolving.com/a/e/e/aeef6091a8b7039badd38b74ade533a24bd3c2f5.png" class="latex" alt="$S(S(n)) = 9 + u$" style="vertical-align: -4px" width="129" height="18" /> if <img src="//latex.artofproblemsolving.com/8/4/3/843896218f207abaf301924a4fed8ba5a7318eb4.png" class="latex" alt="$u \le 1$" style="vertical-align: -2px" width="42" height="14" /> and <img src="//latex.artofproblemsolving.com/e/d/d/eddeefcbc15826282f55093cba2c544ad258d919.png" class="latex" alt="$2 + (u-2) = u$" style="vertical-align: -4px" width="121" height="18" /> otherwise.
+</p>
+<dl><dd>Subcase a: <img src="//latex.artofproblemsolving.com/1/c/6/1c6be130912d2d095bd1b1acf8055091036be2bb.png" class="latex" alt="$T(n) = 1980 + u + 18 + u + 9 + u = 2007 + 3u = 2007 \Longrightarrow u = 0$" style="vertical-align: -4px" width="514" height="18" />. Second solution.</dd>
+<dd>Subcase b: <img src="//latex.artofproblemsolving.com/a/d/8/ad82999076330c37ac201ad35c8f51891bcb6928.png" class="latex" alt="$T(n) = 1980 + u + 18 + u + u = 1998 + 3u = 2007 \Longrightarrow u = 3$" style="vertical-align: -4px" width="482" height="18" />. Third solution.</dd></dl>
+<p>Case 4: <img src="//latex.artofproblemsolving.com/a/a/6/aa6ba997510cdaf83ca8a67aa281437dff8f4f28.png" class="latex" alt="$199u$" style="vertical-align: 0px" width="37" height="13" />. But <img src="//latex.artofproblemsolving.com/8/e/c/8ec6734b0a2b963657daaa3b400d9ad56d4a666b.png" class="latex" alt="$S(n) &gt; 19$" style="vertical-align: -4px" width="79" height="18" />, and <img src="//latex.artofproblemsolving.com/5/4/1/541416c230935da63a78be6b585b5033a7b44803.png" class="latex" alt="$n + S(n)$" style="vertical-align: -4px" width="69" height="18" /> clearly sum to <img src="//latex.artofproblemsolving.com/d/0/d/d0d798fb1547d454b871ce1bf915b28ce514c0ba.png" class="latex" alt="$&gt; 2007$" style="vertical-align: 0px" width="55" height="13" />.
+</p><p>Case 5: <img src="//latex.artofproblemsolving.com/e/7/c/e7c213b274a1af69198a1cfda4b71dd0172c9463.png" class="latex" alt="$200u$" width="37" height="12" />. So <img src="//latex.artofproblemsolving.com/7/f/1/7f18ce6654266bea79926ca533f18f82dec1c05f.png" class="latex" alt="$S(n) = 2 + u$" style="vertical-align: -4px" width="103" height="18" /> and <img src="//latex.artofproblemsolving.com/7/d/1/7d19a3af6eec32f6494e713ad53ac29f137899e8.png" class="latex" alt="$S(S(n)) = 2 + u$" style="vertical-align: -4px" width="129" height="18" /> (recall that <img src="//latex.artofproblemsolving.com/5/0/a/50a13508a3d2d76a482dafa762f06992bab165a1.png" class="latex" alt="$n &lt; 2007$" style="vertical-align: 0px" width="71" height="13" />), and <img src="//latex.artofproblemsolving.com/3/9/e/39e27247e188d0f5b3f23588eb3abb1bd86f74a1.png" class="latex" alt="$2000 + u + 2 + u + 2 + u = 2004 + 3u = 2007 \Longrightarrow u = 1$" style="vertical-align: -1px" width="442" height="14" />. Fourth solution.
+</p><p>In total we have <img src="//latex.artofproblemsolving.com/c/9/6/c96661f540d39fb52a513b4a3810c7658ef1bbd3.png" class="latex" alt="$4 \mathrm{(D)}$" style="vertical-align: -4px" width="35" height="18" /> solutions, which are <img src="//latex.artofproblemsolving.com/5/a/7/5a7831b1c6475d6f2659d54f780f2009aefad000.png" class="latex" alt="$1977, 1980, 1983,$" style="vertical-align: -3px" width="129" height="16" /> and <img src="//latex.artofproblemsolving.com/d/e/7/de7e2da81334aad3aeeb09706fed72248196613b.png" class="latex" alt="$2001$" style="vertical-align: 0px" width="35" height="13" />.
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>Clearly, <img src="//latex.artofproblemsolving.com/a/e/1/ae14bf55c94c650695e3c612f230762329ab069d.png" class="latex" alt="$n &gt; 1950$" style="vertical-align: 0px" width="70" height="13" />. We can break this into three cases:
+</p><p>Case 1: <img src="//latex.artofproblemsolving.com/f/2/2/f22b23cbe33c00758633902813fbfe490fea1956.png" class="latex" alt="$n \geq 2000$" style="vertical-align: -2px" width="70" height="15" />
+</p>
+<dl><dd>Inspection gives <img src="//latex.artofproblemsolving.com/b/7/e/b7e29d1db3f7454539695944f2ff6796f0310462.png" class="latex" alt="$n = 2001$" style="vertical-align: 0px" width="70" height="13" />.</dd></dl>
+<p>Case 2: <img src="//latex.artofproblemsolving.com/8/f/0/8f0d32670e195f3dbe89b905bf1d1ecb85d568e0.png" class="latex" alt="$n &lt; 2000$" style="vertical-align: 0px" width="70" height="13" />, <img src="//latex.artofproblemsolving.com/1/7/d/17df925c1b0497cd003ffda29517567da53a788c.png" class="latex" alt="$n = 19xy$" style="vertical-align: -3px" width="72" height="16" /> (not to be confused with <img src="//latex.artofproblemsolving.com/5/1/1/511eaded45c9e744522d565ac346fbc8ff0a9718.png" class="latex" alt="$19*x*y$" style="vertical-align: -3px" width="72" height="16" />), <img src="//latex.artofproblemsolving.com/0/e/4/0e429d0fd7a8035601074189cf8cf00206d70c37.png" class="latex" alt="$x + y &lt; 10$" style="vertical-align: -3px" width="84" height="16" />
+</p>
+<dl><dd>If you set up an equation, it reduces to</dd></dl>
+<p><img src="//latex.artofproblemsolving.com/a/a/6/aa65cace801c30077adec4e02c4de85f62d9848a.png" class="latex" alt="$4x + y = 32$" style="vertical-align: -3px" width="93" height="16" />
+</p>
+<dl><dd>which has as its only solution satisfying the constraints <img src="//latex.artofproblemsolving.com/6/2/4/62434ae80ca145c20f0fbc7563f5151371ed163c.png" class="latex" alt="$x = 8$" width="43" height="12" />, <img src="//latex.artofproblemsolving.com/7/a/0/7a06334068417b1781d14e8b28af827907961eb3.png" class="latex" alt="$y = 0$" style="vertical-align: -3px" width="42" height="16" />.</dd></dl>
+<p>Case 3: <img src="//latex.artofproblemsolving.com/8/f/0/8f0d32670e195f3dbe89b905bf1d1ecb85d568e0.png" class="latex" alt="$n &lt; 2000$" style="vertical-align: 0px" width="70" height="13" />, <img src="//latex.artofproblemsolving.com/1/7/d/17df925c1b0497cd003ffda29517567da53a788c.png" class="latex" alt="$n = 19xy$" style="vertical-align: -3px" width="72" height="16" />, <img src="//latex.artofproblemsolving.com/5/8/d/58d08229f2b9f788621097b22c6ceaca164aedac.png" class="latex" alt="$x + y \geq 10$" style="vertical-align: -3px" width="84" height="16" />
+</p>
+<dl><dd>This reduces to</dd></dl>
+<dl><dd><img src="//latex.artofproblemsolving.com/b/7/0/b70b35702f856831f7492f544384d77e851888a6.png" class="latex" alt="$4x + y = 35$" style="vertical-align: -3px" width="93" height="16" />. The only two solutions satisfying the constraints for this equation are <img src="//latex.artofproblemsolving.com/6/2/d/62d1e7375e601943b3bb958a24e41da8920d601a.png" class="latex" alt="$x = 7$" width="43" height="12" />, <img src="//latex.artofproblemsolving.com/0/2/b/02b1f71c2ba9b8d1f01c2a402a84ebfefd59f6cc.png" class="latex" alt="$y = 7$" style="vertical-align: -3px" width="43" height="15" /> and <img src="//latex.artofproblemsolving.com/6/2/4/62434ae80ca145c20f0fbc7563f5151371ed163c.png" class="latex" alt="$x = 8$" width="43" height="12" />, <img src="//latex.artofproblemsolving.com/6/3/8/6389a3877e2c9d09826aa0c5e5aa564d8c355afa.png" class="latex" alt="$y = 3$" style="vertical-align: -3px" width="42" height="16" />.</dd></dl>
+<p>The solutions are thus <img src="//latex.artofproblemsolving.com/6/f/4/6f44b9386568fc9ec6a27f2c265e04038250dc6e.png" class="latex" alt="$1977, 1980, 1983, 2001$" style="vertical-align: -3px" width="168" height="16" /> and the answer is <img src="//latex.artofproblemsolving.com/f/2/0/f20bf5cc0a72e212074ecc61624588676d775c74.png" class="latex" alt="$\mathrm{(D)}\  4$" style="vertical-align: -4px" width="42" height="18" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>As in Solution 1, we note that <img src="//latex.artofproblemsolving.com/f/d/2/fd2fcb8e4acadc2961cfe1b24980ee033432aaa5.png" class="latex" alt="$S(n)\leq 28$" style="vertical-align: -4px" width="79" height="18" /> and <img src="//latex.artofproblemsolving.com/0/2/2/022f68aeff8ffcea7602671933429f890bd368f6.png" class="latex" alt="$S(S(n))\leq 10$" style="vertical-align: -4px" width="105" height="18" />. <br />
+Obviously, <img src="//latex.artofproblemsolving.com/3/8/b/38b4cbc8d222b877d77f4d783c1a0f674bf0889b.png" class="latex" alt="$n\equiv S(n)\equiv S(S(n)) \pmod 9$" style="vertical-align: -4px" width="231" height="18" />.  <br />
+As <img src="//latex.artofproblemsolving.com/2/b/1/2b148c84062c32868203564f087e553effc7a803.png" class="latex" alt="$2007\equiv 0 \pmod 9$" style="vertical-align: -4px" width="140" height="18" />, this means that <img src="//latex.artofproblemsolving.com/0/e/5/0e59548658838a8f02d8f100954817cb02e5de4a.png" class="latex" alt="$n\bmod 9 \in\{0,3,6\}$" style="vertical-align: -4px" width="147" height="18" />, or equivalently that <img src="//latex.artofproblemsolving.com/4/e/1/4e1ae9194add07466a7ebc1f991b142dac5cf837.png" class="latex" alt="$n\equiv S(n)\equiv S(S(n))\equiv 0 \pmod 3$" style="vertical-align: -4px" width="264" height="18" />.
+</p><p>Thus <img src="//latex.artofproblemsolving.com/6/2/5/62542aef0936275166df201676afa32390c42bff.png" class="latex" alt="$S(S(n))\in\{3,6,9\}$" style="vertical-align: -4px" width="146" height="18" />. For each possible <img src="//latex.artofproblemsolving.com/e/9/d/e9d0604c7bb3d5ae5a16a7636688581a28a627cd.png" class="latex" alt="$S(S(n))$" style="vertical-align: -4px" width="62" height="18" /> we get three possible <img src="//latex.artofproblemsolving.com/0/9/6/0965bf432b818b46740e3cd4d042899628c7ad0e.png" class="latex" alt="$S(n)$" style="vertical-align: -4px" width="35" height="18" />.  <br />
+(E. g., if <img src="//latex.artofproblemsolving.com/1/b/0/1b0858c6caaf7bb09abc493115a1dbef84245a8c.png" class="latex" alt="$S(S(n))=6$" style="vertical-align: -4px" width="96" height="18" />, then <img src="//latex.artofproblemsolving.com/4/5/3/453dbab8923c9e15e11e7876d7ac90ad18701010.png" class="latex" alt="$S(n)=x$" style="vertical-align: -4px" width="71" height="18" /> is a number such that <img src="//latex.artofproblemsolving.com/0/5/c/05cdc3104cddad7f3d88f9c8bce89cfc061f0dc1.png" class="latex" alt="$x\leq 28$" style="vertical-align: -2px" width="52" height="15" /> and <img src="//latex.artofproblemsolving.com/1/4/e/14e84f56a1ecb30d71e253824a8e17867056b26f.png" class="latex" alt="$S(x)=6$" style="vertical-align: -4px" width="69" height="18" />, therefore <img src="//latex.artofproblemsolving.com/8/9/9/89981c9d2339d7646c3740793f7544559979a941.png" class="latex" alt="$S(n)\in\{6,15,24\}$" style="vertical-align: -4px" width="138" height="18" />.)
+</p><p>For each of these nine possibilities we compute <img src="//latex.artofproblemsolving.com/d/4/8/d48b4e8e4d9a56b7d967c380f128d6ca8bae22ba.png" class="latex" alt="$n_{?}$" style="vertical-align: -2px" width="16" height="10" /> as <img src="//latex.artofproblemsolving.com/d/6/f/d6f3e57fdbbef0c4e1efa01dd4222d8b84232978.png" class="latex" alt="$2007-S(n)-S(S(n))$" style="vertical-align: -4px" width="180" height="18" /> and check whether <img src="//latex.artofproblemsolving.com/2/9/0/2907b3d8f52ee4b50cf3a79c1e48b0834b8461a4.png" class="latex" alt="$S(n_{?})=S(n)$" style="vertical-align: -4px" width="104" height="18" />.  <br />
+We'll find out that out of the 9 cases, in 4 the value <img src="//latex.artofproblemsolving.com/d/4/8/d48b4e8e4d9a56b7d967c380f128d6ca8bae22ba.png" class="latex" alt="$n_{?}$" style="vertical-align: -2px" width="16" height="10" /> has the correct sum of digits.  <br />
+This happens for <img src="//latex.artofproblemsolving.com/f/3/d/f3d1783194ee0e7602789f1ec3fdeacc6f12a784.png" class="latex" alt="$n_{?}\in \{ 1977, 1980, 1983, 2001 \}$" style="vertical-align: -4px" width="226" height="18" />.
+</p>
+<h3><span class="mw-headline" id="Solution_4">Solution 4</span></h3>
+<ul><li>This solution is not a good solution, but is viable for in contest situations</li></ul>
+<p>Clearly <img src="//latex.artofproblemsolving.com/6/0/b/60bb5ea0c5cadb2ca6cec5239abf045778231e3a.png" class="latex" alt="$n\equiv S(n) \pmod 9$" style="vertical-align: -4px" width="143" height="18" />. Thus, <img src="//latex.artofproblemsolving.com/1/1/e/11ec226a9827895cfe13b288a00b8ab1d5ab6299.png" class="latexcenter" alt="\[n+S(n)+S(S(n))\equiv 0 \pmod 9 \implies n\equiv 0\pmod 3.\]" width="450" height="18" />
+Now we need a bound for <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />. It is clear that the maximum for <img src="//latex.artofproblemsolving.com/3/2/2/3220c347a06f193490e93a10b45aeeda052394af.png" class="latex" alt="$S(n)=36$" style="vertical-align: -4px" width="79" height="18" /> (from <img src="//latex.artofproblemsolving.com/b/2/5/b25e154dc0e5150d6d1ce66b46eb552633724409.png" class="latex" alt="$n=9999$" width="70" height="12" />) which means the maximum for <img src="//latex.artofproblemsolving.com/d/8/8/d883ac896cab9e1e98a1a5550baabbf028dc3154.png" class="latex" alt="$S(n)+S(S(n))$" style="vertical-align: -4px" width="121" height="18" /> is <img src="//latex.artofproblemsolving.com/f/2/7/f27da4fca6f3fecb215974023aad210b70ec3857.png" class="latex" alt="$45$" style="vertical-align: 0px" width="17" height="13" />. This means that <img src="//latex.artofproblemsolving.com/4/5/9/459d44491cbb8b5fc88e0293c74622521f6a9585.png" class="latex" alt="$n\geq 1962$" style="vertical-align: -2px" width="70" height="15" />.
+</p>
+<ul><li>Warning: This is where you will cringe badly</li></ul>
+<p>Now check all multiples of <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> from <img src="//latex.artofproblemsolving.com/3/8/9/3893bc15eea4daf9c67035d1b0f1848e2d350f70.png" class="latex" alt="$1962$" style="vertical-align: 0px" width="35" height="13" /> to <img src="//latex.artofproblemsolving.com/b/0/d/b0db9f93bcba529c93ae151a1ac5c740eec7cca3.png" class="latex" alt="$2007$" width="36" height="12" /> and we find that only <img src="//latex.artofproblemsolving.com/d/5/d/d5d57bdac9eb4b3fbdf073501f16c921fe4ba625.png" class="latex" alt="$n=1977, 1980, 1983, 2001$" style="vertical-align: -3px" width="203" height="16" /> work, so our answer is <img src="//latex.artofproblemsolving.com/f/2/0/f20bf5cc0a72e212074ecc61624588676d775c74.png" class="latex" alt="$\mathrm{(D)}\  4$" style="vertical-align: -4px" width="42" height="18" />.
+</p><p>Remark: this may seem time consuming, but in reality, calculating <img src="//latex.artofproblemsolving.com/1/f/7/1f751bb43dac74b7cdc3ac190d2346caacff7a76.png" class="latex" alt="$n+S(n)+S(S(n))$" style="vertical-align: -4px" width="154" height="18" /> for <img src="//latex.artofproblemsolving.com/9/a/5/9a5b4928c8fe50ce3c2428da3bee3505e891b788.png" class="latex" alt="$16$" style="vertical-align: 0px" width="17" height="13" /> values is actually very quick, so this solution would only take approximately 3-5 minutes, helpful in a contest.
+</p>
+<h2><span id="Solution_5_(Rigorous)"></span><span class="mw-headline" id="Solution_5_.28Rigorous.29">Solution 5 (Rigorous)</span></h2>
+<p>Let the number of digits of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> be <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" />. If <img src="//latex.artofproblemsolving.com/1/1/a/11af515956d2fa847b77d1ae0e81258a08a55aa4.png" class="latex" alt="$m = 5$" width="48" height="12" />, <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> will already be greater than <img src="//latex.artofproblemsolving.com/b/0/d/b0db9f93bcba529c93ae151a1ac5c740eec7cca3.png" class="latex" alt="$2007$" width="36" height="12" />. Notice that <img src="//latex.artofproblemsolving.com/0/9/6/0965bf432b818b46740e3cd4d042899628c7ad0e.png" class="latex" alt="$S(n)$" style="vertical-align: -4px" width="35" height="18" /> is always at most <img src="//latex.artofproblemsolving.com/a/7/a/a7a3686ecb9d26d1205da19b79ae4347bacbbc73.png" class="latex" alt="$9m$" width="24" height="12" />. Then if <img src="//latex.artofproblemsolving.com/2/7/b/27b00129906b721ebe808a705e83d5df749a4ba3.png" class="latex" alt="$m = 3$" width="48" height="12" />, <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> will be at most <img src="//latex.artofproblemsolving.com/0/7/0/0705411d92671faf1fe5602cfef8f353c7f0f83d.png" class="latex" alt="$999$" width="26" height="12" />, <img src="//latex.artofproblemsolving.com/0/9/6/0965bf432b818b46740e3cd4d042899628c7ad0e.png" class="latex" alt="$S(n)$" style="vertical-align: -4px" width="35" height="18" /> will be at most <img src="//latex.artofproblemsolving.com/1/0/5/1051e7d41ec0b8bd688a872be17538413f4ee97b.png" class="latex" alt="$27$" width="18" height="12" />, and <img src="//latex.artofproblemsolving.com/e/9/d/e9d0604c7bb3d5ae5a16a7636688581a28a627cd.png" class="latex" alt="$S(S(n))$" style="vertical-align: -4px" width="62" height="18" /> will be even smaller than <img src="//latex.artofproblemsolving.com/1/0/5/1051e7d41ec0b8bd688a872be17538413f4ee97b.png" class="latex" alt="$27$" width="18" height="12" />. Clearly we cannot reach a sum of <img src="//latex.artofproblemsolving.com/b/0/d/b0db9f93bcba529c93ae151a1ac5c740eec7cca3.png" class="latex" alt="$2007$" width="36" height="12" />, unless <img src="//latex.artofproblemsolving.com/b/6/9/b6979b4da672f436799b1cc7f64c918c60612a94.png" class="latex" alt="$m = 4$" style="vertical-align: 0px" width="49" height="12" /> (i.e. <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> has <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> digits).
+</p><p>Then, let <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> be a four digit number in the form <img src="//latex.artofproblemsolving.com/0/4/8/0486f4438ddb16e10933255cb625850030327426.png" class="latex" alt="$1000a + 100b + 10c + d$" style="vertical-align: -1px" width="183" height="14" />. Then <img src="//latex.artofproblemsolving.com/2/3/c/23c5d3dc55c790aa36caa872e0f35699da623edc.png" class="latex" alt="$S(n) = a + b + c + d$" style="vertical-align: -4px" width="163" height="18" />.
+</p><p><img src="//latex.artofproblemsolving.com/e/9/d/e9d0604c7bb3d5ae5a16a7636688581a28a627cd.png" class="latex" alt="$S(S(n))$" style="vertical-align: -4px" width="62" height="18" /> is the sum of the digits of <img src="//latex.artofproblemsolving.com/f/4/e/f4e7cee8fe39683f5495d0b4daf7056f4a964643.png" class="latex" alt="$a + b + c + d$" style="vertical-align: -1px" width="101" height="14" />. We can represent <img src="//latex.artofproblemsolving.com/e/9/d/e9d0604c7bb3d5ae5a16a7636688581a28a627cd.png" class="latex" alt="$S(S(n))$" style="vertical-align: -4px" width="62" height="18" /> as the sum of the tens digit and the ones digit of <img src="//latex.artofproblemsolving.com/0/9/6/0965bf432b818b46740e3cd4d042899628c7ad0e.png" class="latex" alt="$S(n)$" style="vertical-align: -4px" width="35" height="18" />. The tens digit in the form of a decimal is
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/e/f/a/efac66cce08eecc3b08de2e5627f6ebfe17a4acd.png" class="latex" alt="$\frac{a + b + c + d}{10}$" style="vertical-align: -13px" width="103" height="38" />.
+</p><p><br />
+To remove the decimal portion, we can simply take the floor of the expression,
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/6/5/d/65d70132e6eea98b1b211d852bcf8bd313d74203.png" class="latex" alt="$\lfloor\frac{a + b + c + d}{10}\rfloor$" style="vertical-align: -13px" width="118" height="38" />.
+</p><p><br />
+Now that we have expressed the tens digit, we can express the ones digit as <img src="//latex.artofproblemsolving.com/7/a/b/7ab98cf6cc11f0913d6bb3e208db2df59242e754.png" class="latex" alt="$S(S(n)) -10$" style="vertical-align: -4px" width="103" height="18" /> times the above expression, or
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/8/e/2/8e2f8e7c94f32dd6a846321fbaba63674128acb3.png" class="latex" alt="$a + b + c + d - 10\lfloor\frac{a + b + c + d}{10}\rfloor$" style="vertical-align: -13px" width="260" height="38" />.
+</p><p><br />
+Adding the two expressions yields the value of <img src="//latex.artofproblemsolving.com/e/9/d/e9d0604c7bb3d5ae5a16a7636688581a28a627cd.png" class="latex" alt="$S(S(n))$" style="vertical-align: -4px" width="62" height="18" />
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/2/0/3/2036e2032768fda4df8527b6f5e68b067292e1ab.png" class="latex" alt="$= a + b + c + d - 9\lfloor\frac{a + b + c + d}{10}\rfloor$" style="vertical-align: -13px" width="270" height="38" />.
+</p><p><br />
+Combining this expression to the ones for <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/6/0965bf432b818b46740e3cd4d042899628c7ad0e.png" class="latex" alt="$S(n)$" style="vertical-align: -4px" width="35" height="18" /> yields
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/2/8/d/28db87dfe43bbc0eaaf85f6c2c1d676b1f4a70dd.png" class="latex" alt="$1002a + 102b + 12c + 3d - 9\lfloor\frac{a + b + c + d}{10}\rfloor$" style="vertical-align: -13px" width="342" height="38" />.
+</p><p><br />
+Setting this equal to <img src="//latex.artofproblemsolving.com/b/0/d/b0db9f93bcba529c93ae151a1ac5c740eec7cca3.png" class="latex" alt="$2007$" width="36" height="12" /> and rearranging a bit yields
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/6/e/1/6e13df6861bf6e4e440d6fffba695620da659136.png" class="latex" alt="$12c + 3d = 2007 - 1002a - 102b + 9\lfloor\frac{a + b + c + d}{10}\rfloor$" style="vertical-align: -13px" width="402" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/8/4/3/843622567e12d686e4e2f94ddfcb444e8ecde0d2.png" class="latex" alt="$\Rightarrow$" style="vertical-align: 0px" width="17" height="10" /> <img src="//latex.artofproblemsolving.com/8/2/7/827d90f8ef74e2b59a518cb25a1f76fdf13c850a.png" class="latex" alt="$4c + d = 669 - 334a - 34b + 3\lfloor\frac{a + b + c + d}{10}\rfloor$" style="vertical-align: -13px" width="357" height="38" />.
+</p><p><br />
+(The reason for this slightly weird arrangement will soon become evident)
+</p><p><br />
+Now we examine the possible values of <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />. If <img src="//latex.artofproblemsolving.com/7/6/1/761f953f34c7f838cd0742690928b86e9710a5ca.png" class="latex" alt="$a \ge 3$" style="vertical-align: -2px" width="42" height="15" />, <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is already too large. <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> must also be greater than <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />, or <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> would be a <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />-digit number. Therefore, <img src="//latex.artofproblemsolving.com/7/d/3/7d30df5f960889aed5fffe218d3b623678b852dd.png" class="latex" alt="$a = 1 \, \text{or} \, 2$" style="vertical-align: 0px" width="72" height="12" />. Now we examine by case.
+</p><p>If <img src="//latex.artofproblemsolving.com/1/c/f/1cf0953f43c76a5c79f339f9aee0fc2baac51413.png" class="latex" alt="$a = 2$" width="42" height="12" />, then <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> must both be <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> (otherwise <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> would already be greater than <img src="//latex.artofproblemsolving.com/b/0/d/b0db9f93bcba529c93ae151a1ac5c740eec7cca3.png" class="latex" alt="$2007$" width="36" height="12" />). Substituting these values into the equation yields
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/1/6/6/16630b0d9d6fd9cd496b1c5044d825eee28550de.png" class="latex" alt="$d = 1 + 3\lfloor\frac{2 + d}{10}\rfloor$" style="vertical-align: -13px" width="132" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/8/4/3/843622567e12d686e4e2f94ddfcb444e8ecde0d2.png" class="latex" alt="$\Rightarrow$" style="vertical-align: 0px" width="17" height="10" /> <img src="//latex.artofproblemsolving.com/4/2/a/42a9f04629562820665b30f2dbb41108e774eaeb.png" class="latex" alt="$d=1$" style="vertical-align: 0px" width="41" height="13" />.
+</p><p><br />
+Sure enough, <img src="//latex.artofproblemsolving.com/3/9/9/399af0abbada1350b46c1e5a58b8800a9b59beb1.png" class="latex" alt="$2001 + (2+1) + 3=2007$" style="vertical-align: -4px" width="204" height="18" />.
+</p><p>Now we move onto the case where <img src="//latex.artofproblemsolving.com/4/8/d/48d02444a59b917b64e8bd0963b88712fc7fa0a3.png" class="latex" alt="$a = 1$" style="vertical-align: 0px" width="42" height="12" />. Then our initial equation simplifies to
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/6/2/6/626b840489d034eded543594483266a4017c8537.png" class="latex" alt="$4c + d = 335 - 34b + 3\lfloor\frac{1 + b + c + d}{10}\rfloor$" style="vertical-align: -13px" width="297" height="38" />
+</p><p><br />
+Since <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> and <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> can each be at most <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />, we substitute that value to find the lower bound of <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />. Doing so yields
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/5/1/3/513f2da64103dd010c462a5f48fc3d62cf744dd6.png" class="latex" alt="$34b \ge 290 + 3\lfloor\frac{19 + b}{10}\rfloor$" style="vertical-align: -13px" width="174" height="38" />.
+</p><p><br />
+The floor expression is at least <img src="//latex.artofproblemsolving.com/6/5/b/65bf113d9871279baa16935c341ffa64f69ade66.png" class="latex" alt="$3\lfloor\frac{19}{10}\rfloor=3$" style="vertical-align: -13px" width="80" height="38" /> , so the right-hand side is at least <img src="//latex.artofproblemsolving.com/7/e/d/7edb762ffece0d1c3d55a548ded304969888772f.png" class="latex" alt="$293$" width="26" height="12" />. Solving for <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, we see that <img src="//latex.artofproblemsolving.com/1/d/8/1d8882398334421912aff49a5d8996f5bee2ccbb.png" class="latex" alt="$b \ge 9$" style="vertical-align: -2px" width="40" height="15" /> <img src="//latex.artofproblemsolving.com/8/4/3/843622567e12d686e4e2f94ddfcb444e8ecde0d2.png" class="latex" alt="$\Rightarrow$" style="vertical-align: 0px" width="17" height="10" /> <img src="//latex.artofproblemsolving.com/1/5/c/15cc8804d5482ae978d97e7912aa9c768329ad49.png" class="latex" alt="$b=9$" width="40" height="12" />. Again, we substitute for <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" /> and the equation becomes
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/3/3/9/3391aac468539a6e57d590094bd0c6c1e2070c8e.png" class="latex" alt="$4c + d = 29 + 3\lfloor\frac{10 + c + d}{10}\rfloor$" style="vertical-align: -13px" width="219" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/8/4/3/843622567e12d686e4e2f94ddfcb444e8ecde0d2.png" class="latex" alt="$\Rightarrow$" style="vertical-align: 0px" width="17" height="10" /> <img src="//latex.artofproblemsolving.com/9/e/6/9e6adbc64391ce8218ce5004e897568e75229cea.png" class="latex" alt="$4c + d = 32 + 3\lfloor\frac{c + d}{10}\rfloor$" style="vertical-align: -13px" width="179" height="38" />.
+</p><p><br />
+Just like we did for <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, we can find the lower bound of <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> by assuming <img src="//latex.artofproblemsolving.com/5/e/9/5e9bff534770db92aae32442b1c3176f818c2aab.png" class="latex" alt="$d = 9$" width="42" height="12" /> and solving:
+</p><p><br />
+<img src="//latex.artofproblemsolving.com/5/0/e/50e65026b2f034426694c4cca0d8f12776d8356e.png" class="latex" alt="$4c + 9 \ge 29 + 3\lfloor\frac{c + 9}{10}\rfloor$" style="vertical-align: -13px" width="178" height="38" />
+</p><p><img src="//latex.artofproblemsolving.com/8/4/3/843622567e12d686e4e2f94ddfcb444e8ecde0d2.png" class="latex" alt="$\Rightarrow$" style="vertical-align: 0px" width="17" height="10" /> <img src="//latex.artofproblemsolving.com/5/2/2/5229c185369ddaeb395f6e39306bc66c0d7dff41.png" class="latex" alt="$4c \ge 20 + 3\lfloor\frac{c + 9}{10}\rfloor$" style="vertical-align: -13px" width="147" height="38" />
+</p><p><br />
+The right hand side is <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" /> for <img src="//latex.artofproblemsolving.com/a/8/0/a80d7a3ca845e6cae14b9db710b64331219ec3f7.png" class="latex" alt="$c=0$" width="40" height="12" /> and <img src="//latex.artofproblemsolving.com/9/a/1/9a1b2497e7b125cd721bab4c6e2385f954fe35cb.png" class="latex" alt="$23$" width="17" height="12" /> for <img src="//latex.artofproblemsolving.com/6/6/f/66fc9dbd593f92b7f0a52a17fc98b275c19671e8.png" class="latex" alt="$c \ge 1$" style="vertical-align: -2px" width="40" height="14" />. Solving for c yields <img src="//latex.artofproblemsolving.com/b/f/e/bfefc5f22fd691b637731c46d9e71e1e8c39bc8c.png" class="latex" alt="$c \ge 6$" style="vertical-align: -2px" width="40" height="15" />. Looking back at the previous equation, the floor expression is <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> for <img src="//latex.artofproblemsolving.com/9/0/d/90d8a800803399bf2784e6243bc2311d69f6fff2.png" class="latex" alt="$c+d \le 9$" style="vertical-align: -2px" width="72" height="15" /> and <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> for <img src="//latex.artofproblemsolving.com/f/3/0/f30d717a8e6f10d2ecbb4e669148d405c4bc0984.png" class="latex" alt="$c+d \ge 10$" style="vertical-align: -2px" width="81" height="15" />. Thus, the right-hand side is <img src="//latex.artofproblemsolving.com/4/f/4/4f4b8590f8aa9f9894b3891dd5dede0e354fa04e.png" class="latex" alt="$32$" width="17" height="12" /> for <img src="//latex.artofproblemsolving.com/9/0/d/90d8a800803399bf2784e6243bc2311d69f6fff2.png" class="latex" alt="$c+d \le 9$" style="vertical-align: -2px" width="72" height="15" /> and <img src="//latex.artofproblemsolving.com/8/c/7/8c7f6c79f2148f0cec592c9517b40ee1b82ef22e.png" class="latex" alt="$35$" width="17" height="12" /> for <img src="//latex.artofproblemsolving.com/f/3/0/f30d717a8e6f10d2ecbb4e669148d405c4bc0984.png" class="latex" alt="$c+d \ge 10$" style="vertical-align: -2px" width="81" height="15" />. We can solve these two scenarios as systems of equations/inequalities:
+</p><p><img src="//latex.artofproblemsolving.com/9/a/1/9a117e2a060f280a1c18f9f8a94df58e174536b7.png" class="latex" alt="$4c+d = 32$" style="vertical-align: -1px" width="90" height="14" />
+</p><p><img src="//latex.artofproblemsolving.com/9/0/d/90d8a800803399bf2784e6243bc2311d69f6fff2.png" class="latex" alt="$c+d \le 9$" style="vertical-align: -2px" width="72" height="15" />
+</p><p>and
+</p><p><img src="//latex.artofproblemsolving.com/a/f/e/afe6d736112e0ea07c2aa82f980d4e996d35ed32.png" class="latex" alt="$4c+d=35$" style="vertical-align: -1px" width="90" height="14" />
+</p><p><img src="//latex.artofproblemsolving.com/f/3/0/f30d717a8e6f10d2ecbb4e669148d405c4bc0984.png" class="latex" alt="$c+d \ge 10$" style="vertical-align: -2px" width="81" height="15" />
+</p><p>Solving yields three pairs <img src="//latex.artofproblemsolving.com/7/2/f/72f7db2131ea0c514b78b520004955248e6b8f74.png" class="latex" alt="$(c, d):$" style="vertical-align: -4px" width="48" height="18" /> <img src="//latex.artofproblemsolving.com/2/e/9/2e9ef6a89406ed156700a9899b3dd53973f10bf6.png" class="latex" alt="$(8, 0)$" style="vertical-align: -4px" width="38" height="18" />; <img src="//latex.artofproblemsolving.com/c/4/c/c4c15fbbc32907749a9985077c0370c5372a064d.png" class="latex" alt="$(8, 3)$" style="vertical-align: -4px" width="38" height="18" />; and <img src="//latex.artofproblemsolving.com/3/5/2/35285692ce475aef307fefe3a25421264c9e785f.png" class="latex" alt="$(7, 7)$" style="vertical-align: -4px" width="38" height="18" />. Checking the numbers <img src="//latex.artofproblemsolving.com/0/9/8/0987dc78864e4bfa39ea188378f155625e3fb231.png" class="latex" alt="$1980$" style="vertical-align: 0px" width="35" height="13" />, <img src="//latex.artofproblemsolving.com/7/f/2/7f285f05f4d501652175d1befe9189270b28e1ef.png" class="latex" alt="$1983$" style="vertical-align: 0px" width="35" height="13" />, and <img src="//latex.artofproblemsolving.com/e/a/e/eae84808db0fbbfd2dfa164d43a5ea8148d1a5b8.png" class="latex" alt="$1977$" style="vertical-align: 0px" width="36" height="13" />; we find that all three work. Therefore there are a total of <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> possibilities for <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> <img src="//latex.artofproblemsolving.com/8/4/3/843622567e12d686e4e2f94ddfcb444e8ecde0d2.png" class="latex" alt="$\Rightarrow$" style="vertical-align: 0px" width="17" height="10" /> <img src="//latex.artofproblemsolving.com/9/4/b/94bf9089f3c0ad5ee9fca030cfb06b487e559902.png" class="latex" alt="$\boxed{\text{D}}$" style="vertical-align: -5px" width="24" height="23" />.
+</p><p>Note: Although this solution takes a while to read (as well as to write) the actual time it takes to think through the process above is very short in comparison to the solution length.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2007_AMC_12A" title="2007 AMC 12A">2007 AMC 12A</a></b> (<b><a href="/wiki/index.php/2007_AMC_12A_Problems" title="2007 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2007_AMC_12A_Answer_Key" title="2007 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=44&amp;year=2007">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_21" title="2007 AMC 12A Problems/Problem 21">Problem 21</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_23" title="2007 AMC 12A Problems/Problem 23">Problem 23</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_1" title="2007 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_2" title="2007 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_3" title="2007 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_4" title="2007 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_5" title="2007 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_6" title="2007 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_7" title="2007 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_8" title="2007 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_9" title="2007 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_10" title="2007 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_11" title="2007 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_12" title="2007 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_13" title="2007 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_14" title="2007 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_15" title="2007 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_16" title="2007 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_17" title="2007 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_18" title="2007 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_19" title="2007 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_20" title="2007 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_21" title="2007 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a class="mw-selflink selflink">22</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_23" title="2007 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_24" title="2007 AMC 12A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_12A_Problems/Problem_25" title="2007 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2007_AMC_10A" title="2007 AMC 10A">2007 AMC 10A</a></b> (<b><a href="/wiki/index.php/2007_AMC_10A_Problems" title="2007 AMC 10A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2007_AMC_10A_Answer_Key" title="2007 AMC 10A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=43&amp;year=2007">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_24" title="2007 AMC 10A Problems/Problem 24">Problem 24</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b>Last question</b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_1" class="mw-redirect" title="2007 AMC 10A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_2" title="2007 AMC 10A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_3" title="2007 AMC 10A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_4" title="2007 AMC 10A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_5" title="2007 AMC 10A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_6" title="2007 AMC 10A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_7" class="mw-redirect" title="2007 AMC 10A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_8" class="mw-redirect" title="2007 AMC 10A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_9" title="2007 AMC 10A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_10" title="2007 AMC 10A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_11" title="2007 AMC 10A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_12" title="2007 AMC 10A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_13" class="mw-redirect" title="2007 AMC 10A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_14" class="mw-redirect" title="2007 AMC 10A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_15" title="2007 AMC 10A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_16" class="mw-redirect" title="2007 AMC 10A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_17" title="2007 AMC 10A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_18" title="2007 AMC 10A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_19" title="2007 AMC 10A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_20" title="2007 AMC 10A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_21" title="2007 AMC 10A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_22" class="mw-redirect" title="2007 AMC 10A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_23" title="2007 AMC 10A Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_24" title="2007 AMC 10A Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2007_AMC_10A_Problems/Problem_25" class="mw-redirect" title="2007 AMC 10A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200721212038
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.175 seconds
+Real time usage: 0.181 seconds
+Preprocessor visited node count: 1997/1000000
+Preprocessor generated node count: 5130/1000000
+Post‐expand include size: 4360/2097152 bytes
+Template argument size: 428/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 35070/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   58.831      1 -total
+  9.12%    5.366      1 Template:AMC12_box
+  8.37%    4.927      1 Template:AMC10_box
+  4.07%    2.393      1 Template:Duplicate
+  3.00%    1.767      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:5234-0!canonical and timestamp 20200721212038 and revision id 128820
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_12A_Problems/Problem_22&amp;oldid=128820">https://artofproblemsolving.com/wiki/index.php?title=2007_AMC_12A_Problems/Problem_22&amp;oldid=128820</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Number_Theory_Problems" title="Category:Introductory Number Theory Problems">Introductory Number Theory Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200721223826 -->
+</html>

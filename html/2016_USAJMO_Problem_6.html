@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2016 USAMO Problems/Problem 4 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2016_USAMO_Problems/Problem_4","wgTitle":"2016 USAMO Problems/Problem 4","wgCurRevisionId":118526,"wgRevisionId":118526,"wgArticleId":14947,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Olympiad Algebra Problems","Functional Equation Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2016_USAMO_Problems/Problem_4","wgRelevantArticleId":14947,"wgRequestId":"3c3343453f45898bb6b94497","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"2016_USAJMO_Problems/Problem_6","wgInternalRedirectTargetUrl":"/wiki/index.php/2016_USAMO_Problems/Problem_4"});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.action.view.redirect","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://artofproblemsolving.com/wiki/index.php/2016_USAMO_Problems/Problem_4"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2016_USAMO_Problems_Problem_4 rootpage-2016_USAMO_Problems_Problem_4 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2016 USAMO Problems/Problem 4																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2016_USAMO_Problems/Problem_4" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2016_USAMO_Problems/Problem_4&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2016_USAMO_Problems/Problem_4&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2016_USAMO_Problems/Problem_4&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2016_USAMO_Problems/Problem_4" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2016 USAMO Problems/Problem 4</h1>
+
+						
+			<div class="mw-body">
+													<div id="contentSub"><span class="mw-redirectedfrom">(Redirected from <a href="/wiki/index.php?title=2016_USAJMO_Problems/Problem_6&amp;redirect=no" class="mw-redirect" title="2016 USAJMO Problems/Problem 6">2016 USAJMO Problems/Problem 6</a>)</span></div>
+								
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution_1"><span class="tocnumber">2</span> <span class="toctext">Solution 1</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Alternative_Solution_1"><span class="tocnumber">3</span> <span class="toctext">Alternative Solution 1</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Solution_2"><span class="tocnumber">4</span> <span class="toctext">Solution 2</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem">Problem</span></h2>
+<p>Find all functions <img src="//latex.artofproblemsolving.com/6/7/0/6705e24bcf215ec9145e46079c9662cb066efca5.png" class="latex" alt="$f:\mathbb{R}\rightarrow \mathbb{R}$" style="vertical-align: -3px" width="79" height="16" /> such that for all real numbers <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />, <img src="//latex.artofproblemsolving.com/2/d/d/2ddcde1699356cbca5812e17244428064eb74546.png" class="latexcenter" alt="\[(f(x)+xy)\cdot f(x-3y)+(f(y)+xy)\cdot f(3x-y)=(f(x+y))^2.\]" width="477" height="19" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p><b>Step 1:</b> Set <img src="//latex.artofproblemsolving.com/7/3/e/73e3b6fe7cf5d178d662a5f717a2ca03b0103d30.png" class="latex" alt="$x = y = 0$" style="vertical-align: -3px" width="77" height="16" /> to obtain <img src="//latex.artofproblemsolving.com/a/c/1/ac11794602d515c80d45241daf10829ef000cbed.png" class="latex" alt="$f(0) = 0.$" style="vertical-align: -4px" width="71" height="18" />
+</p><p><b>Step 2:</b> Set <img src="//latex.artofproblemsolving.com/2/d/3/2d348bde3e15456e71734dc2c56fc7425c95927f.png" class="latex" alt="$x = 0$" width="43" height="12" /> to obtain <img src="//latex.artofproblemsolving.com/2/8/a/28a494f4dce8621a159d3cea76f9ae5427472441.png" class="latex" alt="$f(y)f(-y) = f(y)^2.$" style="vertical-align: -4px" width="153" height="19" />
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> In particular, if <img src="//latex.artofproblemsolving.com/2/9/c/29ca59c538b004434ae2928c4f9417b4b6e2d76c.png" class="latex" alt="$f(y) \ne 0$" style="vertical-align: -4px" width="67" height="18" /> then <img src="//latex.artofproblemsolving.com/2/f/7/2f759163c39608a86af078d4d7200fbea137400b.png" class="latex" alt="$f(y) = f(-y).$" style="vertical-align: -4px" width="111" height="18" />
+</p><p><span style="color:red">$\indent$ (Error compiling LaTeX.&#160;! I can't find file `d7c7cf3f304847a169d04942a67a96746dc2f286.tex'.)</span> In addition, replacing <img src="//latex.artofproblemsolving.com/2/d/7/2d775077126aa973ddcad3e19d4731bcf996429c.png" class="latex" alt="$y \to -t$" style="vertical-align: -3px" width="58" height="15" />, it follows that <img src="//latex.artofproblemsolving.com/f/7/c/f7c4b8fa5f350b25161dd214ee3150ca970819fa.png" class="latex" alt="$f(t) = 0 \implies f(-t) = 0$" style="vertical-align: -4px" width="193" height="18" /> for all <img src="//latex.artofproblemsolving.com/e/8/5/e85626577330f8c0547b1980b98b8e5dde27d139.png" class="latex" alt="$t \in \mathbb{R}.$" style="vertical-align: -1px" width="45" height="13" />
+</p><p><b>Step 3:</b> Set <img src="//latex.artofproblemsolving.com/e/4/c/e4c6b57636c75f12e872cde8c6fab9d64d9151a5.png" class="latex" alt="$x = 3y$" style="vertical-align: -3px" width="52" height="16" /> to obtain <img src="//latex.artofproblemsolving.com/8/b/9/8b9128a784a55e7c4fe15208490e8738dcf3d42d.png" class="latex" alt="$\left[f(y) + 3y^2\right]f(8y) = f(4y)^2.$" style="vertical-align: -6px" width="223" height="22" />
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> In particular, replacing <img src="//latex.artofproblemsolving.com/f/e/2/fe26f82e9d3d52cef46d5921f17eda3fe4a4e6c4.png" class="latex" alt="$y \to t/8$" style="vertical-align: -4px" width="62" height="18" />, it follows that <img src="//latex.artofproblemsolving.com/9/7/f/97f4d1ae0c74b0f0ca021338b5978e4b52800bdd.png" class="latex" alt="$f(t) = 0 \implies f(t/2) = 0$" style="vertical-align: -4px" width="197" height="18" /> for all <img src="//latex.artofproblemsolving.com/e/8/5/e85626577330f8c0547b1980b98b8e5dde27d139.png" class="latex" alt="$t \in \mathbb{R}.$" style="vertical-align: -1px" width="45" height="13" />
+</p><p><b>Step 4:</b> Set <img src="//latex.artofproblemsolving.com/a/d/b/adb4bcfe418bf6a01088b1f44296600b7702fdc2.png" class="latex" alt="$y = -x$" style="vertical-align: -3px" width="58" height="11" /> to obtain <img src="//latex.artofproblemsolving.com/0/a/9/0a9ee29ee56fd01a2e043aa8359f29094f14f66c.png" class="latex" alt="$f(4x)\left[f(x) + f(-x) - 2x^2\right] = 0.$" style="vertical-align: -6px" width="255" height="22" />
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> In particular, if <img src="//latex.artofproblemsolving.com/6/9/9/699927909415c96c624668964a60a0671668a3e6.png" class="latex" alt="$f(x) \ne 0$" style="vertical-align: -4px" width="68" height="18" />, then <img src="//latex.artofproblemsolving.com/6/3/2/6323d67ce0fec899efbd4295be24aa1b1e0e757d.png" class="latex" alt="$f(4x) \ne 0$" style="vertical-align: -4px" width="77" height="18" /> by the observation from Step 3, because <img src="//latex.artofproblemsolving.com/9/6/2/962b0d7bd21feb4e477964226ebbd93eb2a81f42.png" class="latex" alt="$f(4x) = 0 \implies f(2x) = 0 \implies f(x) = 0.$" style="vertical-align: -4px" width="326" height="18" /> Hence, the above equation implies that <img src="//latex.artofproblemsolving.com/7/e/1/7e15b74b743753543a2ff280bee08a6fdc075b83.png" class="latex" alt="$2x^2 = f(x) + f(-x) = 2f(x)$" style="vertical-align: -4px" width="225" height="19" />, where the last step follows from the first observation from Step 2.
+</p><p><span style="color:red">$\indent$ (Error compiling LaTeX. Could not find d7c7cf3f304847a169d04942a67a96746dc2f286.dvi)</span> Therefore, either <img src="//latex.artofproblemsolving.com/5/7/c/57ccf8d123ba4259e29fba55d9b008874e071492.png" class="latex" alt="$f(x) = 0$" style="vertical-align: -4px" width="68" height="18" /> or <img src="//latex.artofproblemsolving.com/0/d/d/0dda5d9cc1f37a095f591d50370589b47e20111c.png" class="latex" alt="$f(x) = x^2$" style="vertical-align: -4px" width="76" height="19" /> for each <img src="//latex.artofproblemsolving.com/f/c/3/fc3be04db73828946870d3ccc6d122395a4bacf6.png" class="latex" alt="$x.$" width="14" height="8" />
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> Looking back on the equation from Step 3, it follows that <img src="//latex.artofproblemsolving.com/6/f/3/6f3e279ad86f64b38a478c465bbdd32fa5ab54d5.png" class="latex" alt="$f(y) + 3y^2 \ne 0$" style="vertical-align: -4px" width="115" height="19" /> for any nonzero <img src="//latex.artofproblemsolving.com/5/6/e/56e228943301b048f242377b3b24717037d5996f.png" class="latex" alt="$y.$" style="vertical-align: -3px" width="13" height="11" /> Therefore, replacing <img src="//latex.artofproblemsolving.com/9/a/a/9aa900f95d270d4dd4e27006835fae9e8decb5f1.png" class="latex" alt="$y \to t/4$" style="vertical-align: -4px" width="62" height="18" /> in this equation, it follows that <img src="//latex.artofproblemsolving.com/f/2/8/f2866e18939ec0a05812d55e471cbfeeadbbd959.png" class="latex" alt="$f(t) = 0 \implies f(2t) = 0.$" style="vertical-align: -4px" width="192" height="18" />
+</p><p><b>Step 5:</b> If <img src="//latex.artofproblemsolving.com/9/2/2/9222ef1cd542dde00c14713cf1251b256bcb1d35.png" class="latex" alt="$f(a) = f(b) = 0$" style="vertical-align: -4px" width="124" height="18" />, then <img src="//latex.artofproblemsolving.com/6/e/6/6e693c6ca1894af8e19f3d7af64597cff54e8761.png" class="latex" alt="$f(b - a) = 0.$" style="vertical-align: -4px" width="101" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> This follows by choosing <img src="//latex.artofproblemsolving.com/3/2/5/32581661cddf01ad30c1e36efe72f99eb0a0adca.png" class="latex" alt="$x, y$" style="vertical-align: -3px" width="27" height="11" /> such that <img src="//latex.artofproblemsolving.com/5/c/4/5c4c908701461b5d4ab813636fe9b933c1fc1f5a.png" class="latex" alt="$x - 3y = a$" style="vertical-align: -3px" width="85" height="16" /> and <img src="//latex.artofproblemsolving.com/d/8/4/d84df21365fb3194074e8294d0318a8500cc5daa.png" class="latex" alt="$3x - y = b.$" style="vertical-align: -3px" width="87" height="16" /> Then <img src="//latex.artofproblemsolving.com/4/b/c/4bced9fe07a6d296a59c3a851282f7ba0bf33e66.png" class="latex" alt="$x + y = \tfrac{b - a}{2}$" style="vertical-align: -6px" width="92" height="21" />, so plugging <img src="//latex.artofproblemsolving.com/3/2/5/32581661cddf01ad30c1e36efe72f99eb0a0adca.png" class="latex" alt="$x, y$" style="vertical-align: -3px" width="27" height="11" /> into the given equation, we deduce that <img src="//latex.artofproblemsolving.com/f/c/0/fc03e01cc0bd8c39ba8c4e41bfc5196aa7be9040.png" class="latex" alt="$f\left(\tfrac{b - a}{2}\right) = 0.$" style="vertical-align: -6px" width="94" height="22" /> Therefore, by the third observation from Step 4, we obtain <img src="//latex.artofproblemsolving.com/6/8/6/686b174976afae92a26c6d0387b721e9a28c2ff6.png" class="latex" alt="$f(b - a) = 0$" style="vertical-align: -4px" width="97" height="18" />, as desired.
+</p><p><b>Step 6:</b> If <img src="//latex.artofproblemsolving.com/b/4/e/b4e8629f75e280dbe85b17dd3f272ebc1608c981.png" class="latex" alt="$f \not\equiv 0$" style="vertical-align: -4px" width="43" height="17" />, then <img src="//latex.artofproblemsolving.com/b/8/2/b823f2663eba50d37c0d7f363c4daf655ce4ccab.png" class="latex" alt="$f(t) = 0 \implies t = 0.$" style="vertical-align: -4px" width="157" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> Suppose by way of contradiction that there exists an nonzero <img src="//latex.artofproblemsolving.com/e/0/d/e0d2bf360290fd61d1c1557e763f2622363b3d35.png" class="latex" alt="$t$" width="6" height="11" /> with <img src="//latex.artofproblemsolving.com/f/7/d/f7d9dbee3c7a9c1a98309702813bd1dcf1b7eb54.png" class="latex" alt="$f(t) = 0.$" style="vertical-align: -4px" width="68" height="18" /> Choose <img src="//latex.artofproblemsolving.com/3/2/5/32581661cddf01ad30c1e36efe72f99eb0a0adca.png" class="latex" alt="$x, y$" style="vertical-align: -3px" width="27" height="11" /> such that <img src="//latex.artofproblemsolving.com/6/9/9/699927909415c96c624668964a60a0671668a3e6.png" class="latex" alt="$f(x) \ne 0$" style="vertical-align: -4px" width="68" height="18" /> and <img src="//latex.artofproblemsolving.com/9/c/a/9ca6cc74db70cca6594c6fbc557378ad4d168702.png" class="latex" alt="$x + y = t.$" style="vertical-align: -3px" width="76" height="15" /> The following three facts are crucial:
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> 1. <img src="//latex.artofproblemsolving.com/6/5/1/6519597ece210d1022fa3c84025828ca381979b3.png" class="latex" alt="$f(y) \ne 0.$" style="vertical-align: -4px" width="71" height="18" /> This is because <img src="//latex.artofproblemsolving.com/d/4/1/d4138f943fc10277d9210d397f54d9cc8c4cd660.png" class="latex" alt="$(x + y) - y = x$" style="vertical-align: -4px" width="122" height="18" />, so by Step 5, <img src="//latex.artofproblemsolving.com/7/4/1/741617e5a4ee35f5df6a50a245e6fc96e1fe2edc.png" class="latex" alt="$f(y) = 0 \implies f(x) = 0$" style="vertical-align: -4px" width="185" height="18" />, impossible.
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> 2. <img src="//latex.artofproblemsolving.com/c/0/b/c0b587f77b5228d35b7340094e6029f58d11fccb.png" class="latex" alt="$f(x - 3y) \ne 0.$" style="vertical-align: -4px" width="113" height="18" /> This is because <img src="//latex.artofproblemsolving.com/0/6/9/06999dac4d09127492a32ba162f708a3cdc025c4.png" class="latex" alt="$(x + y) - (x - 3y) = 4y$" style="vertical-align: -4px" width="186" height="18" />, so by Step 5 and the observation from Step 3, <img src="//latex.artofproblemsolving.com/c/b/3/cb37f026727693b5c26889f7604369bcdf266cc0.png" class="latex" alt="$f(x - 3y) = 0 \implies f(4y) = 0 \implies f(2y) = 0 \implies f(y) = 0$" style="vertical-align: -4px" width="479" height="18" />, impossible.
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> 3. <img src="//latex.artofproblemsolving.com/7/5/d/75d3bcd05ebb505eb4fb717dc714d535c4eac90d.png" class="latex" alt="$f(3x - y) \ne 0.$" style="vertical-align: -4px" width="113" height="18" /> This is because by the second observation from Step 2, <img src="//latex.artofproblemsolving.com/5/a/3/5a3a032d8256d3547b68a1e72a98c41d914343e6.png" class="latex" alt="$f(3x - y) = 0 \implies f(y - 3x) = 0.$" style="vertical-align: -4px" width="272" height="18" /> Then because <img src="//latex.artofproblemsolving.com/a/5/1/a517e8fe4d802f7c236d869ccb0b7770df34c53f.png" class="latex" alt="$(x + y) - (y - 3x) = 4x$" style="vertical-align: -4px" width="187" height="18" />, Step 5 together with the observation from Step 3 yield <img src="//latex.artofproblemsolving.com/b/2/5/b256323c752e9c8f9454f5fc65691be8c01f59ba.png" class="latex" alt="$f(3x - y) = 0 \implies f(4x) = 0 \implies f(2x) = 0 \implies f(x) = 0$" style="vertical-align: -4px" width="482" height="18" />, impossible.
+</p><p><img src="//latex.artofproblemsolving.com/d/7/c/d7c7cf3f304847a169d04942a67a96746dc2f286.png" class="latex" alt="$\indent$" style="vertical-align: 0px" /> By the second observation from Step 4, these three facts imply that <img src="//latex.artofproblemsolving.com/0/4/7/0475fb3114570736f3bdbc3ed2194f2aae19029b.png" class="latex" alt="$f(y) = y^2$" style="vertical-align: -4px" width="74" height="19" /> and <img src="//latex.artofproblemsolving.com/3/a/4/3a464323fcac806055e273c234727eeb9ef05f98.png" class="latex" alt="$f(x - 3y) = \left(x - 3y\right)^2$" style="vertical-align: -4px" width="172" height="21" /> and <img src="//latex.artofproblemsolving.com/c/e/f/cef01e751ca40b311c3bfa6159826cd522147172.png" class="latex" alt="$f(3x - y) = \left(3x - y\right)^2.$" style="vertical-align: -4px" width="180" height="21" /> By plugging into the given equation, it follows that
+<img src="//latex.artofproblemsolving.com/7/7/a/77a9283850c0332de20b878f41bc00268a83c76c.png" class="latexcenter" alt="\begin{align*} \left(x^2 + xy\right)\left(x - 3y\right)^2 + \left(y^2 + xy\right)\left(3x - y\right)^2 = 0. \end{align*}" width="360" height="23" /> But the above expression miraculously factors into <img src="//latex.artofproblemsolving.com/1/0/2/102f620e586e8cb04876df38090907ccd89a28aa.png" class="latex" alt="$\left(x + y\right)^4$" style="vertical-align: -4px" width="63" height="21" />! This is clearly a contradiction, since <img src="//latex.artofproblemsolving.com/b/4/6/b46fffcf14093c0cbc2879c9fc9d6655694cdf85.png" class="latex" alt="$t = x + y \ne 0$" style="vertical-align: -4px" width="105" height="17" /> by assumption. This completes Step 6.
+</p><p><b>Step 7:</b> By Step 6 and the second observation from Step 4, the only possible solutions are <img src="//latex.artofproblemsolving.com/c/d/3/cd34ce9b11a64eb3d1a60ad0132820aab8cc37b3.png" class="latex" alt="$f \equiv 0$" style="vertical-align: -3px" width="43" height="16" /> and <img src="//latex.artofproblemsolving.com/0/d/d/0dda5d9cc1f37a095f591d50370589b47e20111c.png" class="latex" alt="$f(x) = x^2$" style="vertical-align: -4px" width="76" height="19" /> for all <img src="//latex.artofproblemsolving.com/0/0/d/00dc4e5f927b013e8db8602db5fd06b6700ca567.png" class="latex" alt="$x \in \mathbb{R}.$" style="vertical-align: -1px" width="49" height="13" /> It's easy to check that both of these work, so we're done.
+</p>
+<h2><span class="mw-headline" id="Alternative_Solution_1">Alternative Solution 1</span></h2>
+<p>From steps 1 and 2 of Solution 1 we have that <img src="//latex.artofproblemsolving.com/8/2/d/82d0e714dd3855ef2e740b789ae984e1d7cd5f39.png" class="latex" alt="$f(0)=0$" style="vertical-align: -4px" width="67" height="18" />, and <img src="//latex.artofproblemsolving.com/5/4/5/54508cd49ee28e58a8de82b97995d732111dd9ec.png" class="latex" alt="$f(-y) \cdot f(y)=(f(y))^2$" style="vertical-align: -4px" width="175" height="19" />. Therefore, if <img src="//latex.artofproblemsolving.com/2/9/c/29ca59c538b004434ae2928c4f9417b4b6e2d76c.png" class="latex" alt="$f(y) \ne 0$" style="vertical-align: -4px" width="67" height="18" />, then <img src="//latex.artofproblemsolving.com/3/7/1/37166b8e4ea4164ce83f08bfbeb4b5f9a8f9de70.png" class="latex" alt="$f(y)=f(-y)$" style="vertical-align: -4px" width="106" height="18" />. Furthermore, setting <img src="//latex.artofproblemsolving.com/7/f/0/7f08809818fd50ee3fc13182a3112bc2bd28dccb.png" class="latex" alt="$y=-x$" style="vertical-align: -3px" width="58" height="11" /> gives us <img src="//latex.artofproblemsolving.com/9/e/3/9e3c3a77c673e11224e3efefc68e8233dee6fdfb.png" class="latex" alt="$(f(x)-x^2) \cdot f(4x) + (f(-x)-x^2) \cdot f(4x) = f(0) = 0$" style="vertical-align: -4px" width="422" height="19" />. The LHS can be factored as <img src="//latex.artofproblemsolving.com/0/b/8/0b858711dfd56074cf63b4a09349321028a21348.png" class="latex" alt="$(f(x)+f(-x)-2x^2) \cdot f(4x) = 0$" style="vertical-align: -4px" width="261" height="19" />. In particular, if <img src="//latex.artofproblemsolving.com/6/3/2/6323d67ce0fec899efbd4295be24aa1b1e0e757d.png" class="latex" alt="$f(4x) \ne 0$" style="vertical-align: -4px" width="77" height="18" />, then we have <img src="//latex.artofproblemsolving.com/9/b/2/9b2d6970d10207031fe1605c0ea3bc9262068bf5.png" class="latex" alt="$f(x)+f(-x)=2x^2$" style="vertical-align: -4px" width="157" height="19" />. However, since we have from step 2 that <img src="//latex.artofproblemsolving.com/1/5/e/15ecc7adaba484954946c18ad202a289eae6809a.png" class="latex" alt="$f(x)=f(-x)$" style="vertical-align: -4px" width="107" height="18" />, assuming <img src="//latex.artofproblemsolving.com/6/9/9/699927909415c96c624668964a60a0671668a3e6.png" class="latex" alt="$f(x) \ne 0$" style="vertical-align: -4px" width="68" height="18" />, the equation becomes <img src="//latex.artofproblemsolving.com/5/2/8/5283c2f9bfe9a0e66f9e0f2903132483481f04fe.png" class="latex" alt="$2f(x)=2x^2$" style="vertical-align: -4px" width="94" height="19" />, so for every <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, <img src="//latex.artofproblemsolving.com/c/9/6/c96dd6ec1dc4ad7520fbdc78fcdbec9edd068d0c.png" class="latex" alt="$f(x)$" style="vertical-align: -4px" width="34" height="18" /> is equivalent to either <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" /> or <img src="//latex.artofproblemsolving.com/7/6/b/76b2878564ab19b80abb21ba964abe90fe120846.png" class="latex" alt="$x^2$" width="16" height="15" />. From step 6 of Solution 1, we can prove that <img src="//latex.artofproblemsolving.com/a/8/c/a8c9cbf3e3c04dc46dea71f60acd0cb704eabc4d.png" class="latex" alt="$f(x)=0$" style="vertical-align: -4px" width="68" height="18" />, and <img src="//latex.artofproblemsolving.com/4/9/c/49c484f0e82951283c0f982c105ee57791b7ec70.png" class="latex" alt="$f(x)=x^2$" style="vertical-align: -4px" width="76" height="19" /> are the only possible solutions.
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>Step 1: <img src="//latex.artofproblemsolving.com/5/d/2/5d2d4d2affaf168525250dff450f7affbb57e82d.png" class="latex" alt="$x=y=0 \implies f(0)=0$" style="vertical-align: -4px" width="194" height="18" />
+</p><p>Step 2: <img src="//latex.artofproblemsolving.com/e/4/1/e41b78126cad6b7d960706bb48561e93ec95de69.png" class="latex" alt="$x=0 \implies f(y)f(-y)=f(y)^{2}$" style="vertical-align: -4px" width="241" height="19" />. Now, assume <img src="//latex.artofproblemsolving.com/d/5/4/d543570ad36f7975c58f550259ccc4337006acd9.png" class="latex" alt="$y \not = 0$" style="vertical-align: -4px" width="42" height="17" />. Then, if <img src="//latex.artofproblemsolving.com/f/3/b/f3b03d3bcd20efb1a34da217587701b882ff7e50.png" class="latex" alt="$f(y)=0$" style="vertical-align: -4px" width="67" height="18" />, we substitute in <img src="//latex.artofproblemsolving.com/a/5/5/a55679995cd6abb1efbdd15eff74eb2d3d1d0933.png" class="latex" alt="$-y$" style="vertical-align: -3px" width="23" height="11" /> to get <img src="//latex.artofproblemsolving.com/f/c/0/fc0f6fc5de12adf7d5a5d0ece558fd37aba5aeec.png" class="latex" alt="$f(y)f(-y)=f(-y)^{2}$" style="vertical-align: -4px" width="162" height="19" />, or <img src="//latex.artofproblemsolving.com/8/d/a/8da4c1338583385e6cec4b7720edee7c8fcca4ae.png" class="latex" alt="$f(y)=f(-y)=0$" style="vertical-align: -4px" width="140" height="18" />. Otherwise, we divide both sides by <img src="//latex.artofproblemsolving.com/5/5/d/55d2d6ae8dc42c453e185eb15218630a292c6e60.png" class="latex" alt="$f(y)$" style="vertical-align: -4px" width="33" height="18" /> to get <img src="//latex.artofproblemsolving.com/3/7/1/37166b8e4ea4164ce83f08bfbeb4b5f9a8f9de70.png" class="latex" alt="$f(y)=f(-y)$" style="vertical-align: -4px" width="106" height="18" />. If <img src="//latex.artofproblemsolving.com/e/c/8/ec89f09c84538ec43930ca5d8e5e0957e2000822.png" class="latex" alt="$y=0$" style="vertical-align: -3px" width="42" height="16" />, we obviously have <img src="//latex.artofproblemsolving.com/0/3/2/032d268a1aea05963ffda0b3ce5c31e787631160.png" class="latex" alt="$f(0)=f(0)$" style="vertical-align: -4px" width="90" height="18" />. Thus, the function is even.
+.
+Step 3: <img src="//latex.artofproblemsolving.com/8/6/f/86ffc46b2996110813b5ed8ecdf21f39babd1250.png" class="latex" alt="$y=-x \implies 2f(4x)(f(x)-x^{2})=0$" style="vertical-align: -4px" width="283" height="19" />. Thus, <img src="//latex.artofproblemsolving.com/0/c/f/0cfd663e136798218c1cdee389b2c68066fa6414.png" class="latex" alt="$\forall x$" style="vertical-align: 0px" width="20" height="13" />, we have <img src="//latex.artofproblemsolving.com/c/0/b/c0b336a75e9c2a0ead61c06d20328786bab0da49.png" class="latex" alt="$f(4x)=0$" style="vertical-align: -4px" width="77" height="18" /> or <img src="//latex.artofproblemsolving.com/0/2/b/02bb5634b6d67fba526180360edb8828d6a797a7.png" class="latex" alt="$f(x)=x^{2}$" style="vertical-align: -4px" width="76" height="19" />.
+</p><p>Step 4: We now assume <img src="//latex.artofproblemsolving.com/1/c/a/1ca9abc956bb784ba1231ca7840f71d195183769.png" class="latex" alt="$f(x) \not = 0$" style="vertical-align: -4px" width="68" height="18" />, <img src="//latex.artofproblemsolving.com/d/7/6/d767d49c97cfca6c8819050acd4d0da70516e9de.png" class="latex" alt="$x\not = 0$" style="vertical-align: -4px" width="43" height="17" />. We have <img src="//latex.artofproblemsolving.com/d/1/2/d12bf47e21c8bd7869e12c2ed524d1ed4f0f6eec.png" class="latex" alt="$f(\frac{x}{4})=\frac{x^{2}}{16}$" style="vertical-align: -13px" width="84" height="39" />. Now, setting <img src="//latex.artofproblemsolving.com/1/4/b/14bb8c8a41bc8800ee5f7f231a1ea39ea2c7fd5a.png" class="latex" alt="$x=y=\frac{x}{4}$" style="vertical-align: -13px" width="81" height="33" />, we have <img src="//latex.artofproblemsolving.com/a/e/5/ae5bb64d30b2ce8e62649aadb483c1e6dceac24f.png" class="latex" alt="$f(\frac{x}{2})=\frac{x^{2}}{4}$" style="vertical-align: -13px" width="83" height="39" /> or <img src="//latex.artofproblemsolving.com/a/1/1/a11f4ef2e6bd278b1861678c7ca44266fade8a1a.png" class="latex" alt="$f(\frac{x}{2})=0$" style="vertical-align: -12px" width="72" height="33" />. The former implies that <img src="//latex.artofproblemsolving.com/a/8/c/a8c9cbf3e3c04dc46dea71f60acd0cb704eabc4d.png" class="latex" alt="$f(x)=0$" style="vertical-align: -4px" width="68" height="18" /> or <img src="//latex.artofproblemsolving.com/a/6/e/a6e87b69178d197c13b13d595e7e6817cf20df95.png" class="latex" alt="$x^{2}$" width="16" height="15" />. The latter implies that <img src="//latex.artofproblemsolving.com/a/8/c/a8c9cbf3e3c04dc46dea71f60acd0cb704eabc4d.png" class="latex" alt="$f(x)=0$" style="vertical-align: -4px" width="68" height="18" /> or <img src="//latex.artofproblemsolving.com/c/f/1/cf1ba7c7b43c80c64e3c97cf34654c04e85c3786.png" class="latex" alt="$f(x)=\frac{x^{2}}{2}$" style="vertical-align: -12px" width="79" height="39" />. Assume the latter. <img src="//latex.artofproblemsolving.com/9/d/0/9d0429c14d3680b125a089107983d991169c0f70.png" class="latex" alt="$y=-2x \implies -\frac{3y^{2}}{2}f(7y)-{2y^{2}}f(5y)=\frac{x^{2}}{2}$" style="vertical-align: -12px" width="341" height="39" />. Clearly, this implies that <img src="//latex.artofproblemsolving.com/c/9/6/c96dd6ec1dc4ad7520fbdc78fcdbec9edd068d0c.png" class="latex" alt="$f(x)$" style="vertical-align: -4px" width="34" height="18" /> is negative for some <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" />. Now, we have <img src="//latex.artofproblemsolving.com/b/a/2/ba2fc7c486f10ede317f3857bc892b48a638499c.png" class="latex" alt="$f(\frac{m}{4})=\frac{m^{2}}{16} \implies f(\frac{m}{2})=0,\frac{m^{2}}{4} \implies f(m) \geq 0$" style="vertical-align: -13px" width="383" height="39" />, which is a contradiction. Thus, <img src="//latex.artofproblemsolving.com/0/c/f/0cfd663e136798218c1cdee389b2c68066fa6414.png" class="latex" alt="$\forall x$" style="vertical-align: 0px" width="20" height="13" /><img src="//latex.artofproblemsolving.com/a/8/c/a8c9cbf3e3c04dc46dea71f60acd0cb704eabc4d.png" class="latex" alt="$f(x)=0$" style="vertical-align: -4px" width="68" height="18" /> or <img src="//latex.artofproblemsolving.com/0/2/b/02bb5634b6d67fba526180360edb8828d6a797a7.png" class="latex" alt="$f(x)=x^{2}$" style="vertical-align: -4px" width="76" height="19" />.
+</p><p>Step 5: We now assume <img src="//latex.artofproblemsolving.com/a/8/c/a8c9cbf3e3c04dc46dea71f60acd0cb704eabc4d.png" class="latex" alt="$f(x)=0$" style="vertical-align: -4px" width="68" height="18" />, <img src="//latex.artofproblemsolving.com/8/8/5/88588db3943375222610ac815d05dbaa9237ef82.png" class="latex" alt="$f(y)=y^{2}$" style="vertical-align: -4px" width="74" height="19" /> for some <img src="//latex.artofproblemsolving.com/3/f/6/3f62dcf12b8b4347408c9445395dee29aaea707b.png" class="latex" alt="$x,y \not = 0$" style="vertical-align: -4px" width="61" height="17" />. Let <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" /> be sufficiently large integer, let <img src="//latex.artofproblemsolving.com/2/3/9/239c0bf5d1ec4dfa73cedf86321942298e4072b2.png" class="latex" alt="$z=|4^{m}x|$" style="vertical-align: -4px" width="74" height="18" /> and take the absolute value of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />(since the function is even). Choose <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" /> such that <img src="//latex.artofproblemsolving.com/8/e/9/8e99f56ed48d131535cddeac2d88d3e2f493e2f5.png" class="latex" alt="$3z-c=y$" style="vertical-align: -3px" width="81" height="16" />. Note that we have <img src="//latex.artofproblemsolving.com/c/b/f/cbf471a69eb054c288869a0b09ef5e1ab10b6328.png" class="latex" alt="$\frac{c}{z}$" style="vertical-align: -12px" width="11" height="33" />~<img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/6/f/2/6f27a02bf28a2482c58ff2c245d9e5bdd1bbd859.png" class="latex" alt="$\frac{y}{z}$" style="vertical-align: -12px" width="12" height="33" />~<img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />. Note that <img src="//latex.artofproblemsolving.com/e/9/5/e9537181babd615f477acc75614b6c833e625141.png" class="latex" alt="$f(z)=0$" style="vertical-align: -4px" width="67" height="18" />. Now, <img src="//latex.artofproblemsolving.com/4/a/0/4a0aa8c32254806c4ec666962179c687d44b9293.png" class="latex" alt="$x=z, y=c \implies$" style="vertical-align: -3px" width="132" height="13" /> LHS is positive, as the second term is positive and the first term is nonnegative and thus the right term is equal to <img src="//latex.artofproblemsolving.com/4/9/f/49fea6ddc2e979d1e33b1e727f349651333f09e7.png" class="latex" alt="$(z+c)^{4}$" style="vertical-align: -4px" width="60" height="19" />~<img src="//latex.artofproblemsolving.com/e/9/3/e9340ae0c14f2b63a1cccf473a5cd19a189f1c0b.png" class="latex" alt="$256z^{4}$" width="43" height="15" />. Now if <img src="//latex.artofproblemsolving.com/c/9/e/c9edf659d12f409a2fd7cbc55171248a2b8ee516.png" class="latex" alt="$f(z-3c)=0$" style="vertical-align: -4px" width="106" height="18" />, the second term of the LHS/RHS clearly ~0 as <img src="//latex.artofproblemsolving.com/d/d/5/dd5403aceec9d0878f8fab15f2bdf7c624478d06.png" class="latex" alt="$m \to \infty$" style="vertical-align: 0px" width="61" height="10" />. if <img src="//latex.artofproblemsolving.com/c/9/e/c9edf659d12f409a2fd7cbc55171248a2b8ee516.png" class="latex" alt="$f(z-3c)=0$" style="vertical-align: -4px" width="106" height="18" />, then we have LHS/RHS ~ <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />, otherwise, we have LHS/RHS~<img src="//latex.artofproblemsolving.com/2/0/c/20c0243787b90c810298e0460a0c10e7e30091d8.png" class="latex" alt="$\frac{8^{2}\cdot 3z^{4}}{256z^{4}}$" style="vertical-align: -12px" width="57" height="39" />~<img src="//latex.artofproblemsolving.com/e/1/1/e1150a17bf1b733cb666be84d920c71fc96bb3f7.png" class="latex" alt="$\frac{3}{4}$" style="vertical-align: -13px" width="11" height="38" />, a contradiction, as we're clearly not dividing by <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />, and we should have LHS/RHS=1.
+</p><p><br />
+The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:40%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2016_USAMO" title="2016 USAMO">2016 USAMO</a></b> (<b><a href="/wiki/index.php/2016_USAMO_Problems" title="2016 USAMO Problems">Problems</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=27&amp;year=2016">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2016_USAMO_Problems/Problem_3" title="2016 USAMO Problems/Problem 3">Problem 3</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2016_USAMO_Problems/Problem_5" title="2016 USAMO Problems/Problem 5">Problem 5</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2016_USAMO_Problems/Problem_1" title="2016 USAMO Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2016_USAMO_Problems/Problem_2" title="2016 USAMO Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2016_USAMO_Problems/Problem_3" title="2016 USAMO Problems/Problem 3">3</a> <b>•</b> <a class="mw-selflink selflink">4</a> <b>•</b> <a href="/wiki/index.php/2016_USAMO_Problems/Problem_5" title="2016 USAMO Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2016_USAMO_Problems/Problem_6" title="2016 USAMO Problems/Problem 6">6</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/USAMO_Problems_and_Solutions" title="USAMO Problems and Solutions"> All USAMO Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:40%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2016_USAJMO" title="2016 USAJMO">2016 USAJMO</a></b> (<b><a href="/wiki/index.php/2016_USAJMO_Problems" title="2016 USAJMO Problems">Problems</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=176&amp;year=2016">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2016_USAJMO_Problems/Problem_5" title="2016 USAJMO Problems/Problem 5">Problem 5</a></b>
+</td>
+<td width="50%" align="center" rowspan="1"><b>Last Problem</b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2016_USAJMO_Problems/Problem_1" title="2016 USAJMO Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2016_USAJMO_Problems/Problem_2" title="2016 USAJMO Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2016_USAJMO_Problems/Problem_3" class="mw-redirect" title="2016 USAJMO Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2016_USAJMO_Problems/Problem_4" title="2016 USAJMO Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2016_USAJMO_Problems/Problem_5" title="2016 USAJMO Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2016_USAJMO_Problems/Problem_6" class="mw-redirect" title="2016 USAJMO Problems/Problem 6">6</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/USAJMO_Problems_and_Solutions" title="USAJMO Problems and Solutions"> All USAJMO Problems and Solutions</a></b>
+</td></tr></tbody></table>
+
+<!-- 
+NewPP limit report
+Cached time: 20200817173320
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.159 seconds
+Real time usage: 6.116 seconds
+Preprocessor visited node count: 1438/1000000
+Preprocessor generated node count: 3402/1000000
+Post‐expand include size: 2140/2097152 bytes
+Template argument size: 102/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 27229/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   12.309      1 -total
+ 51.02%    6.280      1 Template:USAJMO_newbox
+ 24.35%    2.997      1 Template:USAMO_newbox
+ 19.80%    2.437      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:14947-0!canonical and timestamp 20200817173314 and revision id 118526
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2016_USAMO_Problems/Problem_4&amp;oldid=118526">https://artofproblemsolving.com/wiki/index.php?title=2016_USAMO_Problems/Problem_4&amp;oldid=118526</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Algebra_Problems" title="Category:Olympiad Algebra Problems">Olympiad Algebra Problems</a></li><li><a href="/wiki/index.php/Category:Functional_Equation_Problems" title="Category:Functional Equation Problems">Functional Equation Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+</html>

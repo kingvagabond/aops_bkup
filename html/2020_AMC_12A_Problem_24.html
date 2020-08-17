@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2020 AMC 12A Problems/Problem 24 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2020_AMC_12A_Problems/Problem_24","wgTitle":"2020 AMC 12A Problems/Problem 24","wgCurRevisionId":128349,"wgRevisionId":128349,"wgArticleId":18140,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2020_AMC_12A_Problems/Problem_24","wgRelevantArticleId":18140,"wgRequestId":"3f0915e9e425d6d043d93a6f","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2020_AMC_12A_Problems_Problem_24 rootpage-2020_AMC_12A_Problems_Problem_24 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2020 AMC 12A Problems/Problem 24																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_24" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2020_AMC_12A_Problems/Problem_24&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2020_AMC_12A_Problems/Problem_24&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2020_AMC_12A_Problems/Problem_24&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2020_AMC_12A_Problems/Problem_24" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2020 AMC 12A Problems/Problem 24</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem_24"><span class="tocnumber">1</span> <span class="toctext">Problem 24</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution_1"><span class="tocnumber">2</span> <span class="toctext">Solution 1</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Solution_2_.28Intuition.29"><span class="tocnumber">3</span> <span class="toctext">Solution 2 (Intuition)</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Solution_3_.28Answer_Choices.29"><span class="tocnumber">4</span> <span class="toctext">Solution 3 (Answer Choices)</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Solution_4_.28Area.29"><span class="tocnumber">5</span> <span class="toctext">Solution 4 (Area)</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Solution_5"><span class="tocnumber">6</span> <span class="toctext">Solution 5</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Video_Solution"><span class="tocnumber">7</span> <span class="toctext">Video Solution</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#See_Also"><span class="tocnumber">8</span> <span class="toctext">See Also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem_24">Problem 24</span></h2>
+<p>Suppose that <img src="//latex.artofproblemsolving.com/1/f/8/1f828f10cad9235a2c72c34369f5fd4a1179e579.png" class="latex" alt="$\triangle{ABC}$" width="58" height="13" /> is an equilateral triangle of side length <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" />, with the property that there is a unique point <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> inside the triangle such that <img src="//latex.artofproblemsolving.com/a/7/2/a72da52bb3713e08113d197bdbb42f939655b3b8.png" class="latex" alt="$AP=1$" style="vertical-align: 0px" width="60" height="13" />, <img src="//latex.artofproblemsolving.com/5/7/e/57e064eb6fbfb570814a3c1cad5d0a69d59cff20.png" class="latex" alt="$BP=\sqrt{3}$" style="vertical-align: -1px" width="78" height="18" />, and <img src="//latex.artofproblemsolving.com/6/3/c/63c97e5602eaa2bc1f354354c1969ce5e39ebee5.png" class="latex" alt="$CP=2$" width="61" height="12" />. What is <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/5/f/6/5f63f4d2de605f49b7319b55473e3f4164e3b15d.png" class="latex" alt="$\textbf{(A) } 1+\sqrt{2} \qquad \textbf{(B) } \sqrt{7} \qquad \textbf{(C) } \frac{8}{3} \qquad \textbf{(D) } \sqrt{5+\sqrt{5}} \qquad \textbf{(E) } 2\sqrt{2}$" style="vertical-align: -12px" width="508" height="38" />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p><img src="//latex.artofproblemsolving.com/b/f/4/bf4062e86761b315b34de86b3efb889386b96c91.png" class="latexcenter" alt="[asy] draw((0,0)--(4,5.65)--(8,0)--cycle); label(&quot;A&quot;, (4,5.65), N, p = fontsize(10pt)); label(&quot;C&quot;, (8,0), SE, p = fontsize(10pt)); label(&quot;B&quot;, (0,0), SW, p = fontsize(10pt)); label(&quot;P&quot;, (3.5,3.5), NW, p = fontsize(10pt)); draw((0,0)--(3.5,3.5)); label(&quot;$\sqrt{3}$&quot;,(0,0)--(3.5,3.5), SE); draw((8,0)--(3.5,3.5)); label(&quot;2&quot;,(8,0)--(3.5,3.5), SW); draw((4,5.65)--(3.5,3.5)); label(&quot;1&quot;,(4,5.65)--(3.5,3.5), E); draw((8,0)--(4,5.65)--(11,5.65)--cycle); label(&quot;$P&#39;$&quot;, (6,4.75), NE, p = fontsize(10pt)); draw((4,5.65)--(6,4.75)); label(&quot;1&quot;,(4,5.65)--(6,4.75), S); draw((8,0)--(6,4.75)); label(&quot;$\sqrt{3}$&quot;,(8,0)--(6,4.75), E); draw((3.5,3.5)--(6,4.75)); label(&quot;1&quot;, (3.5,3.5)--(6,4.75), SE);  [/asy]" width="668" height="372" />
+</p><p>We begin by rotating <img src="//latex.artofproblemsolving.com/1/f/8/1f828f10cad9235a2c72c34369f5fd4a1179e579.png" class="latex" alt="$\triangle{ABC}$" width="58" height="13" /> by <img src="//latex.artofproblemsolving.com/0/8/d/08d5c45388de5c75af641c046d466de3592ffa98.png" class="latex" alt="$60^{\circ}$" width="24" height="13" /> about <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, such that in <img src="//latex.artofproblemsolving.com/5/1/6/51638f017de0a49bb608dfc6f41d99be2c9acd0d.png" class="latex" alt="$\triangle{A&#39;B&#39;C&#39;}$" width="71" height="14" />, <img src="//latex.artofproblemsolving.com/9/1/6/916b3ac1319ae16ec64fae3d641f670cdeb96ed9.png" class="latex" alt="$B&#39; = C$" width="57" height="14" />. We see that
+<img src="//latex.artofproblemsolving.com/c/e/3/ce3906a9717cf3c9926eb3c61e071631c99003d6.png" class="latex" alt="$\triangle{APP&#39;}$" width="61" height="14" /> is equilateral with side length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, meaning that <img src="//latex.artofproblemsolving.com/6/9/4/6949c7746d6a9f81885b7de213dec504a5cbe45f.png" class="latex" alt="$\angle APP&#39; = 60^{\circ}$" width="108" height="14" />. We also see that <img src="//latex.artofproblemsolving.com/6/2/4/624c327d7fbd6658d5a05da98a3bbd3dd6c02e88.png" class="latex" alt="$\triangle{CPP&#39;}$" width="62" height="14" /> is a <img src="//latex.artofproblemsolving.com/4/7/c/47c78b85058ee5e17f88e2cde302e48aad826b35.png" class="latex" alt="$30-60-90$" width="98" height="12" /> right triangle, meaning that <img src="//latex.artofproblemsolving.com/0/b/3/0b3d7b4f1b134c3eb26f244d2894c240828e72d8.png" class="latex" alt="$\angle CPP&#39;= 60^{\circ}$" width="108" height="14" />. Thus, by adding the two together, we see that <img src="//latex.artofproblemsolving.com/f/0/5/f052993f4342596619acb0404df32bd91e2f7c58.png" class="latex" alt="$\angle APC = 120^{\circ}$" style="vertical-align: 0px" width="112" height="13" />. We can now use the law of cosines as following:
+</p><p><img src="//latex.artofproblemsolving.com/3/c/3/3c34f44b61120054db0081a2113a1d8d39216514.png" class="latexcenter" alt="\[s^2 = (AP)^2 + (CP)^2 - 2(AP)(CP)\cos{\angle{APC}}\]" width="362" height="19" />
+<img src="//latex.artofproblemsolving.com/5/a/9/5a91e3b1e67a6ab5efdbfcc81d208b840f7a0b2d.png" class="latexcenter" alt="\[s^2 = 1 + 4 - 2(1)(2)\cos{120^{\circ}}\]" width="221" height="19" />
+<img src="//latex.artofproblemsolving.com/8/e/9/8e983fb591d5c8b9755a92b4503c8655868d9ef7.png" class="latexcenter" alt="\[s^2 = 5 - 4(-\frac{1}{2})\]" width="120" height="37" />
+<img src="//latex.artofproblemsolving.com/3/6/6/3661e097b630dcb130ec65aad6c287a699ed1513.png" class="latexcenter" alt="\[s = \sqrt{5 + 2}\]" width="87" height="18" />
+</p><p>giving us that <img src="//latex.artofproblemsolving.com/8/8/3/8839bc98f3766ed781fd5010b68844c10f2d2462.png" class="latex" alt="$s = \boxed{\textbf{(B) } \sqrt{7}}$" style="vertical-align: -10px" width="103" height="33" />. ~ciceronii
+</p>
+<h2><span id="Solution_2_(Intuition)"></span><span class="mw-headline" id="Solution_2_.28Intuition.29">Solution 2 (Intuition)</span></h2>
+<p><img src="//latex.artofproblemsolving.com/b/9/1/b91834b83a0704eb62f2cac92e9de5bc5b521595.png" class="latexcenter" alt="[asy]  unitsize(1inch);  dot((0.756,0.655)); dot((1.512,1.309)); dot((1.701,0.327));  pair A = origin, B = (1.323,2.291), C = (2.646,0), P = (0.756,0.655), Q = (1.512,1.309), R = (1.701,0.327); draw((0,0)--(1.323,2.291)--(2.646,0)--cycle); label(&quot;A&quot;, (0,0), SW, p = fontsize(10pt)); label(&quot;C&quot;, (2.646,0), SE, p = fontsize(10pt)); label(&quot;B&quot;, (1.323,2.291), N, p = fontsize(10pt)); label(&quot;P&#39;&quot;, (0.756,0.655), NW, p = fontsize(10pt)); label(&quot;1&quot;, (2.174,0.164), N, p = fontsize(10pt)); label(&quot;1&quot;, (1.228,0.491), N, p = fontsize(10pt)); D(A--P, red); D(B--Q, red); D(C--R, red); D(P--Q--R--cycle, blue); D(B--P, magenta);  [/asy]" width="355" height="312" />
+</p><p>Suppose that triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> had three segments of length <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, emanating from each of its vertices, making equal angles with each of its sides, and going into its interior. Suppose each of these segments intersected the segment clockwise to it precisely at its other endpoint and inside <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> (as pictured in the diagram above). Clearly <img src="//latex.artofproblemsolving.com/d/9/f/d9f1ab4e3e6584a8a98e4d6feea290df08eea019.png" class="latex" alt="$s &gt; 2$" style="vertical-align: 0px" width="41" height="12" /> and the triangle defined by these intersection points will be equilateral (pictured by the blue segments). 
+</p><p>Take this equilateral triangle to have side length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />. The portions of each segment outside this triangle (in red) have length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />. Take <img src="//latex.artofproblemsolving.com/3/5/4/3545551b3d62c4e23d5df7352a55602d0aa9adcd.png" class="latex" alt="$P&#39;$" width="17" height="14" /> to be the intersection of the segments emanating from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />. By Law of Cosines, <img src="//latex.artofproblemsolving.com/f/a/4/fa4e0696837a503de308f6812b6f835a9361f41a.png" class="latexcenter" alt="\[BP&#39; = \sqrt{1 + 1 - 2\cos{120^\circ}} = \sqrt{3}.\]" width="261" height="19" /> So, <img src="//latex.artofproblemsolving.com/3/5/4/3545551b3d62c4e23d5df7352a55602d0aa9adcd.png" class="latex" alt="$P&#39;$" width="17" height="14" /> actually satisfies the conditions of the problem, and we can obtain again by Law of Cosines <img src="//latex.artofproblemsolving.com/b/a/d/bad21f4054ad5adc7c0385e954b8886b1eb2566a.png" class="latexcenter" alt="\[s = \sqrt{4 + 1 - 4\cos{120^\circ}} = \boxed{\textbf{(B)} \sqrt{7}}.\]" width="276" height="33" />
+</p><p>~ hnkevin42
+</p>
+<h2><span id="Solution_3_(Answer_Choices)"></span><span class="mw-headline" id="Solution_3_.28Answer_Choices.29">Solution 3 (Answer Choices)</span></h2>
+<p><img src="//latex.artofproblemsolving.com/e/3/b/e3b2cddd9bc3a394f2909f124b1f6d954efb9c3b.png" class="latexcenter" alt="[asy] draw((0,0)--(4,5.65)--(8,0)--cycle); label(&quot;A&quot;, (4,5.65), N, p = fontsize(10pt)); label(&quot;C&quot;, (8,0), SE, p = fontsize(10pt)); label(&quot;B&quot;, (0,0), SW, p = fontsize(10pt)); label(&quot;P&quot;, (3.5,3.5), E, p = fontsize(10pt)); label(&quot;E&quot;, (2.8191,3.982), NW, p = fontsize(10pt)); label(&quot;F&quot;, (4.848,4.452), NE, p = fontsize(10pt)); label(&quot;G&quot;, (3.5,0), NE, p = fontsize(10pt)); draw((0,0)--(3.5,3.5)); label(&quot;$\sqrt{3}$&quot;,(0,0)--(3.5,3.5), SE); draw((8,0)--(3.5,3.5)); label(&quot;2&quot;,(8,0)--(3.5,3.5), SW); draw((4,5.65)--(3.5,3.5)); label(&quot;1&quot;,(4,5.65)--(3.5,3.5), E); draw((3.5,3.5)--(2.8191,3.982)); draw((3.5,3.5)--(4.848,4.452)); draw((3.5,3.5)--(3.5,0));  [/asy]" width="668" height="482" />
+</p><p>We begin by dropping altitudes from point <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> down to all three sides of the triangle as shown above. We can therefore make equations regarding the areas of triangles <img src="//latex.artofproblemsolving.com/9/e/c/9ec2fb6852374453c17638126125c026cf624649.png" class="latex" alt="$\triangle{APC}$" width="58" height="13" />, <img src="//latex.artofproblemsolving.com/4/2/3/4237ee4c1119bc6662a589f4949f8e9f672f442f.png" class="latex" alt="$\triangle{APB}$" width="58" height="13" />, and <img src="//latex.artofproblemsolving.com/c/c/9/cc9d50b6a07d3905fddb1cb09cc2983738c2ac8a.png" class="latex" alt="$\triangle{BPC}$" width="59" height="13" />. Let <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" /> be the side of the equilateral triangle, we use the Heron's formula: 
+</p><p><img src="//latex.artofproblemsolving.com/f/a/9/fa95483497281f048adab182f170735cf4563978.png" class="latexcenter" alt="\[\triangle{APC} = \frac{s\cdot PF}{2} = \sqrt{\frac{s+3}{2}(\frac{s+3}{2}-s)(\frac{s+3}{2}-1)(\frac{s+3}{2}-2)}\]" width="489" height="43" />
+<img src="//latex.artofproblemsolving.com/f/2/c/f2c95fb9640195e7abff1f5c7f1fe5d2b68bdc18.png" class="latexcenter" alt="\[\implies PF = \frac{\sqrt{10s^2-4s-9}}{2s}\]" width="214" height="40" />
+</p><p>Similarly, we obtain:
+</p><p><img src="//latex.artofproblemsolving.com/5/b/5/5b55b0101fa21847a5bdde527a25c4de25e308f9.png" class="latexcenter" alt="\[PE = \frac{\sqrt{8s^2-s^4-4}}{2s}\]" width="164" height="40" />
+<img src="//latex.artofproblemsolving.com/0/f/3/0f30aa995dda635f801b922a5dcd52b0cb486a03.png" class="latexcenter" alt="\[PG = \frac{\sqrt{14s^2-s^4-1}}{2s}\]" width="173" height="40" />
+</p><p>By Viviani's theorem,
+<img src="//latex.artofproblemsolving.com/6/f/1/6f13646b81965eed671952dfc3a1416e5331b7ce.png" class="latexcenter" alt="\[\frac{\sqrt{10s^2-s^4-9}}{2s}+\frac{\sqrt{8s^2-s^4-4}}{2s}+\frac{\sqrt{14s^2-s^4-1}}{2s} = \frac{\sqrt{3}}{2}s\]" width="462" height="41" />
+<img src="//latex.artofproblemsolving.com/0/3/1/03124a276deac3296d171cb0e7b1324b711c7c4c.png" class="latexcenter" alt="\[\sqrt{10s^2-s^4-9}+\sqrt{8s^2-s^4-4}+\sqrt{14s^2-s^4-1} = \sqrt{3}s^2\]" width="453" height="18" />
+</p><p>Note that from now on, the algebra will get extremely ugly and almost impossible to do by hand within the time frame. However, we do see that it's extremely easy to check the answer choices with the equation in this form. Testing <img src="//latex.artofproblemsolving.com/e/c/7/ec74a9b24718edd807fc54a213f9a99d2359f858.png" class="latex" alt="$s = \sqrt{7}$" style="vertical-align: -1px" width="57" height="18" />, We obtain <img src="//latex.artofproblemsolving.com/6/a/2/6a2d0be0637503a6cb4f5d2b1e6b89220b837e53.png" class="latex" alt="$7\sqrt{3}$" style="vertical-align: -1px" width="33" height="18" /> on both sides, revealing that our answer is in fact <img src="//latex.artofproblemsolving.com/0/5/a/05a8a82ec67371e7a38d8ebc8f89742e6191f421.png" class="latex" alt="$\boxed{\textbf{(B) } \sqrt{7}}$" style="vertical-align: -10px" width="70" height="33" />
+</p><p>~ siluweston
+</p>
+<h2><span id="Solution_4_(Area)"></span><span class="mw-headline" id="Solution_4_.28Area.29">Solution 4 (Area)</span></h2>
+<p>Instead of directly finding the side length of the equilateral triangle, we instead find the area and use it to find the side length.
+Begin by reflecting <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> over each of the sides. Label these reflected points <img src="//latex.artofproblemsolving.com/9/6/5/965d96e53852fff761c6123364cc03690a7473a2.png" class="latex" alt="$P&#39;, P&#39;&#39;, P&#39;&#39;&#39;$" style="vertical-align: -3px" width="83" height="17" />. Connect these points to the vertices of the equilateral triangle, as well as to each other.
+</p><p><img src="//latex.artofproblemsolving.com/7/f/5/7f556e0e315c3529932693f254d2e0899a2d39a8.png" class="latexcenter" alt="[asy] draw((0,3.5)--(4,9.15)--(8,3.5)--cycle); label(&quot;A&quot;, (4,9.15), N, p = fontsize(10pt)); label(&quot;C&quot;, (8,3.5), SE, p = fontsize(10pt)); label(&quot;B&quot;, (0,3.5), SW, p = fontsize(10pt)); label(&quot;P&quot;, (3.5,7), NW, p = fontsize(10pt)); draw((0,3.5)--(3.5,7)); draw((8,3.5)--(3.5,7)); draw((4,9.15)--(3.5,7)); label(&quot;P&#39;&quot;, (3.5, 0), S, p = fontsize(10pt)); draw((8,3.5)--(3.5,0)); draw((0,3.5)--(3.5,0)); label(&quot;P&#39;&#39;&quot;,(6,8.5), NE, p = fontsize(10pt)); draw((4,9.15)--(6,8.5)); draw((8,3.5)--(6,8.5)); label(&quot;P&#39;&#39;&#39;&quot;,(2.25,8), NW, p = fontsize(10pt)); draw((0,3.5)--(2.25,8)); draw((4,9.15)--(2.25,8)); draw((3.5,0)--(6,8.5)--(2.25,8)--cycle); [/asy]" width="588" height="668" />
+</p><p>Observe that the area of the equilateral triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> is half that of the hexagon <img src="//latex.artofproblemsolving.com/8/1/5/81532bf9c2dd763527635d1242d7accf8fa46004.png" class="latex" alt="$AP&#39;&#39;CP&#39;BP&#39;&#39;&#39;$" width="110" height="14" />.
+</p><p>Note that <img src="//latex.artofproblemsolving.com/6/e/0/6e033d9596139802209ebae37859f7350d8c02cc.png" class="latex" alt="$AP=AP&#39;&#39;=AP&#39;&#39;&#39;$" width="152" height="14" />. The same goes for the other vertices. This means that <img src="//latex.artofproblemsolving.com/3/4/5/345e9d5e4246d6f76ddbfa415b27e0f320483b78.png" class="latex" alt="$AP&#39;&#39;P&#39;&#39;&#39;$" width="62" height="14" /> is isosceles. Using either the Law of Cosines or simply observing that <img src="//latex.artofproblemsolving.com/3/4/5/345e9d5e4246d6f76ddbfa415b27e0f320483b78.png" class="latex" alt="$AP&#39;&#39;P&#39;&#39;&#39;$" width="62" height="14" /> is comprised of two 30-60-90 triangles, we find that <img src="//latex.artofproblemsolving.com/3/2/e/32e7d53332e327c77df7742897c268b3509d48f0.png" class="latex" alt="$P&#39;&#39;P&#39;&#39;&#39;= \sqrt{3}$" style="vertical-align: -1px" width="98" height="18" />. Similarly (pun intended), <img src="//latex.artofproblemsolving.com/e/9/0/e909ec91f2674ffca085301ce9580422858dc851.png" class="latex" alt="$P&#39;P&#39;&#39;&#39;=3$" width="78" height="14" /> and <img src="//latex.artofproblemsolving.com/d/7/5/d75dcd38f843e958520b4822f83d1603d598135e.png" class="latex" alt="$P&#39;P&#39;&#39;=2\sqrt{3}$" style="vertical-align: -1px" width="99" height="18" />. Using the previous observation that <img src="//latex.artofproblemsolving.com/3/4/5/345e9d5e4246d6f76ddbfa415b27e0f320483b78.png" class="latex" alt="$AP&#39;&#39;P&#39;&#39;&#39;$" width="62" height="14" /> is two 30-60-90 triangles (as are the others) we find the areas of <img src="//latex.artofproblemsolving.com/2/7/f/27f3078f5754f56b769041c962294266c900043e.png" class="latex" alt="$AP&#39;&#39;P&#39;&#39;$" width="58" height="14" /> to be <img src="//latex.artofproblemsolving.com/b/9/b/b9b30d7166f38d8f18e66dfd6e9473880efaca2e.png" class="latex" alt="$\frac{\sqrt{3}}{4}$" style="vertical-align: -13px" width="26" height="41" />. Again, using similarity we find the area of <img src="//latex.artofproblemsolving.com/e/6/0/e60285e74bc7f36954971727a5a03a9322b53822.png" class="latex" alt="$BP&#39;P&#39;&#39;&#39;$" width="59" height="14" /> to be <img src="//latex.artofproblemsolving.com/f/2/7/f274c23ccc1c2e28235c8a2be272a0c8e44f4fa0.png" class="latex" alt="$\frac{3\sqrt{3}}{4}$" style="vertical-align: -13px" width="35" height="41" /> and the area of <img src="//latex.artofproblemsolving.com/c/f/d/cfd9fdffae0e43ae81b6c72231badf03552b6ee0.png" class="latex" alt="$CP&#39;P&#39;&#39;$" width="55" height="14" /> to be <img src="//latex.artofproblemsolving.com/6/c/7/6c77cf4b63af80bfbc6a9ad9b4b9e8e549e77d78.png" class="latex" alt="$\sqrt{3}$" style="vertical-align: -1px" width="24" height="18" />.
+</p><p>Next, observe that <img src="//latex.artofproblemsolving.com/8/c/b/8cb0e62a5a0410f0726de690b0e063a2024f7095.png" class="latex" alt="$P&#39;P&#39;&#39;P&#39;&#39;&#39;$" width="67" height="14" /> is a 30-60-90 right triangle. This right triangle therefore has an area of <img src="//latex.artofproblemsolving.com/1/b/1/1b1cd991e4fe587a918dff181a824ed877790235.png" class="latex" alt="$\frac{3\sqrt{3}}{2}$" style="vertical-align: -12px" width="35" height="41" />.
+</p><p>Adding these areas together, we get the area of the hexagon as <img src="//latex.artofproblemsolving.com/9/0/c/90ccbabf54819419ccced85280e7c2dd25f82d02.png" class="latex" alt="$\frac{7\sqrt{3}}{2}$" style="vertical-align: -12px" width="35" height="41" />. This means that the area of <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> is <img src="//latex.artofproblemsolving.com/7/d/7/7d769f86e79f0a2907ceb3af3d3748d2387483ad.png" class="latex" alt="$\frac{7\sqrt{3}}{4}$" style="vertical-align: -13px" width="35" height="41" />.
+</p><p>The formula for the area of an equilateral triangle with side length <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" /> is <img src="//latex.artofproblemsolving.com/b/0/0/b0019501e6197e6ce51fa872df0d3760bcc383d6.png" class="latex" alt="$\frac{s^2\sqrt{3}}{4}$" style="vertical-align: -13px" width="42" height="41" /> (if you don't have this memorized it's not hard to derive). Comparing this formula to the area of <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" />, we can easily find that <img src="//latex.artofproblemsolving.com/4/3/b/43be185a506aeca8837af8c23f5c3159a28d9eda.png" class="latex" alt="$s^2=7$" width="49" height="15" />, which means that the side length of <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> is <img src="//latex.artofproblemsolving.com/0/5/a/05a8a82ec67371e7a38d8ebc8f89742e6191f421.png" class="latex" alt="$\boxed{\textbf{(B) } \sqrt{7}}$" style="vertical-align: -10px" width="70" height="33" />.
+</p><p>While this approach feels rather convoluted in comparison to Solution 1, it is more flexible and can actually be generalized for any point in an equilateral triangle (although that requires use of Heron's).
+</p><p>~IAmTheHazard
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p>Suppose <img src="//latex.artofproblemsolving.com/9/7/6/976a5127fe9c8ffead29886bec6f68412001b7e6.png" class="latex" alt="$A(0,\sqrt{3}a)$" style="vertical-align: -4px" width="77" height="21" />, <img src="//latex.artofproblemsolving.com/f/2/f/f2f1d8306f0f23d4b9ee339bb57bfc9ad16f8898.png" class="latex" alt="$B(-a,0)$" style="vertical-align: -4px" width="68" height="18" />, <img src="//latex.artofproblemsolving.com/3/f/4/3f463216900a7375a6dbf1d0210c2f13c616ef1d.png" class="latex" alt="$C(a,0)$" style="vertical-align: -4px" width="53" height="18" /> and <img src="//latex.artofproblemsolving.com/6/d/e/6de7dc5f91f89a43911ae74626aa37d75d53ee9d.png" class="latex" alt="$P(x,y)$" style="vertical-align: -4px" width="55" height="18" />. So <img src="//latex.artofproblemsolving.com/0/0/2/002fa744ab53482c8db363ef1ed2a08e433c1e7c.png" class="latex" alt="$s=2a$" width="51" height="12" />. Since <img src="//latex.artofproblemsolving.com/5/7/e/57e064eb6fbfb570814a3c1cad5d0a69d59cff20.png" class="latex" alt="$BP=\sqrt{3}$" style="vertical-align: -1px" width="78" height="18" /> and <img src="//latex.artofproblemsolving.com/2/3/f/23f12c846f6b1e304daf1c92e862ddd0c073effd.png" class="latex" alt="$CP=\sqrt{2}$" style="vertical-align: -1px" width="77" height="18" />, we have
+<img src="//latex.artofproblemsolving.com/8/f/b/8fbf5c073c17d1dbf8589178489549dd3af3d9e6.png" class="latexcenter" alt="\[(x+a)^2+y^2=3\]" width="134" height="19" />
+<img src="//latex.artofproblemsolving.com/9/a/f/9af6f9b7f0522f5664eb88d68b8aa0102fac11ab.png" class="latexcenter" alt="\[(x-a)^2+y^2=4\]" width="135" height="19" />
+Solving the equations, we have 
+<img src="//latex.artofproblemsolving.com/5/9/e/59e437a2761596db8083ed7cb2c8d33fd6cd0bc2.png" class="latexcenter" alt="\[x=-\frac{1}{4a},~~y=\sqrt{\frac72-a^2-\frac{1}{16a^2}}\]" width="255" height="43" /> 
+From <img src="//latex.artofproblemsolving.com/a/7/2/a72da52bb3713e08113d197bdbb42f939655b3b8.png" class="latex" alt="$AP=1$" style="vertical-align: 0px" width="60" height="13" />, we can have <img src="//latex.artofproblemsolving.com/6/5/1/651800276a090d992e88f9692c7dd10084798e64.png" class="latex" alt="$a=\sqrt{7}/2$" style="vertical-align: -4px" width="75" height="21" />. The answer is <img src="//latex.artofproblemsolving.com/0/5/a/05a8a82ec67371e7a38d8ebc8f89742e6191f421.png" class="latex" alt="$\boxed{\textbf{(B) } \sqrt{7}}$" style="vertical-align: -10px" width="70" height="33" />.
+</p><p>~Linty Huang
+</p>
+<h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
+<p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=mUW4zcrRL54">https://www.youtube.com/watch?v=mUW4zcrRL54</a>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2020_AMC_12A" title="2020 AMC 12A">2020 AMC 12A</a></b> (<b><a href="/wiki/index.php/2020_AMC_12A_Problems" title="2020 AMC 12A Problems">Problems</a></b> • <b><a href="/wiki/index.php/2020_AMC_12A_Answer_Key" title="2020 AMC 12A Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=44&amp;year=2020">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_23" class="mw-redirect" title="2020 AMC 12A Problems/Problem 23">Problem 23</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_25" title="2020 AMC 12A Problems/Problem 25">Problem 25</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_1" title="2020 AMC 12A Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_2" title="2020 AMC 12A Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_3" class="mw-redirect" title="2020 AMC 12A Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_4" class="mw-redirect" title="2020 AMC 12A Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_5" class="mw-redirect" title="2020 AMC 12A Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_6" title="2020 AMC 12A Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_7" class="mw-redirect" title="2020 AMC 12A Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_8" class="mw-redirect" title="2020 AMC 12A Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_9" title="2020 AMC 12A Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_10" title="2020 AMC 12A Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_11" class="mw-redirect" title="2020 AMC 12A Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_12" title="2020 AMC 12A Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_13" title="2020 AMC 12A Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_14" title="2020 AMC 12A Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_15" title="2020 AMC 12A Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_16" class="mw-redirect" title="2020 AMC 12A Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_17" title="2020 AMC 12A Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_18" class="mw-redirect" title="2020 AMC 12A Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_19" class="mw-redirect" title="2020 AMC 12A Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_20" class="mw-redirect" title="2020 AMC 12A Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_21" title="2020 AMC 12A Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_22" title="2020 AMC 12A Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_23" class="mw-redirect" title="2020 AMC 12A Problems/Problem 23">23</a> <b>•</b> <a class="mw-selflink selflink">24</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_12A_Problems/Problem_25" title="2020 AMC 12A Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200715130030
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.125 seconds
+Real time usage: 0.151 seconds
+Preprocessor visited node count: 978/1000000
+Preprocessor generated node count: 2496/1000000
+Post‐expand include size: 2216/2097152 bytes
+Template argument size: 162/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 19660/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   12.944      1 -total
+ 56.66%    7.334      1 Template:AMC12_box
+ 39.10%    5.061      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:18140-0!canonical and timestamp 20200715130030 and revision id 128349
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_12A_Problems/Problem_24&amp;oldid=128349">https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_12A_Problems/Problem_24&amp;oldid=128349</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200715151851 -->
+</html>

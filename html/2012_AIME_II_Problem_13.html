@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2012 AIME II Problems/Problem 13 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2012_AIME_II_Problems/Problem_13","wgTitle":"2012 AIME II Problems/Problem 13","wgCurRevisionId":131235,"wgRevisionId":131235,"wgArticleId":10910,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Intermediate Geometry Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2012_AIME_II_Problems/Problem_13","wgRelevantArticleId":10910,"wgRequestId":"d55096c66e16636d08156ccd","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2012_AIME_II_Problems_Problem_13 rootpage-2012_AIME_II_Problems_Problem_13 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2012 AIME II Problems/Problem 13																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2012_AIME_II_Problems/Problem_13" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2012_AIME_II_Problems/Problem_13&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2012_AIME_II_Problems/Problem_13&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2012_AIME_II_Problems/Problem_13&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2012_AIME_II_Problems/Problem_13" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2012 AIME II Problems/Problem 13</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem_13"><span class="tocnumber">1</span> <span class="toctext">Problem 13</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution_1"><span class="tocnumber">2</span> <span class="toctext">Solution 1</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Solution_2"><span class="tocnumber">3</span> <span class="toctext">Solution 2</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Solution_3"><span class="tocnumber">4</span> <span class="toctext">Solution 3</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Solution_4"><span class="tocnumber">5</span> <span class="toctext">Solution 4</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Solution_5"><span class="tocnumber">6</span> <span class="toctext">Solution 5</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_Also"><span class="tocnumber">7</span> <span class="toctext">See Also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem_13">Problem 13</span></h2>
+<p>Equilateral <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" /> has side length <img src="//latex.artofproblemsolving.com/0/d/2/0d2aa7f9efac52eddf16f9c131991fc28b366737.png" class="latex" alt="$\sqrt{111}$" style="vertical-align: -1px" width="42" height="18" />. There are four distinct triangles <img src="//latex.artofproblemsolving.com/c/5/d/c5d6293d21337b016eae90e6c703930d34a71dbc.png" class="latex" alt="$AD_1E_1$" style="vertical-align: -2px" width="55" height="15" />, <img src="//latex.artofproblemsolving.com/9/8/4/9844ae6dba4604282caf442164b7069ec4ac8794.png" class="latex" alt="$AD_1E_2$" style="vertical-align: -2px" width="55" height="15" />, <img src="//latex.artofproblemsolving.com/7/b/9/7b9500e1ec830b4eaf6d5360dbb0c969927bc28a.png" class="latex" alt="$AD_2E_3$" style="vertical-align: -2px" width="55" height="15" />, and <img src="//latex.artofproblemsolving.com/3/0/e/30efb07e5966d775e9499c050882a8b686f91bc2.png" class="latex" alt="$AD_2E_4$" style="vertical-align: -2px" width="56" height="15" />, each congruent to <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" />,
+with <img src="//latex.artofproblemsolving.com/e/c/9/ec9ebf0c17e102621f48262f34f8ae1ed9bf0e07.png" class="latex" alt="$BD_1 = BD_2 = \sqrt{11}$" style="vertical-align: -2px" width="156" height="19" />. Find <img src="//latex.artofproblemsolving.com/f/5/6/f56f53e828603ad1f0276633b1d19fc5db8072a6.png" class="latex" alt="$\sum_{k=1}^4(CE_k)^2$" style="vertical-align: -20px" width="81" height="50" />.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Note that there are only two possible locations for points <img src="//latex.artofproblemsolving.com/8/8/c/88c7f79185a0b48d33454e85f44b4bfdf81d2420.png" class="latex" alt="$D_1$" style="vertical-align: -2px" width="20" height="15" /> and <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" />, as they are both <img src="//latex.artofproblemsolving.com/0/d/2/0d2aa7f9efac52eddf16f9c131991fc28b366737.png" class="latex" alt="$\sqrt{111}$" style="vertical-align: -1px" width="42" height="18" /> from point <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/0/4/0/040e0891016ffa86cb136e30e6dcc4796f3c34f2.png" class="latex" alt="$\sqrt{11}$" style="vertical-align: -1px" width="33" height="18" /> from point <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, so they are the two points where a circle centered at <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> with radius <img src="//latex.artofproblemsolving.com/0/d/2/0d2aa7f9efac52eddf16f9c131991fc28b366737.png" class="latex" alt="$\sqrt{111}$" style="vertical-align: -1px" width="42" height="18" /> and a circle centered at <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> with radius <img src="//latex.artofproblemsolving.com/0/4/0/040e0891016ffa86cb136e30e6dcc4796f3c34f2.png" class="latex" alt="$\sqrt{11}$" style="vertical-align: -1px" width="33" height="18" /> intersect.  Let <img src="//latex.artofproblemsolving.com/8/8/c/88c7f79185a0b48d33454e85f44b4bfdf81d2420.png" class="latex" alt="$D_1$" style="vertical-align: -2px" width="20" height="15" /> be the point on the opposite side of <img src="//latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" width="28" height="15" /> from <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, and <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" /> the point on the same side of <img src="//latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" width="28" height="15" /> as <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />.
+</p><p>Let <img src="//latex.artofproblemsolving.com/5/2/e/52e8ed7a3ba22130ad3984eb2cd413406475a689.png" class="latex" alt="$\theta$" width="8" height="13" /> be the measure of angle <img src="//latex.artofproblemsolving.com/f/0/3/f036360d6c59812cf8a1b58c9e4df9495bd67ede.png" class="latex" alt="$BAD_1$" style="vertical-align: -2px" width="48" height="15" /> (also the measure of angle <img src="//latex.artofproblemsolving.com/7/8/c/78c7dc9e57b6ca20c7927b08818d519f11ebf81b.png" class="latex" alt="$BAD_2$" style="vertical-align: -2px" width="49" height="15" />); by the Law of Cosines,
+<img src="//latex.artofproblemsolving.com/1/9/f/19ff6516db63307350b6fd29a21a2cbd42e773d2.png" class="latexcenter" alt="\begin{align*}\sqrt{11}^2 &amp;= \sqrt{111}^2 + \sqrt{111}^2 - 2 \cdot \sqrt{111} \cdot \sqrt{111} \cdot \cos\theta\\ 11 &amp;= 222(1 - \cos\theta)\end{align*}" width="377" height="50" />
+</p><p>There are two equilateral triangles with <img src="//latex.artofproblemsolving.com/f/7/9/f79ec946593e7f426251bc7a58a6d1aa4d83a9b9.png" class="latex" alt="$\overline{AD_1}$" style="vertical-align: -2px" width="36" height="18" /> as a side; let <img src="//latex.artofproblemsolving.com/4/5/9/459b08d5235f417c69f0cc0c2d473a4739abdb1f.png" class="latex" alt="$E_1$" style="vertical-align: -2px" width="19" height="15" /> be the third vertex that is farthest from <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, and <img src="//latex.artofproblemsolving.com/f/2/6/f263b4685391e1f4f3ba204a355cc203a29a0653.png" class="latex" alt="$E_2$" style="vertical-align: -2px" width="19" height="15" /> be the third vertex that is nearest to <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />.
+</p><p>Angle <img src="//latex.artofproblemsolving.com/2/e/f/2efb588e6824eba80b684dcae7be752ebb72ad09.png" class="latex" alt="$E_1AC = E_1AD_1 + D_1AB + BAC = 60 + \theta + 60 = 120 + \theta$" style="vertical-align: -2px" width="464" height="15" />; by the Law of Cosines,
+<img src="//latex.artofproblemsolving.com/5/c/4/5c45b4ffdacd27fe86b46c9569477adff8103c16.png" class="latexcenter" alt="\begin{align*}(E_1C)^2 &amp;= (E_1A)^2 + (AC)^2 - 2 (E_1A) (E_1C)\cos(120 + \theta)\\ &amp;= 111 + 111 - 222\cos(120 + \theta)\end{align*}" width="435" height="44" />
+Angle <img src="//latex.artofproblemsolving.com/6/1/e/61e4cbd8a97e30c956f6d0e457596a20b0508e50.png" class="latex" alt="$E_2AC = \theta$" style="vertical-align: -2px" width="81" height="15" />; by the Law of Cosines,
+<img src="//latex.artofproblemsolving.com/b/5/9/b5984b13b270a5c3e8fb93a36849a29c2977aa97.png" class="latexcenter" alt="\begin{align*}(E_2C)^2 &amp;= (E_2A)^2 + (AC)^2 - 2 (E_2A) (E_2C)\cos\theta\\ &amp;= 111 + 111 - 222\,\cos\theta\end{align*}" width="375" height="41" />
+</p><p>There are two equilateral triangles with <img src="//latex.artofproblemsolving.com/d/c/6/dc677cbced6c1836a16e43139a263e48ce93a73b.png" class="latex" alt="$\overline{AD_2}$" style="vertical-align: -2px" width="36" height="18" /> as a side; let <img src="//latex.artofproblemsolving.com/1/6/5/165dd2fc3942a9bf6b44cfc4544eb8cfcad404ea.png" class="latex" alt="$E_3$" style="vertical-align: -2px" width="19" height="15" /> be the third vertex that is farthest from <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, and <img src="//latex.artofproblemsolving.com/1/a/9/1a97996c8e5e403ffb2c283c5963ffba0c0222f8.png" class="latex" alt="$E_4$" style="vertical-align: -2px" width="20" height="15" /> be the third vertex that is nearest to <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />.
+</p><p>Angle <img src="//latex.artofproblemsolving.com/0/1/e/01e59cdb677c533a88bbd6272549bcfd5671f0d8.png" class="latex" alt="$E_3AC = E_3AB + BAC = (60 - \theta) + 60 = 120 - \theta$" style="vertical-align: -4px" width="397" height="18" />; by the Law of Cosines,
+<img src="//latex.artofproblemsolving.com/7/1/5/71587f3dc22bbb45444282e3032773ed7d0e0daa.png" class="latexcenter" alt="\begin{align*}(E_3C)^2 &amp;= (E_3A)^2 + (AC)^2 - 2 (E_3A) (E_3C)\cos(120 - \theta)\\ &amp;= 111 + 111 - 222\cos(120 - \theta)\end{align*}" width="435" height="44" />
+Angle <img src="//latex.artofproblemsolving.com/6/c/d/6cdb9fb588bce6a39fb8e75af193494caed4fef6.png" class="latex" alt="$E_4AC = \theta$" style="vertical-align: -2px" width="81" height="15" />; by the Law of Cosines,
+<img src="//latex.artofproblemsolving.com/7/5/3/7537a24f8e7be12780461972f66b03ef11ee4576.png" class="latexcenter" alt="\begin{align*}(E_4C)^2 &amp;= (E_4A)^2 + (AC)^2 - 2 (E_4A) (E_4C)\cos\theta \\ &amp;= 111 + 111 - 222\cos\theta\end{align*}" width="375" height="41" />
+</p><p>The solution is:
+<img src="//latex.artofproblemsolving.com/5/3/f/53f0619821148dead5f9bebaecda42e162c7d912.png" class="latexcenter" alt="\begin{align*} \sum_{k=1}^4(CE_k)^2 &amp;= (E_1C)^2 + (E_3C)^2 + (E_2C)^2 + (E_4C)^2\\ &amp;= 222(1 - \cos(120 + \theta)) + 222(1 - \cos(120 - \theta)) + 222(1 - \cos\theta) + 222(1 - \cos\theta)\\ &amp;= 222((1 - (\cos120\cos\theta - \sin120\sin\theta)) + (1 - (\cos120\cos\theta + \sin120\sin\theta)) + 2(1 -\cos\theta))\\ &amp;= 222(1 - \cos120\cos\theta + \sin120\sin\theta + 1 - \cos120\cos\theta - \sin120\sin\theta + 2 - 2\cos\theta)\\ &amp;= 222(1 + \frac{1}{2}\cos\theta + 1 + \frac{1}{2}\cos\theta + 2 - 2\cos\theta)\\ &amp;= 222(4 - \cos\theta)\\ &amp;= 666 + 222(1 - \cos\theta) \end{align*}" width="814" height="221" />
+Substituting <img src="//latex.artofproblemsolving.com/c/6/8/c6878713578626763c38433b3f4c8c2205ad0c15.png" class="latex" alt="$11$" style="vertical-align: 0px" width="17" height="12" /> for <img src="//latex.artofproblemsolving.com/c/3/d/c3dd469b35bd691e21bc87f7b6eec19d72a9343a.png" class="latex" alt="$222(1 - \cos\theta)$" style="vertical-align: -4px" width="107" height="18" /> gives the solution <img src="//latex.artofproblemsolving.com/b/a/4/ba4dfdd7301a865e0f7500134728841346c42982.png" class="latex" alt="$666 + 11 = \framebox{677}.$" style="vertical-align: -5px" width="131" height="22" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>This problem is pretty much destroyed by complex plane geometry, which is similar to vector geometry only with the power of easy rotation.  Place the triangle in the complex plane by letting <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be the origin, placing <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> along the x-axis, and <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> in the first quadrant.  Let <img src="//latex.artofproblemsolving.com/d/3/a/d3a063ee2582b26f0bd53f8ef9dbd678ee778673.png" class="latex" alt="$r=\sqrt{111}$" style="vertical-align: -1px" width="75" height="18" />.  If <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> denotes the sixth root of unity, <img src="//latex.artofproblemsolving.com/4/7/0/470158e3fba4839531635bacf71ba06a6fc82909.png" class="latex" alt="$e^{i\pi/3}$" width="34" height="16" />, then we have <img src="//latex.artofproblemsolving.com/7/2/9/7296755ef63523ef0ed2e997caae100445bbb44d.png" class="latex" alt="$C=0$" width="47" height="12" />, <img src="//latex.artofproblemsolving.com/e/1/6/e1678c6330a19ae0832cbc6fa11f96ccf2f5f4c2.png" class="latex" alt="$B=r$" width="47" height="12" />, and <img src="//latex.artofproblemsolving.com/c/a/a/caac4a8173bc29e118b38ddc2ae516bc9b6b45c0.png" class="latex" alt="$A=r\omega.$" width="62" height="13" />  Recall that counter-clockwise rotation in the complex plane by an angle <img src="//latex.artofproblemsolving.com/5/2/e/52e8ed7a3ba22130ad3984eb2cd413406475a689.png" class="latex" alt="$\theta$" width="8" height="13" /> is accomplished by multiplication by <img src="//latex.artofproblemsolving.com/a/d/b/adbface70e88d8f27e470b539e462475fcff9281.png" class="latex" alt="$e^{i\theta}$" width="19" height="15" /> (and clockwise rotation is multiplication by its conjugate).  So, we can find <img src="//latex.artofproblemsolving.com/8/8/c/88c7f79185a0b48d33454e85f44b4bfdf81d2420.png" class="latex" alt="$D_1$" style="vertical-align: -2px" width="20" height="15" /> and <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" /> by rotating <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> around <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> by angles of <img src="//latex.artofproblemsolving.com/5/2/e/52e8ed7a3ba22130ad3984eb2cd413406475a689.png" class="latex" alt="$\theta$" width="8" height="13" /> and <img src="//latex.artofproblemsolving.com/4/f/f/4ff26b3f049a028b859d12e88fe32c789ce46683.png" class="latex" alt="$-\theta$" width="22" height="13" />, where <img src="//latex.artofproblemsolving.com/5/2/e/52e8ed7a3ba22130ad3984eb2cd413406475a689.png" class="latex" alt="$\theta$" width="8" height="13" /> is the apex angle in the isoceles triangle with sides <img src="//latex.artofproblemsolving.com/0/d/2/0d2aa7f9efac52eddf16f9c131991fc28b366737.png" class="latex" alt="$\sqrt{111}$" style="vertical-align: -1px" width="42" height="18" />, <img src="//latex.artofproblemsolving.com/0/d/2/0d2aa7f9efac52eddf16f9c131991fc28b366737.png" class="latex" alt="$\sqrt{111}$" style="vertical-align: -1px" width="42" height="18" />, and <img src="//latex.artofproblemsolving.com/0/4/0/040e0891016ffa86cb136e30e6dcc4796f3c34f2.png" class="latex" alt="$\sqrt{11}$" style="vertical-align: -1px" width="33" height="18" />.  That is, let <img src="//latex.artofproblemsolving.com/b/5/7/b57b52b6977d1ff88e153722beebcb1990305906.png" class="latex" alt="$z=e^{i\theta}$" width="52" height="15" />, and then:
+</p><p><img src="//latex.artofproblemsolving.com/6/2/2/622da097225811ec41049acd8c3518c70cf7800e.png" class="latex" alt="$D_1=A+z(B-A)$" style="vertical-align: -4px" width="155" height="18" />, and <img src="//latex.artofproblemsolving.com/f/3/7/f37dbce721176b165882a387a853ffc7c7fe1188.png" class="latex" alt="$D_2=A+\overline{z}(B-A)$" style="vertical-align: -4px" width="155" height="18" />.  Now notice that <img src="//latex.artofproblemsolving.com/5/6/9/569bf1bd7d4dc0f037c80673b1ae11759c278282.png" class="latex" alt="$B-A=\overline{A}$" width="89" height="15" />, so this simplifies further to:
+</p><p><img src="//latex.artofproblemsolving.com/2/8/c/28c6d84f2a241563b89c0ac675cf0da573c3ca81.png" class="latex" alt="$D_1=A+z\overline{A}$" style="vertical-align: -2px" width="106" height="18" />, and <img src="//latex.artofproblemsolving.com/4/a/c/4ac3778c26eb90dba63f67e88df98d287a5242fc.png" class="latex" alt="$D_2=A+\overline{z}\overline{A}$" style="vertical-align: -2px" width="106" height="18" />.  
+</p><p>Similarly, we can write <img src="//latex.artofproblemsolving.com/4/5/9/459b08d5235f417c69f0cc0c2d473a4739abdb1f.png" class="latex" alt="$E_1$" style="vertical-align: -2px" width="19" height="15" />, <img src="//latex.artofproblemsolving.com/f/2/6/f263b4685391e1f4f3ba204a355cc203a29a0653.png" class="latex" alt="$E_2$" style="vertical-align: -2px" width="19" height="15" />, <img src="//latex.artofproblemsolving.com/1/6/5/165dd2fc3942a9bf6b44cfc4544eb8cfcad404ea.png" class="latex" alt="$E_3$" style="vertical-align: -2px" width="19" height="15" />, and <img src="//latex.artofproblemsolving.com/1/a/9/1a97996c8e5e403ffb2c283c5963ffba0c0222f8.png" class="latex" alt="$E_4$" style="vertical-align: -2px" width="20" height="15" /> by rotating <img src="//latex.artofproblemsolving.com/8/8/c/88c7f79185a0b48d33454e85f44b4bfdf81d2420.png" class="latex" alt="$D_1$" style="vertical-align: -2px" width="20" height="15" /> and <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" /> around <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> by <img src="//latex.artofproblemsolving.com/3/1/2/31262ace015c77b727faaa3e6af9c497fd2eb40c.png" class="latex" alt="$\pm\pi/3$" style="vertical-align: -4px" width="42" height="18" />:
+</p><p><img src="//latex.artofproblemsolving.com/a/f/e/afe923926aec7237e156ef8f5d7c8e053cd32fc6.png" class="latex" alt="$E_1=A+\omega(D_1-A)$" style="vertical-align: -4px" width="163" height="18" />, <img src="//latex.artofproblemsolving.com/7/a/e/7ae6e3159a24c506020559008467d813f3e57c3a.png" class="latex" alt="$E_2=A+\overline{\omega}(D_1-A)$" style="vertical-align: -4px" width="163" height="18" />, <img src="//latex.artofproblemsolving.com/3/2/8/328c70fc26407c5aacb499c2e8bce5f23dd70783.png" class="latex" alt="$E_3=A+\omega(D_2-A)$" style="vertical-align: -4px" width="163" height="18" />, <img src="//latex.artofproblemsolving.com/2/3/5/2350a3dfb82aa25ec54ac8030d2ffc16d2108304.png" class="latex" alt="$E_4=A+\overline{\omega}(D_2-A)$" style="vertical-align: -4px" width="163" height="18" />.  Thus:
+</p><p><img src="//latex.artofproblemsolving.com/6/d/b/6db5082e93e17ec165cd4554c2f6e32714ef0a20.png" class="latex" alt="$E_1=A+\omega z \overline{A}$" style="vertical-align: -2px" width="116" height="18" />, <img src="//latex.artofproblemsolving.com/4/9/0/490d3ef724d9bee229cd02b381a590ff7abc4a14.png" class="latex" alt="$E_2=A+\overline{\omega} z \overline{A}$" style="vertical-align: -2px" width="116" height="18" />, <img src="//latex.artofproblemsolving.com/9/9/c/99cff97da77620650ecb44b8485fe7f51e30a717.png" class="latex" alt="$E_3=A+\omega\overline{z}\overline{A}$" style="vertical-align: -2px" width="116" height="18" />, <img src="//latex.artofproblemsolving.com/3/6/a/36a091d6b9c238f8150b51bcded61546d938e352.png" class="latex" alt="$E_4=A+\overline{\omega}\overline{z}\overline{A}$" style="vertical-align: -2px" width="116" height="18" />.
+</p><p>Now to find some magnitudes, which is easy since we chose <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> as the origin:
+</p><p><img src="//latex.artofproblemsolving.com/3/2/2/322d4e51f0774b608452d6184ee61d70a6eaef83.png" class="latex" alt="$\|E_1\|^2=(A+\omega z \overline{A})(\overline{A}+\overline{\omega z}A)=2\|A\|^2+\omega z \overline{A}^2 + \overline{\omega}\overline{z}A^2$" style="vertical-align: -5px" width="440" height="24" />,
+</p><p><img src="//latex.artofproblemsolving.com/1/d/c/1dcdcf2eb22552bdbb46699ea21ec1b0a19f75ed.png" class="latex" alt="$\|E_2\|^2=(A+\overline{\omega} z \overline{A})(\overline{A}+\omega \overline{z}A)=2\|A\|^2+\overline{\omega} z \overline{A}^2 + \omega\overline{z}A^2$" style="vertical-align: -5px" width="440" height="24" />,
+</p><p><img src="//latex.artofproblemsolving.com/e/b/6/eb66ed014b2b773dce116ee9dc76556ab904cad1.png" class="latex" alt="$\|E_3\|^2=(A+\omega \overline{z} \overline{A})(\overline{A}+\overline{\omega} z A)=2\|A\|^2+\omega \overline{z} \overline{A}^2 + \overline{\omega}zA^2$" style="vertical-align: -5px" width="440" height="24" />,
+</p><p><img src="//latex.artofproblemsolving.com/b/8/5/b85f01bb02b1033bc6ee5d167d7799129381361a.png" class="latex" alt="$\|E_4\|^2=(A+\overline{\omega z} \overline{A})(\overline{A}+\omega zA)=2\|A\|^2+\overline{\omega z} \overline{A}^2 + \omega zA^2$" style="vertical-align: -5px" width="440" height="24" />.
+</p><p>Adding these up, the sum equals <img src="//latex.artofproblemsolving.com/6/7/e/67e5302651253b5bd4a0167f0a4c9e6e00a1f1cf.png" class="latex" alt="$8\|A\|^2+(\overline{A}^2+A^2)(\omega z + \omega \overline{z} + \overline{\omega}z + \overline{\omega}\overline{z}) = 8\|A\|^2+(\overline{A}^2+A^2)(z + \overline{z})( \omega+ \overline{\omega})$" style="vertical-align: -5px" width="602" height="24" />.  
+</p><p>(Isn't that nice?)  Notice that <img src="//latex.artofproblemsolving.com/6/2/0/620ddc900add973a623bfc2ea2451f8d237cda48.png" class="latex" alt="$\overline{A}^2+A^2 = r^2(\overline{\omega}^2+\omega^2) = -r^2$" style="vertical-align: -4px" width="233" height="24" />, and <img src="//latex.artofproblemsolving.com/1/f/2/1f2ed12e213fe7b3c0ffff07f62b27739ea5eb56.png" class="latex" alt="$\omega+ \overline{\omega}=1$" style="vertical-align: -1px" width="78" height="13" />, so that this sum simplifies further to <img src="//latex.artofproblemsolving.com/9/5/7/95743badd87698d253ecab0612867c8a3dc6e260.png" class="latex" alt="$888-111(z + \overline{z})$" style="vertical-align: -4px" width="130" height="18" />.  
+</p><p>Finally, <img src="//latex.artofproblemsolving.com/0/5/3/0530909ae27869b6eed92b616d69bc1ac789212f.png" class="latex" alt="$z + \overline{z} = 2\cos{\theta}$" style="vertical-align: -1px" width="113" height="14" />, which is found using the law of cosines on that isoceles triangle: <img src="//latex.artofproblemsolving.com/1/8/d/18d138adc2296385c3c00a5ba8576d0d10ced785.png" class="latex" alt="$11=111+111-222\cos{\theta}$" style="vertical-align: -1px" width="207" height="14" />, so <img src="//latex.artofproblemsolving.com/8/5/3/853141c5aeb394f4d9337b99f8183a075e24c43d.png" class="latex" alt="$2\cos{\theta}=211/111$" style="vertical-align: -4px" width="135" height="18" />.
+</p><p>Thus, the sum equals <img src="//latex.artofproblemsolving.com/b/5/8/b587d18d2eb961bce8a52b2e232f5d63282bc32d.png" class="latex" alt="$888-211=\framebox{677}$" style="vertical-align: -5px" width="137" height="22" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>This method uses complex numbers with <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> as the origin. Let <img src="//latex.artofproblemsolving.com/9/f/4/9f44a5278f9f07028b5386312e86885738ffec92.png" class="latex" alt="$A=0$" width="46" height="13" />, <img src="//latex.artofproblemsolving.com/f/c/8/fc83540a957b2b294833dbbeecf7d9dc23147d0a.png" class="latex" alt="$B=\sqrt{111}$" style="vertical-align: -1px" width="81" height="18" />, <img src="//latex.artofproblemsolving.com/e/4/1/e41697aeb93ff432e2fa1a1b42e99847d63daa2c.png" class="latex" alt="$C = \sqrt{111}\theta$" style="vertical-align: -1px" width="89" height="18" />, where <img src="//latex.artofproblemsolving.com/f/9/c/f9c8f6390febeff107e4f05b419771c003ca9d0a.png" class="latex" alt="$\theta = e^{i \pi/3} = \frac{1}{2} + \frac{\sqrt{3}}{2}i$" style="vertical-align: -12px" width="162" height="41" />.
+</p><p>Also, let <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> be <img src="//latex.artofproblemsolving.com/8/8/c/88c7f79185a0b48d33454e85f44b4bfdf81d2420.png" class="latex" alt="$D_1$" style="vertical-align: -2px" width="20" height="15" /> or <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" />. Then
+</p><p><img src="//latex.artofproblemsolving.com/9/9/4/994ebff3723a34e0c0aa3081ce2917385a5074ae.png" class="latex" alt="$|x|=\sqrt{111}, |x-\sqrt{111}|=\sqrt{11}$" style="vertical-align: -4px" width="238" height="21" />
+</p><p>Therefore, <img src="//latex.artofproblemsolving.com/8/7/f/87f05573269a4435f08a9be8e11f3a6855c22a21.png" class="latex" alt="$11 = |x-\sqrt{111}|^2 = |x|^2 + 111 -2\sqrt{111}Re(x) = 222 - 2\sqrt{111}Re(x)$" style="vertical-align: -4px" width="528" height="21" />, so
+</p><p><img src="//latex.artofproblemsolving.com/3/2/3/323579c671f88c5aba3851220719869b6b747b6a.png" class="latexcenter" alt="\[2\sqrt{111}Re(x) = 211.\]" width="152" height="21" />
+</p><p>Since <img src="//latex.artofproblemsolving.com/4/5/9/459b08d5235f417c69f0cc0c2d473a4739abdb1f.png" class="latex" alt="$E_1$" style="vertical-align: -2px" width="19" height="15" />, <img src="//latex.artofproblemsolving.com/f/2/6/f263b4685391e1f4f3ba204a355cc203a29a0653.png" class="latex" alt="$E_2$" style="vertical-align: -2px" width="19" height="15" /> are one of <img src="//latex.artofproblemsolving.com/3/8/3/3833b54709e8599fc41d3a79a007a3ed6213668f.png" class="latex" alt="$D_1\theta$" style="vertical-align: -2px" width="31" height="15" /> or <img src="//latex.artofproblemsolving.com/e/a/a/eaa0b3458ba74b8efd9652d6cccf65c28cdaa318.png" class="latex" alt="$D_1\theta^{-1}$" style="vertical-align: -2px" width="47" height="17" />, without loss of generality, let <img src="//latex.artofproblemsolving.com/8/9/c/89c3657e9539d2e274855885fac507363f0b5ac6.png" class="latex" alt="$E_1=D_1\theta$" style="vertical-align: -2px" width="76" height="15" /> and <img src="//latex.artofproblemsolving.com/1/c/d/1cdd535292ef6f72efa0e19ee63b6c27dca4f4c3.png" class="latex" alt="$E_2 = D_1\theta^{-1}$" style="vertical-align: -2px" width="92" height="17" />. Then
+</p><p><img src="//latex.artofproblemsolving.com/e/a/4/ea4055fd40720fc312b5249764efbc32abac55e5.png" class="latexcenter" alt="\[|CE_1|^2 = |\sqrt{111}-D_1|^2 = |\sqrt{111}-x|^2=11\]" width="337" height="21" />
+<img src="//latex.artofproblemsolving.com/7/1/c/71c4bd0ac10338c2785c958ad32526caa7a09e70.png" class="latexcenter" alt="\[|CE_2|^2 = |\theta^2 \sqrt{111} - D_1|^2 = 222-2\sqrt{111} Re(D_1 \theta^2)\]" width="395" height="21" />
+</p><p>One can similarly get <img src="//latex.artofproblemsolving.com/7/2/1/72123d1acd1e68da42ea99c410494b08a714faa9.png" class="latex" alt="$|CE_3|=11$" style="vertical-align: -4px" width="86" height="18" /> and <img src="//latex.artofproblemsolving.com/8/6/a/86aecc224b57e4f65554135d512cd5073e5fde55.png" class="latex" alt="$|CE_4|=222-2\sqrt{111} Re(D_2 \theta^2)$" style="vertical-align: -4px" width="244" height="21" />, so the desired sum is equal to
+</p><p><img src="//latex.artofproblemsolving.com/4/d/9/4d967bbc87bb718fbd87ff8a63b0435f83273429.png" class="latexcenter" alt="\[22+444-2\sqrt{111}(Re(D_1 \theta^2)+Re(D_1 \theta^2))\]" width="326" height="21" />
+</p><p>Note that <img src="//latex.artofproblemsolving.com/d/3/1/d31a8fb1282e7e7ba692bec08c7efeee0716b9e5.png" class="latex" alt="$Re(D_{1,2} \theta^2) = Re((Re(x) \pm Im(x)i)(-1/2 + \sqrt{3}/2i)) = - (Re(x)/2 \pm Im(x)\sqrt{3}/2)$" style="vertical-align: -4px" width="643" height="21" />, so the sum of these two is just <img src="//latex.artofproblemsolving.com/a/3/c/a3cdc05cdfa4ce3689f748e5b0cbc4744c932e83.png" class="latex" alt="$-Re(x)$" style="vertical-align: -4px" width="59" height="18" />. Therefore the desired sum is equal to 
+</p><p><img src="//latex.artofproblemsolving.com/6/8/d/68d789d5bc77d7c810de1cb7c06839fa1b89dd3a.png" class="latexcenter" alt="\[22+444+2\sqrt{111}Re(x) = 22+444+211 = \framebox{677}.\]" width="393" height="22" />
+</p>
+<h2><span class="mw-headline" id="Solution_4">Solution 4</span></h2>
+<p>This method uses the observation that every point is equidistant from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. Without loss of generality, we can assume <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> is on the same side of <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> as <img src="//latex.artofproblemsolving.com/8/8/c/88c7f79185a0b48d33454e85f44b4bfdf81d2420.png" class="latex" alt="$D_1$" style="vertical-align: -2px" width="20" height="15" />.
+</p><p>We can start off by angle chasing the angles around <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. We let <img src="//latex.artofproblemsolving.com/f/4/c/f4c0226006eae38fb560486279622726a44f8116.png" class="latex" alt="$\angle BAD_1 = \alpha$" style="vertical-align: -2px" width="99" height="15" />. Then, we note that <img src="//latex.artofproblemsolving.com/0/d/c/0dc7f1216d890566d0afe6912be4c5a990acac5e.png" class="latex" alt="$BD_1 = BD_2$" style="vertical-align: -2px" width="97" height="15" /> and <img src="//latex.artofproblemsolving.com/a/d/2/ad2a7582ff10fa986f759e4260fa4759c9ad583b.png" class="latex" alt="$AD_1 = AB = AD_2$" style="vertical-align: -2px" width="147" height="15" />. Thus, <img src="//latex.artofproblemsolving.com/b/5/a/b5ab096644928a8051052fda562e11a440b58702.png" class="latex" alt="$\bigtriangleup ABD_1 \cong \bigtriangleup ABD_2$" style="vertical-align: -2px" width="156" height="16" />. Thus, <img src="//latex.artofproblemsolving.com/5/c/b/5cbf9290a6fd6202a567ec774dcf5e1ff94a633b.png" class="latex" alt="$\angle BAD_2 = \alpha$" style="vertical-align: -2px" width="99" height="15" /> also.
+</p><p>We can now angle chase the angles about <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. Because <img src="//latex.artofproblemsolving.com/8/4/c/84c2163dce7355f39133d99f3ceb513e2764f0b8.png" class="latex" alt="$\angle D_2AE_3 = 60$" style="vertical-align: -2px" width="111" height="15" />, <img src="//latex.artofproblemsolving.com/d/0/b/d0ba1210d4a796a1ba2b60f97dca678f02a35ac9.png" class="latex" alt="$\angle D_1AE_3 = 60- 2 \alpha$" style="vertical-align: -2px" width="154" height="15" />. We can use all the congruent equilateral triangles in a similar manner obtaining:
+<img src="//latex.artofproblemsolving.com/a/5/3/a536206590039b982cb4651540f4a0a59bf42183.png" class="latexcenter" alt="\[\angle D_1AE_3 = 60- 2 \alpha\]" width="154" height="16" />
+<img src="//latex.artofproblemsolving.com/5/e/6/5e6ad2fff1d6a686e568cfd1613079a41aa25e3d.png" class="latexcenter" alt="\[\angle E_3AC = \alpha\]" width="96" height="16" />
+<img src="//latex.artofproblemsolving.com/1/1/7/1177b2ace7305e8484ad924f5e627d62136bd8bc.png" class="latexcenter" alt="\[\angle CAE_1 = \alpha\]" width="96" height="16" />
+<img src="//latex.artofproblemsolving.com/2/6/0/26043f8252fb5a8c004c392171d101d8a9b7c422.png" class="latexcenter" alt="\[\angle D_2AE_2 = 60- 2 \alpha\]" width="154" height="16" />
+<img src="//latex.artofproblemsolving.com/e/f/6/ef6eacda58f7edbd832b396c945a269d54a808d2.png" class="latexcenter" alt="\[\angle E_2AE_4 = 2 \alpha\]" width="112" height="16" />
+</p><p>Now, <img src="//latex.artofproblemsolving.com/f/2/1/f216a2a86c97d82801753921c1331399678852e2.png" class="latex" alt="$AE_3 = AC = \sqrt{111}$" style="vertical-align: -2px" width="153" height="19" /> and <img src="//latex.artofproblemsolving.com/a/4/e/a4e4a1986210382536ca16ee24f0b97f0f3d6e53.png" class="latex" alt="$\angle E_3AC = \alpha$" style="vertical-align: -2px" width="97" height="15" />. Thus, <img src="//latex.artofproblemsolving.com/2/7/9/2795957e9860315959e0a798327592f725c97da6.png" class="latex" alt="$\bigtriangleup E_3AC \cong \bigtriangleup BAD_1$" style="vertical-align: -2px" width="154" height="16" />. Thus, <img src="//latex.artofproblemsolving.com/1/3/d/13d472c9be6fc2004f04e225bdf03fe0488b78b6.png" class="latex" alt="$CE_3^2 = BD_1^2 = 11$" style="vertical-align: -4px" width="139" height="19" />.
+</p><p>Similarly, <img src="//latex.artofproblemsolving.com/6/e/e/6eec0d5df4906d280e9677bacdfae623cc43cbed.png" class="latex" alt="$AC = AE_1 = \sqrt{111}$" style="vertical-align: -2px" width="153" height="19" /> and <img src="//latex.artofproblemsolving.com/a/0/d/a0db36ff18423a8c58987e09f3c9d95df1c0149a.png" class="latex" alt="$\angle CAE_1 = \alpha$" style="vertical-align: -2px" width="97" height="15" />. Thus, <img src="//latex.artofproblemsolving.com/5/d/a/5da5b1f116ff04856c359a4887899d60fe22450e.png" class="latex" alt="$\bigtriangleup CAE_1 \cong \bigtriangleup BAD_1$" style="vertical-align: -2px" width="154" height="16" />. Thus, <img src="//latex.artofproblemsolving.com/d/e/6/de60df2f065a355fb8f8920ac6a5f38cd9ef31a2.png" class="latex" alt="$CE_1^2 = BD_1^2 = 11$" style="vertical-align: -4px" width="139" height="19" />.
+</p><p>We can use <img src="//latex.artofproblemsolving.com/c/9/5/c951ea8cc26b1fdf0c444d093b5c4bf4967ff222.png" class="latex" alt="$\bigtriangleup CAE_2$" style="vertical-align: -2px" width="63" height="16" /> to find <img src="//latex.artofproblemsolving.com/1/d/0/1d0edef7fe70f0e6c35c631141ea70c6c1ee004e.png" class="latex" alt="$CE_2^2$" style="vertical-align: -4px" width="35" height="19" />. Law of Cosines yields
+<img src="//latex.artofproblemsolving.com/6/6/3/6637edb6d60661d989bd2921bf1c5cb956bbf12e.png" class="latexcenter" alt="\[CE_2^2 = AE_2^2 + AC^2 - 2 \cdot AE_2 \cdot AC \cdot \cos(\angle E_2AC).\]" width="390" height="19" />
+Substituting the known lengths and angles gives
+<img src="//latex.artofproblemsolving.com/6/6/f/66f04d4fdc76089213543db1f305fddf476dc06a.png" class="latexcenter" alt="\[CE_2^2 = 222 - 222 \cdot \cos(120- \alpha).\]" width="253" height="19" />
+Expanding this with the Cosine Subtraction Identity we get
+<img src="//latex.artofproblemsolving.com/9/0/6/906616318f4605a5f081440a383fcb310909c402.png" class="latexcenter" alt="\[CE_2^2 = 222 - 222(\cos120 \cos \alpha + \sin120 \sin \alpha).\]" width="366" height="19" />
+</p><p>We could attempt to calculate this but we can clear it up by simultaneously finding <img src="//latex.artofproblemsolving.com/2/0/8/208d0718c8a736dca3ab69178df96036601d1b07.png" class="latex" alt="$CE_4^2$" style="vertical-align: -4px" width="35" height="19" /> too.
+We use Law of Cosines on <img src="//latex.artofproblemsolving.com/5/7/3/5734a00b671123e110c826ae7d011e51fb6cc6ea.png" class="latex" alt="$\bigtriangleup CAE_4$" style="vertical-align: -2px" width="64" height="16" /> to get
+<img src="//latex.artofproblemsolving.com/8/f/3/8f30445b8d7bb5638f0f887771b0689d580bf5cb.png" class="latexcenter" alt="\[CE_4^2 = AE_4^2 + AC^2 - 2 \cdot AE_4 \cdot AC \cdot \cos(\angle E_4AC).\]" width="390" height="19" />
+Substituting the known lengths and angles gives
+<img src="//latex.artofproblemsolving.com/c/6/8/c687b5f8481e70494d5da948a39d9ba8f1737c2a.png" class="latexcenter" alt="\[CE_4^2 = 222 - 222 \cdot \cos(120 + \alpha).\]" width="253" height="19" />
+Expanding this with the Cosine Addition Identity we get
+<img src="//latex.artofproblemsolving.com/2/f/3/2f32bf795a53b778d691359390a987ebe8f73bbd.png" class="latexcenter" alt="\[CE_4^2 = 222 - 222(\cos120 \cos \alpha - \sin120 \sin \alpha).\]" width="366" height="19" />
+Adding this to our equation for <img src="//latex.artofproblemsolving.com/1/d/0/1d0edef7fe70f0e6c35c631141ea70c6c1ee004e.png" class="latex" alt="$CE_2^2$" style="vertical-align: -4px" width="35" height="19" />, we get
+<img src="//latex.artofproblemsolving.com/f/5/4/f54c8f29e5cd1f149694b1c5567d1fb56b9ae28b.png" class="latexcenter" alt="\[CE_2^2 + CE_4^2 = 444 - 222(\cos120 \cos \alpha - \sin120 \sin \alpha) - 222(\cos120 \cos \alpha + \sin120 \sin \alpha).\]" width="659" height="19" />
+Simplifying we get
+<img src="//latex.artofproblemsolving.com/c/d/e/cded84bffdc84c5edc6781a328f2509136983aa4.png" class="latexcenter" alt="\[CE_2^2 + CE_4^2 = 444 - 444(\cos120 \cos \alpha)\]" width="304" height="19" />
+</p><p>We can find <img src="//latex.artofproblemsolving.com/0/d/e/0de8ac3aa0141ebb385492cbbe6f978f6c73b655.png" class="latex" alt="$\cos \alpha$" width="38" height="8" /> by using Law of Cosines on <img src="//latex.artofproblemsolving.com/7/2/e/72e082774d86fd04d9d76e5565e5cb4bfd7873fe.png" class="latex" alt="$\bigtriangleup BAD_1$" style="vertical-align: -2px" width="65" height="16" />. This gives
+<img src="//latex.artofproblemsolving.com/3/2/6/3265956988b147c951a4e332fec3ef878bc4d1e5.png" class="latexcenter" alt="\[11 = 222 - 222 \cos \alpha.\]" width="163" height="12" />
+Thus <img src="//latex.artofproblemsolving.com/c/b/9/cb95b56eb18a5ae60b343d913fea44916c9f1771.png" class="latex" alt="$\cos \alpha = \frac{211}{222}$" style="vertical-align: -12px" width="93" height="37" />.
+Substituting it in gives
+<img src="//latex.artofproblemsolving.com/b/0/9/b09d6385c5f44cd775b15b7477198c9183d51edd.png" class="latexcenter" alt="\[CE_2^2 + CE_4^2 = 444 - 444(\cos120 \cdot \frac{211}{222}).\]" width="312" height="37" />
+Thus
+<img src="//latex.artofproblemsolving.com/4/9/6/4962a7e10c66293a386374908dbaa8df02b68de1.png" class="latexcenter" alt="\[CE_2^2 + CE_4^2 = 444 + 211 = 655.\]" width="249" height="19" />
+</p><p>Therefore the desired sum is equal to 
+</p><p><img src="//latex.artofproblemsolving.com/9/8/2/982c67be14232075cd4ed7e6faf6bc63cca5bc1c.png" class="latexcenter" alt="\[11+11+655 = \framebox{677}.\]" width="170" height="22" />
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p><a href="/wiki/index.php/File:Screen_Shot_2020-02-17_at_2.24.50_PM.png" class="image"><img alt="Screen Shot 2020-02-17 at 2.24.50 PM.png" src="https://wiki-images.artofproblemsolving.com//thumb/9/9c/Screen_Shot_2020-02-17_at_2.24.50_PM.png/500px-Screen_Shot_2020-02-17_at_2.24.50_PM.png" width="500" height="333" srcset="https://wiki-images.artofproblemsolving.com//9/9c/Screen_Shot_2020-02-17_at_2.24.50_PM.png 1.5x" /></a>
+</p><p>We create a diagram. Each of the red quadrilaterals are actually 60 degree rotations about point A. We easily get that <img src="//latex.artofproblemsolving.com/8/9/1/8914b3cfd3741b4a82b8d16b68d838521b0e1e5d.png" class="latex" alt="$\overline{C E_1} = \sqrt{11}$" style="vertical-align: -2px" width="93" height="19" />, and <img src="//latex.artofproblemsolving.com/4/3/9/4393a8b1fd2583741fa511ebad74796201e71d8e.png" class="latex" alt="$\overline{C E_3} = \sqrt{11}$" style="vertical-align: -2px" width="93" height="19" />. If we set <img src="//latex.artofproblemsolving.com/3/0/a/30a95f15345599e032b3ee663b8f92e720f9d6dd.png" class="latex" alt="$\angle B A D_2 = \theta$" style="vertical-align: -2px" width="96" height="15" />, we can start angle chasing. In particular, we will like to find <img src="//latex.artofproblemsolving.com/7/a/8/7a8a1b04bbc4cb178bb9f13105acce6abeeb4e62.png" class="latex" alt="$\angle D E_4 C$" style="vertical-align: -2px" width="63" height="15" />, and <img src="//latex.artofproblemsolving.com/6/7/e/67e47ad7cd73a1bab65e35736d3fbc7b3cfc7352.png" class="latex" alt="$\angle D E_2 C$" style="vertical-align: -2px" width="63" height="15" />, since then we will be able to set up some Law Of Cosines. <img src="//latex.artofproblemsolving.com/a/d/1/ad14d88d2c2b2b7155368cd3d98568194231eb6d.png" class="latex" alt="$\angle D E_4 C = \angle D E_4 A + \angle A E_4 C = 90 - \frac{\theta}{2} + 30 + \frac{\theta}{2} = 120^{\circ}$" style="vertical-align: -12px" width="445" height="38" /> That was convenient! We can do it with the other angle as well. <img src="//latex.artofproblemsolving.com/1/0/3/10300cd8de913fd42a5d444f6d851c0118ad8c42.png" class="latex" alt="$\angle D E_2 C = \angle D E_2 A - \angle C E_2 A = 90 - \frac{\theta}{2} - (30 - \frac{\theta}{2}) = 60^{\circ}$" style="vertical-align: -12px" width="450" height="38" />. That means we are able to set up Law of Cosines, on triangles <img src="//latex.artofproblemsolving.com/9/3/0/930cc8bc5aa1ad0f14ae7062b5b81ca8a17410e6.png" class="latex" alt="$\triangle D E_4 C$" style="vertical-align: -2px" width="66" height="16" /> and <img src="//latex.artofproblemsolving.com/0/7/8/078d820cb86d875a03ba5289a2dfaa4e1edf0cc9.png" class="latex" alt="$\triangle D E_2 C$" style="vertical-align: -2px" width="66" height="16" />, with some really convenient angles.
+Let <img src="//latex.artofproblemsolving.com/7/5/4/754bfd87888f7a5edbf8953333a94adbb132de3d.png" class="latex" alt="$CE_2 = x$" style="vertical-align: -2px" width="69" height="15" />, and <img src="//latex.artofproblemsolving.com/b/3/a/b3af0cbd001617465b2d2f74c1e7f809b8090cff.png" class="latex" alt="$CE_4 = y$" style="vertical-align: -3px" width="68" height="16" />.
+<img src="//latex.artofproblemsolving.com/b/2/e/b2eeaa95c8802bc5a2aef2d123d92ee7d394faf6.png" class="latexcenter" alt="\[333 = 11 + x^2 - \sqrt{11} x\]" width="175" height="18" />
+<img src="//latex.artofproblemsolving.com/e/5/3/e53042553215f03ee6275852ea6f7cf58ae819a1.png" class="latexcenter" alt="\[333 = 11 + y^2 + \sqrt{11} y\]" width="173" height="20" />
+We subtract and get:
+<img src="//latex.artofproblemsolving.com/0/5/7/057bbf1bd0b8a4e1828c78147045925999a08ab4.png" class="latexcenter" alt="\[0 = (x+y)(x-y-\sqrt{11})\]" width="199" height="21" /> 
+x+y obviously can't be 0, so <img src="//latex.artofproblemsolving.com/7/b/9/7b9eca3f97c6965f717737c39a6a50f9ab879dea.png" class="latex" alt="$x-y = \sqrt{11}$" style="vertical-align: -3px" width="100" height="20" />
+We add and get:
+<img src="//latex.artofproblemsolving.com/a/7/d/a7d92ada331701accb8b780a15e14eee2c9b6565.png" class="latexcenter" alt="\[666 = 22 + x^2 + y^2 + \sqrt{11} (y-x)\]" width="259" height="21" />. 
+<img src="//latex.artofproblemsolving.com/0/e/1/0e10065c9754fca1019f18b08c2ce92cf43f125e.png" class="latex" alt="$y-x = -\sqrt{11}$" style="vertical-align: -3px" width="114" height="20" />. Thus, we can fill in and solve.
+<img src="//latex.artofproblemsolving.com/8/4/e/84e9d0284804c7785c0b085e57acbc3efb5d4609.png" class="latexcenter" alt="\[666 = 22 + x^2 + y^2 - 11\]" width="188" height="18" />
+<img src="//latex.artofproblemsolving.com/6/f/f/6ff7d75c2473644b452fc1ceef7c47c85a6ac720.png" class="latexcenter" alt="\[655 = x^2 + y^2\]" width="107" height="18" />
+Thus our answer is <img src="//latex.artofproblemsolving.com/3/b/4/3b469dfb722ff2e2a951e4c23660ce1b24d8a440.png" class="latex" alt="$C E_1^2 + C E_2^2 + C E_2^2 + C E_4^2 = 11 + 11 + C E_2^2 + C E_4^2 = 11 + 11 + x^2 + y^2 = 11 + 11 + 655 = \boxed{677}$" style="vertical-align: -5px" width="769" height="23" />.
+</p><p>-Alexlikemath
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2012_AIME_II" title="2012 AIME II">2012 AIME II</a></b> (<b><a href="/wiki/index.php/2012_AIME_II_Problems" title="2012 AIME II Problems">Problems</a></b> • <b><a href="/wiki/index.php/2012_AIME_II_Answer_Key" title="2012 AIME II Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=45&amp;year=2012">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2012_AIME_II_Problems/Problem_12" title="2012 AIME II Problems/Problem 12">Problem 12</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2012_AIME_II_Problems/Problem_14" title="2012 AIME II Problems/Problem 14">Problem 14</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2012_AIME_II_Problems/Problem_1" title="2012 AIME II Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_2" title="2012 AIME II Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_3" title="2012 AIME II Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_4" title="2012 AIME II Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_5" title="2012 AIME II Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_6" title="2012 AIME II Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_7" title="2012 AIME II Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_8" title="2012 AIME II Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_9" title="2012 AIME II Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_10" title="2012 AIME II Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_11" title="2012 AIME II Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_12" title="2012 AIME II Problems/Problem 12">12</a> <b>•</b> <a class="mw-selflink selflink">13</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_14" title="2012 AIME II Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2012_AIME_II_Problems/Problem_15" title="2012 AIME II Problems/Problem 15">15</a>
+</td></tr>
+<tr>
+<td align="center" colspan="3"><b><a href="/wiki/index.php/AIME_Problems_and_Solutions" title="AIME Problems and Solutions"> All AIME Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200809171157
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.156 seconds
+Real time usage: 0.162 seconds
+Preprocessor visited node count: 1872/1000000
+Preprocessor generated node count: 4402/1000000
+Post‐expand include size: 1699/2097152 bytes
+Template argument size: 132/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 37717/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.229      1 -total
+ 70.02%    5.062      1 Template:AIME_box
+ 24.33%    1.759      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:10910-0!canonical and timestamp 20200809171157 and revision id 131235
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2012_AIME_II_Problems/Problem_13&amp;oldid=131235">https://artofproblemsolving.com/wiki/index.php?title=2012_AIME_II_Problems/Problem_13&amp;oldid=131235</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Geometry_Problems" title="Category:Intermediate Geometry Problems">Intermediate Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200810040837 -->
+</html>

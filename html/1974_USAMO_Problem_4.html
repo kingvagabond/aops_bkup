@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>1974 USAMO Problems/Problem 4 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"1974_USAMO_Problems/Problem_4","wgTitle":"1974 USAMO Problems/Problem 4","wgCurRevisionId":94425,"wgRevisionId":94425,"wgArticleId":7531,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Olympiad Combinatorics Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"1974_USAMO_Problems/Problem_4","wgRelevantArticleId":7531,"wgRequestId":"62a0d19fde04e24792c2b1d6","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-1974_USAMO_Problems_Problem_4 rootpage-1974_USAMO_Problems_Problem_4 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	1974 USAMO Problems/Problem 4																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/1974_USAMO_Problems/Problem_4" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:1974_USAMO_Problems/Problem_4&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=1974_USAMO_Problems/Problem_4&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=1974_USAMO_Problems/Problem_4&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1974_USAMO_Problems/Problem_4" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">1974 USAMO Problems/Problem 4</h1>
+
+
+			<div class="mw-body">
+
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
+<p>A father, mother and son hold a family tournament, playing a two person board game with no ties. The tournament rules are:
+</p><p>(i) The weakest player chooses the first two contestants.
+</p><p>(ii) The winner of any game plays the next game against the person left out.
+</p><p>(iii) The first person to win two games wins the tournament.
+</p><p>The father is the weakest player, the son the strongest, and it is assumed that any player's probability of winning an individual game from another player does not change during the tournament. Prove that the father's optimal strategy for winning the tournament is to play the first game with his wife.
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<p>There are three possible strategies for the father:
+</p><p>1)  Sit out the first game
+</p><p>2)  Play the first game against the weaker of the other two players (the mother).  This person is referred to throughout the solution as "the weaker player".
+</p><p>3)  Play the first game against the stronger of the other two players (the son).  This person is referred to throughout the solution as "the stronger player".
+</p><p><br />
+Strategy 1 is dominated by both strategy 2 and strategy 3.  If strategy 1 is used and the weaker player wins the first game, it becomes strategy 2, but with the father starting behind 0-1.  Likewise, if strategy 1 is used and the stronger player wins the first game, it becomes strategy 3, but with the father again starting behind 0-1.
+</p><p><br />
+Thus, the father must play the first game.
+</p><p><br />
+By the pigeonhole principle, there may be no more than 4 games; once the 4th game is finished, someone will have won two games.  Let <img src="https://latex.artofproblemsolving.com/1/0/c/10cb764f88509fb1c8012366993fdbee98f31bc5.png" class="latex" alt="$W$" width="19" height="12" /> denote a game the father wins, let <img src="https://latex.artofproblemsolving.com/8/5/9/859ccf4cd60c7bc6b8fa1afc9a42dc811a826d6f.png" class="latex" alt="$L$" width="12" height="12" /> denote a game the father loses, and let <img src="https://latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> denote a game the father does not participate in.  Then, with the knowledge that the father plays the first game, the following ways for the father to win two games are possible:
+</p><p>(A)  <img src="https://latex.artofproblemsolving.com/5/9/e/59e9de4daad35eb3d95fa7eecdc7807dc411e7fa.png" class="latex" alt="$WW$" width="39" height="12" />
+</p><p>(B)  <img src="https://latex.artofproblemsolving.com/7/2/a/72ab632b3d928bb8c1a32b0687cc36aa58b63aa5.png" class="latex" alt="$WLxW$" width="62" height="12" />
+</p><p>(C)  <img src="https://latex.artofproblemsolving.com/a/1/0/a109dd8ce325f95851676cfcbc7736449ec36889.png" class="latex" alt="$LxWW$" width="62" height="12" />
+</p><p>If the father wins the first game, then he must either win the second game (A), or sit out the third game to win the fourth game (B).
+If the father loses the first game, then he must sit out the second game and win the third and fourth games (C).
+</p><p>Now we must determine which gives the largest probability of the father winning: playing the first game against the weaker player or the stronger player.  We define the following probabilities:
+</p><p><img src="https://latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> is the chance of the father defeating the weaker player.  <img src="https://latex.artofproblemsolving.com/e/b/e/ebe4bf9c2b96ee54aa7d3e792caf208b6619a5fd.png" class="latex" alt="$(1-x)$" style="vertical-align: -4px" width="54" height="18" /> is the chance of the weaker player defeating the father.
+</p><p><img src="https://latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is the chance of the father defeating the stronger player.  <img src="https://latex.artofproblemsolving.com/d/f/5/df50044a9664aa825a551d8b4cbf49d89fff0004.png" class="latex" alt="$(1-y)$" style="vertical-align: -4px" width="53" height="18" /> is the chance of the stronger player defeating the father.
+</p><p><img src="https://latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> is the chance of the weaker player defeating the stronger player.  <img src="https://latex.artofproblemsolving.com/b/d/2/bd2e06b82b1b2479bbb51d901ee4124a5742c24c.png" class="latex" alt="$(1-z)$" style="vertical-align: -4px" width="53" height="18" /> is the chance of the stronger player defeating the weaker player.
+</p><p>Note that <img src="https://latex.artofproblemsolving.com/a/b/7/ab7da572d60053bdb3ab92f2dda44f87cd9dc78d.png" class="latex" alt="$x &gt; y$" style="vertical-align: -3px" width="43" height="13" />, and all of <img src="https://latex.artofproblemsolving.com/3/2/5/32581661cddf01ad30c1e36efe72f99eb0a0adca.png" class="latex" alt="$x, y$" style="vertical-align: -3px" width="27" height="11" /> and <img src="https://latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> are less than <img src="https://latex.artofproblemsolving.com/1/9/2/192b4a258ee998961a99523fd0f0a029f9ea194a.png" class="latex" alt="$0.5$" width="22" height="12" />.
+</p><p>If the father plays the weaker player first, we split the probability of winning the tournament in the three mutually exclusive cases above:
+</p><p><img src="https://latex.artofproblemsolving.com/c/5/3/c538d37407c94d4fc776ef252b1b661d736a3516.png" class="latex" alt="$P(A) = xy$" style="vertical-align: -4px" width="85" height="18" /> because the father must defeat the weaker player, then the father must defeat the stronger player.
+</p><p><img src="https://latex.artofproblemsolving.com/a/a/1/aa13686eb8503938763b2b32b6ca72355aa2970d.png" class="latex" alt="$P(B) = x(1-y)zx$" style="vertical-align: -4px" width="152" height="18" /> because the father must defeat the weaker player, then stronger player must defeat the father.  Third, the weaker player must defeat the stronger player (because if the stronger player wins a second game, the tournament is over).  Fourth, the father plays the weaker player a second time and must win.
+</p><p><img src="https://latex.artofproblemsolving.com/5/c/a/5ca39516cd1b198acb524e3f21cbe01e273f6d70.png" class="latex" alt="$P(C) = (1-x)(1-z)yx$" style="vertical-align: -4px" width="197" height="18" /> because the weaker player must defeat the father, followed by the stronger player defeating the weaker player (because if the weaker player wins two in a row, he wins the tournament).  The father must then defeat the stronger player and the weaker player in the third and fourth game, respectively.
+</p><p>From this, the total probability of the father winning by playing the weaker player first is:
+</p><p><img src="https://latex.artofproblemsolving.com/c/8/9/c89fe34ba789c058bdb780503d28e9d6d4169a3a.png" class="latex" alt="$P(TOTAL) = P(A) + P(B) + P(C) = xy + x(1-y)zx + (1-x)(1-z)yx$" style="vertical-align: -4px" width="595" height="18" />
+</p><p>Likewise, we compute the probability of the father winning if he plays the stronger player first.  We do this by symmetry:
+</p><p>All <img src="https://latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> will turn into <img src="https://latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />, because whenever the father defeated the weaker player before, he must defeat the stronger player now.
+</p><p>All <img src="https://latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> will turn into <img src="https://latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />, because whenever the father defeated the stronger player before, he must defeat the weaker player now.
+</p><p>All <img src="https://latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" /> will turn into <img src="https://latex.artofproblemsolving.com/b/d/2/bd2e06b82b1b2479bbb51d901ee4124a5742c24c.png" class="latex" alt="$(1-z)$" style="vertical-align: -4px" width="53" height="18" />, because whenever the weaker player defeated the stronger player, now the stronger player must defeat the weaker player.
+</p><p>All <img src="https://latex.artofproblemsolving.com/b/d/2/bd2e06b82b1b2479bbb51d901ee4124a5742c24c.png" class="latex" alt="$(1-z)$" style="vertical-align: -4px" width="53" height="18" /> will turn into <img src="https://latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" />, because whenever the stronger player defeated the weaker player, now the weaker player must defeat the stronger player.
+</p><p>Applying these transformations and calling the new probabilities <img src="https://latex.artofproblemsolving.com/3/5/4/3545551b3d62c4e23d5df7352a55602d0aa9adcd.png" class="latex" alt="$P&#39;$" width="17" height="14" />, we find that:
+</p><p><img src="https://latex.artofproblemsolving.com/f/1/f/f1fb767355879667836ea46ef67532b196c0e7db.png" class="latex" alt="$P&#39;(TOTAL) = P&#39;(A) + P&#39;(B) + P&#39;(C) = yx + y(1-x)(1-z)y + (1-y)zxy$" style="vertical-align: -4px" width="612" height="18" />
+</p><p>We compare these probabilities.
+</p><p><img src="https://latex.artofproblemsolving.com/e/5/a/e5a2797e77b192206e5f049260a6a787c3824118.png" class="latex" alt="$P(A) = P&#39;(A)$" style="vertical-align: -4px" width="111" height="18" />.  This makes sense, as the probabilitiy of the father winning the first two games is the same, regardless of the order in which they are played.
+</p><p><img src="https://latex.artofproblemsolving.com/c/7/9/c79194571c9b068a5643a8b69d5b66122a084e6b.png" class="latex" alt="$P(B) &gt; P&#39;(C)$" style="vertical-align: -4px" width="113" height="18" />:  Calculating <img src="https://latex.artofproblemsolving.com/c/d/4/cd49cc0cb539d90c9f1ab7a0e97d294ead3ee7e6.png" class="latex" alt="$P(B) / P&#39;(C)$" style="vertical-align: -4px" width="98" height="18" />, we get <img src="https://latex.artofproblemsolving.com/e/3/9/e3935d9470b967b8d9c70638049b3d1728dc5f68.png" class="latex" alt="$x^2(1-y)z / xy(1-y)z$" style="vertical-align: -4px" width="174" height="19" />, which simplifies to <img src="https://latex.artofproblemsolving.com/a/1/6/a16f474c2f9c02c3b39ddd68e96851187b12c4b2.png" class="latex" alt="$x/y$" style="vertical-align: -4px" width="28" height="18" />.
+</p><p>Since <img src="https://latex.artofproblemsolving.com/a/b/7/ab7da572d60053bdb3ab92f2dda44f87cd9dc78d.png" class="latex" alt="$x &gt; y$" style="vertical-align: -3px" width="43" height="13" />
+</p><p><img src="https://latex.artofproblemsolving.com/3/b/3/3b382ff4aa21377d9f45c8246cb49595db1615ac.png" class="latex" alt="$x/y &gt; 1$" style="vertical-align: -4px" width="61" height="18" />
+</p><p><img src="https://latex.artofproblemsolving.com/2/6/5/265b94cc01529469f815ecc7bf1adc1e6cb4f3d4.png" class="latex" alt="$P(B) / P&#39;(C) &gt; 1$" style="vertical-align: -4px" width="131" height="18" />
+</p><p>so <img src="https://latex.artofproblemsolving.com/c/7/9/c79194571c9b068a5643a8b69d5b66122a084e6b.png" class="latex" alt="$P(B) &gt; P&#39;(C)$" style="vertical-align: -4px" width="113" height="18" />.
+</p><p><img src="https://latex.artofproblemsolving.com/1/c/2/1c2d3282cdeb61951deb3a8f3aa3296b6a06e74f.png" class="latex" alt="$P(C) &gt; P&#39;(B)$" style="vertical-align: -4px" width="113" height="18" />:  Calculating <img src="https://latex.artofproblemsolving.com/f/f/2/ff2b1e40d72d9624243b81a345af1ca3a08ea913.png" class="latex" alt="$P(C) / P&#39;(B)$" style="vertical-align: -4px" width="98" height="18" />, we get <img src="https://latex.artofproblemsolving.com/3/6/1/361e0853e22990a96b60c23c31016d93da00e9fb.png" class="latex" alt="$(1-x)(1-z)yx / (1-x)(1-z)y^2$" style="vertical-align: -4px" width="265" height="19" />, which simpllifies again to <img src="https://latex.artofproblemsolving.com/a/1/6/a16f474c2f9c02c3b39ddd68e96851187b12c4b2.png" class="latex" alt="$x/y$" style="vertical-align: -4px" width="28" height="18" />.  Thus, <img src="https://latex.artofproblemsolving.com/1/c/2/1c2d3282cdeb61951deb3a8f3aa3296b6a06e74f.png" class="latex" alt="$P(C) &gt; P&#39;(B)$" style="vertical-align: -4px" width="113" height="18" />
+</p><p>Adding the above equations and inequalities, we see that <img src="https://latex.artofproblemsolving.com/6/f/f/6ff7d7ea467e37136ec67850a08bedaf984e6d9f.png" class="latex" alt="$P(TOTAL) &gt; P&#39;(TOTAL)$" style="vertical-align: -4px" width="217" height="18" />, and thus the father is better off playing the weaker of the two players (ie the mother) first.
+</p><p><br />
+</p><p><br />
+<i>Alternate solutions are always welcome. If you have a different, elegant solution to this problem, please <a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php?title=1974_USAMO_Problems/Problem_4&amp;action=edit">add it</a> to this page.</i>
+</p>
+<h2><span class="mw-headline" id="See_Also">See Also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:40%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/1974_USAMO" title="1974 USAMO">1974 USAMO</a></b> (<b><a href="/wiki/index.php/1974_USAMO_Problems" title="1974 USAMO Problems">Problems</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=27&amp;year=1974">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/1974_USAMO_Problems/Problem_3" title="1974 USAMO Problems/Problem 3">Problem 3</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/1974_USAMO_Problems/Problem_5" title="1974 USAMO Problems/Problem 5">Problem 5</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/1974_USAMO_Problems/Problem_1" title="1974 USAMO Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/1974_USAMO_Problems/Problem_2" title="1974 USAMO Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/1974_USAMO_Problems/Problem_3" title="1974 USAMO Problems/Problem 3">3</a> <b>•</b> <a class="mw-selflink selflink">4</a> <b>•</b> <a href="/wiki/index.php/1974_USAMO_Problems/Problem_5" title="1974 USAMO Problems/Problem 5">5</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/USAMO_Problems_and_Solutions" title="USAMO Problems and Solutions"> All USAMO Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!--
+NewPP limit report
+Cached time: 20200715095916
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.083 seconds
+Real time usage: 0.091 seconds
+Preprocessor visited node count: 453/1000000
+Preprocessor generated node count: 1118/1000000
+Post‐expand include size: 1506/2097152 bytes
+Template argument size: 44/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7740/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    8.190      1 -total
+ 38.92%    3.188      1 Template:USAMO_box
+ 31.41%    2.572      1 Template:Alternate_solutions
+ 25.41%    2.081      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:7531-0!canonical and timestamp 20200715095916 and revision id 94425
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=1974_USAMO_Problems/Problem_4&amp;oldid=94425">https://artofproblemsolving.com/wiki/index.php?title=1974_USAMO_Problems/Problem_4&amp;oldid=94425</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Combinatorics_Problems" title="Category:Olympiad Combinatorics Problems">Olympiad Combinatorics Problems</a></li></ul></div></div></div>
+
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200715095916 -->
+</html>

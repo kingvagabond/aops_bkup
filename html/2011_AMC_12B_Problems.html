@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2011 AMC 12B Problems - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2011_AMC_12B_Problems","wgTitle":"2011 AMC 12B Problems","wgCurRevisionId":128153,"wgRevisionId":128153,"wgArticleId":9095,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["AMC 12 Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2011_AMC_12B_Problems","wgRelevantArticleId":9095,"wgRequestId":"1648ee5741071e2b6459dfca","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2011_AMC_12B_Problems rootpage-2011_AMC_12B_Problems skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2011 AMC 12B Problems																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2011_AMC_12B_Problems" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2011_AMC_12B_Problems&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2011_AMC_12B_Problems&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2011_AMC_12B_Problems&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2011_AMC_12B_Problems" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2011 AMC 12B Problems</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:50%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2011_AMC_12B" title="2011 AMC 12B">2011 AMC 12B</a></b> (<b><a href="/wiki/index.php/2011_AMC_12B_Answer_Key" title="2011 AMC 12B Answer Key">Answer Key</a></b>)<br />Printable version: <span class="noprint plainlinks"><a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12B_Problems&amp;printable=yes">Wiki</a></span> | <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=44&amp;year=2011">AoPS Resources</a> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources/files/usa/USA-AMC_12-AHSME-2011-44">PDF</a>
+</td></tr>
+<tr>
+<td style="font-size:80%;">
+<p><font style="text-align:center;">Instructions</font>
+</p>
+<ol><li>This is a 25-question, multiple choice test. Each question is followed by answers marked A, B, C, D and E. Only one of these is correct.</li>
+<li>You will receive 6 points for each correct answer, 2.5 points for each problem left unanswered if the year is before 2006, 1.5 points for each problem left unanswered if the year is after 2006, and 0 points for each incorrect answer.</li>
+<li>No aids are permitted other than scratch paper, graph paper, ruler, compass, protractor and erasers (and calculators that are accepted for use on the test if before 2006. No problems on the test will <i>require</i> the use of a calculator).</li>
+<li>Figures are not necessarily drawn to scale.</li>
+<li>You will have <b>75 minutes</b> working time to complete the test.</li></ol>
+</td></tr>
+<tr>
+<td style="text-align:center;"><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_1" title="2011 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_2" title="2011 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_3" title="2011 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_4" title="2011 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_5" title="2011 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_6" title="2011 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_7" title="2011 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_8" title="2011 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_9" title="2011 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_10" title="2011 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_11" title="2011 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_12" title="2011 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_13" title="2011 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_14" title="2011 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_15" title="2011 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_16" class="mw-redirect" title="2011 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_17" title="2011 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_18" title="2011 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_19" title="2011 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_20" title="2011 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_21" title="2011 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_22" title="2011 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_23" title="2011 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_24" title="2011 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_25" title="2011 AMC 12B Problems/Problem 25">25</a>
+</td></tr></tbody></table>
+<div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem_1"><span class="tocnumber">1</span> <span class="toctext">Problem 1</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Problem_2"><span class="tocnumber">2</span> <span class="toctext">Problem 2</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Problem_3"><span class="tocnumber">3</span> <span class="toctext">Problem 3</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Problem_4"><span class="tocnumber">4</span> <span class="toctext">Problem 4</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Problem_5"><span class="tocnumber">5</span> <span class="toctext">Problem 5</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Problem_6"><span class="tocnumber">6</span> <span class="toctext">Problem 6</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Problem_7"><span class="tocnumber">7</span> <span class="toctext">Problem 7</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Problem_8"><span class="tocnumber">8</span> <span class="toctext">Problem 8</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Problem_9"><span class="tocnumber">9</span> <span class="toctext">Problem 9</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Problem_10"><span class="tocnumber">10</span> <span class="toctext">Problem 10</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Problem_11"><span class="tocnumber">11</span> <span class="toctext">Problem 11</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Problem_12"><span class="tocnumber">12</span> <span class="toctext">Problem 12</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Problem_13"><span class="tocnumber">13</span> <span class="toctext">Problem 13</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Problem_14"><span class="tocnumber">14</span> <span class="toctext">Problem 14</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Problem_15"><span class="tocnumber">15</span> <span class="toctext">Problem 15</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Problem_16"><span class="tocnumber">16</span> <span class="toctext">Problem 16</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Problem_17"><span class="tocnumber">17</span> <span class="toctext">Problem 17</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Problem_18"><span class="tocnumber">18</span> <span class="toctext">Problem 18</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Problem_19"><span class="tocnumber">19</span> <span class="toctext">Problem 19</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Problem_20"><span class="tocnumber">20</span> <span class="toctext">Problem 20</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Problem_21"><span class="tocnumber">21</span> <span class="toctext">Problem 21</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#Problem_22"><span class="tocnumber">22</span> <span class="toctext">Problem 22</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Problem_23"><span class="tocnumber">23</span> <span class="toctext">Problem 23</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Problem_24"><span class="tocnumber">24</span> <span class="toctext">Problem 24</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#Problem_25"><span class="tocnumber">25</span> <span class="toctext">Problem 25</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#See_also"><span class="tocnumber">26</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem_1">Problem 1</span></h2><p>
+What is </p><center><img src="//latex.artofproblemsolving.com/6/1/e/61ee8366705dde051791b9e949cc4eaf30da1215.png" class="latex" alt="$\frac{2+4+6}{1+3+5}-\frac{1+3+5}{2+4+6}?$" style="vertical-align: -14px" width="181" height="39" /></center>
+<p><br />
+<img src="//latex.artofproblemsolving.com/2/e/8/2e8c384059c9ff8e8240b3d370030c7be2097893.png" class="latex" alt="$\textbf{(A)}\ -1 \qquad \textbf{(B)}\ \frac{5}{36} \qquad \textbf{(C)}\ \frac{7}{12} \qquad \textbf{(D)}\ \frac{147}{60} \qquad \textbf{(E)}\ \frac{43}{3}$" style="vertical-align: -13px" width="431" height="38" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_1" title="2011 AMC 12B Problems/Problem 1">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_2">Problem 2</span></h2>
+<p>Josanna's test scores to date are <img src="//latex.artofproblemsolving.com/b/f/c/bfcfee7bd8a5e15e5f6b7881c138de43651572a9.png" class="latex" alt="$90$" width="17" height="12" />, <img src="//latex.artofproblemsolving.com/f/e/a/fea5fcc6d66685ee21f722efcd228eb44d38f262.png" class="latex" alt="$80$" width="17" height="12" />, <img src="//latex.artofproblemsolving.com/a/a/9/aa94edfb9739dcc66dad90f7dd5c148f44a57e2c.png" class="latex" alt="$70$" width="17" height="12" />, <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" />, and <img src="//latex.artofproblemsolving.com/7/f/e/7fea07b9bf739f8e420081f31186264b91ced2ce.png" class="latex" alt="$85$" width="17" height="12" />.  Her goal is to raise her test average at least <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> points with her next test.  What is the minimum test score she would need to accomplish this goal?
+</p><p><img src="//latex.artofproblemsolving.com/e/5/2/e523c7c425bac12268d08de9fb5d1022c7241480.png" class="latex" alt="$\textbf{(A)}\ 80 \qquad \textbf{(B)}\ 82 \qquad \textbf{(C)}\ 85 \qquad \textbf{(D)}\ 90 \qquad \textbf{(E)}\ 95$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_2" title="2011 AMC 12B Problems/Problem 2">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_3">Problem 3</span></h2>
+<p>LeRoy and Bernardo went on a week-long trip together and agreed to share the costs equally.  Over the week, each of them paid for various joint expenses such as gasoline and car rental.  At the end of the trip it turned out that LeRoy had paid <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> dollars and Bernardo had paid <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> dollars, where <img src="//latex.artofproblemsolving.com/3/5/c/35c6befbae2835211a36a77a5e2708937cc6faac.png" class="latex" alt="$A&lt;B$" style="vertical-align: 0px" width="52" height="13" />.  How many dollars must LeRoy give to Bernardo so that they share the costs equally?
+</p><p><img src="//latex.artofproblemsolving.com/0/5/f/05fa940cff20ec50bd2f8cdf05e9ad1fd3a87837.png" class="latex" alt="$\textbf{(A)}\ \frac{A+B}{2} \qquad \textbf{(B)}\ \frac{A-B}{2} \qquad \textbf{(C)}\ \frac{B-A}{2} \qquad \textbf{(D)}\ B-A \qquad \textbf{(E)}\ A+B$" style="vertical-align: -12px" width="568" height="38" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_3" title="2011 AMC 12B Problems/Problem 3">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_4">Problem 4</span></h2>
+<p>In multiplying two positive integers <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />, Ron reversed the digits of the two-digit number <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />.  His erroneous product was 161.  What is the correct value of the product of <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/8/8/9/88916ec41a496d0d71df4d5f0be0478d9a6c2771.png" class="latex" alt="$\textbf{(A)}\ 116 \qquad \textbf{(B)}\ 161 \qquad \textbf{(C)}\ 204 \qquad \textbf{(D)}\ 214 \qquad \textbf{(E)}\ 224$" style="vertical-align: -4px" width="440" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_4" title="2011 AMC 12B Problems/Problem 4">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_5">Problem 5</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> be the second smallest positive integer that is divisible by every positive integer less than <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" />.  What is the sum of the digits of <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/8/0/b/80b8baf686a05f9e90813cb4adc33ae41213db8d.png" class="latex" alt="$\textbf{(A)}\ 3 \qquad \textbf{(B)}\ 4 \qquad \textbf{(C)}\ 5 \qquad \textbf{(D)}\ 6 \qquad \textbf{(E)}\ 9$" style="vertical-align: -4px" width="348" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_5" title="2011 AMC 12B Problems/Problem 5">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_6">Problem 6</span></h2>
+<p>Two tangents to a circle are drawn from a point <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />.  The points of contact <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> divide the circle into arcs with lengths in the ratio <img src="//latex.artofproblemsolving.com/b/f/5/bf5aca1df088f2be27fdbbb5edabf5830f9e8d30.png" class="latex" alt="$2&#160;: 3$" width="32" height="12" />.  What is the degree measure of <img src="//latex.artofproblemsolving.com/2/e/2/2e2c830e136e667485791216de260e10db2c2195.png" class="latex" alt="$\angle{BAC}$" width="55" height="13" />?
+</p><p><img src="//latex.artofproblemsolving.com/8/2/a/82a50c3620b0e711af9b1109f70cc91e93420739.png" class="latex" alt="$\textbf{(A)}\ 24 \qquad \textbf{(B)}\ 30 \qquad \textbf{(C)}\ 36 \qquad \textbf{(D)}\ 48 \qquad \textbf{(E)}\ 60$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_6" title="2011 AMC 12B Problems/Problem 6">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_7">Problem 7</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> be two-digit positive integers with mean <img src="//latex.artofproblemsolving.com/3/0/2/302e99c1c7cd91a6ae371139e5142ccef5977dca.png" class="latex" alt="$60$" width="17" height="12" />.  What is the maximum value of the ratio <img src="//latex.artofproblemsolving.com/e/3/2/e32f96b310bbe6cd6981b6c1da83fe7905ea3116.png" class="latex" alt="$\frac{x}{y}$" style="vertical-align: -16px" width="12" height="36" />?
+</p><p><img src="//latex.artofproblemsolving.com/5/2/b/52b2cb411bc85412bfd26de9c83279199a4a40a9.png" class="latex" alt="$\textbf{(A)}\ 3 \qquad \textbf{(B)}\ \frac{33}{7} \qquad \textbf{(C)}\ \frac{39}{7} \qquad \textbf{(D)}\ 9 \qquad \textbf{(E)}\ \frac{99}{10}$" style="vertical-align: -13px" width="387" height="38" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_7" title="2011 AMC 12B Problems/Problem 7">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_8">Problem 8</span></h2>
+<p>Keiko walks once around a track at exactly the same constant speed every day. The sides of the track are straight, and the ends are semicircles. The track has width <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> meters, and it takes her <img src="//latex.artofproblemsolving.com/c/e/5/ce5d3cbb9ab0a992ed503c2d4499e4f4af2f9d65.png" class="latex" alt="$36$" width="17" height="12" /> seconds longer to walk around the outside edge of the track than around the inside edge. What is Keiko's speed in meters per second?
+</p><p><img src="//latex.artofproblemsolving.com/4/c/4/4c459bd3e88a39ce6b6c67a38ca7206e5b57ef68.png" class="latex" alt="$\textbf{(A)}\ \frac{\pi}{3} \qquad \textbf{(B)}\ \frac{2\pi}{3} \qquad \textbf{(C)}\ \pi \qquad \textbf{(D)}\ \frac{4\pi}{3} \qquad \textbf{(E)}\ \frac{5\pi}{3}$" style="vertical-align: -12px" width="400" height="37" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_8" title="2011 AMC 12B Problems/Problem 8">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_9">Problem 9</span></h2>
+<p>Two real numbers are selected independently and at random from the interval <img src="//latex.artofproblemsolving.com/d/f/e/dfeb28af51c3420c077378ff48d0d6e66a00ecd0.png" class="latex" alt="$[-20,10]$" style="vertical-align: -5px" width="66" height="18" />.  What is the probability that the product of those numbers is greater than zero?
+</p><p><img src="//latex.artofproblemsolving.com/b/f/0/bf0eab208f1c6d8e4b71c98d2f8b66b92e3e0fff.png" class="latex" alt="$\textbf{(A)}\ \frac{1}{9} \qquad \textbf{(B)}\ \frac{1}{3} \qquad \textbf{(C)}\ \frac{4}{9} \qquad \textbf{(D)}\ \frac{5}{9} \qquad \textbf{(E)}\ \frac{2}{3}$" style="vertical-align: -12px" width="367" height="37" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_9" title="2011 AMC 12B Problems/Problem 9">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_10">Problem 10</span></h2>
+<p>Rectangle <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> has <img src="//latex.artofproblemsolving.com/c/8/e/c8e7d324ea465aef56f3f3e708d966da9db8e90e.png" class="latex" alt="$AB=6$" width="61" height="13" /> and <img src="//latex.artofproblemsolving.com/b/e/6/be6680a35b22c11c0ee9f16a760de124151579b2.png" class="latex" alt="$BC=3$" width="61" height="12" />. Point <img src="//latex.artofproblemsolving.com/5/d/1/5d1e4485dc90c450e8c76826516c1b2ccb8fce16.png" class="latex" alt="$M$" width="19" height="12" /> is chosen on side <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> so that <img src="//latex.artofproblemsolving.com/d/1/2/d1288c3b590a5a5b89c8c94e3f631569cd042d47.png" class="latex" alt="$\angle AMD=\angle CMD$" width="147" height="13" />. What is the degree measure of <img src="//latex.artofproblemsolving.com/d/c/7/dc71a1fff5886a534a1ccd7c0f725e85c1f3dc69.png" class="latex" alt="$\angle AMD$" width="61" height="13" />?
+</p><p><img src="//latex.artofproblemsolving.com/f/7/c/f7c60aefb2621cdbec22910c8129c183efbb8979.png" class="latex" alt="$\textbf{(A)}\ 15 \qquad \textbf{(B)}\ 30 \qquad \textbf{(C)}\ 45 \qquad \textbf{(D)}\ 60 \qquad \textbf{(E)}\ 75$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_10" title="2011 AMC 12B Problems/Problem 10">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_11">Problem 11</span></h2>
+<p>A frog located at <img src="//latex.artofproblemsolving.com/e/5/3/e53b1fe25be1c679117fb44a6a886fe1247d189a.png" class="latex" alt="$(x,y)$" style="vertical-align: -4px" width="40" height="18" />, with both <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> integers, makes successive jumps of length <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> and always lands on points with integer coordinates. Suppose that the frog starts at <img src="//latex.artofproblemsolving.com/f/9/6/f9603ca3089464e548fc6f1366bc474e7efef8d9.png" class="latex" alt="$(0,0)$" style="vertical-align: -4px" width="38" height="18" /> and ends at <img src="//latex.artofproblemsolving.com/2/5/a/25a306093bbd9e0699c65dba033c9483cd379dc4.png" class="latex" alt="$(1,0)$" style="vertical-align: -4px" width="38" height="18" />. What is the smallest possible number of jumps the frog makes?
+</p><p><img src="//latex.artofproblemsolving.com/4/2/3/42378a91350e833fafb2a76b7df85d17a25fe36e.png" class="latex" alt="$\textbf{(A)}\ 2 \qquad \textbf{(B)}\ 3 \qquad \textbf{(C)}\ 4 \qquad \textbf{(D)}\ 5 \qquad \textbf{(E)}\ 6$" style="vertical-align: -4px" width="348" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_11" title="2011 AMC 12B Problems/Problem 11">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_12">Problem 12</span></h2>
+<p>A dart board is a regular octagon divided into regions as shown below. Suppose that a dart thrown at the board is equally likely to land anywhere on the board. What is the probability that the dart lands within the center square?
+</p><p><img src="//latex.artofproblemsolving.com/7/2/7/7274a387184a2ce0dc35e8ecaac8b5da8b052e4c.png" class="latexcenter" alt="[asy] unitsize(10mm); defaultpen(linewidth(.8pt)+fontsize(10pt)); dotfactor=4; pair A=(0,1), B=(1,0), C=(1+sqrt(2),0), D=(2+sqrt(2),1), E=(2+sqrt(2),1+sqrt(2)), F=(1+sqrt(2),2+sqrt(2)), G=(1,2+sqrt(2)), H=(0,1+sqrt(2)); draw(A--B--C--D--E--F--G--H--cycle); draw(A--D); draw(B--G); draw(C--F); draw(E--H);[/asy]" width="165" height="165" />
+</p><p><img src="//latex.artofproblemsolving.com/2/a/d/2ade6be4cca41feef541fb8c6d49c15b24d7af23.png" class="latex" alt="$\textbf{(A)}\ \frac{\sqrt{2} - 1}{2} \qquad \textbf{(B)}\ \frac{1}{4} \qquad \textbf{(C)}\ \frac{2 - \sqrt{2}}{2} \qquad \textbf{(D)}\ \frac{\sqrt{2}}{4} \qquad \textbf{(E)}\ 2 - \sqrt{2}$" style="vertical-align: -13px" width="520" height="41" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_12" title="2011 AMC 12B Problems/Problem 12">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_13">Problem 13</span></h2>
+<p>Brian writes down four integers <img src="//latex.artofproblemsolving.com/1/1/9/1192c5f717cf0b4bc6e1c268253347f0eab47237.png" class="latex" alt="$w &gt; x &gt; y &gt; z$" style="vertical-align: -3px" width="114" height="13" /> whose sum is <img src="//latex.artofproblemsolving.com/5/b/4/5b45828f292e161290be6ee62bc4c9df081ee1e1.png" class="latex" alt="$44$" style="vertical-align: 0px" width="18" height="12" />. The pairwise positive differences of these numbers are <img src="//latex.artofproblemsolving.com/9/4/d/94d3b72c72ca9697a5a9da1ad2d9d6560ecb16e1.png" class="latex" alt="$1, 3, 4, 5, 6$" style="vertical-align: -3px" width="77" height="16" /> and <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />. What is the sum of the possible values of <img src="//latex.artofproblemsolving.com/9/e/e/9ee4b825a2e36ae093ed7be5e4851ef453b34914.png" class="latex" alt="$w$" width="13" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/2/4/1/241e238193551b7f8ea31f83ba6c0bcc6ea05bbd.png" class="latex" alt="$\textbf{(A)}\ 16 \qquad \textbf{(B)}\ 31 \qquad \textbf{(C)}\ 48 \qquad \textbf{(D)}\ 62 \qquad \textbf{(E)}\ 93$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_13" title="2011 AMC 12B Problems/Problem 13">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_14">Problem 14</span></h2>
+<p>A segment through the focus <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> of a parabola with vertex <img src="//latex.artofproblemsolving.com/1/2/d/12d58aa29201da09d8e620f8698e3a37547f6b4a.png" class="latex" alt="$V$" width="14" height="12" /> is perpendicular to <img src="//latex.artofproblemsolving.com/d/b/f/dbf1ff1d126cff774cb5ed2d1828dad9f0314383.png" class="latex" alt="$\overline{FV}$" width="29" height="15" /> and intersects the parabola in points <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />. What is <img src="//latex.artofproblemsolving.com/d/a/0/da03c3b71a583ab89a5af0ae235720b22ba9444d.png" class="latex" alt="$\cos\left(\angle AVB\right)$" style="vertical-align: -4px" width="96" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/0/2/5/02526ba7c8faa380c98e10dae857160480a529fa.png" class="latex" alt="$\textbf{(A)}\ -\frac{3\sqrt{5}}{7} \qquad \textbf{(B)}\ -\frac{2\sqrt{5}}{5} \qquad \textbf{(C)}\ -\frac{4}{5} \qquad \textbf{(D)}\ -\frac{3}{5} \qquad \textbf{(E)}\ -\frac{1}{2}$" style="vertical-align: -12px" width="527" height="41" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_14" title="2011 AMC 12B Problems/Problem 14">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_15">Problem 15</span></h2>
+<p>How many positive two-digit integers are factors of <img src="//latex.artofproblemsolving.com/e/8/4/e847a2a1840b6aaf0cbd3023cd258f3d90485c65.png" class="latex" alt="$2^{24}-1$" style="vertical-align: 0px" width="53" height="15" />?
+</p><p><img src="//latex.artofproblemsolving.com/e/3/7/e3730d8603269f1bc39b8c5f2e65c221c3899ebd.png" class="latex" alt="$\textbf{(A)}\ 4 \qquad \textbf{(B)}\ 8 \qquad \textbf{(C)}\ 10 \qquad \textbf{(D)}\ 12 \qquad \textbf{(E)}\ 14$" style="vertical-align: -4px" width="376" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_15" title="2011 AMC 12B Problems/Problem 15">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_16">Problem 16</span></h2>
+<p>Rhombus <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> has side length <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> and <img src="//latex.artofproblemsolving.com/0/4/5/04540e1ecffd3a01666e80451847535d3fe74d70.png" class="latex" alt="$\angle B = 120^{\circ}$" style="vertical-align: 0px" width="85" height="13" />. Region <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> consists of all points inside of the rhombus that are closer to vertex <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> than any of the other three vertices. What is the area of <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" />?
+</p><p><img src="//latex.artofproblemsolving.com/d/0/4/d04f85f648d0c9af9fc92e34b6ad847110b733b6.png" class="latex" alt="$\textbf{(A)}\ \frac{\sqrt{3}}{3} \qquad \textbf{(B)}\ \frac{\sqrt{3}}{2} \qquad \textbf{(C)}\ \frac{2\sqrt{3}}{3} \qquad \textbf{(D)}\ 1 + \frac{\sqrt{3}}{3} \qquad \textbf{(E)}\ 2$" style="vertical-align: -12px" width="465" height="41" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_16" class="mw-redirect" title="2011 AMC 12B Problems/Problem 16">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_17">Problem 17</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/7/8/e/78e38944bebb9f5bca9de1730b7a8b8d5f414447.png" class="latex" alt="$f(x) = 10^{10x}, g(x) = \log_{10}\left(\frac{x}{10}\right), h_1(x) = g(f(x))$" style="vertical-align: -13px" width="384" height="34" />, and <img src="//latex.artofproblemsolving.com/b/a/d/bad508d497ff0fadd24121a96bdce0693162f7c5.png" class="latex" alt="$h_n(x) = h_1(h_{n-1}(x))$" style="vertical-align: -4px" width="160" height="18" /> for integers <img src="//latex.artofproblemsolving.com/7/2/2/72287b09043ed45b372a517d764e12d07aff8071.png" class="latex" alt="$n \geq 2$" style="vertical-align: -2px" width="43" height="14" />. What is the sum of the digits of <img src="//latex.artofproblemsolving.com/8/6/3/863fe953862a8b58da96f0031d832907fb5b21f4.png" class="latex" alt="$h_{2011}(1)$" style="vertical-align: -4px" width="59" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/7/e/3/7e32ba9c94508a9381a3ef57f849fc8b28eb40a1.png" class="latex" alt="$\textbf{(A)}\ 16081 \qquad \textbf{(B)}\ 16089 \qquad \textbf{(C)}\ 18089 \qquad \textbf{(D)}\ 18098 \qquad \textbf{(E)}\ 18099$" style="vertical-align: -4px" width="530" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_17" title="2011 AMC 12B Problems/Problem 17">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_18">Problem 18</span></h2>
+<p>A pyramid has a square base with side of length 1 and has lateral faces that are equilateral triangles. A cube is placed within the pyramid so that one face is on the base of the pyramid and its opposite face has all its edges on the lateral faces of the pyramid. What is the volume of this cube?
+</p><p><img src="//latex.artofproblemsolving.com/4/7/6/47660cfaa8d40ad1c0cc0ae6442cda82abc8e61b.png" class="latex" alt="$\textbf{(A)}\ 5\sqrt{2} - 7 \qquad \textbf{(B)}\ 7 - 4\sqrt{3} \qquad \textbf{(C)}\ \frac{2\sqrt{2}}{27} \qquad \textbf{(D)}\ \frac{\sqrt{2}}{9} \qquad \textbf{(E)}\ \frac{\sqrt{3}}{9}$" style="vertical-align: -12px" width="525" height="41" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_18" title="2011 AMC 12B Problems/Problem 18">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_19">Problem 19</span></h2>
+<p>A lattice point in an <img src="//latex.artofproblemsolving.com/3/f/7/3f79c3676b62fb47243e0d357c87115b6f3395e4.png" class="latex" alt="$xy$" style="vertical-align: -3px" width="19" height="11" />-coordinate system is any point <img src="//latex.artofproblemsolving.com/a/d/f/adfd9ae8a3fac031d3b8b470a52a709a23d4d6d2.png" class="latex" alt="$(x, y)$" style="vertical-align: -4px" width="40" height="18" /> where both <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> are integers. The graph of <img src="//latex.artofproblemsolving.com/1/d/2/1d2264e4e7d4e433b38289ec6dd77ddeb0a18f84.png" class="latex" alt="$y = mx + 2$" style="vertical-align: -3px" width="91" height="15" /> passes through no lattice point with <img src="//latex.artofproblemsolving.com/4/f/1/4f17264b2875c57d6725ca2bad50be5250b19866.png" class="latex" alt="$0 &lt; x \leq 100$" style="vertical-align: -2px" width="94" height="15" /> for all <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" /> such that <img src="//latex.artofproblemsolving.com/8/a/b/8ab24211e8c6cd92bef80e95ecf7d45d23afcc10.png" class="latex" alt="$\frac{1}{2} &lt; m &lt; a$" style="vertical-align: -12px" width="87" height="37" />. What is the maximum possible value of <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" />?
+</p><p><img src="//latex.artofproblemsolving.com/e/c/5/ec5f173f9dafbf807595b2377a8bfa4adc76ffff.png" class="latex" alt="$\textbf{(A)}\ \frac{51}{101} \qquad \textbf{(B)}\ \frac{50}{99} \qquad \textbf{(C)}\ \frac{51}{100} \qquad \textbf{(D)}\ \frac{52}{101} \qquad \textbf{(E)}\ \frac{13}{25}$" style="vertical-align: -13px" width="440" height="38" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_19" title="2011 AMC 12B Problems/Problem 19">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_20">Problem 20</span></h2>
+<p>Triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> has <img src="//latex.artofproblemsolving.com/4/a/8/4a84cfe858d271ad11d82034729dea59c7deb7e4.png" class="latex" alt="$AB = 13, BC = 14$" style="vertical-align: -3px" width="150" height="16" />, and <img src="//latex.artofproblemsolving.com/d/9/8/d98d2ed450f84fb3b2599ba598ed5e6e7a69ecfa.png" class="latex" alt="$AC = 15$" style="vertical-align: 0px" width="69" height="13" />. The points <img src="//latex.artofproblemsolving.com/8/7/0/87082784a051c7525966d9819cc379329a30e030.png" class="latex" alt="$D, E$" style="vertical-align: -3px" width="37" height="16" />, and <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> are the midpoints of <img src="//latex.artofproblemsolving.com/d/2/d/d2d28fc91d4e68fe6a260d9b6cf7e970489e9f3a.png" class="latex" alt="$\overline{AB}, \overline{BC}$" style="vertical-align: -3px" width="65" height="19" />, and <img src="//latex.artofproblemsolving.com/1/2/5/12517bbc31cb9026c71299b7a0d232d07e60f284.png" class="latex" alt="$\overline{AC}$" width="28" height="15" /> respectively. Let <img src="//latex.artofproblemsolving.com/9/8/8/988920513defe9a1ccd904ca2c6511a8e76da9aa.png" class="latex" alt="$X \not= E$" style="vertical-align: -4px" width="54" height="17" /> be the intersection of the circumcircles of <img src="//latex.artofproblemsolving.com/8/5/f/85ff854aa7cf6df1c36fb2de1c241aac70c6a3f6.png" class="latex" alt="$\Delta BDE$" width="59" height="13" /> and <img src="//latex.artofproblemsolving.com/a/2/3/a23a6bc5ce337494e675ba7b06d80792d89329d5.png" class="latex" alt="$\Delta CEF$" width="58" height="13" />. What is <img src="//latex.artofproblemsolving.com/8/6/c/86c2bf6f35cbe71163a49b6021fc8f967828f1c1.png" class="latex" alt="$XA + XB + XC$" style="vertical-align: -1px" width="136" height="14" />?
+</p><p><img src="//latex.artofproblemsolving.com/8/5/7/857427983547ac70cd40ea8f81225669f0e5721c.png" class="latex" alt="$\textbf{(A)}\ 24 \qquad \textbf{(B)}\ 14\sqrt{3} \qquad \textbf{(C)}\ \frac{195}{8} \qquad \textbf{(D)}\ \frac{129\sqrt{7}}{14} \qquad \textbf{(E)}\ \frac{69\sqrt{2}}{4}$" style="vertical-align: -13px" width="496" height="41" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_20" title="2011 AMC 12B Problems/Problem 20">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_21">Problem 21</span></h2>
+<p>The arithmetic mean of two distinct positive integers <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is a two-digit integer. The geometric mean of <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" /> is obtained by reversing the digits of the arithmetic mean. What is <img src="//latex.artofproblemsolving.com/6/c/0/6c0a86663edb0dccee099a47d48b1b19a4ee6cb9.png" class="latex" alt="$|x - y|$" style="vertical-align: -4px" width="50" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/7/1/1/7113ac762caf217fd361fbfb21c730f16b918fc2.png" class="latex" alt="$\textbf{(A)}\ 24 \qquad \textbf{(B)}\ 48 \qquad \textbf{(C)}\ 54 \qquad \textbf{(D)}\ 66 \qquad \textbf{(E)}\ 70$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_21" title="2011 AMC 12B Problems/Problem 21">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_22">Problem 22</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/c/0/7/c073f8a05257a19c2dacc368858763bb44fa3747.png" class="latex" alt="$T_1$" style="vertical-align: -2px" width="16" height="15" /> be a triangle with side lengths <img src="//latex.artofproblemsolving.com/6/a/2/6a26f769928f0ee65ef0690345d2d1f85e274c12.png" class="latex" alt="$2011, 2012$" style="vertical-align: -3px" width="80" height="16" />, and <img src="//latex.artofproblemsolving.com/2/f/a/2fa725c98dfe19f98809033755b801810bc298aa.png" class="latex" alt="$2013$" style="vertical-align: 0px" width="35" height="13" />. For <img src="//latex.artofproblemsolving.com/5/7/8/578cf6c5b8058f6f8e6369416da6dcaf73f8fc01.png" class="latex" alt="$n \geq 1$" style="vertical-align: -2px" width="43" height="14" />, if <img src="//latex.artofproblemsolving.com/c/2/b/c2b3009a823bfc8f95dbe51e386403f3cb1a221c.png" class="latex" alt="$T_n = \Delta ABC$" style="vertical-align: -2px" width="101" height="15" /> and <img src="//latex.artofproblemsolving.com/8/7/0/87082784a051c7525966d9819cc379329a30e030.png" class="latex" alt="$D, E$" style="vertical-align: -3px" width="37" height="16" />, and <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" width="14" height="12" /> are the points of tangency of the incircle of <img src="//latex.artofproblemsolving.com/3/b/6/3b6d5d23a7e91fb9f6c248fb4cd43111165540f9.png" class="latex" alt="$\Delta ABC$" width="57" height="13" /> to the sides <img src="//latex.artofproblemsolving.com/5/a/a/5aaa2452d9ce4302e49ed83896ce666bd63e981c.png" class="latex" alt="$AB, BC$" style="vertical-align: -3px" width="65" height="16" />, and <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" />, respectively, then <img src="//latex.artofproblemsolving.com/6/a/1/6a1ef39be9a742204eb7347c5d32c9941e98c69d.png" class="latex" alt="$T_{n+1}$" style="vertical-align: -4px" width="34" height="16" /> is a triangle with side lengths <img src="//latex.artofproblemsolving.com/a/b/e/abe2f961bc178cb504fd3e606db4fc2ad4b58cc1.png" class="latex" alt="$AD, BE$" style="vertical-align: -3px" width="66" height="16" />, and <img src="//latex.artofproblemsolving.com/0/7/d/07d29465728e92952374a857beaee91665d8dbd9.png" class="latex" alt="$CF$" width="28" height="12" />, if it exists. What is the perimeter of the last triangle in the sequence <img src="//latex.artofproblemsolving.com/2/4/e/24ec3272602fd8aa32b8360df596e388291097ab.png" class="latex" alt="$\left(T_n\right)$" style="vertical-align: -4px" width="32" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/b/6/2/b628b2b0ce18db50b46194658baa8ab212f00dfe.png" class="latex" alt="$\textbf{(A)}\ \frac{1509}{8} \qquad \textbf{(B)}\  \frac{1509}{32} \qquad \textbf{(C)}\  \frac{1509}{64} \qquad \textbf{(D)}\  \frac{1509}{128} \qquad \textbf{(E)}\  \frac{1509}{256}$" style="vertical-align: -13px" width="503" height="38" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_22" title="2011 AMC 12B Problems/Problem 22">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_23">Problem 23</span></h2>
+<p>A bug travels in the coordinate plane, moving only along the lines that are parallel to the <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />-axis or <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -3px" width="9" height="11" />-axis. Let <img src="//latex.artofproblemsolving.com/c/1/b/c1bac8091bcf83ea0e346fc7124537a0abd073ac.png" class="latex" alt="$A = (-3, 2)$" style="vertical-align: -4px" width="91" height="18" /> and <img src="//latex.artofproblemsolving.com/b/c/8/bc8f6f5da7f77fad8f8b2f81797a77860c7e7bbe.png" class="latex" alt="$B = (3, -2)$" style="vertical-align: -4px" width="91" height="18" />. Consider all possible paths of the bug from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> of length at most <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" />. How many points with integer coordinates lie on at least one of these paths?
+</p><p><img src="//latex.artofproblemsolving.com/6/7/5/67590ea5b725083055b2322e61f1d3264428cf25.png" class="latex" alt="$\textbf{(A)}\ 161 \qquad \textbf{(B)}\ 185 \qquad \textbf{(C)}\  195 \qquad \textbf{(D)}\  227 \qquad \textbf{(E)}\  255$" style="vertical-align: -4px" width="439" height="17" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_23" title="2011 AMC 12B Problems/Problem 23">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_24">Problem 24</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/c/f/c/cfc90becf098dcd7b505c70b0717df2a28e5ccdd.png" class="latex" alt="$P(z) = z^8 + \left(4\sqrt{3} + 6\right)z^4 - \left(4\sqrt{3} + 7\right)$" style="vertical-align: -11px" width="311" height="32" />. What is the minimum perimeter among all the <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" />-sided polygons in the complex plane whose vertices are precisely the zeros of <img src="//latex.artofproblemsolving.com/9/e/0/9e048a9db04ffc89eec3e0d78777919f12df3aeb.png" class="latex" alt="$P(z)$" style="vertical-align: -4px" width="36" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/b/8/4/b84f4e7b3791d1b75100b2eb550a8bb7305713d1.png" class="latex" alt="$\textbf{(A)}\ 4\sqrt{3} + 4 \qquad \textbf{(B)}\ 8\sqrt{2} \qquad \textbf{(C)}\  3\sqrt{2} + 3\sqrt{6} \qquad \textbf{(D)}\  4\sqrt{2} + 4\sqrt{3} \qquad \textbf{(E)}\  4\sqrt{3} + 6$" style="vertical-align: -4px" width="643" height="21" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_24" title="2011 AMC 12B Problems/Problem 24">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_25">Problem 25</span></h2>
+<p>For every <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" /> and <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> integers with <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> odd, denote by <img src="//latex.artofproblemsolving.com/1/4/3/1434450b477974b3840d945202d285f549dd5911.png" class="latex" alt="$\left[\frac{m}{k}\right]$" style="vertical-align: -12px" width="33" height="33" /> the integer closest to <img src="//latex.artofproblemsolving.com/0/e/f/0efa3464d3999de2d6dcc56cc2a1df47f24cbf02.png" class="latex" alt="$\frac{m}{k}$" style="vertical-align: -12px" width="18" height="33" />. For every odd integer <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />, let <img src="//latex.artofproblemsolving.com/5/a/2/5a2f7534d08cd1d4672bef4ce465aa829667750f.png" class="latex" alt="$P(k)$" style="vertical-align: -4px" width="37" height="18" /> be the probability that
+</p><p><img src="//latex.artofproblemsolving.com/4/b/1/4b16c54cc986c631ba6d81b1d5ef6d71b3200eb8.png" class="latexcenter" alt="\[\left[\frac{n}{k}\right] + \left[\frac{100 - n}{k}\right] = \left[\frac{100}{k}\right]\]" width="202" height="43" />
+</p><p>for an integer <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> randomly chosen from the interval <img src="//latex.artofproblemsolving.com/8/5/f/85f48cb3311c9f958ca92863d55906aa9ea14e0b.png" class="latex" alt="$1 \leq n \leq 99!$" style="vertical-align: -2px" width="90" height="15" />. What is the minimum possible value of <img src="//latex.artofproblemsolving.com/5/a/2/5a2f7534d08cd1d4672bef4ce465aa829667750f.png" class="latex" alt="$P(k)$" style="vertical-align: -4px" width="37" height="18" /> over the odd integers <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> in the interval <img src="//latex.artofproblemsolving.com/8/6/6/866fa5edb8701dd205951fe1aa3dd3f7b978aa7d.png" class="latex" alt="$1 \leq k \leq 99$" style="vertical-align: -2px" width="85" height="15" />?
+</p><p><img src="//latex.artofproblemsolving.com/9/f/0/9f091971a4a40f0f3414caeb502a036aa3f7f8a1.png" class="latex" alt="$\textbf{(A)}\ \frac{1}{2} \qquad \textbf{(B)}\ \frac{50}{99} \qquad \textbf{(C)}\ \frac{44}{87} \qquad \textbf{(D)}\  \frac{34}{67} \qquad \textbf{(E)}\  \frac{7}{13}$" style="vertical-align: -13px" width="404" height="38" />
+</p><p><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_25" title="2011 AMC 12B Problems/Problem 25">Solution</a>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="2"><b><a href="/wiki/index.php/2011_AMC_12B" title="2011 AMC 12B">2011 AMC 12B</a></b> (<b><a class="mw-selflink selflink">Problems</a></b> • <b><a href="/wiki/index.php/2011_AMC_12B_Answer_Key" title="2011 AMC 12B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=44&amp;year=2011">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2011_AMC_12A_Problems" title="2011 AMC 12A Problems">2011 AMC 12A Problems</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2012_AMC_12A_Problems" title="2012 AMC 12A Problems">2012 AMC 12A Problems</a></b>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_1" title="2011 AMC 12B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_2" title="2011 AMC 12B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_3" title="2011 AMC 12B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_4" title="2011 AMC 12B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_5" title="2011 AMC 12B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_6" title="2011 AMC 12B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_7" title="2011 AMC 12B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_8" title="2011 AMC 12B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_9" title="2011 AMC 12B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_10" title="2011 AMC 12B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_11" title="2011 AMC 12B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_12" title="2011 AMC 12B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_13" title="2011 AMC 12B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_14" title="2011 AMC 12B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_15" title="2011 AMC 12B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_16" class="mw-redirect" title="2011 AMC 12B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_17" title="2011 AMC 12B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_18" title="2011 AMC 12B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_19" title="2011 AMC 12B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_20" title="2011 AMC 12B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_21" title="2011 AMC 12B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_22" title="2011 AMC 12B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_23" title="2011 AMC 12B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_24" title="2011 AMC 12B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2011_AMC_12B_Problems/Problem_25" title="2011 AMC 12B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="2" style="text-align:center;"><b><a href="/wiki/index.php/AMC_12_Problems_and_Solutions" title="AMC 12 Problems and Solutions"> All AMC 12 Problems and Solutions</a></b>
+</td></tr></tbody></table><p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p><div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200714225237
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.162 seconds
+Real time usage: 0.167 seconds
+Preprocessor visited node count: 1625/1000000
+Preprocessor generated node count: 4123/1000000
+Post‐expand include size: 4962/2097152 bytes
+Template argument size: 337/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 28878/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   47.859      1 -total
+ 11.33%    5.423      1 Template:AMC12_box
+ 10.91%    5.222      1 Template:AMC12_Problems
+  3.37%    1.611      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:9095-0!canonical and timestamp 20200714225236 and revision id 128153
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12B_Problems&amp;oldid=128153">https://artofproblemsolving.com/wiki/index.php?title=2011_AMC_12B_Problems&amp;oldid=128153</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:AMC_12_Problems" title="Category:AMC 12 Problems">AMC 12 Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200715104151 -->
+</html>

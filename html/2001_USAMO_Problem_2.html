@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2001 USAMO Problems/Problem 2 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2001_USAMO_Problems/Problem_2","wgTitle":"2001 USAMO Problems/Problem 2","wgCurRevisionId":88291,"wgRevisionId":88291,"wgArticleId":5700,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Olympiad Geometry Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2001_USAMO_Problems/Problem_2","wgRelevantArticleId":5700,"wgRequestId":"0535155dde923bcf4db0c8fd","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2001_USAMO_Problems_Problem_2 rootpage-2001_USAMO_Problems_Problem_2 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2001 USAMO Problems/Problem 2																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2001_USAMO_Problems/Problem_2" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2001_USAMO_Problems/Problem_2&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2001_USAMO_Problems/Problem_2&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2001_USAMO_Problems/Problem_2&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2001_USAMO_Problems/Problem_2" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2001 USAMO Problems/Problem 2</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution"><span class="tocnumber">2</span> <span class="toctext">Solution</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Solution_1"><span class="tocnumber">2.1</span> <span class="toctext">Solution 1</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Solution_2"><span class="tocnumber">2.2</span> <span class="toctext">Solution 2</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Solution_3"><span class="tocnumber">2.3</span> <span class="toctext">Solution 3</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Solution_4"><span class="tocnumber">2.4</span> <span class="toctext">Solution 4</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem">Problem</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> be a <a href="/wiki/index.php/Triangle" title="Triangle">triangle</a> and let <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> be its <a href="/wiki/index.php/Incircle" title="Incircle">incircle</a>. Denote by <img src="//latex.artofproblemsolving.com/8/8/c/88c7f79185a0b48d33454e85f44b4bfdf81d2420.png" class="latex" alt="$D_1$" style="vertical-align: -2px" width="20" height="15" /> and <img src="//latex.artofproblemsolving.com/4/5/9/459b08d5235f417c69f0cc0c2d473a4739abdb1f.png" class="latex" alt="$E_1$" style="vertical-align: -2px" width="19" height="15" /> the points where <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> is tangent to sides <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" />, respectively. Denote by <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" /> and <img src="//latex.artofproblemsolving.com/f/2/6/f263b4685391e1f4f3ba204a355cc203a29a0653.png" class="latex" alt="$E_2$" style="vertical-align: -2px" width="19" height="15" /> the points on sides <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" />, respectively, such that <img src="//latex.artofproblemsolving.com/6/f/2/6f28c1adc2299fb121b23ef4a286a11c027bec99.png" class="latex" alt="$CD_2 = BD_1$" style="vertical-align: -2px" width="96" height="15" /> and <img src="//latex.artofproblemsolving.com/8/1/4/81433aa362c3600a305b0e4f9c9fc658ba3aa027.png" class="latex" alt="$CE_2 = AE_1$" style="vertical-align: -2px" width="92" height="15" />, and denote by <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> the point of intersection of segments <img src="//latex.artofproblemsolving.com/d/a/2/da27c5fbd9c4719b739ba33e6c6bf8a15de034b2.png" class="latex" alt="$AD_2$" style="vertical-align: -2px" width="34" height="15" /> and <img src="//latex.artofproblemsolving.com/7/5/1/75169bfcd9c351d4e8e1048ba6b7d333c9d52d31.png" class="latex" alt="$BE_2$" style="vertical-align: -2px" width="34" height="15" />. Circle <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> intersects segment <img src="//latex.artofproblemsolving.com/d/a/2/da27c5fbd9c4719b739ba33e6c6bf8a15de034b2.png" class="latex" alt="$AD_2$" style="vertical-align: -2px" width="34" height="15" /> at two points, the closer of which to the vertex <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> is denoted by <img src="//latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16" />. Prove that <img src="//latex.artofproblemsolving.com/4/a/0/4a03ee40c9ac4b59f2adb15a9d64f9fa5c3d0588.png" class="latex" alt="$AQ = D_2P$" style="vertical-align: -3px" width="89" height="16" />.
+</p>
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>It is well known that the excircle opposite <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> is tangent to <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> at the point <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" />. (Proof: let the points of tangency of the excircle with the lines <img src="//latex.artofproblemsolving.com/7/5/3/75313e435f326cf1f2a2820f7abe1f68bdd9d0cd.png" class="latex" alt="$BC, AB, AC$" style="vertical-align: -3px" width="100" height="16" /> be <img src="//latex.artofproblemsolving.com/c/3/3/c33ff3a93126163b376e87149dda564d802a0b9a.png" class="latex" alt="$D_3, F,G$" style="vertical-align: -3px" width="65" height="16" /> respectively. Then <img src="//latex.artofproblemsolving.com/8/8/a/88a94bed686404ee6c1dfe75ef97201209c0c504.png" class="latex" alt="$AB+BD_3=AB + BF=AF = AG = AC + CG=AC + CD_3$" style="vertical-align: -2px" width="508" height="15" />. It follows that <img src="//latex.artofproblemsolving.com/1/3/0/130a6ab4f9dea0efb5d3a4b71954f3da084f1b73.png" class="latex" alt="$2CD_3 = AB + BC - AC$" style="vertical-align: -2px" width="199" height="15" />, and <img src="//latex.artofproblemsolving.com/2/0/c/20c05f61eb31cf6b5048fb298d2ab11ac80631ad.png" class="latex" alt="$CD_3 = s-b = BD_1 = CD_2$" style="vertical-align: -2px" width="220" height="15" />, so <img src="//latex.artofproblemsolving.com/7/d/1/7d17c2b3ba751df973a8e01aa12a1cb492ee99fe.png" class="latex" alt="$D_3 \equiv D_2$" style="vertical-align: -2px" width="67" height="15" />.)
+</p><p>Now consider the homothety that carries the incircle of <img src="//latex.artofproblemsolving.com/8/c/3/8c3a2d2224f7d163b46d702132425d47828bf538.png" class="latex" alt="$\triangle ABC$" width="58" height="13" /> to its excircle. The homothety also carries <img src="//latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16" /> to <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" /> (since <img src="//latex.artofproblemsolving.com/0/3/d/03de9f6c0cddd3943110a5c4e7dcab7cc6fea5b0.png" class="latex" alt="$A,Q,D_2$" style="vertical-align: -3px" width="65" height="16" /> are collinear), and carries the tangency points <img src="//latex.artofproblemsolving.com/4/5/9/459b08d5235f417c69f0cc0c2d473a4739abdb1f.png" class="latex" alt="$E_1$" style="vertical-align: -2px" width="19" height="15" /> to <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. It follows that <img src="//latex.artofproblemsolving.com/1/7/c/17cf6e99002213cf0269153ae1384df807a84ff4.png" class="latex" alt="$\frac{AQ}{QD_2} = \frac{AE_1}{E_1G} = \frac{s-a}{E_1C + CD_2} = \frac{s-a}{CD_1 + BD_1} = \frac{s-a}{a}$" style="vertical-align: -16px" width="418" height="41" />.
+</p><p><img src="//latex.artofproblemsolving.com/1/a/f/1aff2761b9f6a120cf411fc2909f56e4238994d8.png" class="latexcenter" alt="[asy] pathpen = linewidth(0.7); size(300); pen d = linetype(&quot;4 4&quot;) + linewidth(0.6); pair B=(0,0), C=(10,0), A=7*expi(1),O=D(incenter(A,B,C)),D1 = D(MP(&quot;D_1&quot;,foot(O,B,C))),E1 = D(MP(&quot;E_1&quot;,foot(O,A,C),NE)),E2 = D(MP(&quot;E_2&quot;,C+A-E1,NE)); /* arbitrary points */  /* ugly construction for OA */ pair Ca = 2C-A, Cb = bisectorpoint(Ca,C,B), OA = IP(A--A+10*(O-A),C--C+50*(Cb-C)), D2 = D(MP(&quot;D_2&quot;,foot(OA,B,C))), Fa=2B-A, Ga=2C-A, F=MP(&quot;F&quot;,D(foot(OA,B,Fa)),NW), G=MP(&quot;G&quot;,D(foot(OA,C,Ga)),NE); D(OA); D(MP(&quot;A&quot;,A,N)--MP(&quot;B&quot;,B,NW)--MP(&quot;C&quot;,C,NE)--cycle); D(incircle(A,B,C)); D(CP(OA,D2),d); D(B--Fa,linewidth(0.6)); D(C--Ga,linewidth(0.6)); D(MP(&quot;P&quot;,IP(D(A--D2),D(B--E2)),NNE)); D(MP(&quot;Q&quot;,IP(incircle(A,B,C),A--D2),SW));  clip((-20,-10)--(-20,20)--(20,20)--(20,-10)--cycle); [/asy]" width="502" height="398" />
+By Menelaus' Theorem on <img src="//latex.artofproblemsolving.com/c/a/f/caf4b0cac62b78172fc64fd0cb67f38de6873f52.png" class="latex" alt="$\triangle ACD_2$" style="vertical-align: -2px" width="65" height="16" /> with segment <img src="//latex.artofproblemsolving.com/b/8/4/b847df7bc8ecbe503ae1e36773f806f2ec87b7d4.png" class="latex" alt="$\overline{BE_2}$" style="vertical-align: -2px" width="36" height="18" />, it follows that <img src="//latex.artofproblemsolving.com/6/7/a/67a0432c7341a8e39e3cf1ac33f00fdcae938dd0.png" class="latex" alt="$\frac{CE_2}{E_2A} \cdot \frac{AP}{PD_2} \cdot \frac{BD_2}{BC} = 1 \Longrightarrow \frac{AP}{PD_2} = \frac{(c - (s-a)) \cdot a}{(a-(s-c)) \cdot AE_1} = \frac{a}{s-a}$" style="vertical-align: -17px" width="502" height="43" />. It easily follows that <img src="//latex.artofproblemsolving.com/4/a/0/4a03ee40c9ac4b59f2adb15a9d64f9fa5c3d0588.png" class="latex" alt="$AQ = D_2P$" style="vertical-align: -3px" width="89" height="16" />. <img src="//latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
+</p>
+<h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
+<p>The key observation is the following lemma.
+</p><p>Lemma: Segment <img src="//latex.artofproblemsolving.com/2/5/a/25a141cb8a9c90a55f2b054d2140f778153755e4.png" class="latex" alt="$D_1Q$" style="vertical-align: -3px" width="36" height="16" /> is a diameter of circle <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" />.
+</p><p>Proof: Let <img src="//latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" /> be the center of circle <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" />, i.e., <img src="//latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" /> is the incenter of triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" />. Extend segment <img src="//latex.artofproblemsolving.com/8/d/f/8df19795597cf073afad45cb2c92be7dbd75a883.png" class="latex" alt="$D_1I$" style="vertical-align: -2px" width="32" height="15" /> through <img src="//latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" /> to intersect circle <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> again at <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" />, and extend segment <img src="//latex.artofproblemsolving.com/a/a/6/aa6603589fce59ba6533790a7a22b8c8884d4a45.png" class="latex" alt="$AQ&#39;$" style="vertical-align: -3px" width="31" height="17" /> through <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" /> to intersect segment <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> at <img src="//latex.artofproblemsolving.com/b/2/3/b239e47c75fa1adfb0e7d7fb6bf219fcc53f86d9.png" class="latex" alt="$D&#39;$" width="19" height="14" />. We show that <img src="//latex.artofproblemsolving.com/c/5/d/c5d7f41e3adb14d8472919d066a38dab71fc3d3f.png" class="latex" alt="$D_2 = D&#39;$" style="vertical-align: -2px" width="66" height="16" />, which in turn implies that <img src="//latex.artofproblemsolving.com/2/e/4/2e41e1482d4bbb14fe61f976a061d25470ea129c.png" class="latex" alt="$Q = Q&#39;$" style="vertical-align: -3px" width="56" height="17" />, that is, <img src="//latex.artofproblemsolving.com/2/5/a/25a141cb8a9c90a55f2b054d2140f778153755e4.png" class="latex" alt="$D_1Q$" style="vertical-align: -3px" width="36" height="16" /> is a diameter of <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" />.
+</p><p>Let <img src="//latex.artofproblemsolving.com/9/b/2/9b25f8e64b484493fda944d25cad453423041fe6.png" class="latex" alt="$l$" width="5" height="12" /> be the line tangent to circle <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> at <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" />, and let <img src="//latex.artofproblemsolving.com/9/b/2/9b25f8e64b484493fda944d25cad453423041fe6.png" class="latex" alt="$l$" width="5" height="12" /> intersect the segments <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> and <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" /> at <img src="//latex.artofproblemsolving.com/2/4/3/243af6fad28c15abb3e11996374ba60e745bf543.png" class="latex" alt="$B_1$" style="vertical-align: -2px" width="19" height="15" /> and <img src="//latex.artofproblemsolving.com/7/0/b/70b97eb4ad6e4e7a5a97e2547d9ed6e965960d0c.png" class="latex" alt="$C_1$" style="vertical-align: -2px" width="18" height="15" />, respectively. Then <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> is an excircle of triangle <img src="//latex.artofproblemsolving.com/6/1/4/61489fc7638c1ae3f981dde15122dc8e9f44bb2c.png" class="latex" alt="$AB_1C_1$" style="vertical-align: -2px" width="53" height="15" />. Let <img src="//latex.artofproblemsolving.com/f/1/b/f1ba046b5db8f9a02f83e52b8e1802902554c325.png" class="latex" alt="$\mathbf{H}_1$" style="vertical-align: -2px" width="22" height="16" /> denote the dilation with its center at <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and ratio <img src="//latex.artofproblemsolving.com/f/1/1/f1143041aa539f66d698334aee9fb17e4a437d82.png" class="latex" alt="$AD&#39;/AQ&#39;$" style="vertical-align: -4px" width="73" height="18" />. Since <img src="//latex.artofproblemsolving.com/8/6/5/8650aed2ce96ed03acc65a98f059fa35dddf7df0.png" class="latex" alt="$l\perp D_1Q&#39;$" style="vertical-align: -3px" width="70" height="17" /> and <img src="//latex.artofproblemsolving.com/8/8/1/8817b5eac1d4bf6cdca0ed6bbaccacc2abd16d73.png" class="latex" alt="$BC\perp D_1Q&#39;$" style="vertical-align: -3px" width="93" height="17" />, <img src="//latex.artofproblemsolving.com/4/e/e/4eee937de64b2a4efb2f759b5f1a7d9a7c0afc3d.png" class="latex" alt="$l\parallel BC$" style="vertical-align: -5px" width="53" height="19" />. Hence <img src="//latex.artofproblemsolving.com/d/3/9/d392b50592ecb0c3afd97f5eb0e51b0d47443e88.png" class="latex" alt="$AB/AB_1 = AC/AC_1 = AD&#39;/AQ&#39;$" style="vertical-align: -4px" width="263" height="18" />. Thus <img src="//latex.artofproblemsolving.com/2/7/3/273764de0940a2d15a24838f5e450785ecb64906.png" class="latex" alt="$\mathbf{H}_1(Q&#39;) = D&#39;$" style="vertical-align: -4px" width="100" height="18" />, <img src="//latex.artofproblemsolving.com/f/a/6/fa6d719e8d5dd84f4b4b9d524c06890e4f4bb829.png" class="latex" alt="$\mathbf{H}_1(B_1) = B$" style="vertical-align: -4px" width="97" height="18" />, and <img src="//latex.artofproblemsolving.com/5/2/6/52687cba1973b57b74531ae0430e9cfbca997967.png" class="latex" alt="$\mathbf{H}_1(C_1) = C$" style="vertical-align: -4px" width="96" height="18" />. It also follows that an excircle <img src="//latex.artofproblemsolving.com/9/e/2/9e2b196e9b7e57d1ec99f6534c581ea9759d2170.png" class="latex" alt="$\Omega$" width="12" height="13" /> of triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" /> is tangent to the side <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> at <img src="//latex.artofproblemsolving.com/b/2/3/b239e47c75fa1adfb0e7d7fb6bf219fcc53f86d9.png" class="latex" alt="$D&#39;$" width="19" height="14" />.
+</p><p>It is well known that <img src="//latex.artofproblemsolving.com/d/b/0/db03f2cdda73cf20d4d5dfeb4c2c4d7e996a8856.png" class="latexcenter" alt="\[CD_1 = \frac{1}{2}(BC + CA - AB).\]" width="221" height="37" /> We compute <img src="//latex.artofproblemsolving.com/8/9/8/89852cfe663bb768403cc572286c02421b4b7699.png" class="latex" alt="$BD&#39;$" width="34" height="14" />. Let <img src="//latex.artofproblemsolving.com/6/a/4/6a47ca0fe7cb276abc022af6ac88ddae1a9d6894.png" class="latex" alt="$X$" width="15" height="12" /> and <img src="//latex.artofproblemsolving.com/c/e/5/ce58e4af225c93d08606c26554caaa5ae32edeba.png" class="latex" alt="$Y$" width="14" height="12" /> denote the points of tangency of circle <img src="//latex.artofproblemsolving.com/9/e/2/9e2b196e9b7e57d1ec99f6534c581ea9759d2170.png" class="latex" alt="$\Omega$" width="12" height="13" /> with rays <img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> and <img src="//latex.artofproblemsolving.com/a/1/7/a179ff2638e4799cadd820db205c2beff6299ce9.png" class="latex" alt="$AC$" width="27" height="13" />, respectively. Then by equal tangents, <img src="//latex.artofproblemsolving.com/0/a/1/0a1d8ebd503b3df1a302ff08167d105a7e323c07.png" class="latex" alt="$AX = AY$" width="82" height="13" />, <img src="//latex.artofproblemsolving.com/9/c/3/9c34b138964d20c24b43c30609a93e993833c600.png" class="latex" alt="$BD&#39; = BX$" width="89" height="14" />, and <img src="//latex.artofproblemsolving.com/f/8/1/f8139ac37ee86c7ba6612726f8a2a2bd203a9869.png" class="latex" alt="$D&#39;C = YC$" width="87" height="14" />. Hence <img src="//latex.artofproblemsolving.com/f/d/5/fd5304fecdee304866af4287b93d22030e73ec9a.png" class="latexcenter" alt="\[AX = AY = \frac{1}{2}(AX + AY) = \frac{1}{2}(AB + BX + YC + CA) = \frac{1}{2}(AB + BC + CA).\]" width="584" height="37" /> It follows that <img src="//latex.artofproblemsolving.com/1/3/7/13763fa36ce8ea286bbcf16e8c78246e0c45c1de.png" class="latexcenter" alt="\[BD&#39; = BX = AX - AB = \frac{1}{2}(BC + CA - AB).\]" width="379" height="37" /> Combining these two equations yields <img src="//latex.artofproblemsolving.com/6/1/d/61d627639c64b7ba804b63af397513c9ad096226.png" class="latex" alt="$BD&#39; = CD_1$" style="vertical-align: -2px" width="94" height="16" />. Thus <img src="//latex.artofproblemsolving.com/d/a/9/da963406750be22d48be7588521847307b62e5a9.png" class="latexcenter" alt="\[BD_2 = BD_1 - D_2D_1 = D_2C - D_2D_1 = CD_1 = BD&#39;,\]" width="418" height="17" /> that is, <img src="//latex.artofproblemsolving.com/b/2/d/b2d578ef301cc88e2d0a311bfa083038ba58c77f.png" class="latex" alt="$D&#39; = D_2$" style="vertical-align: -2px" width="65" height="16" />, as desired. <img src="//latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
+</p><p>Now we prove our main result. Let <img src="//latex.artofproblemsolving.com/3/c/6/3c6a4a0680d4e0668219585d856c7f109cd09f77.png" class="latex" alt="$M_1$" style="vertical-align: -2px" width="23" height="15" /> and <img src="//latex.artofproblemsolving.com/c/8/7/c879631d01bcc51ec112e4a32a039f624d40c91c.png" class="latex" alt="$M_2$" style="vertical-align: -2px" width="23" height="15" /> be the respective midpoints of segments <img src="//latex.artofproblemsolving.com/6/c/5/6c52a41dcbd739f1d026c5d4f181438b75b76976.png" class="latex" alt="$BC$" width="28" height="12" /> and <img src="//latex.artofproblemsolving.com/e/6/5/e657259c0995d2c36d46744bb4aa81471e6575ec.png" class="latex" alt="$CA$" width="28" height="13" />. Then <img src="//latex.artofproblemsolving.com/3/c/6/3c6a4a0680d4e0668219585d856c7f109cd09f77.png" class="latex" alt="$M_1$" style="vertical-align: -2px" width="23" height="15" /> is also the midpoint of segment <img src="//latex.artofproblemsolving.com/3/f/9/3f9b4ad968574e678303807967995831c1a1f60a.png" class="latex" alt="$D_1D_2$" style="vertical-align: -2px" width="43" height="15" />, from which it follows that <img src="//latex.artofproblemsolving.com/6/c/2/6c2f66a8cc5be6a127004fd6ae4b538d9e841985.png" class="latex" alt="$IM_1$" style="vertical-align: -2px" width="32" height="15" /> is the midline of triangle <img src="//latex.artofproblemsolving.com/f/6/2/f628879abaa2e439e7140c4ea28af29c957fe35b.png" class="latex" alt="$D_1QD_2$" style="vertical-align: -3px" width="58" height="16" />. Hence <img src="//latex.artofproblemsolving.com/b/4/3/b4308424c872f26411a82754318c213737076dda.png" class="latexcenter" alt="\[QD_2 = 2IM_1\]" width="102" height="16" /> and <img src="//latex.artofproblemsolving.com/e/7/2/e7295c227eddb0e0518a15537145535cf5a911cc.png" class="latex" alt="$AD_2\parallel M_1I$" style="vertical-align: -5px" width="90" height="19" />. Similarly, we can prove that <img src="//latex.artofproblemsolving.com/2/3/4/23490dc7420ce7126035606ba632b7fbffde4fbd.png" class="latex" alt="$BE_2\parallel M_2I$" style="vertical-align: -5px" width="89" height="19" />.
+</p><p>2001usamo2-2.png
+Let <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> be the centroid of triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" />. Thus segments <img src="//latex.artofproblemsolving.com/e/9/d/e9ddb1a61a1d27d6c6048eb778f8d3dfd08ee65c.png" class="latex" alt="$AM_1$" style="vertical-align: -2px" width="36" height="15" /> and <img src="//latex.artofproblemsolving.com/0/0/b/00bd8fa78b61955b982ff73423554972285642bc.png" class="latex" alt="$BM_2$" style="vertical-align: -2px" width="38" height="15" /> intersect at <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. Define transformation <img src="//latex.artofproblemsolving.com/5/c/0/5c07f672e8df5b0e858da6a0bf86841cc746ed22.png" class="latex" alt="$\mathbf{H}_2$" style="vertical-align: -2px" width="22" height="16" /> as the dilation with its center at <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> and ratio <img src="//latex.artofproblemsolving.com/9/c/0/9c0935f19767bef282a174dea1c15011e246720b.png" class="latex" alt="$-1/2$" style="vertical-align: -4px" width="40" height="18" />. Then <img src="//latex.artofproblemsolving.com/f/0/3/f0331cbf1c9c2ea1d9aa9ae926294b6af05c80a5.png" class="latex" alt="$\mathbf{H}_2(A) = M_1$" style="vertical-align: -4px" width="99" height="18" /> and <img src="//latex.artofproblemsolving.com/9/0/4/9049415f4bde16b3de68b93fbed31c26c980f7ba.png" class="latex" alt="$\mathbf{H}_2(B) = M_2$" style="vertical-align: -4px" width="100" height="18" />. Under the dilation, parallel lines go to parallel lines and the intersection of two lines goes to the intersection of their images. Since <img src="//latex.artofproblemsolving.com/e/7/2/e7295c227eddb0e0518a15537145535cf5a911cc.png" class="latex" alt="$AD_2\parallel M_1I$" style="vertical-align: -5px" width="90" height="19" /> and <img src="//latex.artofproblemsolving.com/2/3/4/23490dc7420ce7126035606ba632b7fbffde4fbd.png" class="latex" alt="$BE_2\parallel M_2I$" style="vertical-align: -5px" width="89" height="19" />, <img src="//latex.artofproblemsolving.com/5/c/0/5c07f672e8df5b0e858da6a0bf86841cc746ed22.png" class="latex" alt="$\mathbf{H}_2$" style="vertical-align: -2px" width="22" height="16" /> maps lines <img src="//latex.artofproblemsolving.com/d/a/2/da27c5fbd9c4719b739ba33e6c6bf8a15de034b2.png" class="latex" alt="$AD_2$" style="vertical-align: -2px" width="34" height="15" /> and <img src="//latex.artofproblemsolving.com/7/5/1/75169bfcd9c351d4e8e1048ba6b7d333c9d52d31.png" class="latex" alt="$BE_2$" style="vertical-align: -2px" width="34" height="15" /> to lines <img src="//latex.artofproblemsolving.com/5/c/e/5cee20adb73da3ee2e3cf24dd50605117d436127.png" class="latex" alt="$M_1I$" style="vertical-align: -2px" width="34" height="15" /> and <img src="//latex.artofproblemsolving.com/5/2/0/520e9362cb75ae0a590f5e337a21e65a3a2bdecb.png" class="latex" alt="$M_2I$" style="vertical-align: -2px" width="34" height="15" />, respectively. It also follows that <img src="//latex.artofproblemsolving.com/5/2/9/52974f9a1fe82e5525dc0ff3c455392157028c22.png" class="latex" alt="$\mathbf{H}_2(I) = P$" style="vertical-align: -4px" width="85" height="18" /> and <img src="//latex.artofproblemsolving.com/f/d/d/fddbadc6f8bd9defeb9d886b1180bb2337106226.png" class="latexcenter" alt="\[\frac{IM_1}{AP} = \frac{GM_1}{AG} = \frac{1}{2}\]" width="140" height="37" /> or <img src="//latex.artofproblemsolving.com/9/8/a/98ab0436eb8361c4884f2e4a43a4a558b0ddf6cf.png" class="latexcenter" alt="\[AP = 2IM_1.\]" width="99" height="16" /> This yields <img src="//latex.artofproblemsolving.com/9/b/2/9b293668859df4112d38258d15eb409c762399b0.png" class="latexcenter" alt="\[AQ = AP - QP = 2IM_1 - QP = QD_2 - QP = PD_2,\]" width="426" height="16" /> as desired.
+</p><p>Note: We used directed lengths in our calculations to avoid possible complications caused by the different shapes of triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" />.
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>Here is a rather nice solution using barycentric coordinates:
+</p><p>Let <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> be <img src="//latex.artofproblemsolving.com/d/1/0/d10e4a7cc979f7d958177f48e71c33f4f908c116.png" class="latex" alt="$(1,0,0)$" style="vertical-align: -4px" width="56" height="18" />, <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> be <img src="//latex.artofproblemsolving.com/8/5/3/8530c391dbd145877d3fad6e5208f3c6ca98a1c5.png" class="latex" alt="$(0,1,0)$" style="vertical-align: -4px" width="56" height="18" />, and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be <img src="//latex.artofproblemsolving.com/9/6/5/96521b1a203c3bb20a336e59cb63b1f0d232fb63.png" class="latex" alt="$(0,0,1)$" style="vertical-align: -4px" width="56" height="18" />. Let the side lengths of the triangle be <img src="//latex.artofproblemsolving.com/a/5/b/a5b29b358e825defa3e11b7d903d43ec31e5909a.png" class="latex" alt="$a,b,c$" style="vertical-align: -3px" width="41" height="16" /> and the semi-perimeter <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" />.
+</p><p>Now, <img src="//latex.artofproblemsolving.com/0/8/c/08cd82138d82ed69084bf8bbb139076a35cb8c07.png" class="latexcenter" alt="\[CD_1=s-c, BD_1=s-b, AE_1=s-a, CE_1=s-c.\]" width="424" height="16" /> Thus, <img src="//latex.artofproblemsolving.com/8/4/1/841c4d5ec9a2733dc05daf95c101ff4641ad2b3a.png" class="latexcenter" alt="\[CD_2=s-b, BD_2=s-c, AE_2=s-c, CE_2=s-a.\]" width="424" height="16" />
+</p><p>Therefore, <img src="//latex.artofproblemsolving.com/e/b/0/eb015c8d94a42613696c8f917e509e2ac5537174.png" class="latex" alt="$D_2=(0:s-b:s-c)$" style="vertical-align: -4px" width="176" height="18" /> and <img src="//latex.artofproblemsolving.com/d/5/b/d5bbd6d12d7aca75b2488ef31440c3c8c5e0e341.png" class="latex" alt="$E_2=(s-a:0:s-c).$" style="vertical-align: -4px" width="181" height="18" /> Clearly then, the non-normalized coordinates of <img src="//latex.artofproblemsolving.com/2/9/1/2915185074fe37ec5b86fe5f7f6bdafc92f50ab7.png" class="latex" alt="$P=(s-a:s-b:s-c).$" style="vertical-align: -4px" width="204" height="18" />
+</p><p>Normalizing, we have that <img src="//latex.artofproblemsolving.com/b/0/6/b06fb395deffba4cf6abc93844a4742114ef45df.png" class="latexcenter" alt="\[D_2=\left(0,\frac{s-b}{a},\frac{s-c}{a}\right), E_2=\left(\frac{s-a}{b},0,\frac{s-c}{b}\right), P=\left(\frac{s-a}{s},\frac{s-b}{s},\frac{s-c}{s}\right).\]" width="605" height="43" />
+</p><p>Now, we find the point <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" /> inside the triangle on the line <img src="//latex.artofproblemsolving.com/d/a/2/da27c5fbd9c4719b739ba33e6c6bf8a15de034b2.png" class="latex" alt="$AD_2$" style="vertical-align: -2px" width="34" height="15" /> such that <img src="//latex.artofproblemsolving.com/4/5/2/452b07e8fd405f29056864aa280af4e0c4504ae4.png" class="latex" alt="$AQ&#39;=D_2P$" style="vertical-align: -3px" width="93" height="17" />. It is then sufficient to show that this point lies on the incircle.
+</p><p><img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> is the fraction <img src="//latex.artofproblemsolving.com/5/3/2/5321b6a9b3f8e91d8635b20d6cacf9c4d44dbe77.png" class="latex" alt="$\frac{s-a}{s}$" style="vertical-align: -12px" width="42" height="33" /> of the way "up" the line segment from <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" /> to <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. Thus, we are looking for the point that is <img src="//latex.artofproblemsolving.com/5/3/2/5321b6a9b3f8e91d8635b20d6cacf9c4d44dbe77.png" class="latex" alt="$\frac{s-a}{s}$" style="vertical-align: -12px" width="42" height="33" /> of the way "down" the line segment from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/4/d/0/4d01cc94a123a0c2b5239d4342be2e6ce7f3fc53.png" class="latex" alt="$D_2$" style="vertical-align: -2px" width="21" height="15" />, or, the fraction <img src="//latex.artofproblemsolving.com/5/0/8/508244fa0e17fc50d15203b37f83bfcd2f4512ff.png" class="latex" alt="$1-\frac{s-a}{s}$" style="vertical-align: -12px" width="74" height="33" /> of the way "up".
+</p><p>Thus, <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" /> has normalized <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />-coordinate <img src="//latex.artofproblemsolving.com/1/e/c/1ec35427234c5b92ce9c478093914872ee0b9ce6.png" class="latex" alt="$1-\frac{s-a}{s}=\frac{a}{s}$" style="vertical-align: -12px" width="112" height="33" />.
+</p><p>As the line <img src="//latex.artofproblemsolving.com/d/a/2/da27c5fbd9c4719b739ba33e6c6bf8a15de034b2.png" class="latex" alt="$AD_2$" style="vertical-align: -2px" width="34" height="15" /> has equation <img src="//latex.artofproblemsolving.com/e/5/a/e5afa8574287d60dbd67dbe501c919f20d9856e6.png" class="latex" alt="$(s-c)y=(s-b)z$" style="vertical-align: -4px" width="148" height="18" />, it can easily be found that <img src="//latex.artofproblemsolving.com/2/5/e/25ed271d5ac6f36f8a9a1769a4b04f201c8162f4.png" class="latexcenter" alt="\[Q&#39;=\left(\frac{a^2}{as}, \frac{(s-a)(s-b)}{as}, \frac{(s-a)(s-c)}{as}\right)=(a^2:(s-a)(s-b):(s-a)(s-c)).\]" width="600" height="43" />
+</p><p>Recalling that the equation of the incircle is <img src="//latex.artofproblemsolving.com/3/d/e/3de097b6e8ccec3c4b6340fbd940913e299e3e0a.png" class="latexcenter" alt="\[a^2yz+b^2xz+c^2xy+(x+y+z)[(s-a)^2x+(s-b)^2y+(s-c)^2z]=0.\]" width="482" height="20" /> We must show that this equation is true for <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" />'s values of <img src="//latex.artofproblemsolving.com/a/c/c/accc80fdf164cef264f56a82b6f9f6add320fe05.png" class="latex" alt="$x,y,z$" style="vertical-align: -3px" width="44" height="11" />.
+</p><p>Plugging in our values, this means showing that
+<img src="//latex.artofproblemsolving.com/3/c/c/3cc75bb988bfff443a6d564e4ef6fcca250e3a74.png" class="latexcenter" alt="\[a^2(s-a)^2(s-b)(s-c)+a^2(s-a)[b^2(s-c)+c^2(s-b)]+as[a^2(s-a)^2+(s-a)(s-b)^3+(s-a)(s-c)^3]=0.\]" width="756" height="20" />
+Dividing by <img src="//latex.artofproblemsolving.com/d/c/c/dccbdfc75430813b956f8806a5116527f547f688.png" class="latex" alt="$a(s-a)$" style="vertical-align: -4px" width="62" height="18" />, this is just
+<img src="//latex.artofproblemsolving.com/0/5/3/0538ead70a55e7195d4123c262755390315d628c.png" class="latexcenter" alt="\[a(s-a)(s-b)(s-c)+a[b^2(s-c)+c^2(s-b)]+a^2s(s-a)+s(s-b)^3+s(s-c)^3=0.\]" width="585" height="20" />
+</p><p>Plugging in the value of <img src="//latex.artofproblemsolving.com/5/1/f/51f9a25cad9702257d7b2a356f0d21cfd3927546.png" class="latex" alt="$s:$" width="17" height="8" />
+<img src="//latex.artofproblemsolving.com/2/b/2/2b25d2771b3b75b9a54f7811777ac8a280eab27d.png" class="latexcenter" alt="\[\frac{a(-a+b+c)(a-b+c)(a+b-c)}{8}+\frac{ab^2(a+b-c)}{2}+\frac{ac^2(a-b+c)}{2}+\frac{a^2(a+b+c)(-a+b+c)}{4}+\frac{(a+b+c)(a-b+c)^3}{16}+\frac{(a+b+c)(a+b-c)^3}{16}=0.\]" width="1171" height="39" />
+<img src="//latex.artofproblemsolving.com/9/6/4/964b57b4df4ae0fe305044e82ae7efb3a256ce1d.png" class="latexcenter" alt="\[2a(-a+b+c)(a-b+c)(a+b-c)+8ab^2(a+b-c)+8ac^2(a-b+c)+4a^2(a+b+c)(-a+b+c)+(a+b+c)(a-b+c)^3+(a+b+c)(a+b-c)^3=0\]" width="1003" height="19" />
+<img src="//latex.artofproblemsolving.com/3/5/d/35d02c8d59df7def315ea2c932433eb98713ecc4.png" class="latexcenter" alt="\[2a[(-a+b+c)(a-b+c)(a+b-c)+4b^2(a+b-c)+4c^2(a-b+c)]+(a+b+c)[4a^2(-a+b+c)+(a-b+c)^3+(a+b-c)^3]=0\]" width="869" height="20" />
+The first bracket is just
+<img src="//latex.artofproblemsolving.com/1/d/f/1df0a9534c1a34f47bf44d1e1cbd8ac9712cd8fc.png" class="latexcenter" alt="\[-a^3-b^3-c^3+a^2b+a^2c+b^2c+b^2a+c^2a+c^2b-2abc+4ab^2+4b^3-4b^2c+4ac^2-4bc^2+4c^3\]" width="632" height="16" />
+<img src="//latex.artofproblemsolving.com/a/9/8/a98a22f46d156c84fe9246f0467ff3c97632c764.png" class="latexcenter" alt="\[=-a^3+3b^3+3c^3+a^2b+a^2c-3b^2c+5b^2a+5c^2a-3c^2b-2abc\]" width="479" height="16" />
+and the second bracket is <img src="//latex.artofproblemsolving.com/b/9/5/b950e8d9fe9150e4c5e8ad2a81ddbf996808b477.png" class="latexcenter" alt="\[-2a^3+4a^2b+4a^2c+6ab^2+6ac^2-12abc.\]" width="333" height="16" />
+Dividing everything by <img src="//latex.artofproblemsolving.com/6/c/6/6c6ea4756efa52a156029529aba37a305a5cb496.png" class="latex" alt="$2a$" width="18" height="12" /> gives
+<img src="//latex.artofproblemsolving.com/1/0/e/10e9d2f3954638b84f9bcbbdab86a3d017399152.png" class="latexcenter" alt="\[-a^3+3b^3+3c^3+a^2b+a^2c-3b^2c+5b^2a+5c^2a-3c^2b-2abc+(a+b+c)(-a^2+2ab+2ac+3b^2+3c^2-6bc),\]" width="750" height="19" /> which is <img src="//latex.artofproblemsolving.com/b/c/1/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" class="latex" alt="$0$" width="8" height="12" />, as desired.
+</p><p>As <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" /> lies on the incircle and <img src="//latex.artofproblemsolving.com/d/a/2/da27c5fbd9c4719b739ba33e6c6bf8a15de034b2.png" class="latex" alt="$AD_2$" style="vertical-align: -2px" width="34" height="15" />, <img src="//latex.artofproblemsolving.com/3/8/6/3860482432973af72fbee81856227dff51a2b26d.png" class="latex" alt="$Q&#39;=Q$" style="vertical-align: -3px" width="57" height="17" />, and our proof is complete.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Solution_4">Solution 4</span></h3>
+<p>We again use Barycentric coordinates. As before, let <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> be <img src="//latex.artofproblemsolving.com/d/1/0/d10e4a7cc979f7d958177f48e71c33f4f908c116.png" class="latex" alt="$(1,0,0)$" style="vertical-align: -4px" width="56" height="18" />, <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> be <img src="//latex.artofproblemsolving.com/8/5/3/8530c391dbd145877d3fad6e5208f3c6ca98a1c5.png" class="latex" alt="$(0,1,0)$" style="vertical-align: -4px" width="56" height="18" />, and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> be <img src="//latex.artofproblemsolving.com/9/6/5/96521b1a203c3bb20a336e59cb63b1f0d232fb63.png" class="latex" alt="$(0,0,1)$" style="vertical-align: -4px" width="56" height="18" />. Also
+</p><p><img src="//latex.artofproblemsolving.com/7/0/a/70aa6b3c81876858ddffdc69c8adb2c515405675.png" class="latexcenter" alt="\[D_{1}=\left( 0,\frac{s-c}{a},\frac{s-b}{a} \right), D_2=\left(0,\frac{s-b}{a},\frac{s-c}{a}\right), E_2=\left(\frac{s-a}{b},0,\frac{s-c}{b}\right), P=\left(\frac{s-a}{s},\frac{s-b}{s},\frac{s-c}{s}\right).\]" width="799" height="43" />
+</p><p>Now, consider a point <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" /> for which <img src="//latex.artofproblemsolving.com/9/8/3/9831d5bfc95a8368d23627b93e1273cf67063fca.png" class="latex" alt="$AQ&#39;=PD_{2}$" style="vertical-align: -3px" width="92" height="17" />. Then working component-vise, we get <img src="//latex.artofproblemsolving.com/8/3/d/83d830c1aec9b31e45bd9bc766f9ac1f75c9ddf8.png" class="latex" alt="$Q&#39;+P=A+D_{2}$" style="vertical-align: -3px" width="136" height="17" /> from which we can easily get the coordinates of <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" /> as;
+</p><p><img src="//latex.artofproblemsolving.com/e/4/b/e4bc0110180f3814b8ad56ad8b23139240052e2d.png" class="latexcenter" alt="\[Q&#39;=\left(\frac{a}{s},\frac{(s-a)(s-b)}{sa},\frac{(s-a)(s-c)}{sa}\right)\]" width="317" height="43" />
+</p><p>It suffices to show that <img src="//latex.artofproblemsolving.com/3/8/6/3860482432973af72fbee81856227dff51a2b26d.png" class="latex" alt="$Q&#39;=Q$" style="vertical-align: -3px" width="57" height="17" />.
+</p><p>Let <img src="//latex.artofproblemsolving.com/2/5/c/25c756b8fcdc9e6ebff5a90c9613d6866cab0749.png" class="latex" alt="$I=\left(\frac{a}{2s},\frac{b}{2s},\frac{c}{2s}\right)$" style="vertical-align: -17px" width="137" height="43" />  be the incenter of triangle <img src="//latex.artofproblemsolving.com/e/2/a/e2a559986ed5a0ffc5654bd367c29dfc92913c36.png" class="latex" alt="$ABC$" width="42" height="13" />. We claim that <img src="//latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" /> is the midpoint of <img src="//latex.artofproblemsolving.com/a/4/2/a429e73e8ba952aedd9a5d008a938d6baf4026af.png" class="latex" alt="$Q&#39;D_{1}$" style="vertical-align: -3px" width="39" height="17" />. Indeed,
+</p><p><img src="//latex.artofproblemsolving.com/f/5/7/f571e1f999e0e91c2543ff494bc125691eef5484.png" class="latexcenter" alt="\[\frac{1}{2}\left(0+\frac{a}{s}\right)=\frac{a}{2s}\]" width="124" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/7/d/5/7d5e0b04befae0d9d7ebdc048770d412420e0bda.png" class="latexcenter" alt="\[\frac{1}{2}\left(\frac{(s-a)(s-b)}{sa}+\frac{s-c}{a}\right)=\frac{(s-a)(s-b)+s(s-c)}{2sa}=\frac{ab}{2sa}=\frac{b}{2s}\]" width="535" height="43" />
+</p><p><img src="//latex.artofproblemsolving.com/1/0/7/1077c75c47654306f991086ac40383d52e9adec4.png" class="latexcenter" alt="\[\frac{1}{2}\left(\frac{(s-a)(s-c)}{sa}+\frac{s-b}{a}\right)=\frac{c}{2s}\]" width="260" height="43" />
+</p><p>Hence the claim has been proved.
+</p><p>Since <img src="//latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" /> is the center of <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> and the midpoint of  <img src="//latex.artofproblemsolving.com/a/4/2/a429e73e8ba952aedd9a5d008a938d6baf4026af.png" class="latex" alt="$Q&#39;D_{1}$" style="vertical-align: -3px" width="39" height="17" />, thus <img src="//latex.artofproblemsolving.com/3/8/7/387e075a47d8539dd31f97961dd851ed863f9acf.png" class="latex" alt="$Q&#39;$" style="vertical-align: -3px" width="18" height="17" /> is the point diametrically opposite to <img src="//latex.artofproblemsolving.com/a/5/8/a58be8ff3e1e32d7134f14a97e8587eb09cc29da.png" class="latex" alt="$D_{1}$" style="vertical-align: -2px" width="20" height="15" />, and hence it lies on <img src="//latex.artofproblemsolving.com/5/4/d/54d7d48553f4d9e7ab418118607ea324cbfddfda.png" class="latex" alt="$\omega$" width="11" height="8" /> and closer to <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> off the 2 points. Thus <img src="//latex.artofproblemsolving.com/8/9/b/89b60fdbd3222ae2828e9757de71c77dc06b9856.png" class="latex" alt="$Q=Q&#39;$" style="vertical-align: -3px" width="56" height="17" /> as desired.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:40%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2001_USAMO" title="2001 USAMO">2001 USAMO</a></b> (<b><a href="/wiki/index.php/2001_USAMO_Problems" title="2001 USAMO Problems">Problems</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=27&amp;year=2001">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2001_USAMO_Problems/Problem_1" title="2001 USAMO Problems/Problem 1">Problem 1</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2001_USAMO_Problems/Problem_3" title="2001 USAMO Problems/Problem 3">Problem 3</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2001_USAMO_Problems/Problem_1" title="2001 USAMO Problems/Problem 1">1</a> <b>•</b> <a class="mw-selflink selflink">2</a> <b>•</b> <a href="/wiki/index.php/2001_USAMO_Problems/Problem_3" title="2001 USAMO Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2001_USAMO_Problems/Problem_4" title="2001 USAMO Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2001_USAMO_Problems/Problem_5" title="2001 USAMO Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2001_USAMO_Problems/Problem_6" title="2001 USAMO Problems/Problem 6">6</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/USAMO_Problems_and_Solutions" title="USAMO Problems and Solutions"> All USAMO Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200714161303
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.145 seconds
+Real time usage: 0.149 seconds
+Preprocessor visited node count: 1966/1000000
+Preprocessor generated node count: 4452/1000000
+Post‐expand include size: 1202/2097152 bytes
+Template argument size: 48/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 38067/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    5.347      1 -total
+ 64.20%    3.433      1 Template:USAMO_newbox
+ 32.07%    1.715      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:5700-0!canonical and timestamp 20200714161303 and revision id 88291
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2001_USAMO_Problems/Problem_2&amp;oldid=88291">https://artofproblemsolving.com/wiki/index.php?title=2001_USAMO_Problems/Problem_2&amp;oldid=88291</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Geometry_Problems" title="Category:Olympiad Geometry Problems">Olympiad Geometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200715094421 -->
+</html>

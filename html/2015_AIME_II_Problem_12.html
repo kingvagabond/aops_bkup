@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>2015 AIME II Problems/Problem 12 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2015_AIME_II_Problems/Problem_12","wgTitle":"2015 AIME II Problems/Problem 12","wgCurRevisionId":117837,"wgRevisionId":117837,"wgArticleId":14137,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2015_AIME_II_Problems/Problem_12","wgRelevantArticleId":14137,"wgRequestId":"0ed08c22b52fb31feac0ed23","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2015_AIME_II_Problems_Problem_12 rootpage-2015_AIME_II_Problems_Problem_12 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	2015 AIME II Problems/Problem 12																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2015_AIME_II_Problems/Problem_12" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2015_AIME_II_Problems/Problem_12&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2015_AIME_II_Problems/Problem_12&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2015_AIME_II_Problems/Problem_12&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2015_AIME_II_Problems/Problem_12" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2015 AIME II Problems/Problem 12</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution_1"><span class="tocnumber">2</span> <span class="toctext">Solution 1</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Solution_2"><span class="tocnumber">3</span> <span class="toctext">Solution 2</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Solution_3"><span class="tocnumber">4</span> <span class="toctext">Solution 3</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Solution_4_.28Without_Recursion.29"><span class="tocnumber">5</span> <span class="toctext">Solution 4 (Without Recursion)</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Solution_5"><span class="tocnumber">6</span> <span class="toctext">Solution 5</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem">Problem</span></h2>
+<p>There are <img src="//latex.artofproblemsolving.com/c/f/8/cf856775e3de1168a9a4f29bc68d3651d0bf6051.png" class="latex" alt="$2^{10} = 1024$" style="vertical-align: 0px" width="83" height="15" /> possible 10-letter strings in which each letter is either an A or a B. Find the number of such strings that do not have more than 3 adjacent letters that are identical.
+</p>
+<h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/b/d/2/bd28b278a07bda0ea4d08737743613980c6aa6a3.png" class="latex" alt="$a_{n}$" style="vertical-align: -2px" width="17" height="10" /> be the number of ways to form <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-letter strings made up of As and Bs such that no more than <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> adjacent letters are identical.
+</p><p>Note that, at the end of each <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-letter string, there are <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> possibilities for the last letter chain: it must be either <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, or <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> letters long. Removing this last chain will make a new string that is <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" />, <img src="//latex.artofproblemsolving.com/e/f/9/ef9b02e32cfba0db0f9038a8d077596720f62e91.png" class="latex" alt="$n-2$" width="41" height="12" />, or <img src="//latex.artofproblemsolving.com/3/1/5/31503c8c86ff405ea9ae2dd6285eecb04550cb97.png" class="latex" alt="$n-3$" width="41" height="12" /> letters long, respectively.
+</p><p>Therefore we can deduce that <img src="//latex.artofproblemsolving.com/2/1/8/218a2888667783f5ad98e4ab51c16f4a40f6fd70.png" class="latex" alt="$a_{n}=a_{n-1}+a_{n-2}+a_{n-3}$" style="vertical-align: -2px" width="192" height="13" />.
+</p><p>We can see that
+<img src="//latex.artofproblemsolving.com/3/a/8/3a8a48821813eb0cdadb8304f51cac07acd89418.png" class="latexcenter" alt="\[a_{1}=2\]" width="49" height="15" />
+<img src="//latex.artofproblemsolving.com/8/3/9/839e57cb0a3ccff3e08719ce1878b06d233c07d1.png" class="latexcenter" alt="\[a_{2}=2^{2}=4\]" width="90" height="18" />
+<img src="//latex.artofproblemsolving.com/4/9/3/493795283d3242007ec97c84c6474cdec2f04abd.png" class="latexcenter" alt="\[a_{3}=2^{3}=8\]" width="90" height="18" />
+so using our recursive relation we find
+<img src="//latex.artofproblemsolving.com/2/a/5/2a54b264edef0286870f8181bc86faee5a92ba87.png" class="latexcenter" alt="\[a_{4}=14\]" width="59" height="15" />
+<img src="//latex.artofproblemsolving.com/7/6/0/7603d9b4409508f33367764369a11f3808033b85.png" class="latexcenter" alt="\[a_{5}=26\]" width="58" height="15" />
+<img src="//latex.artofproblemsolving.com/b/e/7/be79ff07c7cc8ff3bf044bf8b800772cafcc2010.png" class="latexcenter" alt="\[a_{6}=48\]" width="58" height="15" />
+<img src="//latex.artofproblemsolving.com/5/f/9/5f98968ad82df51ee666ec1a52d432c48fd2b288.png" class="latexcenter" alt="\[a_{7}=88\]" width="58" height="15" />
+<img src="//latex.artofproblemsolving.com/7/0/d/70dab09051f854c8c0dcd4f3889c8868741d3d6b.png" class="latexcenter" alt="\[a_{8}=162\]" width="67" height="15" />
+<img src="//latex.artofproblemsolving.com/0/e/d/0edd058e45074d4a2fcf2e17eb380af658d570ce.png" class="latexcenter" alt="\[a_{9}=298\]" width="67" height="15" />
+<img src="//latex.artofproblemsolving.com/2/c/8/2c8bf8c01a62812f28e7b3d1cf13ae69a52aaae6.png" class="latexcenter" alt="\[a_{10}=\boxed{548}\]" width="86" height="23" />
+</p><p>- Socoobo
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p>The solution is a simple recursion: 
+</p><p>We have three cases for the ending of a string: three in a row, two in a row, and a single:
+</p><p>...AAA <img src="//latex.artofproblemsolving.com/0/d/9/0d9c3b1c142cbd3f8217dabc160c57e4750df241.png" class="latex" alt="$(1)$" style="vertical-align: -4px" width="21" height="18" />
+...BAA <img src="//latex.artofproblemsolving.com/6/2/f/62f62a19f0425d8e6121ca0c1cfd3ce96e43c9c5.png" class="latex" alt="$(2)$" style="vertical-align: -4px" width="21" height="18" />
+...BBA or ...ABA <img src="//latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" />
+</p><p>(Here, WLOG each string ends with A. This won't be the case when we actually solve for values in recursion.)
+</p><p>For case <img src="//latex.artofproblemsolving.com/0/d/9/0d9c3b1c142cbd3f8217dabc160c57e4750df241.png" class="latex" alt="$(1)$" style="vertical-align: -4px" width="21" height="18" />, we could only add a B to the end, making it a case <img src="//latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" />. 
+For case <img src="//latex.artofproblemsolving.com/6/2/f/62f62a19f0425d8e6121ca0c1cfd3ce96e43c9c5.png" class="latex" alt="$(2)$" style="vertical-align: -4px" width="21" height="18" />, we could add an A or a B to the end, making it a case <img src="//latex.artofproblemsolving.com/0/d/9/0d9c3b1c142cbd3f8217dabc160c57e4750df241.png" class="latex" alt="$(1)$" style="vertical-align: -4px" width="21" height="18" /> if you add an A, or a case <img src="//latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" /> if you add a B.
+For case <img src="//latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" />, we could add an A or a B to the end, making it a case <img src="//latex.artofproblemsolving.com/6/2/f/62f62a19f0425d8e6121ca0c1cfd3ce96e43c9c5.png" class="latex" alt="$(2)$" style="vertical-align: -4px" width="21" height="18" /> or a case <img src="//latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" />.
+</p><p>Let us create three series to represent the number of permutations for each case: <img src="//latex.artofproblemsolving.com/6/b/c/6bca7f68c5ef65ce19007f70e9fcc46262f6f81f.png" class="latex" alt="$\{a\}$" style="vertical-align: -4px" width="26" height="18" />, <img src="//latex.artofproblemsolving.com/9/8/2/982007429c22632dac095defd99c988d4d167847.png" class="latex" alt="$\{b\}$" style="vertical-align: -4px" width="25" height="18" />, and <img src="//latex.artofproblemsolving.com/2/2/0/220b9c4db0d08d29645e3cd318add4e2774df7b9.png" class="latex" alt="$\{c\}$" style="vertical-align: -4px" width="25" height="18" /> representing case <img src="//latex.artofproblemsolving.com/0/d/9/0d9c3b1c142cbd3f8217dabc160c57e4750df241.png" class="latex" alt="$(1)$" style="vertical-align: -4px" width="21" height="18" />, <img src="//latex.artofproblemsolving.com/6/2/f/62f62a19f0425d8e6121ca0c1cfd3ce96e43c9c5.png" class="latex" alt="$(2)$" style="vertical-align: -4px" width="21" height="18" />, and <img src="//latex.artofproblemsolving.com/b/8/8/b88ea3916e8089c7edbccc3ff91e58e01a6e2682.png" class="latex" alt="$(3)$" style="vertical-align: -4px" width="21" height="18" /> respectively. 
+</p><p>The series have the following relationship:
+</p><p><img src="//latex.artofproblemsolving.com/b/0/4/b0498ef51a1f4761cf319be164a0ebaf1cbbb74e.png" class="latex" alt="$a_n=b_{n-1}$" style="vertical-align: -2px" width="75" height="15" />;
+<img src="//latex.artofproblemsolving.com/3/d/4/3d476c571de8d58b5c2b386dd83286b4014360c7.png" class="latex" alt="$b_n=c_{n-1}$" style="vertical-align: -2px" width="73" height="15" />;
+<img src="//latex.artofproblemsolving.com/9/0/0/900d351644c0c740c48123e9a0a0e63d11724ff7.png" class="latex" alt="$c_n=c_{n-1}+a_{n-1}+b_{n-1}$" style="vertical-align: -2px" width="187" height="15" />
+</p><p>For <img src="//latex.artofproblemsolving.com/5/6/3/5635737307f5f0651cced8ee2e6558a426fd27b5.png" class="latex" alt="$n=3$" width="43" height="12" />: <img src="//latex.artofproblemsolving.com/5/7/2/572b65ebc3f438b176b4ca4a890799f2f72564af.png" class="latex" alt="$a_3$" style="vertical-align: -2px" width="15" height="10" /> and <img src="//latex.artofproblemsolving.com/d/a/f/daf4b756601df3422c1b49b0012b42d82119cc0e.png" class="latex" alt="$b_3$" style="vertical-align: -2px" width="14" height="15" /> both equal <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/8/6/6/8665ff03c0a6c9b47abcd8488f5490329d77598f.png" class="latex" alt="$c_3=4$" style="vertical-align: -2px" width="48" height="14" />. With some simple math, we have: 
+<img src="//latex.artofproblemsolving.com/d/1/4/d14da04533703369b5a603a784217999f117ef5b.png" class="latex" alt="$a_{10}=88$" style="vertical-align: -2px" width="65" height="15" />, <img src="//latex.artofproblemsolving.com/2/8/9/2895c28a16097806a1e3b88d397bdbb060c508c0.png" class="latex" alt="$b_{10}=162$" style="vertical-align: -2px" width="72" height="15" />, and <img src="//latex.artofproblemsolving.com/5/b/3/5b34e12a3bd4a90872693189babc5c16e75aa06e.png" class="latex" alt="$c_{10}=298$" style="vertical-align: -2px" width="72" height="15" />.
+Summing the three up we have our solution: <img src="//latex.artofproblemsolving.com/f/b/1/fb1f824bb166e0cd010fd1f323862e02ff7c7f71.png" class="latex" alt="$88+162+298=\boxed{548}$" style="vertical-align: -5px" width="180" height="23" />.
+</p>
+<h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
+<p>This is a recursion problem. Let <img src="//latex.artofproblemsolving.com/6/f/1/6f1a2b6b7c193f9ba2b2134a59f1da5addcfbc98.png" class="latex" alt="$a_n$" style="vertical-align: -2px" width="17" height="10" /> be the number of valid strings of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> letters, where the first letter is <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />.  Similarly, let <img src="//latex.artofproblemsolving.com/8/f/f/8ffd01cdc48042ce7c67d8edcd4904809831cfe4.png" class="latex" alt="$b_n$" style="vertical-align: -2px" width="16" height="15" /> be the number of valid strings of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> letters, where the first letter is <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />.
+</p><p>Note that <img src="//latex.artofproblemsolving.com/6/2/a/62a27588e4df106cb5f5fb31c9ce76703649b3e2.png" class="latex" alt="$a_n=b_{n-1}+b_{n-2}+b_{n-3}$" style="vertical-align: -2px" width="187" height="15" /> for all <img src="//latex.artofproblemsolving.com/5/b/c/5bc1cdf640046ad515ca0a025e1f99954495b8ce.png" class="latex" alt="$n\ge4$" style="vertical-align: -2px" width="44" height="14" />.
+</p><p>Similarly, we have <img src="//latex.artofproblemsolving.com/d/8/2/d82074061af5e78a3550745552235a458f1af1bf.png" class="latex" alt="$b_n=a_{n-1}+a_{n-2}+a_{n-3}$" style="vertical-align: -2px" width="191" height="15" /> for all <img src="//latex.artofproblemsolving.com/5/b/c/5bc1cdf640046ad515ca0a025e1f99954495b8ce.png" class="latex" alt="$n\ge4$" style="vertical-align: -2px" width="44" height="14" />.
+</p><p>Here is why:  every valid strings of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> letters <img src="//latex.artofproblemsolving.com/c/f/d/cfd0b5e0b45e860dd81fab1cbdfc12d33898fbc6.png" class="latex" alt="$(n\ge4)$" style="vertical-align: -4px" width="56" height="18" /> where the first letter is <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> must begin with one of the following:
+</p><p><img src="//latex.artofproblemsolving.com/5/6/1/5613f5027d7aa2ddb768800bea7fea760ea62cb1.png" class="latex" alt="$AAAB$" width="54" height="13" /> - and the number of valid ways is <img src="//latex.artofproblemsolving.com/7/c/7/7c7e95afa7992ef6834407d685397dfbf33e13c7.png" class="latex" alt="$b_{n-3}$" style="vertical-align: -2px" width="32" height="15" />.
+</p><p><img src="//latex.artofproblemsolving.com/7/5/d/75d56bbc7436d914fa54dbe0300e5829c0091304.png" class="latex" alt="$AAB$" width="41" height="13" /> - and the number of valid ways is <img src="//latex.artofproblemsolving.com/b/7/0/b701f4bc71702af9511e175ba958880107039e13.png" class="latex" alt="$b_{n-2}$" style="vertical-align: -2px" width="32" height="15" />.
+</p><p><img src="//latex.artofproblemsolving.com/5/7/e/57ee5125358c0606c9b588580ddfa66f83e607b7.png" class="latex" alt="$AB$" width="27" height="13" /> - and there are <img src="//latex.artofproblemsolving.com/f/b/b/fbbe953b22001b16772389e69e5ba2f12a4f166c.png" class="latex" alt="$b_{n-1}$" style="vertical-align: -2px" width="32" height="15" /> ways.
+</p><p>We know that <img src="//latex.artofproblemsolving.com/2/b/0/2b02a491e6fc8db3a577b344b1a53b7a8e77e0f9.png" class="latex" alt="$a_1=1$" style="vertical-align: -2px" width="49" height="14" />, <img src="//latex.artofproblemsolving.com/2/a/3/2a3df751ea79fb4a5832cf4dd090dbed2884df86.png" class="latex" alt="$a_2=2$" style="vertical-align: -2px" width="50" height="14" />, and <img src="//latex.artofproblemsolving.com/f/f/a/ffaa6ac77dddf4b7d60131ad82a7f58ee17f597a.png" class="latex" alt="$a_3=4$" style="vertical-align: -2px" width="50" height="14" />.  Similarly, we have <img src="//latex.artofproblemsolving.com/2/2/e/22e43540b285099b8d262767192656d487fd6d91.png" class="latex" alt="$b_1=1$" style="vertical-align: -2px" width="47" height="15" />, <img src="//latex.artofproblemsolving.com/2/3/f/23f44367b4e855645b9be0d1255fe1a23e66cf36.png" class="latex" alt="$b_2=2$" style="vertical-align: -2px" width="48" height="15" />, and <img src="//latex.artofproblemsolving.com/2/5/c/25c37edbbc7d952ed7dae4bf85a38048031bb739.png" class="latex" alt="$b_3=4$" style="vertical-align: -2px" width="48" height="15" />.  We can quickly check our recursion to see if our recursive formula works.  By the formula, <img src="//latex.artofproblemsolving.com/a/2/f/a2f5791faa1680e0e348603d5d1b7c9f6f27e36e.png" class="latex" alt="$a_4=b_3+b_2+b_1=7$" style="vertical-align: -2px" width="164" height="15" />, and listing out all <img src="//latex.artofproblemsolving.com/5/e/2/5e28850813a5321d2a8ae3c0510457a7337975ed.png" class="latex" alt="$a_4$" style="vertical-align: -2px" width="16" height="10" />, we can quickly verify our formula.
+</p><p>Therefore, we have the following:
+</p><p><img src="//latex.artofproblemsolving.com/9/d/9/9d9e2a2a17803b3bab799f1c416e1fde004586a8.png" class="latex" alt="$\begin{tabular}{c|c|c|c|c|c|c|c|c|c|c}Value of n &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10\\\hline a &amp; 1 &amp; 2 &amp; 4 &amp; 7 &amp; 13 &amp; 24 &amp; 44 &amp; 81 &amp; 149 &amp; 274\\b &amp; 1 &amp; 2 &amp; 4 &amp; 7 &amp; 13 &amp; 24 &amp; 44 &amp; 81 &amp; 149 &amp; 274\end{tabular}$" style="vertical-align: -25px" width="443" height="60" />
+</p><p>The total number of valid <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> letter strings is equal to <img src="//latex.artofproblemsolving.com/5/9/0/59092fc0f184763a39df067972ecbc7283cf2386.png" class="latex" alt="$a_{10}+b_{10}=274+274=\boxed{548}$" style="vertical-align: -5px" width="232" height="23" />.
+</p><p>Notice that <img src="//latex.artofproblemsolving.com/a/3/4/a348e3f9a44c4c68b3486ed0b3e76e490e8b91fd.png" class="latex" alt="$a_n = b_n$" style="vertical-align: -2px" width="59" height="15" />, since <img src="//latex.artofproblemsolving.com/c/1/3/c13d1b252686cecd6a22ee0f2fc44d4feee7fe3b.png" class="latex" alt="$a_1=b_1$" style="vertical-align: -2px" width="55" height="15" />, <img src="//latex.artofproblemsolving.com/5/0/1/5018c164e4c0e1da66b9d02b4390d8b72ed74270.png" class="latex" alt="$a_2=b_2$" style="vertical-align: -2px" width="55" height="15" />, and <img src="//latex.artofproblemsolving.com/a/6/2/a623eed5ae7438c28c63e1e4774b7cf438a2490d.png" class="latex" alt="$a_3=b_3$" style="vertical-align: -2px" width="55" height="15" />.  Therefore, we didn't really need to list out both recursion formulas, which could save us some time.
+</p>
+<h2><span id="Solution_4_(Without_Recursion)"></span><span class="mw-headline" id="Solution_4_.28Without_Recursion.29">Solution 4 (Without Recursion)</span></h2>
+<p>Playing around with strings gives this approach: We have a certain number of As, then Bs, and so on. Therefore, what if we denoted each solution with numbers like <img src="//latex.artofproblemsolving.com/e/1/8/e18922aab49a58b1360653e306c5a02dbcae9d41.png" class="latex" alt="$(3,3,3,1)$" style="vertical-align: -4px" width="73" height="18" /> to denote AAABBBAAAB or vice versa (starting with Bs)? Every string can be represented like this!
+</p><p>We can have from 4 to 10 numbers in our parentheses. For each case, we will start with the largest number possible, usually a bunch of 3s, then go down systematically. Realize also that if we are left with just 2s and 1s, there is only one number of 2s and 1s that adds up to the leftover amount. Our final answer is the sum of all of these parenthetical sets [each set multiplied by its permutations, as order matters] multiplied by two [starting with either A or B, and alternating as we go along].
+</p><p><img src="//latex.artofproblemsolving.com/5/e/d/5edd4a8b54daae534aa2413fb9793f920fcda7da.png" class="latex" alt="$4 \rightarrow (3,3,3,1) = 4, (3,3,2,2) = 6$" style="vertical-align: -4px" width="261" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/a/4/2/a422b3aaa5889ec48ff5d85788a39af773cf3150.png" class="latex" alt="$5 \rightarrow (3, 3, 2, 1, 1) = 30, (3, 2, 2, 2, 1) = 20, (2,2,2,2,2)=1$" style="vertical-align: -4px" width="446" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/0/9/1/091631d6b5fff9a1326a89e97aa8c1c736c6b1e4.png" class="latex" alt="$6 \rightarrow (3,3,1,1,1,1) = 15, (3,2,2,1,1,1) = 60, (2,2,2,2,1,1) = 15$" style="vertical-align: -4px" width="507" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/6/a/d/6ade16d4120ee14dcc0b0f05e57d2d1904ce795d.png" class="latex" alt="$7 \rightarrow (3,2,1,1,1,1,1) = 42, (2,2,2,1,1,1,1) = 35$" style="vertical-align: -4px" width="382" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/b/6/b/b6b60a5a2753ef212ff465dcb9b2888c60880118.png" class="latex" alt="$8 \rightarrow (3,1...1) = 8, (2,2,1...1) = 28$" style="vertical-align: -4px" width="267" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/e/d/f/edf14e6016de116746e04c2677a6833faf8f3468.png" class="latex" alt="$9 \rightarrow (2,1...1) = 9$" style="vertical-align: -4px" width="135" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/5/4/5/545709ca989cc2608f2769d2adcc571ef9ba82ff.png" class="latex" alt="$10 \rightarrow (1,1....1) =1$" style="vertical-align: -4px" width="148" height="18" />
+</p><p>Adding them all up gives you 274; multiplying by 2 gives <img src="//latex.artofproblemsolving.com/2/9/a/29a3ff86c62b7258aa7e309eef9e0b492d5bf038.png" class="latex" alt="$\boxed{548}$" style="vertical-align: -5px" width="39" height="23" />.
+</p>
+<h2><span class="mw-headline" id="Solution_5">Solution 5</span></h2>
+<p>We are going to build the string, 1 character at a time. And, we are going to only care about the streak of letters at the end of the string.
+</p><p>Let <img src="//latex.artofproblemsolving.com/6/f/1/6f1a2b6b7c193f9ba2b2134a59f1da5addcfbc98.png" class="latex" alt="$a_n$" style="vertical-align: -2px" width="17" height="10" /> be the number of strings of length n that satisfy the problem statement and also has a "streak" of length 1 at the end. ABABBA has a streak of length 1.
+</p><p>Let <img src="//latex.artofproblemsolving.com/8/f/f/8ffd01cdc48042ce7c67d8edcd4904809831cfe4.png" class="latex" alt="$b_n$" style="vertical-align: -2px" width="16" height="15" /> be the number of strings of length n that satisfy the problem statement and also has of length 2 at the end. ABABBAA has a streak of length 2. There are 2 "A" s at the end of the string.
+</p><p>Let <img src="//latex.artofproblemsolving.com/7/3/d/73dad573cdaca95ffccd89d8931d5c1f85c4186a.png" class="latex" alt="$c_n$" style="vertical-align: -2px" width="16" height="10" /> be the number of string of length n that that satisfy the problem statement and also has a "streak" of length 3 at the end. ABABBAAA has a streak of length 3. There are 3 "A" s at the end of the string.
+</p><p>Let's establish a recursive relationship. <img src="//latex.artofproblemsolving.com/d/6/f/d6f199113b76da125e062bd0061940d4b58ee6d1.png" class="latex" alt="$a_{n+1} = a_n+b_n+c_n$" style="vertical-align: -4px" width="155" height="16" />, since you can simply break the streak. <img src="//latex.artofproblemsolving.com/2/c/0/2c0b20c73911d9fd547b01ee4a5b18e2d9b6b66d.png" class="latex" alt="$b_{n+1} = a_n$" style="vertical-align: -4px" width="75" height="16" />, and <img src="//latex.artofproblemsolving.com/a/c/7/ac7edcf03a92021e8c84ce2ac355d6bb53181b46.png" class="latex" alt="$c_{n+1} = b_n$" style="vertical-align: -4px" width="74" height="16" /> Since you can just add to the streak.
+</p><p>We can log everything using a table.
+</p><p><img src="//latex.artofproblemsolving.com/9/4/9/9496badfadfb1013949b537a7374b4dd5abcc306.png" class="latex" alt="$\begin{tabular}{c|c|c|c|c|c|c|c|c|c|c}Value of n &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10\\\hline a &amp; 2 &amp; 2 &amp; 4 &amp; 8 &amp; 14 &amp; 26 &amp; 48 &amp; 88 &amp; 162 &amp; 298\\b &amp; 0 &amp; 2 &amp; 2 &amp; 4 &amp; 8 &amp; 14 &amp; 26 &amp; 48 &amp; 88 &amp; 162 \\c &amp; 0 &amp; 0 &amp; 2 &amp; 2 &amp;4 &amp; 8 &amp; 14 &amp; 26 &amp; 48 &amp; 88\end{tabular}$" style="vertical-align: -35px" width="443" height="80" />
+</p><p>Adding <img src="//latex.artofproblemsolving.com/f/6/5/f659be762622558799a9119468b5008cb1b27f78.png" class="latex" alt="$a_{10}$" style="vertical-align: -2px" width="22" height="10" />, <img src="//latex.artofproblemsolving.com/e/6/3/e63ea223e3a95fa11e9ee86267e7994b0f047fc0.png" class="latex" alt="$b_{10}$" style="vertical-align: -2px" width="20" height="15" />, <img src="//latex.artofproblemsolving.com/a/0/d/a0d05ed19a29374875bac2a9af236f4482ee301d.png" class="latex" alt="$c_{10}$" style="vertical-align: -2px" width="20" height="10" /> gets the total number of numbers that doesn't have more than 3 concecutive letters.
+</p><p>That gets a total of <img src="//latex.artofproblemsolving.com/6/0/f/60f15d677460d42a3659d6a48dcec0ac8930879f.png" class="latex" alt="$298+162+88 = \boxed{548}$" style="vertical-align: -5px" width="180" height="23" />
+</p><p>-AlexLikeMath
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2015_AIME_II" title="2015 AIME II">2015 AIME II</a></b> (<b><a href="/wiki/index.php/2015_AIME_II_Problems" title="2015 AIME II Problems">Problems</a></b> • <b><a href="/wiki/index.php/2015_AIME_II_Answer_Key" title="2015 AIME II Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=45&amp;year=2015">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2015_AIME_II_Problems/Problem_11" title="2015 AIME II Problems/Problem 11">Problem 11</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2015_AIME_II_Problems/Problem_13" title="2015 AIME II Problems/Problem 13">Problem 13</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2015_AIME_II_Problems/Problem_1" title="2015 AIME II Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_2" title="2015 AIME II Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_3" title="2015 AIME II Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_4" title="2015 AIME II Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_5" title="2015 AIME II Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_6" title="2015 AIME II Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_7" title="2015 AIME II Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_8" title="2015 AIME II Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_9" title="2015 AIME II Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_10" title="2015 AIME II Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_11" title="2015 AIME II Problems/Problem 11">11</a> <b>•</b> <a class="mw-selflink selflink">12</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_13" title="2015 AIME II Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_14" title="2015 AIME II Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2015_AIME_II_Problems/Problem_15" title="2015 AIME II Problems/Problem 15">15</a>
+</td></tr>
+<tr>
+<td align="center" colspan="3"><b><a href="/wiki/index.php/AIME_Problems_and_Solutions" title="AIME Problems and Solutions"> All AIME Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200714124922
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.104 seconds
+Real time usage: 0.107 seconds
+Preprocessor visited node count: 1044/1000000
+Preprocessor generated node count: 2562/1000000
+Post‐expand include size: 1699/2097152 bytes
+Template argument size: 132/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 19063/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    6.464      1 -total
+ 72.77%    4.704      1 Template:AIME_box
+ 24.38%    1.576      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:14137-0!canonical and timestamp 20200714124922 and revision id 117837
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2015_AIME_II_Problems/Problem_12&amp;oldid=117837">https://artofproblemsolving.com/wiki/index.php?title=2015_AIME_II_Problems/Problem_12&amp;oldid=117837</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200715102318 -->
+</html>

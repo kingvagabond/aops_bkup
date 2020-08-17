@@ -30,7 +30,6 @@ def crawl_url(url, length, withSeperatedPage):
       # raise RuntimeError("Failed to download '{}'. '{}'".format(url, e.reason))
       pass
 
-'''
 for i in range(1985, 1999):
   index = str(i)
   crawl_url('https://artofproblemsolving.com/wiki/index.php/' + index + '_AJHSME', 25, True)
@@ -46,8 +45,7 @@ for i in range(2000, 2021):
   else:
     crawl_url('https://artofproblemsolving.com/wiki/index.php/' + index + '_AMC_10A', 25, True)
     crawl_url('https://artofproblemsolving.com/wiki/index.php/' + index + '_AMC_10B', 25, True)
-'''
-'''
+
 for i in range(1950, 2021):
   index = str(i)
   if (i < 1960):
@@ -71,12 +69,11 @@ for i in range(1983, 2021):
   else:
     crawl_url('https://artofproblemsolving.com/wiki/index.php/' + index + '_AIME_I', 15, True)
     crawl_url('https://artofproblemsolving.com/wiki/index.php/' + index + '_AIME_II', 15, True)
-'''
-'''
+
 for i in range(2010, 2021):
   index = str(i)
   crawl_url('https://artofproblemsolving.com/wiki/index.php/' + index + '_USAJMO', 6, False)
-'''
+
 for i in range(1972, 2021):
   index = str(i)
   if (i < 1996):

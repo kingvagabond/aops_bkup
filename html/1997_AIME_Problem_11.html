@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+	<head>
+						<style>.async-hide { opacity: 0 !important} </style>
+		<!-- Initialize the Data Layer First -->
+		<script>
+		window.dataLayer = window.dataLayer || [];
+				</script>
+		<!-- End Data Layer Initialization -->
+		<!-- Page hiding snippet for Optimize -->
+		<script>
+		(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+		h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+		(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+		</script>
+		<!-- End Page hiding snippet for Optimize -->
+		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+		<!-- End Google Tag Manager -->
+		<script>AoPS = {
+			start_time : new Date().getTime(),
+			bootstrap_data: [],
+			session: {
+				id: "wiki",
+				user_id: 1,
+				username: "Anonymous",
+				avatar: "",
+				logged_in: false,
+				role: "unregistered_user",
+				a: false,
+				n: false
+			}
+		};
+		AoPS.bd = AoPS.bootstrap_data;
+		AoPS.bd.assetVersion = 2000;
+		</script>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+
+  
+
+		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+		<title>Art of Problem Solving</title>
+
+
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+    <link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+
+
+		<script>
+		if (!window.console) console = {log: function() {}, dir: function() {}};
+		$$ = function( selector ) { return document.getElementById( selector ); }
+		</script>
+
+		<meta charset="UTF-8"/>
+<title>1997 AIME Problems/Problem 11 - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"1997_AIME_Problems/Problem_11","wgTitle":"1997 AIME Problems/Problem 11","wgCurRevisionId":108214,"wgRevisionId":108214,"wgArticleId":2997,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Intermediate Trigonometry Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"1997_AIME_Problems/Problem_11","wgRelevantArticleId":2997,"wgRequestId":"cb226ad499d99d402873f212","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aops2":"ready"});mw.loader.implement("user.tokens@0p33mif",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aops2.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aops2&amp;only=styles&amp;skin=aops2"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aops2"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aops2"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aops2&amp;sync=1"></script><![endif]-->
+
+	</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-1997_AIME_Problems_Problem_11 rootpage-1997_AIME_Problems_Problem_11 skin-aops2 action-view resources">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<div id="page-wrapper">
+			<!-- search:off -->
+
+			<div id="header-wrapper" class="no-select">
+        <div class="header-underlay">
+          <div id="header">
+
+            <!-- The gray bar at top -->
+            <!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="https://artofproblemsolving.com/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="https://artofproblemsolving.com">
+																				<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <!-- The white area where main menu options appear -->
+
+            <!-- The menu links -->
+            <div id="main-menubar">
+              <div class="menubar-content">
+                <div class="menubar-logo online">
+                  <img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+                  <a class="logo-img-link" href="/online">
+                    <img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+                    <img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                    <img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+                  </a>
+                </div>
+                <div class="menubar-links-outer">
+                  <!-- The login links -->
+                  <div class="menu-login-wrapper wiki">
+                                        <div class="menu-login-item">
+                                              <span id="header-login" class="login-button wiki-login-button no-select online-login-button">
+                          Sign In
+                        </span>
+                                          </div>
+
+                    <a href="https://artofproblemsolving.com/store/checkout" class="menu-login-item cart">
+                      <img class="menu-cart-icon" src="https://artofproblemsolving.com/assets/images/top/cart-icon.svg">
+                      <div class="menu-cart-items">
+                                                  0
+                                              </div>
+                    </a>
+                  </div>
+                  <div class="menubar-labels online">
+                    <div class="menubar-label school">
+                      <a class="menubar-label-link" href="https://artofproblemsolving.com/school">
+                        online school
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+													<!-- These have IDs for A/B testing purposes. T27691 -->
+																										<a id="online-school-menu-how-school-works" href="https://artofproblemsolving.com/school/how-school-works"> How Classes Work </a>
+													<a id="online-school-menu-catalog" href="https://artofproblemsolving.com/school/catalog"> Course Catalog </a>
+													<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+													<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+													<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+													<a id="online-school-menu-handbook" href="https://artofproblemsolving.com/school/handbook/prospective">
+														School Handbook </a>
+													<a id="online-school-menu-mathjams"" href="https://artofproblemsolving.com/school/mathjams"> Math Jams </a>
+																										                        </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label store">
+                      <a class="menubar-label-link" href="/store">
+                        bookstore
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+                          <a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+                          <a href="https://artofproblemsolving.com/store/online">Online Books</a>
+                          <a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+                          <a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+                          <a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+                          <a href="https://artofproblemsolving.com/store/gift-certificates">Gift Certificates</a>
+                                                  </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label community">
+                      <a class="menubar-label-link" href="/community">
+                        community
+                      </a>
+                      <div class="menubar-dropdown">
+                        <div class="triangle"></div>
+                        <div class="dropdown-content">
+                                                    <a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+                          <a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+                                                                            </div>
+                      </div>
+                    </div>
+                    <div class="menubar-label resources">
+
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                            <div class="dropdown-columns">
+                                <div class="dropdown-category">
+                                    <span class="dropdown-category-label">math training & tools</span>
+                                    <a href="/alcumus">Alcumus</a>
+                                    <a href="/videos">Videos</a>
+                                    <a href="/ftw">For the Win!</a>
+                                    <a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+                                    <a href="/texer">LaTeX TeXeR</a>
+                                    <a href="/polymath">MIT PRIMES/CrowdMath</a>
+                                                                    </div>
+                                <div class="dropdown-column">
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">news & information</span>
+                                        <a href="/news">AoPS News</a>
+                                        <a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+                                                                            </div>
+                                    <div class="dropdown-category category-in-column">
+                                        <span class="dropdown-category-label">just for fun</span>
+                                        <a href="/reaper">Reaper</a>
+                                        <a href="/greedcontrol">Greed Control</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-view-more-link-container">
+                                <a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+				<noscript><div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div></noscript>
+
+
+				<div id="breadcrumbs-wrapper">
+					<div id="submenu-icon"></div>
+					<div id="breadcrumbs">
+												<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+												<div class="crumb-wrapper">
+																							<span class="crumb crumb-1">
+																	<a href="/resources">Resources</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-2">
+																	<a href="/wiki">Aops Wiki</a>
+																</span>
+																								<i class="aops-font aops-angle-double-right"></i>
+																<span class="crumb crumb-3">
+																	1997 AIME Problems/Problem 11																</span>
+													</div>
+					</div>
+				</div>
+			</div>
+			<!-- /search:off -->
+
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/1997_AIME_Problems/Problem_11" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:1997_AIME_Problems/Problem_11&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=1997_AIME_Problems/Problem_11&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=1997_AIME_Problems/Problem_11&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1997_AIME_Problems/Problem_11" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+
+
+	<div id="main-column" style="margin-top:10px">
+				<div class="page-wrapper">	
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">1997 AIME Problems/Problem 11</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem_11">Problem 11</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/1/5/a/15aa49f8e9ec05944ab2d5b707486ee1f38e1793.png" class="latex" alt="$x=\frac{\sum\limits_{n=1}^{44} \cos n^\circ}{\sum\limits_{n=1}^{44} \sin n^\circ}$" style="vertical-align: -39px" width="110" height="87" />. What is the greatest integer that does not exceed <img src="//latex.artofproblemsolving.com/f/8/6/f8601c23e7ea6708da2f181ae49156648df382ae.png" class="latex" alt="$100x$" style="vertical-align: 0px" width="37" height="13" />?
+</p>
+<div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem_11"><span class="tocnumber">1</span> <span class="toctext">Problem 11</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Solution"><span class="tocnumber">2</span> <span class="toctext">Solution</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Solution_1"><span class="tocnumber">2.1</span> <span class="toctext">Solution 1</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Solution_2"><span class="tocnumber">3</span> <span class="toctext">Solution 2</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Solution_3"><span class="tocnumber">3.1</span> <span class="toctext">Solution 3</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Solution_4"><span class="tocnumber">3.2</span> <span class="toctext">Solution 4</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Solution_5"><span class="tocnumber">3.3</span> <span class="toctext">Solution 5</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Solution">Solution</span></h2>
+<h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
+<p>Note that 
+<img src="//latex.artofproblemsolving.com/8/5/8/85873deb27f626bf42cd83a1fa0d441b87f293b5.png" class="latex" alt="$\frac{\sum_{n=1}^{44} \cos n}{\sum_{n=1}^{44} \sin n} = \frac {\cos 1 + \cos 2 + \dots + \cos 44}{\cos 89 + \cos 88 + \dots + \cos 46}$" style="vertical-align: -20px" width="341" height="49" />
+</p><p>Now use the sum-product formula <img src="//latex.artofproblemsolving.com/1/3/8/1387e2c341f73655c52fe0b327a911929a87394c.png" class="latex" alt="$\cos x + \cos y = 2\cos(\frac{x+y}{2})\cos(\frac{x-y}{2})$" style="vertical-align: -12px" width="304" height="35" /> 
+We want to pair up <img src="//latex.artofproblemsolving.com/e/4/5/e45772945ac6569ae26fcc813c5d8b303719318d.png" class="latex" alt="$[1, 44]$" style="vertical-align: -5px" width="43" height="18" />, <img src="//latex.artofproblemsolving.com/7/e/9/7e96e650e4cf269321dd4171176a63babd2bfe26.png" class="latex" alt="$[2, 43]$" style="vertical-align: -5px" width="43" height="18" />, <img src="//latex.artofproblemsolving.com/2/1/1/211be085358dc41b04e7b1c2b420d83f9f8290f3.png" class="latex" alt="$[3, 42]$" style="vertical-align: -5px" width="43" height="18" />, etc. from the numerator and <img src="//latex.artofproblemsolving.com/f/0/b/f0bb1a6b9d5a32bcae7fd03ec7520de35cc8cceb.png" class="latex" alt="$[46, 89]$" style="vertical-align: -5px" width="52" height="18" />, <img src="//latex.artofproblemsolving.com/e/b/f/ebf5d863e9c99bb2cd44774ecf2d76e262f63201.png" class="latex" alt="$[47, 88]$" style="vertical-align: -5px" width="52" height="18" />, <img src="//latex.artofproblemsolving.com/0/4/c/04cc0daa71877ad651dd786c37477df71ac1a3bc.png" class="latex" alt="$[48, 87]$" style="vertical-align: -5px" width="52" height="18" /> etc. from the denominator. Then we get:
+<img src="//latex.artofproblemsolving.com/2/2/8/228d3d640cf6f749eccba1939b71c3eea226f24d.png" class="latexcenter" alt="\[\frac{\sum_{n=1}^{44} \cos n}{\sum_{n=1}^{44} \sin n} = \frac{2\cos(\frac{45}{2})[\cos(\frac{43}{2})+\cos(\frac{41}{2})+\dots+\cos(\frac{1}{2})}{2\cos(\frac{135}{2})[\cos(\frac{43}{2})+\cos(\frac{41}{2})+\dots+\cos(\frac{1}{2})} \Rightarrow \frac{\cos(\frac{45}{2})}{\cos(\frac{135}{2})}\]" width="536" height="49" />
+</p><p>To calculate this number, use the half angle formula. Since <img src="//latex.artofproblemsolving.com/3/b/9/3b91a6ba5ba8cf52645dbae055a79b06a30c094d.png" class="latex" alt="$\cos(\frac{x}{2}) = \pm \sqrt{\frac{\cos x + 1}{2}}$" style="vertical-align: -14px" width="182" height="43" />, then our number becomes: <img src="//latex.artofproblemsolving.com/0/8/0/080c7871943d54388c9e82e6a8ff94507d80a50d.png" class="latexcenter" alt="\[\frac{\sqrt{\frac{\frac{\sqrt{2}}{2} + 1}{2}}}{\sqrt{\frac{\frac{-\sqrt{2}}{2} + 1}{2}}}\]" width="66" height="70" /> in which we drop the negative roots (as it is clear cosine of <img src="//latex.artofproblemsolving.com/9/1/d/91d413c0964b8ba3371f882fd21fa87baeb74e92.png" class="latex" alt="$22.5$" width="31" height="12" /> and <img src="//latex.artofproblemsolving.com/f/2/3/f23ce85fe560e63e3f0771d2f703a94450c0d777.png" class="latex" alt="$67.5$" width="31" height="12" /> are positive). We can easily simplify this:
+</p><p><img src="//latex.artofproblemsolving.com/2/8/7/287090b933f4301a1bdc5e36b8935573de4d02ee.png" class="latexcenter" alt="\begin{eqnarray*} \frac{\sqrt{\frac{\frac{\sqrt{2}}{2} + 1}{2}}}{\sqrt{\frac{\frac{-\sqrt{2}}{2} + 1}{2}}} &amp;=&amp; \sqrt{\frac{\frac{2+\sqrt{2}}{4}}{\frac{2-\sqrt{2}}{4}}} \\ &amp;=&amp; \sqrt{\frac{2+\sqrt{2}}{2-\sqrt{2}}} \cdot \sqrt{\frac{2+\sqrt{2}}{2+\sqrt{2}}} \\ &amp;=&amp; \sqrt{\frac{(2+\sqrt{2})^2}{2}} \\ &amp;=&amp; \frac{2+\sqrt{2}}{\sqrt{2}} \cdot \sqrt{2} \\ &amp;=&amp; \sqrt{2}+1 \end{eqnarray*}" width="284" height="269" />
+</p><p>And hence our answer is <img src="//latex.artofproblemsolving.com/d/e/e/deeeae569adc3156f1e14b8f3144a4c68a66e4c0.png" class="latex" alt="$\lfloor 100x \rfloor =  \lfloor 100(1 + \sqrt {2}) \rfloor = \boxed{241}$" style="vertical-align: -5px" width="254" height="23" />
+</p>
+<h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
+<p><img src="//latex.artofproblemsolving.com/6/0/f/60f0bc4345e93f98e085d69df243e20c21687bce.png" class="latexcenter" alt="\begin{eqnarray*} x &amp;=&amp; \frac {\sum_{n = 1}^{44} \cos n^\circ}{\sum_{n = 1}^{44} \sin n^\circ} = \frac {\cos 1 + \cos 2 + \dots + \cos 44}{\sin 1 + \sin 2 + \dots + \sin 44}\\ &amp;=&amp; \frac {\cos (45 - 1) + \cos(45 - 2) + \dots + \cos(45 - 44)}{\sin 1 + \sin 2 + \dots + \sin 44} \end{eqnarray*}" width="420" height="95" />
+</p><p>Using the identity <img src="//latex.artofproblemsolving.com/6/f/5/6f561e3221de67ab6ecaf63ee2d41cfdb3ba2055.png" class="latex" alt="$\sin a + \sin b = 2\sin \frac{a+b}2 \cos \frac{a-b}{2}$" style="vertical-align: -12px" width="268" height="37" /> <img src="//latex.artofproblemsolving.com/9/1/d/91d35fb99675e99629f016b967f2317f19cec717.png" class="latex" alt="$\Longrightarrow \sin x + \cos x$" style="vertical-align: -1px" width="129" height="13" /> <img src="//latex.artofproblemsolving.com/d/e/0/de06339d1e6c7ada6df7a6a880acdaac2f9e8a3d.png" class="latex" alt="$= \sin x + \sin (90-x)$" style="vertical-align: -4px" width="163" height="18" /> <img src="//latex.artofproblemsolving.com/0/a/f/0af75ddc965791c3a4837e5dd1c25636c64f3345.png" class="latex" alt="$= 2 \sin 45 \cos (45-x)$" style="vertical-align: -4px" width="165" height="18" /> <img src="//latex.artofproblemsolving.com/c/4/f/c4f2ca60f0e22f52071f166a5c13a9c682663386.png" class="latex" alt="$= \sqrt{2} \cos (45-x)$" style="vertical-align: -4px" width="134" height="21" />, that <a href="/wiki/index.php/Summation" title="Summation">summation</a> reduces to
+</p><p><img src="//latex.artofproblemsolving.com/e/6/6/e669d8983303235b5cbe64d3a70d19c9a7032642.png" class="latexcenter" alt="\begin{eqnarray*}x &amp;=&amp; \left(\frac {1}{\sqrt {2}}\right)\left(\frac {(\cos 1 + \cos2 + \dots + \cos44) + (\sin1 + \sin2 + \dots + \sin44)}{\sin1 + \sin2 + \dots + \sin44}\right)\\ &amp;=&amp; \left(\frac {1}{\sqrt {2}}\right)\left(1 + \frac {\cos 1 + \cos 2 + \dots + \cos 44}{\sin 1 + \sin 2 + \dots + \sin 44}\right) \end{eqnarray*}" width="598" height="92" />
+</p><p>This fraction is equivalent to <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />.  Therefore,
+<img src="//latex.artofproblemsolving.com/d/e/d/ded1ad834c78f695357f886f995671ba6bca4336.png" class="latexcenter" alt="\begin{eqnarray*} x &amp;=&amp; \left(\frac {1}{\sqrt {2}}\right)\left(1 + x\right)\\ \frac {1}{\sqrt {2}} &amp;=&amp; x\left(\frac {\sqrt {2} - 1}{\sqrt {2}}\right)\\ x &amp;=&amp; \frac {1}{\sqrt {2} - 1} = 1 + \sqrt {2}\\ \lfloor 100x \rfloor &amp;=&amp; \lfloor 100(1 + \sqrt {2}) \rfloor = \boxed{241}\\ \end{eqnarray*}" width="274" height="180" />
+</p>
+<h3><span class="mw-headline" id="Solution_3">Solution 3</span></h3>
+<p>A slight variant of the above solution, note that 
+</p><p><img src="//latex.artofproblemsolving.com/3/f/6/3f622a969ef566260edfef101ed2afd764c47014.png" class="latexcenter" alt="\begin{eqnarray*} \sum_{n=1}^{44} \cos n + \sum_{n=1}^{44} \sin n &amp;=&amp; \sum_{n=1}^{44} \sin n + \sin(90-n)\\ &amp;=&amp; \sqrt{2}\sum_{n=1}^{44} \cos(45-n) = \sqrt{2}\sum_{n=1}^{44} \cos n\\ \sum_{n=1}^{44} \sin n &amp;=&amp; (\sqrt{2}-1)\sum_{n=1}^{44} \cos n \end{eqnarray*}" width="465" height="170" />
+</p><p>This is the <a href="/wiki/index.php/Ratio" title="Ratio">ratio</a> we are looking for. <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> reduces to <img src="//latex.artofproblemsolving.com/c/4/c/c4c13b6c1f3c26e657c659a0e150830ef7c5d677.png" class="latex" alt="$\frac{1}{\sqrt{2} - 1} = \sqrt{2} + 1$" style="vertical-align: -17px" width="138" height="41" />, and <img src="//latex.artofproblemsolving.com/7/9/b/79be811d8d4f0ecaf0c8faefaf29670830fe6d5f.png" class="latex" alt="$\lfloor 100(\sqrt{2} + 1)\rfloor = \boxed{241}$" style="vertical-align: -5px" width="176" height="23" />.
+</p>
+<h3><span class="mw-headline" id="Solution_4">Solution 4</span></h3>
+<p>Consider the sum <img src="//latex.artofproblemsolving.com/9/0/0/900700405bafd4f43a481dd4199bfa2d1a762756.png" class="latex" alt="$\sum_{n = 1}^{44} \text{cis } n^\circ$" style="vertical-align: -20px" width="70" height="50" />. The fraction is given by the real part divided by the imaginary part.
+</p><p>The sum can be written <img src="//latex.artofproblemsolving.com/f/c/6/fc629d83028dd3c58154f92913339a2b74e89717.png" class="latex" alt="$- 1 + \sum_{n = 0}^{44} \text{cis } n^\circ = - 1 + \frac {\text{cis } 45^\circ - 1}{\text{cis } 1^\circ - 1}$" style="vertical-align: -20px" width="270" height="50" /> (by <a href="/wiki/index.php/De_Moivre%27s_Theorem" title="De Moivre&#39;s Theorem">De Moivre's Theorem</a> with geometric series)
+</p><p><img src="//latex.artofproblemsolving.com/d/c/7/dc7b3e035eb51215e2a10a78912f36fb5d51c3b6.png" class="latex" alt="$= - 1 + \frac {\frac {\sqrt {2}}{2} - 1 + \frac {i \sqrt {2}}{2}}{\text{cis } 1^\circ - 1} = - 1 + \frac {\left( \frac {\sqrt {2}}{2} - 1 + \frac {i \sqrt {2}}{2} \right) (\text{cis } ( - 1^\circ) - 1)}{(\cos 1^\circ - 1)^2 + \sin^2 1^\circ}$" style="vertical-align: -18px" width="482" height="57" /> (after multiplying by <a href="/wiki/index.php/Complex_conjugate" title="Complex conjugate">complex conjugate</a>)
+</p><p><img src="//latex.artofproblemsolving.com/f/b/3/fb382b7f8c0fec0ddda28c714cb2b9337012ec42.png" class="latex" alt="$= - 1 + \frac {\left( \frac {\sqrt {2}}{2} - 1 \right) (\cos 1^\circ - 1) + \frac {\sqrt {2}}{2}\sin 1^\circ + i\left( \left(1 - \frac {\sqrt {2}}{2} \right) \sin 1^\circ + \frac {\sqrt {2}}{2} (\cos 1^\circ - 1)\right)}{2(1 - \cos 1^\circ)}$" style="vertical-align: -17px" width="627" height="56" />
+</p><p><img src="//latex.artofproblemsolving.com/f/3/a/f3ab2ebd6ebec745250e8383c011f1d8bdd1dca8.png" class="latex" alt="$= - \frac {1}{2} - \frac {\sqrt {2}}{4} - \frac {i\sqrt {2}}{4} + \frac {\sin 1^\circ \left( \frac {\sqrt {2}}{2} + i\left( 1 - \frac {\sqrt {2}}{2} \right) \right)}{2(1 - \cos 1^\circ)}$" style="vertical-align: -17px" width="371" height="56" />
+</p><p>Using the <a href="/wiki/index.php/Trigonometric_identities" title="Trigonometric identities">tangent half-angle formula</a>, this becomes <img src="//latex.artofproblemsolving.com/8/c/9/8c971541d2b2ef0497e673ec70da35a77ad8256e.png" class="latex" alt="$\left( - \frac {1}{2} + \frac {\sqrt {2}}{4}[\cot (1/2^\circ) - 1] \right) + i\left( \frac {1}{2}\cot (1/2^\circ) - \frac {\sqrt {2}}{4}[\cot (1/2^\circ) + 1] \right)$" style="vertical-align: -22px" width="530" height="53" />.
+</p><p>Dividing the two parts and multiplying each part by 4, the fraction is <img src="//latex.artofproblemsolving.com/0/4/6/046eafcfd8c350b5e535513cb52121d21dea133e.png" class="latex" alt="$\frac { - 2 + \sqrt {2}[\cot (1/2^\circ) - 1]}{2\cot (1/2^\circ) - \sqrt {2}[\cot (1/2^\circ) + 1]}$" style="vertical-align: -19px" width="249" height="48" />.
+</p><p>Although an exact value for <img src="//latex.artofproblemsolving.com/2/a/f/2afdf5cea5580fa79518bd8e356afd8905cfc0a7.png" class="latex" alt="$\cot (1/2^\circ)$" style="vertical-align: -4px" width="71" height="18" /> in terms of radicals will be difficult, this is easily known: it is really large!
+</p><p>So treat it as though it were <img src="//latex.artofproblemsolving.com/b/6/7/b671f1bb7e4ee86584347d5d22f1dc8abdb5bef2.png" class="latex" alt="$\infty$" style="vertical-align: 0px" width="17" height="9" />. The fraction is approximated by <img src="//latex.artofproblemsolving.com/d/a/1/da1ca9d2eb0ebdd9725f5cb51460c55bdf51e943.png" class="latex" alt="$\frac {\sqrt {2}}{2 - \sqrt {2}} = \frac {\sqrt {2}(2 + \sqrt {2})}{2} = 1 + \sqrt {2}\Rightarrow \lfloor 100(1+\sqrt2)\rfloor=\boxed{241}$" style="vertical-align: -17px" width="466" height="45" />.
+</p>
+<h3><span class="mw-headline" id="Solution_5">Solution 5</span></h3>
+<p>Consider the sum <img src="//latex.artofproblemsolving.com/9/0/0/900700405bafd4f43a481dd4199bfa2d1a762756.png" class="latex" alt="$\sum_{n = 1}^{44} \text{cis } n^\circ$" style="vertical-align: -20px" width="70" height="50" />. The fraction is given by the real part divided by the imaginary part.
+</p><p>The sum can be written as <img src="//latex.artofproblemsolving.com/b/e/0/be0ce46e771367fa4b979a9de00ec1a8ecc3feef.png" class="latex" alt="$\sum_{n=1}^{22} (\text{cis } n^\circ + \text{cis } 45-n^\circ)$" style="vertical-align: -20px" width="186" height="50" />. 
+Consider the rhombus <img src="//latex.artofproblemsolving.com/b/9/1/b91381b367f9753ded66ab981c7451f2cb117578.png" class="latex" alt="$OABC$" width="56" height="13" /> on the complex plane such that <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> is the origin, <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> represents <img src="//latex.artofproblemsolving.com/b/2/0/b2044dab4df62f31b53768c0e25531a9b78f3ccb.png" class="latex" alt="$\text{cis } n^\circ$" width="41" height="13" />, <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> represents <img src="//latex.artofproblemsolving.com/9/9/2/9924b71d8a27843f43c9ef4be41634d27043a97f.png" class="latex" alt="$\text{cis } n^\circ + \text{cis } 45-n^\circ$" style="vertical-align: -1px" width="146" height="14" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> represents <img src="//latex.artofproblemsolving.com/b/2/0/b2044dab4df62f31b53768c0e25531a9b78f3ccb.png" class="latex" alt="$\text{cis } n^\circ$" width="41" height="13" />. Simple geometry shows that <img src="//latex.artofproblemsolving.com/2/2/a/22a082167d1f9b7470be9c5ca9cc9daf79af57f1.png" class="latex" alt="$\angle BOA = 22.5-k^\circ$" width="150" height="13" />, so the angle that <img src="//latex.artofproblemsolving.com/9/9/2/9924b71d8a27843f43c9ef4be41634d27043a97f.png" class="latex" alt="$\text{cis } n^\circ + \text{cis } 45-n^\circ$" style="vertical-align: -1px" width="146" height="14" /> makes with the real axis is simply <img src="//latex.artofproblemsolving.com/e/e/a/eea5c06f0a939dc4e3d874948a0659e799845923.png" class="latex" alt="$22.5^\circ$" width="38" height="13" />. So <img src="//latex.artofproblemsolving.com/b/e/0/be0ce46e771367fa4b979a9de00ec1a8ecc3feef.png" class="latex" alt="$\sum_{n=1}^{22} (\text{cis } n^\circ + \text{cis } 45-n^\circ)$" style="vertical-align: -20px" width="186" height="50" /> is the sum of collinear complex numbers, so the angle the sum makes with the real axis is <img src="//latex.artofproblemsolving.com/e/e/a/eea5c06f0a939dc4e3d874948a0659e799845923.png" class="latex" alt="$22.5^\circ$" width="38" height="13" />. So our answer is <img src="//latex.artofproblemsolving.com/7/a/8/7a89102a41eb1a8be9b83d526a585c5ef18a2728.png" class="latex" alt="$\lfloor 100 \cot(22.5^\circ) \rfloor = \boxed{241}$" style="vertical-align: -5px" width="188" height="23" />. 
+</p><p>Note that the <img src="//latex.artofproblemsolving.com/2/6/2/2627fb12f44f659dd924c366e7427becad51941b.png" class="latex" alt="$\cot(22.5^\circ) = \sqrt2 + 1$" style="vertical-align: -4px" width="157" height="21" /> can be shown easily through half-angle formula.
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/1997_AIME" title="1997 AIME">1997 AIME </a></b> (<b><a href="/wiki/index.php/1997_AIME_Problems" title="1997 AIME Problems">Problems</a></b> • <b><a href="/wiki/index.php/1997_AIME_Answer_Key" title="1997 AIME Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="http://www.artofproblemsolving.com/Forum/resources.php?c=182&amp;cid=45&amp;year=1997">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/1997_AIME_Problems/Problem_10" title="1997 AIME Problems/Problem 10">Problem 10</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/1997_AIME_Problems/Problem_12" title="1997 AIME Problems/Problem 12">Problem 12</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/1997_AIME_Problems/Problem_1" title="1997 AIME Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_2" title="1997 AIME Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_3" title="1997 AIME Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_4" title="1997 AIME Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_5" title="1997 AIME Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_6" title="1997 AIME Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_7" title="1997 AIME Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_8" title="1997 AIME Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_9" title="1997 AIME Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_10" title="1997 AIME Problems/Problem 10">10</a> <b>•</b> <a class="mw-selflink selflink">11</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_12" title="1997 AIME Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_13" title="1997 AIME Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_14" title="1997 AIME Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/1997_AIME_Problems/Problem_15" title="1997 AIME Problems/Problem 15">15</a>
+</td></tr>
+<tr>
+<td align="center" colspan="3"><b><a href="/wiki/index.php/AIME_Problems_and_Solutions" title="AIME Problems and Solutions"> All AIME Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>The problems on this page are copyrighted by the <a rel="nofollow" class="external text" href="http://www.maa.org">Mathematical Association of America</a>'s <a rel="nofollow" class="external text" href="http://amc.maa.org">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png" width="97" height="84" style="vertical-align: middle" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20200714122604
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.094 seconds
+Real time usage: 0.098 seconds
+Preprocessor visited node count: 605/1000000
+Preprocessor generated node count: 1574/1000000
+Post‐expand include size: 1659/2097152 bytes
+Template argument size: 92/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 13580/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    7.715      1 -total
+ 71.06%    5.482      1 Template:AIME_box
+ 26.03%    2.008      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:2997-0!canonical and timestamp 20200714122604 and revision id 108214
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=1997_AIME_Problems/Problem_11&amp;oldid=108214">https://artofproblemsolving.com/wiki/index.php?title=1997_AIME_Problems/Problem_11&amp;oldid=108214</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Trigonometry_Problems" title="Category:Intermediate Trigonometry Problems">Intermediate Trigonometry Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+<!-- search:off -->
+  <div id="main-footer" class="no-print">
+    <div class="footer-container">
+      <div class="footer-topRow">
+                      <a href="/online">
+              <img class="footer-mainLogo"
+              src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+            </a>
+                    <div class="footer-wasc">
+            <span>
+              Art of Problem Solving is an
+              <br class="wasc-break"/>
+              <span class="footer-accredited">ACS WASC Accredited School</span>
+            </span>
+            <img class="footer-wascLogo"
+            src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+          </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <div class="footer-colHeader">aops programs</div>
+          <a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a>
+          <a class="link" href="https://beastacademy.com">Beast Academy</a>
+          <a class="link" href="https://aopsacademy.org">AoPS Academy</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">About</div>
+          <a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a>
+          <a class="link" href="https://artofproblemsolving.com/company/history">Our History</a>
+          <a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader" style="left:-1px;">Site Info</div>
+          <a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a>
+          <a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+          <a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a>
+        </div>
+
+        <div class="footer-col social">
+          <div class="footer-colHeader">follow us</div>
+          <div class="footer-social">
+                          <a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+              </a>
+              <a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+                <img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+                      </div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-colHeader">
+            Subscribe for news and updates
+          </div>
+          <form method="post" action="/mailinglist">
+            <input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+            <input type="hidden" name="new-books" value="on">
+            <input type="hidden" name="classes" value="on">
+            <input type="hidden" name="mathjams" value="on">
+            <input type="submit" class="footer-submit" value="">
+            <div class="footer-submit-arrow">
+              <svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+                <g>
+                  <path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+                </g>
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>&copy; 2020 AoPS Incorporated
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div id="small-footer-wrapper">
+    <div class="footer-container">
+              <a href="/online">
+          <img class="footer-mainLogo"
+          src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+        </a>
+            <div class="copyright">
+        &copy; 2020 Art of Problem Solving
+        <div class="copyright-links">
+          <a href="https://artofproblemsolving.com/company/staff">About Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/contact">Contact Us</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/tos">Terms</a>
+          &nbsp;•&nbsp;
+          <a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form">
+
+    <div class="error">
+      Invalid username
+    </div>
+
+    <div class="info">
+      Login to AoPS
+    </div>
+    <form>
+      <div class="form-group">
+        <div>
+          <label>Username:</label>
+        </div>
+        <div>
+          <input name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <div>
+          <label>Password:</label>
+        </div>
+        <div>
+          <input name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <div>
+      </div>
+      <div>
+        <button class="btn btn-primary" id="login-button" href="#">Login</button>
+        <button class="btn" id="login-cancel-button" href="#">Cancel</button>
+        <span style="padding-left:20px;" id="login-message"></span>
+        <div style="margin-top:5px;">
+          <label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+            <input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+            <span style="vertical-align:middle">Stay logged in</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="login-form-links">
+      <p>
+        <a href="https://artofproblemsolving.com/user/register.php">Create a new account</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/resend-activation.php">Lost your activation email?</a>
+      </p>
+      <p>
+        <a href="https://artofproblemsolving.com/user/reset-pw.php">Forgot your password or username?</a>
+      </p>
+    </div>
+  </div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+				<script>
+			AoPS.bootstrap_data = [];
+			AoPS.bd = AoPS.bootstrap_data; // Alias!
+		</script>
+
+				<!-- /search:off -->
+
+	</body>
+<!-- Cached 20200715102542 -->
+</html>
