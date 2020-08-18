@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1998_USAMO_Problems/Problem_5" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,19 +393,19 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1998 USAMO Problems/Problem 5</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>Prove that for each <img src="//latex.artofproblemsolving.com/4/7/a/47affecc93688552c8eca8bc13560d52b4cc28a9.png" class="latex" alt="$n\geq 2$" style="vertical-align: -2px" width="43" height="14" />, there is a set <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> integers such that <img src="//latex.artofproblemsolving.com/5/a/6/5a65fe5f396d8c182d88144d00e26156435e0743.png" class="latex" alt="$(a-b)^2$" style="vertical-align: -4px" width="60" height="19" /> divides <img src="//latex.artofproblemsolving.com/e/f/8/ef870ce9fefe09b80a97b05a7b9198414c1b35f7.png" class="latex" alt="$ab$" width="17" height="12" /> for every distinct <img src="//latex.artofproblemsolving.com/7/b/d/7bda82ee8212aa2c03bc02d76fc28a5bda8412ed.png" class="latex" alt="$a,b\in S$" style="vertical-align: -3px" width="59" height="16" />.
+<p>Prove that for each <img src="https://latex.artofproblemsolving.com/4/7/a/47affecc93688552c8eca8bc13560d52b4cc28a9.png" class="latex" alt="$n\geq 2$" style="vertical-align: -2px" width="43" height="14" />, there is a set <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> of <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> integers such that <img src="https://latex.artofproblemsolving.com/5/a/6/5a65fe5f396d8c182d88144d00e26156435e0743.png" class="latex" alt="$(a-b)^2$" style="vertical-align: -4px" width="60" height="19" /> divides <img src="https://latex.artofproblemsolving.com/e/f/8/ef870ce9fefe09b80a97b05a7b9198414c1b35f7.png" class="latex" alt="$ab$" width="17" height="12" /> for every distinct <img src="https://latex.artofproblemsolving.com/7/b/d/7bda82ee8212aa2c03bc02d76fc28a5bda8412ed.png" class="latex" alt="$a,b\in S$" style="vertical-align: -3px" width="59" height="16" />.
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>Proof by induction.  For n=2, the proof is trivial, since <img src="//latex.artofproblemsolving.com/2/9/6/2966c70b0c8f338b8b96b534974a395e4e497ea6.png" class="latex" alt="$S = (1,2)$" style="vertical-align: -4px" width="75" height="18" /> satisfies the condition.  Assume now that there is such a set S of n elements, <img src="//latex.artofproblemsolving.com/e/f/f/eff2024b147ef40e1e48aa65e5f844e82823cd1f.png" class="latex" alt="$a_1, a_2,...a_n$" style="vertical-align: -3px" width="83" height="11" /> which satisfy the condition.  The key is to note that if <img src="//latex.artofproblemsolving.com/a/5/b/a5bfc92ed339bc34839bb12105a6a5f2e11223b8.png" class="latex" alt="$m=a_1a_2...a_n$" style="vertical-align: -2px" width="107" height="10" />, then if we define <img src="//latex.artofproblemsolving.com/7/4/b/74bc5e73a25d6aa9cf8ea191fd2716947a0e451f.png" class="latex" alt="$b_i=a_i + km$" style="vertical-align: -2px" width="100" height="15" /> for all <img src="//latex.artofproblemsolving.com/5/e/b/5eb780fd19aa86d0cdd8bb5df87ffe68a1af0ef2.png" class="latex" alt="$i\le n$" style="vertical-align: -2px" width="41" height="15" />, where k is a positive integer, then <img src="//latex.artofproblemsolving.com/d/b/5/db50d9660050618bcf2c97b0661667a4c51b955c.png" class="latex" alt="$a_i \mid b_i$" style="vertical-align: -4px" width="43" height="18" /> and <img src="//latex.artofproblemsolving.com/f/b/0/fb0cd134be124348281cc3edff91351c5010c25c.png" class="latex" alt="$b_i - b_j = a_i - a_j$" style="vertical-align: -4px" width="127" height="17" />, and so <img src="//latex.artofproblemsolving.com/6/f/f/6ff9fc6efc900ec14dc876c84f4fdcaf2c8253d3.png" class="latex" alt="$(b_i - b_j)^2 = (a_i - a_j)^2 \mid a_ia_j \mid b_ib_j$" style="vertical-align: -4px" width="260" height="19" />.
-</p><p>Let <img src="//latex.artofproblemsolving.com/3/8/f/38f01fcf19e444307fc6d479873805fa9f599c9a.png" class="latex" alt="$b_{n+1}=m +km$" style="vertical-align: -4px" width="121" height="16" />.   Consider the set <img src="//latex.artofproblemsolving.com/3/d/4/3d41fac741471f03a11f07641b32efca2d0b6963.png" class="latex" alt="$T = (b_1,b_2,...,b_n,b_{n+1})$" style="vertical-align: -4px" width="178" height="18" />. To finish the proof, we simply need to choose a k such that <img src="//latex.artofproblemsolving.com/3/f/a/3fa83217c8f0f82a6d7da591529c0d6d65013047.png" class="latex" alt="$(b_{n+1}-b_i)^2 \mid b_{n+1}b_i$" style="vertical-align: -4px" width="152" height="19" /> for all <img src="//latex.artofproblemsolving.com/5/e/b/5eb780fd19aa86d0cdd8bb5df87ffe68a1af0ef2.png" class="latex" alt="$i\le n$" style="vertical-align: -2px" width="41" height="15" />.  Since <img src="//latex.artofproblemsolving.com/8/2/f/82f3976453294bef8306a051d033f98e18a180a3.png" class="latex" alt="$(b_{n+1}-b_i)^2 = (m-a_i)^2$" style="vertical-align: -4px" width="188" height="19" />, simply choose k so that <img src="//latex.artofproblemsolving.com/e/e/4/ee4208331bcf419a3181720f9f930574093f99e4.png" class="latex" alt="$k+1 = (m-a_1)^2(m-a_2)^2...(m-a_n)^2$" style="vertical-align: -4px" width="311" height="19" />.
+<p>Proof by induction.  For n=2, the proof is trivial, since <img src="https://latex.artofproblemsolving.com/2/9/6/2966c70b0c8f338b8b96b534974a395e4e497ea6.png" class="latex" alt="$S = (1,2)$" style="vertical-align: -4px" width="75" height="18" /> satisfies the condition.  Assume now that there is such a set S of n elements, <img src="https://latex.artofproblemsolving.com/e/f/f/eff2024b147ef40e1e48aa65e5f844e82823cd1f.png" class="latex" alt="$a_1, a_2,...a_n$" style="vertical-align: -3px" width="83" height="11" /> which satisfy the condition.  The key is to note that if <img src="https://latex.artofproblemsolving.com/a/5/b/a5bfc92ed339bc34839bb12105a6a5f2e11223b8.png" class="latex" alt="$m=a_1a_2...a_n$" style="vertical-align: -2px" width="107" height="10" />, then if we define <img src="https://latex.artofproblemsolving.com/7/4/b/74bc5e73a25d6aa9cf8ea191fd2716947a0e451f.png" class="latex" alt="$b_i=a_i + km$" style="vertical-align: -2px" width="100" height="15" /> for all <img src="https://latex.artofproblemsolving.com/5/e/b/5eb780fd19aa86d0cdd8bb5df87ffe68a1af0ef2.png" class="latex" alt="$i\le n$" style="vertical-align: -2px" width="41" height="15" />, where k is a positive integer, then <img src="https://latex.artofproblemsolving.com/d/b/5/db50d9660050618bcf2c97b0661667a4c51b955c.png" class="latex" alt="$a_i \mid b_i$" style="vertical-align: -4px" width="43" height="18" /> and <img src="https://latex.artofproblemsolving.com/f/b/0/fb0cd134be124348281cc3edff91351c5010c25c.png" class="latex" alt="$b_i - b_j = a_i - a_j$" style="vertical-align: -4px" width="127" height="17" />, and so <img src="https://latex.artofproblemsolving.com/6/f/f/6ff9fc6efc900ec14dc876c84f4fdcaf2c8253d3.png" class="latex" alt="$(b_i - b_j)^2 = (a_i - a_j)^2 \mid a_ia_j \mid b_ib_j$" style="vertical-align: -4px" width="260" height="19" />.
+</p><p>Let <img src="https://latex.artofproblemsolving.com/3/8/f/38f01fcf19e444307fc6d479873805fa9f599c9a.png" class="latex" alt="$b_{n+1}=m +km$" style="vertical-align: -4px" width="121" height="16" />.   Consider the set <img src="https://latex.artofproblemsolving.com/3/d/4/3d41fac741471f03a11f07641b32efca2d0b6963.png" class="latex" alt="$T = (b_1,b_2,...,b_n,b_{n+1})$" style="vertical-align: -4px" width="178" height="18" />. To finish the proof, we simply need to choose a k such that <img src="https://latex.artofproblemsolving.com/3/f/a/3fa83217c8f0f82a6d7da591529c0d6d65013047.png" class="latex" alt="$(b_{n+1}-b_i)^2 \mid b_{n+1}b_i$" style="vertical-align: -4px" width="152" height="19" /> for all <img src="https://latex.artofproblemsolving.com/5/e/b/5eb780fd19aa86d0cdd8bb5df87ffe68a1af0ef2.png" class="latex" alt="$i\le n$" style="vertical-align: -2px" width="41" height="15" />.  Since <img src="https://latex.artofproblemsolving.com/8/2/f/82f3976453294bef8306a051d033f98e18a180a3.png" class="latex" alt="$(b_{n+1}-b_i)^2 = (m-a_i)^2$" style="vertical-align: -4px" width="188" height="19" />, simply choose k so that <img src="https://latex.artofproblemsolving.com/e/e/4/ee4208331bcf419a3181720f9f930574093f99e4.png" class="latex" alt="$k+1 = (m-a_1)^2(m-a_2)^2...(m-a_n)^2$" style="vertical-align: -4px" width="311" height="19" />.
 </p>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:40%;">
@@ -437,7 +427,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715095901
 Cache expiry: 86400
@@ -467,7 +457,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Number_Theory_Problems" title="Category:Olympiad Number Theory Problems">Olympiad Number Theory Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2000_AIME_II_Problems/Problem_15" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2000 AIME II Problems/Problem 15</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -420,21 +410,21 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2><p>
-Find the least positive integer <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that </p><center><img src="//latex.artofproblemsolving.com/4/c/9/4c9c990a7b70753fe475b450cb0915460af6cf64.png" class="latex" alt="$\frac 1{\sin 45^\circ\sin 46^\circ}+\frac 1{\sin 47^\circ\sin 48^\circ}+\cdots+\frac 1{\sin 133^\circ\sin 134^\circ}=\frac 1{\sin n^\circ}.$" style="vertical-align: -13px" width="509" height="37" /></center>
+Find the least positive integer <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that </p><center><img src="https://latex.artofproblemsolving.com/4/c/9/4c9c990a7b70753fe475b450cb0915460af6cf64.png" class="latex" alt="$\frac 1{\sin 45^\circ\sin 46^\circ}+\frac 1{\sin 47^\circ\sin 48^\circ}+\cdots+\frac 1{\sin 133^\circ\sin 134^\circ}=\frac 1{\sin n^\circ}.$" style="vertical-align: -13px" width="509" height="37" /></center>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p>We apply the identity 
-</p><p><img src="//latex.artofproblemsolving.com/d/7/5/d75faa212e8d2e246616eed6303f8e50fb5e42df.png" class="latexcenter" alt="\begin{align*} \frac{1}{\sin n \sin (n+1)} &amp;= \frac{1}{\sin 1} \cdot \frac{\sin (n+1) \cos n - \sin n \cos (n+1)}{\sin n \sin (n+1)} \\ &amp;= \frac{1}{\sin 1} \cdot \left(\frac{\cos n}{\sin n} - \frac{\cos (n+1)}{\sin (n+1)}\right) \\ &amp;= \frac{1}{\sin 1} \cdot \left(\cot n - \cot (n+1)\right). \end{align*}" width="460" height="136" />
-</p><p>The motivation for this identity arises from the need to decompose those fractions, possibly into <a href="/wiki/index.php/Telescoping" class="mw-redirect" title="Telescoping">telescoping</a>. 
-</p><p>Thus our summation becomes 
-</p><p><img src="//latex.artofproblemsolving.com/7/9/d/79dfa6a1b147c857e927c3fc52695c5420f19c02.png" class="latexcenter" alt="\[\sum_{k=23}^{67} \frac{1}{\sin (2k-1) \sin 2k} = \frac{1}{\sin 1} \left(\cot 45 - \cot 46 + \cot 47 - \cdots + \cot 133 - \cot 134 \right).\]" width="636" height="50" />
-</p><p>Since <img src="//latex.artofproblemsolving.com/a/d/a/ada321f7f657517460f95349f91b1fc330c4b83a.png" class="latex" alt="$\cot (180 - x) = - \cot x$" style="vertical-align: -4px" width="177" height="18" />, the summation simply reduces to <img src="//latex.artofproblemsolving.com/0/5/d/05d4be9b7ef6609523e02f11f5fd318b0facbde9.png" class="latex" alt="$\frac{1}{\sin 1} \cdot \left( \cot 45 - \cot 90 \right) = \frac{1 - 0}{\sin 1} = \frac{1}{\sin 1^{\circ}}$" style="vertical-align: -13px" width="316" height="38" />. Therefore, the answer is <img src="//latex.artofproblemsolving.com/0/9/5/095810b11bb33e311d581b5d4959399c7490300f.png" class="latex" alt="$\boxed{001}$" style="vertical-align: -5px" width="39" height="23" />.
+<p>We apply the identity
+</p><p><img src="https://latex.artofproblemsolving.com/d/7/5/d75faa212e8d2e246616eed6303f8e50fb5e42df.png" class="latexcenter" alt="\begin{align*} \frac{1}{\sin n \sin (n+1)} &amp;= \frac{1}{\sin 1} \cdot \frac{\sin (n+1) \cos n - \sin n \cos (n+1)}{\sin n \sin (n+1)} \\ &amp;= \frac{1}{\sin 1} \cdot \left(\frac{\cos n}{\sin n} - \frac{\cos (n+1)}{\sin (n+1)}\right) \\ &amp;= \frac{1}{\sin 1} \cdot \left(\cot n - \cot (n+1)\right). \end{align*}" width="460" height="136" />
+</p><p>The motivation for this identity arises from the need to decompose those fractions, possibly into <a href="/wiki/index.php/Telescoping" class="mw-redirect" title="Telescoping">telescoping</a>.
+</p><p>Thus our summation becomes
+</p><p><img src="https://latex.artofproblemsolving.com/7/9/d/79dfa6a1b147c857e927c3fc52695c5420f19c02.png" class="latexcenter" alt="\[\sum_{k=23}^{67} \frac{1}{\sin (2k-1) \sin 2k} = \frac{1}{\sin 1} \left(\cot 45 - \cot 46 + \cot 47 - \cdots + \cot 133 - \cot 134 \right).\]" width="636" height="50" />
+</p><p>Since <img src="https://latex.artofproblemsolving.com/a/d/a/ada321f7f657517460f95349f91b1fc330c4b83a.png" class="latex" alt="$\cot (180 - x) = - \cot x$" style="vertical-align: -4px" width="177" height="18" />, the summation simply reduces to <img src="https://latex.artofproblemsolving.com/0/5/d/05d4be9b7ef6609523e02f11f5fd318b0facbde9.png" class="latex" alt="$\frac{1}{\sin 1} \cdot \left( \cot 45 - \cot 90 \right) = \frac{1 - 0}{\sin 1} = \frac{1}{\sin 1^{\circ}}$" style="vertical-align: -13px" width="316" height="38" />. Therefore, the answer is <img src="https://latex.artofproblemsolving.com/0/9/5/095810b11bb33e311d581b5d4959399c7490300f.png" class="latex" alt="$\boxed{001}$" style="vertical-align: -5px" width="39" height="23" />.
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
 <p>We can make an approximation by observing the following points:
-</p><p>The average term is around the 60's which gives <img src="//latex.artofproblemsolving.com/7/b/3/7b33bd495b7492f95385da7afb197cd34638cdfa.png" class="latex" alt="$\frac{4}{3}$" style="vertical-align: -12px" width="11" height="37" />.
+</p><p>The average term is around the 60's which gives <img src="https://latex.artofproblemsolving.com/7/b/3/7b33bd495b7492f95385da7afb197cd34638cdfa.png" class="latex" alt="$\frac{4}{3}$" style="vertical-align: -12px" width="11" height="37" />.
 </p><p>There are 45 terms, so the approximate sum is 60.
-</p><p>Therefore, the entire thing equals approximately <img src="//latex.artofproblemsolving.com/8/f/6/8f60bedc5b5b46bbd2652971d30b4e69bfad748a.png" class="latex" alt="$\frac{1}{60}$" style="vertical-align: -12px" width="20" height="37" />.
-</p><p>Recall that the approximation of <img src="//latex.artofproblemsolving.com/0/8/1/081bf0417da2140657aad909a14ca6c3ff8b77d5.png" class="latex" alt="$\sin(x)$" style="vertical-align: -4px" width="45" height="18" /> in radians is x if x is close to zero. In this case x is close to zero. Converting to radians we see that <img src="//latex.artofproblemsolving.com/9/b/0/9b050b39ada1b2f2d885b691ea508e251e183618.png" class="latex" alt="$\sin(1)$" style="vertical-align: -4px" width="44" height="18" /> in degrees is about sin<img src="//latex.artofproblemsolving.com/8/e/3/8e3b8f932833a1cc5a7f17ac1ff7c026492100c7.png" class="latex" alt="$\frac{1}{57}$" style="vertical-align: -12px" width="20" height="37" /> in radians, or is about <img src="//latex.artofproblemsolving.com/8/e/3/8e3b8f932833a1cc5a7f17ac1ff7c026492100c7.png" class="latex" alt="$\frac{1}{57}$" style="vertical-align: -12px" width="20" height="37" /> because of the approximation. What we want is apparently close to that so we make the guess that n is equal to 1 degree. Basically, it boils down to the approximation of <img src="//latex.artofproblemsolving.com/5/3/1/53142d0fd55c06d130761597b29a6f61912ae1b1.png" class="latex" alt="$\sin(1)=\frac{1}{60}$" style="vertical-align: -12px" width="90" height="37" /> in degrees, convert to radians and use the small angle approximation <img src="//latex.artofproblemsolving.com/b/3/8/b38367cae2a5ce30ddb33f8beabc4801a4c434ae.png" class="latex" alt="$\sin(x)=x$" style="vertical-align: -4px" width="81" height="18" />.
+</p><p>Therefore, the entire thing equals approximately <img src="https://latex.artofproblemsolving.com/8/f/6/8f60bedc5b5b46bbd2652971d30b4e69bfad748a.png" class="latex" alt="$\frac{1}{60}$" style="vertical-align: -12px" width="20" height="37" />.
+</p><p>Recall that the approximation of <img src="https://latex.artofproblemsolving.com/0/8/1/081bf0417da2140657aad909a14ca6c3ff8b77d5.png" class="latex" alt="$\sin(x)$" style="vertical-align: -4px" width="45" height="18" /> in radians is x if x is close to zero. In this case x is close to zero. Converting to radians we see that <img src="https://latex.artofproblemsolving.com/9/b/0/9b050b39ada1b2f2d885b691ea508e251e183618.png" class="latex" alt="$\sin(1)$" style="vertical-align: -4px" width="44" height="18" /> in degrees is about sin<img src="https://latex.artofproblemsolving.com/8/e/3/8e3b8f932833a1cc5a7f17ac1ff7c026492100c7.png" class="latex" alt="$\frac{1}{57}$" style="vertical-align: -12px" width="20" height="37" /> in radians, or is about <img src="https://latex.artofproblemsolving.com/8/e/3/8e3b8f932833a1cc5a7f17ac1ff7c026492100c7.png" class="latex" alt="$\frac{1}{57}$" style="vertical-align: -12px" width="20" height="37" /> because of the approximation. What we want is apparently close to that so we make the guess that n is equal to 1 degree. Basically, it boils down to the approximation of <img src="https://latex.artofproblemsolving.com/5/3/1/53142d0fd55c06d130761597b29a6f61912ae1b1.png" class="latex" alt="$\sin(1)=\frac{1}{60}$" style="vertical-align: -12px" width="90" height="37" /> in degrees, convert to radians and use the small angle approximation <img src="https://latex.artofproblemsolving.com/b/3/8/b38367cae2a5ce30ddb33f8beabc4801a4c434ae.png" class="latex" alt="$\sin(x)=x$" style="vertical-align: -4px" width="81" height="18" />.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -456,7 +446,7 @@ Find the least positive integer <img src="//latex.artofproblemsolving.com/1/7/4/
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715102540
 Cache expiry: 86400
@@ -486,7 +476,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Trigonometry_Problems" title="Category:Intermediate Trigonometry Problems">Intermediate Trigonometry Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

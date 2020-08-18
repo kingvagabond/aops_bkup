@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1985_AIME_Problems/Problem_5" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,22 +393,22 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1985 AIME Problems/Problem 5</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>A <a href="/wiki/index.php/Sequence" title="Sequence">sequence</a> of <a href="/wiki/index.php/Integer" title="Integer">integers</a> <img src="//latex.artofproblemsolving.com/c/4/a/c4a82e7c7dbf7b035a66b5890ec80463b4c3e8d9.png" class="latex" alt="$a_1, a_2, a_3, \ldots$" style="vertical-align: -3px" width="95" height="11" /> is chosen so that <img src="//latex.artofproblemsolving.com/d/5/0/d506f591a64cbbcf104ce1aba20caef326fa25b7.png" class="latex" alt="$a_n = a_{n - 1} - a_{n - 2}$" style="vertical-align: -2px" width="135" height="10" /> for each <img src="//latex.artofproblemsolving.com/8/f/1/8f1e2533d6abdb11a9a1626c0240fab1a9200fc6.png" class="latex" alt="$n \ge 3$" style="vertical-align: -2px" width="43" height="15" />. What is the sum of the first 2001 terms of this sequence if the sum of the first 1492 terms is 1985, and the sum of the first 1985 terms is 1492?
+<p>A <a href="/wiki/index.php/Sequence" title="Sequence">sequence</a> of <a href="/wiki/index.php/Integer" title="Integer">integers</a> <img src="https://latex.artofproblemsolving.com/c/4/a/c4a82e7c7dbf7b035a66b5890ec80463b4c3e8d9.png" class="latex" alt="$a_1, a_2, a_3, \ldots$" style="vertical-align: -3px" width="95" height="11" /> is chosen so that <img src="https://latex.artofproblemsolving.com/d/5/0/d506f591a64cbbcf104ce1aba20caef326fa25b7.png" class="latex" alt="$a_n = a_{n - 1} - a_{n - 2}$" style="vertical-align: -2px" width="135" height="10" /> for each <img src="https://latex.artofproblemsolving.com/8/f/1/8f1e2533d6abdb11a9a1626c0240fab1a9200fc6.png" class="latex" alt="$n \ge 3$" style="vertical-align: -2px" width="43" height="15" />. What is the sum of the first 2001 terms of this sequence if the sum of the first 1492 terms is 1985, and the sum of the first 1985 terms is 1492?
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>The problem gives us a sequence defined by a <a href="/wiki/index.php/Recursion" title="Recursion">recursion</a>, so let's calculate a few values to get a feel for how it acts.  We aren't given initial values, so let <img src="//latex.artofproblemsolving.com/0/c/d/0cd1990ea279ef93b36b0678f0013fa8581fe3d0.png" class="latex" alt="$a_1 = a$" style="vertical-align: -2px" width="51" height="10" /> and <img src="//latex.artofproblemsolving.com/8/c/d/8cd20e1b8ff006358e51df46247fd07ea8b54010.png" class="latex" alt="$a_2 = b$" style="vertical-align: -2px" width="49" height="15" />.  Then <img src="//latex.artofproblemsolving.com/0/7/c/07c058ea48b07c18f06988d59b3a3688aa0f2753.png" class="latex" alt="$a_3 = b - a$" style="vertical-align: -2px" width="81" height="15" />, <img src="//latex.artofproblemsolving.com/f/3/1/f31aa2b7b5b40383be4b62ae8c800adc04045514.png" class="latex" alt="$a_4 = (b - a) - b = -a$" style="vertical-align: -4px" width="173" height="18" />, <img src="//latex.artofproblemsolving.com/d/2/8/d28fea8f2db5846388745e81b8f6a46357483697.png" class="latex" alt="$a_5 = -a - (b - a) = -b$" style="vertical-align: -4px" width="187" height="18" />, <img src="//latex.artofproblemsolving.com/2/e/c/2ece957a0e57a4491d298805abd9e72b1dfb404f.png" class="latex" alt="$a_6 = -b - (-a) = a - b$" style="vertical-align: -4px" width="187" height="18" />, <img src="//latex.artofproblemsolving.com/a/5/b/a5b594570f872d60f4b00cbd618066cbc5a72cd6.png" class="latex" alt="$a_7 = (a - b) - (-b) = a$" style="vertical-align: -4px" width="187" height="18" /> and <img src="//latex.artofproblemsolving.com/1/a/1/1a160de0e1267083fa7d89904654497e63a44fcf.png" class="latex" alt="$a_8 = a - (a - b) = b$" style="vertical-align: -4px" width="159" height="18" />.  Since the sequence is recursively defined by the first 2 terms, after this point it must continue to repeat.  Thus, in particular <img src="//latex.artofproblemsolving.com/3/e/2/3e256a4db663dc4d5cdc5873fe6d8f4e7e856768.png" class="latex" alt="$a_{j + 6} = a_j$" style="vertical-align: -4px" width="72" height="12" /> for all <img src="//latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" />, and so repeating this <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> times, <img src="//latex.artofproblemsolving.com/d/a/7/da7f3ac720c15898e0cb9947411f62dcd92d82b2.png" class="latex" alt="$a_{j + 6n} = a_j$" style="vertical-align: -4px" width="81" height="12" /> for all <a href="/wiki/index.php/Integer" title="Integer">integers</a> <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" />.  
-</p><p>Because of this, the sum of the first 1492 terms can be greatly simplified: <img src="//latex.artofproblemsolving.com/3/a/2/3a2ff7a1e9aae20a3e067e7d018c2469ace16b69.png" class="latex" alt="$1488 = 6 \cdot 248$" style="vertical-align: 0px" width="109" height="13" /> is the largest multiple of 6 less than 1492, so <img src="//latex.artofproblemsolving.com/0/d/b/0db3c2f79e04622250999da348d038fec216c119.png" class="latex" alt="$\sum_{i = 1}^{1492} a_i = (a_{1489} + a_{1490} + a_{1491} + a_{1492})+ \sum_{i = 1}^{1488} a_i = (a_1 + a_2 + a_3 + a_4) + \sum_{n = 0}^{247}\sum_{j = 1}^6 a_{6n + j} = (a + b + (b - a) + (-a)) + \sum_{n = 0}^{247}\sum_{j = 1}^6 a_j = 2b - a$" style="vertical-align: -22px" width="1042" height="52" />, where we can make this last step because <img src="//latex.artofproblemsolving.com/6/f/6/6f6af95a773a5fa8c72ba5827dd4458f65c058cf.png" class="latex" alt="$\sum_{j = 1}^6 a_j = 0$" style="vertical-align: -22px" width="78" height="52" /> and so the entire second term of our <a href="/wiki/index.php/Expression" title="Expression">expression</a> is <a href="/wiki/index.php/Zero_(constant)" title="Zero (constant)"> zero</a>.
-</p><p>Similarly, since <img src="//latex.artofproblemsolving.com/5/e/5/5e5a79b19e4ff6484a54c7ac0af10ebed6ff594e.png" class="latex" alt="$1980 = 6 \cdot 360$" style="vertical-align: 0px" width="109" height="13" />, <img src="//latex.artofproblemsolving.com/e/f/1/ef1fb5a6225ec5031ea037e7898e3ca64b3dc6c8.png" class="latex" alt="$\sum_{i = 1}^{1985} a_i = (a_1 + a_2 + a_3 + a_4 + a_5) + \sum_{i = 1}^{1980}a_i = a + b + (b - a) + (-a) + (-b) = b - a$" style="vertical-align: -20px" width="646" height="50" />.
-</p><p>Finally, <img src="//latex.artofproblemsolving.com/b/9/7/b97f458931d54e1afe6a2d000d63439e3c9e9518.png" class="latex" alt="$\sum_{i = 1}^{2001}a_i = a_1 + a_2 + a_3 + \sum_{i = 1}^{1998} a_i = a + b + (b - a) = 2b$" style="vertical-align: -20px" width="412" height="50" />.
-</p><p>Then by the givens, <img src="//latex.artofproblemsolving.com/f/6/6/f66644ea61aee50aeec574284208936013be898b.png" class="latex" alt="$2b - a = 1985$" style="vertical-align: 0px" width="108" height="13" /> and <img src="//latex.artofproblemsolving.com/1/a/4/1a48cb5136718fbc833d0338d630f3b75dc7b537.png" class="latex" alt="$b - a = 1492$" style="vertical-align: 0px" width="99" height="13" /> so <img src="//latex.artofproblemsolving.com/6/d/8/6d8372933b996bf0a7b1b212631c6089589a5d55.png" class="latex" alt="$b = 1985 - 1492 = 493$" style="vertical-align: 0px" width="177" height="13" /> and so the answer is <img src="//latex.artofproblemsolving.com/e/4/2/e42e5d97cf0847c4e8ddfc4bfcf7a366ad88dd04.png" class="latex" alt="$2\cdot 493 = \boxed{986}$" style="vertical-align: -5px" width="112" height="23" />.
+<p>The problem gives us a sequence defined by a <a href="/wiki/index.php/Recursion" title="Recursion">recursion</a>, so let's calculate a few values to get a feel for how it acts.  We aren't given initial values, so let <img src="https://latex.artofproblemsolving.com/0/c/d/0cd1990ea279ef93b36b0678f0013fa8581fe3d0.png" class="latex" alt="$a_1 = a$" style="vertical-align: -2px" width="51" height="10" /> and <img src="https://latex.artofproblemsolving.com/8/c/d/8cd20e1b8ff006358e51df46247fd07ea8b54010.png" class="latex" alt="$a_2 = b$" style="vertical-align: -2px" width="49" height="15" />.  Then <img src="https://latex.artofproblemsolving.com/0/7/c/07c058ea48b07c18f06988d59b3a3688aa0f2753.png" class="latex" alt="$a_3 = b - a$" style="vertical-align: -2px" width="81" height="15" />, <img src="https://latex.artofproblemsolving.com/f/3/1/f31aa2b7b5b40383be4b62ae8c800adc04045514.png" class="latex" alt="$a_4 = (b - a) - b = -a$" style="vertical-align: -4px" width="173" height="18" />, <img src="https://latex.artofproblemsolving.com/d/2/8/d28fea8f2db5846388745e81b8f6a46357483697.png" class="latex" alt="$a_5 = -a - (b - a) = -b$" style="vertical-align: -4px" width="187" height="18" />, <img src="https://latex.artofproblemsolving.com/2/e/c/2ece957a0e57a4491d298805abd9e72b1dfb404f.png" class="latex" alt="$a_6 = -b - (-a) = a - b$" style="vertical-align: -4px" width="187" height="18" />, <img src="https://latex.artofproblemsolving.com/a/5/b/a5b594570f872d60f4b00cbd618066cbc5a72cd6.png" class="latex" alt="$a_7 = (a - b) - (-b) = a$" style="vertical-align: -4px" width="187" height="18" /> and <img src="https://latex.artofproblemsolving.com/1/a/1/1a160de0e1267083fa7d89904654497e63a44fcf.png" class="latex" alt="$a_8 = a - (a - b) = b$" style="vertical-align: -4px" width="159" height="18" />.  Since the sequence is recursively defined by the first 2 terms, after this point it must continue to repeat.  Thus, in particular <img src="https://latex.artofproblemsolving.com/3/e/2/3e256a4db663dc4d5cdc5873fe6d8f4e7e856768.png" class="latex" alt="$a_{j + 6} = a_j$" style="vertical-align: -4px" width="72" height="12" /> for all <img src="https://latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" />, and so repeating this <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> times, <img src="https://latex.artofproblemsolving.com/d/a/7/da7f3ac720c15898e0cb9947411f62dcd92d82b2.png" class="latex" alt="$a_{j + 6n} = a_j$" style="vertical-align: -4px" width="81" height="12" /> for all <a href="/wiki/index.php/Integer" title="Integer">integers</a> <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> and <img src="https://latex.artofproblemsolving.com/8/1/2/8122aa89ea6e80784c6513d22787ad86e36ad0cc.png" class="latex" alt="$j$" style="vertical-align: -3px" width="8" height="16" />.
+</p><p>Because of this, the sum of the first 1492 terms can be greatly simplified: <img src="https://latex.artofproblemsolving.com/3/a/2/3a2ff7a1e9aae20a3e067e7d018c2469ace16b69.png" class="latex" alt="$1488 = 6 \cdot 248$" style="vertical-align: 0px" width="109" height="13" /> is the largest multiple of 6 less than 1492, so <img src="https://latex.artofproblemsolving.com/0/d/b/0db3c2f79e04622250999da348d038fec216c119.png" class="latex" alt="$\sum_{i = 1}^{1492} a_i = (a_{1489} + a_{1490} + a_{1491} + a_{1492})+ \sum_{i = 1}^{1488} a_i = (a_1 + a_2 + a_3 + a_4) + \sum_{n = 0}^{247}\sum_{j = 1}^6 a_{6n + j} = (a + b + (b - a) + (-a)) + \sum_{n = 0}^{247}\sum_{j = 1}^6 a_j = 2b - a$" style="vertical-align: -22px" width="1042" height="52" />, where we can make this last step because <img src="https://latex.artofproblemsolving.com/6/f/6/6f6af95a773a5fa8c72ba5827dd4458f65c058cf.png" class="latex" alt="$\sum_{j = 1}^6 a_j = 0$" style="vertical-align: -22px" width="78" height="52" /> and so the entire second term of our <a href="/wiki/index.php/Expression" title="Expression">expression</a> is <a href="/wiki/index.php/Zero_(constant)" title="Zero (constant)"> zero</a>.
+</p><p>Similarly, since <img src="https://latex.artofproblemsolving.com/5/e/5/5e5a79b19e4ff6484a54c7ac0af10ebed6ff594e.png" class="latex" alt="$1980 = 6 \cdot 360$" style="vertical-align: 0px" width="109" height="13" />, <img src="https://latex.artofproblemsolving.com/e/f/1/ef1fb5a6225ec5031ea037e7898e3ca64b3dc6c8.png" class="latex" alt="$\sum_{i = 1}^{1985} a_i = (a_1 + a_2 + a_3 + a_4 + a_5) + \sum_{i = 1}^{1980}a_i = a + b + (b - a) + (-a) + (-b) = b - a$" style="vertical-align: -20px" width="646" height="50" />.
+</p><p>Finally, <img src="https://latex.artofproblemsolving.com/b/9/7/b97f458931d54e1afe6a2d000d63439e3c9e9518.png" class="latex" alt="$\sum_{i = 1}^{2001}a_i = a_1 + a_2 + a_3 + \sum_{i = 1}^{1998} a_i = a + b + (b - a) = 2b$" style="vertical-align: -20px" width="412" height="50" />.
+</p><p>Then by the givens, <img src="https://latex.artofproblemsolving.com/f/6/6/f66644ea61aee50aeec574284208936013be898b.png" class="latex" alt="$2b - a = 1985$" style="vertical-align: 0px" width="108" height="13" /> and <img src="https://latex.artofproblemsolving.com/1/a/4/1a48cb5136718fbc833d0338d630f3b75dc7b537.png" class="latex" alt="$b - a = 1492$" style="vertical-align: 0px" width="99" height="13" /> so <img src="https://latex.artofproblemsolving.com/6/d/8/6d8372933b996bf0a7b1b212631c6089589a5d55.png" class="latex" alt="$b = 1985 - 1492 = 493$" style="vertical-align: 0px" width="177" height="13" /> and so the answer is <img src="https://latex.artofproblemsolving.com/e/4/2/e42e5d97cf0847c4e8ddfc4bfcf7a366ad88dd04.png" class="latex" alt="$2\cdot 493 = \boxed{986}$" style="vertical-align: -5px" width="112" height="23" />.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -440,7 +430,7 @@
 <li><a href="/wiki/index.php/American_Invitational_Mathematics_Examination" title="American Invitational Mathematics Examination">American Invitational Mathematics Examination</a></li>
 <li><a href="/wiki/index.php/Mathematics_competition_resources" class="mw-redirect" title="Mathematics competition resources">Mathematics competition resources</a></li></ul>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715102450
 Cache expiry: 86400
@@ -469,7 +459,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Algebra_Problems" title="Category:Intermediate Algebra Problems">Intermediate Algebra Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

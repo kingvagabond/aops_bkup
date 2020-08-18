@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2001_AIME_II_Problems/Problem_5" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2001 AIME II Problems/Problem 5</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -420,15 +410,15 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>A <a href="/wiki/index.php/Set" title="Set">set</a> of positive numbers has the <i>triangle property</i> if it has three distinct elements that are the lengths of the sides of a <a href="/wiki/index.php/Triangle" title="Triangle">triangle</a> whose area is positive. Consider sets <img src="//latex.artofproblemsolving.com/d/2/6/d2671f17c09346ff8f6673df1475f7d02ccf2b8d.png" class="latex" alt="$\{4, 5, 6, \ldots, n\}$" style="vertical-align: -4px" width="112" height="18" /> of consecutive positive integers, all of whose ten-element subsets have the triangle property. What is the largest possible value of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />?
+<p>A <a href="/wiki/index.php/Set" title="Set">set</a> of positive numbers has the <i>triangle property</i> if it has three distinct elements that are the lengths of the sides of a <a href="/wiki/index.php/Triangle" title="Triangle">triangle</a> whose area is positive. Consider sets <img src="https://latex.artofproblemsolving.com/d/2/6/d2671f17c09346ff8f6673df1475f7d02ccf2b8d.png" class="latex" alt="$\{4, 5, 6, \ldots, n\}$" style="vertical-align: -4px" width="112" height="18" /> of consecutive positive integers, all of whose ten-element subsets have the triangle property. What is the largest possible value of <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />?
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p>Out of all ten-element subsets with distinct elements that do not possess the triangle property, we want to find the one with the smallest maximum element. Call this subset <img src="//latex.artofproblemsolving.com/2/2/a/22a281826fab0dc40a4eb1bbf99c6f1c19afbe0b.png" class="latex" alt="$\mathcal{S}$" style="vertical-align: 0px" width="12" height="13" />. Without loss of generality, consider any <img src="//latex.artofproblemsolving.com/9/f/d/9fdbec31f2c8727129c755f1aea093f1b6ab6c3c.png" class="latex" alt="$a, b, c \,\in \mathcal{S}$" style="vertical-align: -3px" width="78" height="16" /> with <img src="//latex.artofproblemsolving.com/7/c/2/7c286a6b2750b9c5c514b55b7f52660b1f66c21f.png" class="latex" alt="$a &lt; b &lt; c$" style="vertical-align: 0px" width="74" height="13" />. <img src="//latex.artofproblemsolving.com/8/0/4/804e8fb6b7f81c89ae29ad84c0e0e07c5537ea42.png" class="latex" alt="$\,\mathcal{S}$" style="vertical-align: 0px" width="15" height="13" /> does not possess the <a href="/wiki/index.php/Triangle_inequality" class="mw-redirect" title="Triangle inequality">triangle property</a>, so <img src="//latex.artofproblemsolving.com/0/b/4/0b407e6a44d520f6158561e3dfc84e50471b82b4.png" class="latex" alt="$c \geq a + b$" style="vertical-align: -2px" width="72" height="15" />. We use this property to build up <img src="//latex.artofproblemsolving.com/2/2/a/22a281826fab0dc40a4eb1bbf99c6f1c19afbe0b.png" class="latex" alt="$\mathcal{S}$" style="vertical-align: 0px" width="12" height="13" /> from the smallest possible <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />:
-</p><p><img src="//latex.artofproblemsolving.com/3/e/6/3e6880c0177a3fee7a6008da1235e8d1451d5b32.png" class="latexcenter" alt="\[\mathcal{S} = \{\, 4,\, 5,\, 4+5, \,5+(4+5),\, \ldots\,\} = \{4, 5, 9, 14, 23, 37, 60, 97, 157, 254\}\]" width="533" height="18" />
-</p><p><img src="//latex.artofproblemsolving.com/2/2/a/22a281826fab0dc40a4eb1bbf99c6f1c19afbe0b.png" class="latex" alt="$\mathcal{S}$" style="vertical-align: 0px" width="12" height="13" /> is the "smallest" ten-element subset without the triangle property, and since the set <img src="//latex.artofproblemsolving.com/b/7/c/b7c785edfa66f68518ffdf2453b290459dd1ea72.png" class="latex" alt="$\{4, 5, 6, \ldots, 253\}$" style="vertical-align: -4px" width="128" height="18" /> is the largest set of consecutive integers that does not contain this subset, it is also the largest set of consecutive integers in which all ten-element subsets possess the triangle property. Thus, our answer is <img src="//latex.artofproblemsolving.com/3/e/0/3e076383fedb4ae58752802e92e0a217bfa01efd.png" class="latex" alt="$n = \fbox{253}$" style="vertical-align: -5px" width="71" height="22" />.
+<p>Out of all ten-element subsets with distinct elements that do not possess the triangle property, we want to find the one with the smallest maximum element. Call this subset <img src="https://latex.artofproblemsolving.com/2/2/a/22a281826fab0dc40a4eb1bbf99c6f1c19afbe0b.png" class="latex" alt="$\mathcal{S}$" style="vertical-align: 0px" width="12" height="13" />. Without loss of generality, consider any <img src="https://latex.artofproblemsolving.com/9/f/d/9fdbec31f2c8727129c755f1aea093f1b6ab6c3c.png" class="latex" alt="$a, b, c \,\in \mathcal{S}$" style="vertical-align: -3px" width="78" height="16" /> with <img src="https://latex.artofproblemsolving.com/7/c/2/7c286a6b2750b9c5c514b55b7f52660b1f66c21f.png" class="latex" alt="$a &lt; b &lt; c$" style="vertical-align: 0px" width="74" height="13" />. <img src="https://latex.artofproblemsolving.com/8/0/4/804e8fb6b7f81c89ae29ad84c0e0e07c5537ea42.png" class="latex" alt="$\,\mathcal{S}$" style="vertical-align: 0px" width="15" height="13" /> does not possess the <a href="/wiki/index.php/Triangle_inequality" class="mw-redirect" title="Triangle inequality">triangle property</a>, so <img src="https://latex.artofproblemsolving.com/0/b/4/0b407e6a44d520f6158561e3dfc84e50471b82b4.png" class="latex" alt="$c \geq a + b$" style="vertical-align: -2px" width="72" height="15" />. We use this property to build up <img src="https://latex.artofproblemsolving.com/2/2/a/22a281826fab0dc40a4eb1bbf99c6f1c19afbe0b.png" class="latex" alt="$\mathcal{S}$" style="vertical-align: 0px" width="12" height="13" /> from the smallest possible <img src="https://latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" width="9" height="8" /> and <img src="https://latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" width="8" height="12" />:
+</p><p><img src="https://latex.artofproblemsolving.com/3/e/6/3e6880c0177a3fee7a6008da1235e8d1451d5b32.png" class="latexcenter" alt="\[\mathcal{S} = \{\, 4,\, 5,\, 4+5, \,5+(4+5),\, \ldots\,\} = \{4, 5, 9, 14, 23, 37, 60, 97, 157, 254\}\]" width="533" height="18" />
+</p><p><img src="https://latex.artofproblemsolving.com/2/2/a/22a281826fab0dc40a4eb1bbf99c6f1c19afbe0b.png" class="latex" alt="$\mathcal{S}$" style="vertical-align: 0px" width="12" height="13" /> is the "smallest" ten-element subset without the triangle property, and since the set <img src="https://latex.artofproblemsolving.com/b/7/c/b7c785edfa66f68518ffdf2453b290459dd1ea72.png" class="latex" alt="$\{4, 5, 6, \ldots, 253\}$" style="vertical-align: -4px" width="128" height="18" /> is the largest set of consecutive integers that does not contain this subset, it is also the largest set of consecutive integers in which all ten-element subsets possess the triangle property. Thus, our answer is <img src="https://latex.artofproblemsolving.com/3/e/0/3e076383fedb4ae58752802e92e0a217bfa01efd.png" class="latex" alt="$n = \fbox{253}$" style="vertical-align: -5px" width="71" height="22" />.
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>I claim that the answer is <img src="//latex.artofproblemsolving.com/8/3/5/8350ad56249c4928110c3e8b558ca84a2df815af.png" class="latex" alt="$253$" width="26" height="12" />. We will show that no number greater than 253 works. Consider the subset<img src="//latex.artofproblemsolving.com/6/d/e/6defda21c43f1e71f5a3b8529d74f4c837f0bbfe.png" class="latex" alt="${4, 5, 9, 14, 23, 37, 60, 97, 157, 254}$" style="vertical-align: -3px" width="245" height="16" />. This subset does not have the property. It is easy to see that any number less than or equal to <img src="//latex.artofproblemsolving.com/8/3/5/8350ad56249c4928110c3e8b558ca84a2df815af.png" class="latex" alt="$253$" width="26" height="12" /> works, and hence our answer is <img src="//latex.artofproblemsolving.com/8/3/5/8350ad56249c4928110c3e8b558ca84a2df815af.png" class="latex" alt="$253$" width="26" height="12" />
+<p>I claim that the answer is <img src="https://latex.artofproblemsolving.com/8/3/5/8350ad56249c4928110c3e8b558ca84a2df815af.png" class="latex" alt="$253$" width="26" height="12" />. We will show that no number greater than 253 works. Consider the subset<img src="https://latex.artofproblemsolving.com/6/d/e/6defda21c43f1e71f5a3b8529d74f4c837f0bbfe.png" class="latex" alt="${4, 5, 9, 14, 23, 37, 60, 97, 157, 254}$" style="vertical-align: -3px" width="245" height="16" />. This subset does not have the property. It is easy to see that any number less than or equal to <img src="https://latex.artofproblemsolving.com/8/3/5/8350ad56249c4928110c3e8b558ca84a2df815af.png" class="latex" alt="$253$" width="26" height="12" /> works, and hence our answer is <img src="https://latex.artofproblemsolving.com/8/3/5/8350ad56249c4928110c3e8b558ca84a2df815af.png" class="latex" alt="$253$" width="26" height="12" />
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -450,7 +440,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715102314
 Cache expiry: 86400
@@ -480,7 +470,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li><li><a href="/wiki/index.php/Category:Intermediate_Geometry_Problems" title="Category:Intermediate Geometry Problems">Intermediate Geometry Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

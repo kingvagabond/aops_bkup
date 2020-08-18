@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2000_USAMO_Problems/Problem_6" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,36 +393,36 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2000 USAMO Problems/Problem 6</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>Let <img src="//latex.artofproblemsolving.com/e/e/8/ee87a6df3c99344984d21f25720b6c332f19dd59.png" class="latex" alt="$a_1, b_1, a_2, b_2, \dots , a_n, b_n$" style="vertical-align: -3px" width="172" height="16" /> be nonnegative real numbers. Prove that
-</p><p><img src="//latex.artofproblemsolving.com/f/5/9/f59aeb8ab929d8b6b14c2e3a997a43541a18c2c5.png" class="latexcenter" alt="\[\sum_{i, j = 1}^{n} \min\{a_ia_j, b_ib_j\} \le \sum_{i, j = 1}^{n} \min\{a_ib_j, a_jb_i\}.\]" width="329" height="49" />
+<p>Let <img src="https://latex.artofproblemsolving.com/e/e/8/ee87a6df3c99344984d21f25720b6c332f19dd59.png" class="latex" alt="$a_1, b_1, a_2, b_2, \dots , a_n, b_n$" style="vertical-align: -3px" width="172" height="16" /> be nonnegative real numbers. Prove that
+</p><p><img src="https://latex.artofproblemsolving.com/f/5/9/f59aeb8ab929d8b6b14c2e3a997a43541a18c2c5.png" class="latexcenter" alt="\[\sum_{i, j = 1}^{n} \min\{a_ia_j, b_ib_j\} \le \sum_{i, j = 1}^{n} \min\{a_ib_j, a_jb_i\}.\]" width="329" height="49" />
 </p><p><br />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
 <p><i>Credit for this solution goes to Ravi Boppana.</i>
-</p><p><b>Lemma 1:</b> If <img src="//latex.artofproblemsolving.com/8/f/d/8fd5a73488a86e9e6b012698b09b264491f896f6.png" class="latex" alt="$r_1, r_2, \ldots , r_n$" style="vertical-align: -3px" width="96" height="11" /> are non-negative reals and <img src="//latex.artofproblemsolving.com/a/a/d/aad197e79abc812b51e774fd24bd11f11681cd31.png" class="latex" alt="$x_1, x_2, \ldots x_n$" style="vertical-align: -3px" width="94" height="11" /> are reals, then
-</p><p><img src="//latex.artofproblemsolving.com/b/4/7/b47b088ac1888cca9bf515ed4260ebb3cced4d18.png" class="latexcenter" alt="\[\sum_{i, j}\min(r_{i}, r_{j}) x_{i}x_{j}\ge 0.\]" width="179" height="39" />
-</p><p><b>Proof:</b> Without loss of generality assume that the sequence <img src="//latex.artofproblemsolving.com/f/a/6/fa69872b32dc274f62a32e547822aaa7d04da244.png" class="latex" alt="$\{r_i\}$" style="vertical-align: -4px" width="31" height="18" /> is increasing. For convenience, define <img src="//latex.artofproblemsolving.com/b/e/0/be0fa3426194a0dc57037b471c556d6d762d4b68.png" class="latex" alt="$r_0=0$" style="vertical-align: -2px" width="48" height="15" />. The LHS of our inequality becomes
-</p><p><img src="//latex.artofproblemsolving.com/2/3/e/23e1c5806c124fea0a85050c20bd7f61a222649e.png" class="latexcenter" alt="\[\sum_{i}r_{i}x_{i}^{2}+2\sum_{i &lt; j}r_{i}x_{i}x_{j}\, .\]" width="176" height="39" />
+</p><p><b>Lemma 1:</b> If <img src="https://latex.artofproblemsolving.com/8/f/d/8fd5a73488a86e9e6b012698b09b264491f896f6.png" class="latex" alt="$r_1, r_2, \ldots , r_n$" style="vertical-align: -3px" width="96" height="11" /> are non-negative reals and <img src="https://latex.artofproblemsolving.com/a/a/d/aad197e79abc812b51e774fd24bd11f11681cd31.png" class="latex" alt="$x_1, x_2, \ldots x_n$" style="vertical-align: -3px" width="94" height="11" /> are reals, then
+</p><p><img src="https://latex.artofproblemsolving.com/b/4/7/b47b088ac1888cca9bf515ed4260ebb3cced4d18.png" class="latexcenter" alt="\[\sum_{i, j}\min(r_{i}, r_{j}) x_{i}x_{j}\ge 0.\]" width="179" height="39" />
+</p><p><b>Proof:</b> Without loss of generality assume that the sequence <img src="https://latex.artofproblemsolving.com/f/a/6/fa69872b32dc274f62a32e547822aaa7d04da244.png" class="latex" alt="$\{r_i\}$" style="vertical-align: -4px" width="31" height="18" /> is increasing. For convenience, define <img src="https://latex.artofproblemsolving.com/b/e/0/be0fa3426194a0dc57037b471c556d6d762d4b68.png" class="latex" alt="$r_0=0$" style="vertical-align: -2px" width="48" height="15" />. The LHS of our inequality becomes
+</p><p><img src="https://latex.artofproblemsolving.com/2/3/e/23e1c5806c124fea0a85050c20bd7f61a222649e.png" class="latexcenter" alt="\[\sum_{i}r_{i}x_{i}^{2}+2\sum_{i &lt; j}r_{i}x_{i}x_{j}\, .\]" width="176" height="39" />
 </p><p>This expression is equivalent to the sum
-</p><p><img src="//latex.artofproblemsolving.com/b/1/5/b157a5bb705586c761c82b2ceab78c42a8915028.png" class="latexcenter" alt="\[\sum_{i}(r_{i}-r_{i-1})\biggl(\sum_{j=i}^{n}x_{j}\biggr)^{2}\, .\]" width="192" height="52" />
-</p><p>Each term in the summation is non-negative, so the sum itself is non-negative. <img src="//latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
-</p><p>We now define <img src="//latex.artofproblemsolving.com/d/e/c/dec658d5f8b6af47d05d732f3244381ac726df06.png" class="latex" alt="$r_i=\frac{\max(a_i,b_i)}{\min(a_i,b_i)}-1$" style="vertical-align: -17px" width="156" height="43" />. If <img src="//latex.artofproblemsolving.com/8/5/1/8515d048be23979de833918d842aadf557d7a60d.png" class="latex" alt="$\min(a_i,b_i)=0$" style="vertical-align: -4px" width="113" height="18" />, then let <img src="//latex.artofproblemsolving.com/9/6/c/96c42077f2a447ca548cdbfe63f1932e9866df3a.png" class="latex" alt="$r_i$" style="vertical-align: -2px" width="12" height="10" /> be any non-negative number. Define <img src="//latex.artofproblemsolving.com/b/3/9/b3980c640bd5c3c3548296830019db4c8b81041d.png" class="latex" alt="$x_i=\text{sgn}(a_i-b_i)\min(a_i,b_i)$" style="vertical-align: -4px" width="211" height="18" />.
-</p><p><b>Lemma 2:</b> <img src="//latex.artofproblemsolving.com/6/7/a/67aa681bbeba193d788af4fff164fac5bfbd9316.png" class="latex" alt="$\min(a_{i}b_{j}, a_{j}b_{i})-\min(a_{i}a_{j}, b_{i}b_{j}) =\min(r_{i}, r_{j}) x_{i}x_{j}$" style="vertical-align: -4px" width="384" height="18" />
-</p><p><b>Proof:</b> Switching the signs of <img src="//latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> and <img src="//latex.artofproblemsolving.com/9/4/d/94d9565abaadf04609a2e9941aa2d20b0a299b8a.png" class="latex" alt="$b_i$" style="vertical-align: -2px" width="12" height="15" /> preserves inequality, so we may assume that <img src="//latex.artofproblemsolving.com/3/b/f/3bf0b5901cb298528306d26c2c7f68ba806a2143.png" class="latex" alt="$a_i&gt;b_i$" style="vertical-align: -2px" width="52" height="15" />. Similarly, we can assume that <img src="//latex.artofproblemsolving.com/0/3/2/03250a4ee70fb68f47f94b1e0ebea555c77af99b.png" class="latex" alt="$a_j&gt;b_j$" style="vertical-align: -4px" width="54" height="17" />. If <img src="//latex.artofproblemsolving.com/b/7/9/b7956f4c1358e149dee9110056aacf3b60300983.png" class="latex" alt="$b_ib_j=0$" style="vertical-align: -4px" width="61" height="17" />, then both sides are zero, so we may assume that <img src="//latex.artofproblemsolving.com/9/4/d/94d9565abaadf04609a2e9941aa2d20b0a299b8a.png" class="latex" alt="$b_i$" style="vertical-align: -2px" width="12" height="15" /> and <img src="//latex.artofproblemsolving.com/d/f/b/dfbbf3e10280b5771976f3342b10181e4b31d4fd.png" class="latex" alt="$b_j$" style="vertical-align: -4px" width="13" height="17" /> are positive. We then have from the definitions of <img src="//latex.artofproblemsolving.com/9/6/c/96c42077f2a447ca548cdbfe63f1932e9866df3a.png" class="latex" alt="$r_i$" style="vertical-align: -2px" width="12" height="10" /> and <img src="//latex.artofproblemsolving.com/6/7/b/67bc6daa9d6b964201d6cef60cbeb1ac5fd26ead.png" class="latex" alt="$x_i$" style="vertical-align: -2px" width="15" height="10" /> that
-</p><p><img src="//latex.artofproblemsolving.com/8/b/5/8b586187f7745f7e0573851b1b35a9b8f0f2f771.png" class="latexcenter" alt="\begin{eqnarray*}r_{i}&amp; = &amp;\frac{a_{i}}{b_{i}}-1\\ r_{j}&amp; = &amp;\frac{a_{j}}{b_{j}}-1\\ x_{i}&amp; = &amp; b_{i}\\ x_{j}&amp; = &amp; b_{j}\, .\end{eqnarray*}" width="115" height="128" />
+</p><p><img src="https://latex.artofproblemsolving.com/b/1/5/b157a5bb705586c761c82b2ceab78c42a8915028.png" class="latexcenter" alt="\[\sum_{i}(r_{i}-r_{i-1})\biggl(\sum_{j=i}^{n}x_{j}\biggr)^{2}\, .\]" width="192" height="52" />
+</p><p>Each term in the summation is non-negative, so the sum itself is non-negative. <img src="https://latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
+</p><p>We now define <img src="https://latex.artofproblemsolving.com/d/e/c/dec658d5f8b6af47d05d732f3244381ac726df06.png" class="latex" alt="$r_i=\frac{\max(a_i,b_i)}{\min(a_i,b_i)}-1$" style="vertical-align: -17px" width="156" height="43" />. If <img src="https://latex.artofproblemsolving.com/8/5/1/8515d048be23979de833918d842aadf557d7a60d.png" class="latex" alt="$\min(a_i,b_i)=0$" style="vertical-align: -4px" width="113" height="18" />, then let <img src="https://latex.artofproblemsolving.com/9/6/c/96c42077f2a447ca548cdbfe63f1932e9866df3a.png" class="latex" alt="$r_i$" style="vertical-align: -2px" width="12" height="10" /> be any non-negative number. Define <img src="https://latex.artofproblemsolving.com/b/3/9/b3980c640bd5c3c3548296830019db4c8b81041d.png" class="latex" alt="$x_i=\text{sgn}(a_i-b_i)\min(a_i,b_i)$" style="vertical-align: -4px" width="211" height="18" />.
+</p><p><b>Lemma 2:</b> <img src="https://latex.artofproblemsolving.com/6/7/a/67aa681bbeba193d788af4fff164fac5bfbd9316.png" class="latex" alt="$\min(a_{i}b_{j}, a_{j}b_{i})-\min(a_{i}a_{j}, b_{i}b_{j}) =\min(r_{i}, r_{j}) x_{i}x_{j}$" style="vertical-align: -4px" width="384" height="18" />
+</p><p><b>Proof:</b> Switching the signs of <img src="https://latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> and <img src="https://latex.artofproblemsolving.com/9/4/d/94d9565abaadf04609a2e9941aa2d20b0a299b8a.png" class="latex" alt="$b_i$" style="vertical-align: -2px" width="12" height="15" /> preserves inequality, so we may assume that <img src="https://latex.artofproblemsolving.com/3/b/f/3bf0b5901cb298528306d26c2c7f68ba806a2143.png" class="latex" alt="$a_i&gt;b_i$" style="vertical-align: -2px" width="52" height="15" />. Similarly, we can assume that <img src="https://latex.artofproblemsolving.com/0/3/2/03250a4ee70fb68f47f94b1e0ebea555c77af99b.png" class="latex" alt="$a_j&gt;b_j$" style="vertical-align: -4px" width="54" height="17" />. If <img src="https://latex.artofproblemsolving.com/b/7/9/b7956f4c1358e149dee9110056aacf3b60300983.png" class="latex" alt="$b_ib_j=0$" style="vertical-align: -4px" width="61" height="17" />, then both sides are zero, so we may assume that <img src="https://latex.artofproblemsolving.com/9/4/d/94d9565abaadf04609a2e9941aa2d20b0a299b8a.png" class="latex" alt="$b_i$" style="vertical-align: -2px" width="12" height="15" /> and <img src="https://latex.artofproblemsolving.com/d/f/b/dfbbf3e10280b5771976f3342b10181e4b31d4fd.png" class="latex" alt="$b_j$" style="vertical-align: -4px" width="13" height="17" /> are positive. We then have from the definitions of <img src="https://latex.artofproblemsolving.com/9/6/c/96c42077f2a447ca548cdbfe63f1932e9866df3a.png" class="latex" alt="$r_i$" style="vertical-align: -2px" width="12" height="10" /> and <img src="https://latex.artofproblemsolving.com/6/7/b/67bc6daa9d6b964201d6cef60cbeb1ac5fd26ead.png" class="latex" alt="$x_i$" style="vertical-align: -2px" width="15" height="10" /> that
+</p><p><img src="https://latex.artofproblemsolving.com/8/b/5/8b586187f7745f7e0573851b1b35a9b8f0f2f771.png" class="latexcenter" alt="\begin{eqnarray*}r_{i}&amp; = &amp;\frac{a_{i}}{b_{i}}-1\\ r_{j}&amp; = &amp;\frac{a_{j}}{b_{j}}-1\\ x_{i}&amp; = &amp; b_{i}\\ x_{j}&amp; = &amp; b_{j}\, .\end{eqnarray*}" width="115" height="128" />
 </p><p>This means that
-</p><p><img src="//latex.artofproblemsolving.com/4/c/a/4ca661ebe830c3d7f6ff9c0bdbe5c012feb99127.png" class="latexcenter" alt="\begin{eqnarray*}\min(r_{i}, r_{j}) x_{i}x_{j}&amp; = &amp;\min\bigl(\frac{a_{i}}{b_{i}}-1,\frac{a_{j}}{b_{j}}-1\bigr) b_{i}b_{j}\\ &amp; = &amp;\min(a_{i}b_{j}, a_{j}b_{i})-b_{i}b_{j}\\ &amp; = &amp;\min(a_{i}b_{j}, a_{j}b_{i})-\min(a_{i}a_{j}, b_{i}b_{j})\, .\end{eqnarray*}" width="415" height="87" />
-</p><p>This concludes the proof of Lemma 2. <img src="//latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
+</p><p><img src="https://latex.artofproblemsolving.com/4/c/a/4ca661ebe830c3d7f6ff9c0bdbe5c012feb99127.png" class="latexcenter" alt="\begin{eqnarray*}\min(r_{i}, r_{j}) x_{i}x_{j}&amp; = &amp;\min\bigl(\frac{a_{i}}{b_{i}}-1,\frac{a_{j}}{b_{j}}-1\bigr) b_{i}b_{j}\\ &amp; = &amp;\min(a_{i}b_{j}, a_{j}b_{i})-b_{i}b_{j}\\ &amp; = &amp;\min(a_{i}b_{j}, a_{j}b_{i})-\min(a_{i}a_{j}, b_{i}b_{j})\, .\end{eqnarray*}" width="415" height="87" />
+</p><p>This concludes the proof of Lemma 2. <img src="https://latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
 </p><p>We can then apply Lemma 2 and Lemma 1 in order to get that
-</p><p><img src="//latex.artofproblemsolving.com/a/c/0/ac0d42b46e3418f4539d0ac6db051875d554f2fe.png" class="latexcenter" alt="\begin{eqnarray*}\sum_{i,j}\min(a_{i}b_{j}, a_{j}b_{i})-\sum_{i, j}\min(a_{i}a_{j}, b_{i}b_{j}) &amp; = &amp;\sum_{i, j}\left[\min(a_{i}b_{j}, a_{j}b_{i})-\min(a_{i}a_{j}, b_{i}b_{j})\right]\\ &amp; = &amp;\sum_{i, j}\min(r_{i}, r_{j}) x_{i}x_{j}\\ &amp;\ge &amp; 0\, .\end{eqnarray*}" width="635" height="112" />
+</p><p><img src="https://latex.artofproblemsolving.com/a/c/0/ac0d42b46e3418f4539d0ac6db051875d554f2fe.png" class="latexcenter" alt="\begin{eqnarray*}\sum_{i,j}\min(a_{i}b_{j}, a_{j}b_{i})-\sum_{i, j}\min(a_{i}a_{j}, b_{i}b_{j}) &amp; = &amp;\sum_{i, j}\left[\min(a_{i}b_{j}, a_{j}b_{i})-\min(a_{i}a_{j}, b_{i}b_{j})\right]\\ &amp; = &amp;\sum_{i, j}\min(r_{i}, r_{j}) x_{i}x_{j}\\ &amp;\ge &amp; 0\, .\end{eqnarray*}" width="635" height="112" />
 </p><p>This implies the desired inequality.
 </p>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
@@ -455,7 +445,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714172122
 Cache expiry: 86400
@@ -485,7 +475,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Algebra_Problems" title="Category:Olympiad Algebra Problems">Olympiad Algebra Problems</a></li><li><a href="/wiki/index.php/Category:Olympiad_Inequality_Problems" title="Category:Olympiad Inequality Problems">Olympiad Inequality Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

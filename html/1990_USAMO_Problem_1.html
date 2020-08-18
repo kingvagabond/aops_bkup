@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1990_USAMO_Problems/Problem_1" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,21 +393,21 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1990 USAMO Problems/Problem 1</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>A certain state issues license plates consisting of six digits (from 0 through 9). The state requires that any two plates differ in at least two places. (Thus the plates <img src="//latex.artofproblemsolving.com/4/7/d/47da34531875c9d1f4c9626396e436cf11ade0e3.png" class="latex" alt="$\boxed{027592}$" style="vertical-align: -5px" width="66" height="23" /> and <img src="//latex.artofproblemsolving.com/f/0/a/f0a2bad2d1257c5a4df093b2fb62d586f5c437f7.png" class="latex" alt="$\boxed{020592}$" style="vertical-align: -5px" width="66" height="23" /> cannot both be used.) Determine, with proof, the maximum number of distinct license plates that the state can use.
+<p>A certain state issues license plates consisting of six digits (from 0 through 9). The state requires that any two plates differ in at least two places. (Thus the plates <img src="https://latex.artofproblemsolving.com/4/7/d/47da34531875c9d1f4c9626396e436cf11ade0e3.png" class="latex" alt="$\boxed{027592}$" style="vertical-align: -5px" width="66" height="23" /> and <img src="https://latex.artofproblemsolving.com/f/0/a/f0a2bad2d1257c5a4df093b2fb62d586f5c437f7.png" class="latex" alt="$\boxed{020592}$" style="vertical-align: -5px" width="66" height="23" /> cannot both be used.) Determine, with proof, the maximum number of distinct license plates that the state can use.
 </p>
 <h2><span class="mw-headline" id="Solutions">Solutions</span></h2>
-<p>Consider license plates of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> digits, for some fixed <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, issued with the same criteria.
-</p><p>We first note that by the pigeonhole principle, we may have at most <img src="//latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> distinct plates.  Indeed, if we have more, then there must be two plates which agree on the first <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digits; these plates thus differ only on one digit, the last one.
-</p><p>We now show that it is possible to issue <img src="//latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> distinct license plates which satisfy the problem's criteria.  Indeed, we issue plates with all <img src="//latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> possible combinations for the first <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digit, and for each plate, we let the last digit be the sum of the preceding digits taken mod 10.  This way, if two plates agree on the first <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digits, they agree on the last digit and are thus the same plate, and if two plates differ in only one of the first <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digits, they must differ as well in the last digit.
-</p><p>It then follows that <img src="//latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> is the greatest number of license plates the state can issue.  For <img src="//latex.artofproblemsolving.com/2/f/2/2f2a6991d2108f237ee451bf37db91cacaf4134e.png" class="latex" alt="$n=6$" width="43" height="12" />, as in the problem, this number is <img src="//latex.artofproblemsolving.com/e/7/d/e7d8b576968ccdbfeff38053b7c606905adb945e.png" class="latex" alt="$10^5$" style="vertical-align: 0px" width="24" height="15" />.  <img src="//latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
+<p>Consider license plates of <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> digits, for some fixed <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, issued with the same criteria.
+</p><p>We first note that by the pigeonhole principle, we may have at most <img src="https://latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> distinct plates.  Indeed, if we have more, then there must be two plates which agree on the first <img src="https://latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digits; these plates thus differ only on one digit, the last one.
+</p><p>We now show that it is possible to issue <img src="https://latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> distinct license plates which satisfy the problem's criteria.  Indeed, we issue plates with all <img src="https://latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> possible combinations for the first <img src="https://latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digit, and for each plate, we let the last digit be the sum of the preceding digits taken mod 10.  This way, if two plates agree on the first <img src="https://latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digits, they agree on the last digit and are thus the same plate, and if two plates differ in only one of the first <img src="https://latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> digits, they must differ as well in the last digit.
+</p><p>It then follows that <img src="https://latex.artofproblemsolving.com/c/1/d/c1d84fdd8a443af3b729ea401dc0f70d6ebf6115.png" class="latex" alt="$10^{n-1}$" style="vertical-align: 0px" width="42" height="15" /> is the greatest number of license plates the state can issue.  For <img src="https://latex.artofproblemsolving.com/2/f/2/2f2a6991d2108f237ee451bf37db91cacaf4134e.png" class="latex" alt="$n=6$" width="43" height="12" />, as in the problem, this number is <img src="https://latex.artofproblemsolving.com/e/7/d/e7d8b576968ccdbfeff38053b7c606905adb945e.png" class="latex" alt="$10^5$" style="vertical-align: 0px" width="24" height="15" />.  <img src="https://latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
 </p><p><br />
 <i>Alternate solutions are always welcome. If you have a different, elegant solution to this problem, please <a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php?title=1990_USAMO_Problems/Problem_1&amp;action=edit">add it</a> to this page.</i>
 </p>
@@ -442,7 +432,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715100016
 Cache expiry: 86400
@@ -473,7 +463,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Combinatorics_Problems" title="Category:Olympiad Combinatorics Problems">Olympiad Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

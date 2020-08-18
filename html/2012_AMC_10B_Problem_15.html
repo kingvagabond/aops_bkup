@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2012_AMC_10B_Problems/Problem_15" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2012 AMC 10B Problems/Problem 15</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -421,10 +411,10 @@
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
 <p>In a round-robin tournament with 6 teams, each team plays one game against each other team, and each game results in one team winning and one team losing. At the end of the tournament, the teams are ranked by the number of games won. What is the maximum number of teams that could be tied for the most wins at the end on the tournament?
-</p><p><img src="//latex.artofproblemsolving.com/f/6/8/f68a620e8d126d7a4d48fcd5878a055aaa4ab6db.png" class="latex" alt="$\textbf{(A)}\ 2\qquad\textbf{(B)}\ 3\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6$" style="vertical-align: -4px" width="348" height="17" />
+</p><p><img src="https://latex.artofproblemsolving.com/f/6/8/f68a620e8d126d7a4d48fcd5878a055aaa4ab6db.png" class="latex" alt="$\textbf{(A)}\ 2\qquad\textbf{(B)}\ 3\qquad\textbf{(C)}\ 4\qquad\textbf{(D)}\ 5\qquad\textbf{(E)}\ 6$" style="vertical-align: -4px" width="348" height="17" />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>The total number of games (and wins) in the tournament is <img src="//latex.artofproblemsolving.com/b/3/8/b38c730dca340c68d98816721557b61c7767016a.png" class="latex" alt="$\frac{6 \times 5}{2}= 15$" style="vertical-align: -12px" width="86" height="37" />. A six-way tie is impossible as this would imply each team has 2.5 wins, so the maximum number of tied teams is five. Here's a chart of 15 games where five teams each have 3 wins:
+<p>The total number of games (and wins) in the tournament is <img src="https://latex.artofproblemsolving.com/b/3/8/b38c730dca340c68d98816721557b61c7767016a.png" class="latex" alt="$\frac{6 \times 5}{2}= 15$" style="vertical-align: -12px" width="86" height="37" />. A six-way tie is impossible as this would imply each team has 2.5 wins, so the maximum number of tied teams is five. Here's a chart of 15 games where five teams each have 3 wins:
 </p>
 <pre>|  1  2  3  4  5  6 |
 |1 X  W  L  W  L  W |
@@ -435,7 +425,7 @@
 |6 L  L  L  L  L  X |
 </pre>
 <p>The "X's" are for when it is where a team is set against itself, which cannot happen. The chart says that Team 6 has lost all of its matches, which means that each of the other teams won against it. Then, alternating Wins and Losses were tried. It shows that it is possible for 5 teams to tie for the same amount of wins, which in this case is 3 wins.
-Thus, the answer is <img src="//latex.artofproblemsolving.com/c/7/a/c7a42524741cb8781a00318850f8d3183f191ac7.png" class="latex" alt="$\boxed{\textbf{(D)}\ 5}$" style="vertical-align: -10px" width="55" height="28" />.
+Thus, the answer is <img src="https://latex.artofproblemsolving.com/c/7/a/c7a42524741cb8781a00318850f8d3183f191ac7.png" class="latex" alt="$\boxed{\textbf{(D)}\ 5}$" style="vertical-align: -10px" width="55" height="28" />.
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
 <p>just note that total matches are 15, hence and if 4 teams tie for most wins then they can tie for 3 wins each, but then 5th team also has 3 wins hence 4 + 1 = 5 is the answer
@@ -460,7 +450,7 @@ Thus, the answer is <img src="//latex.artofproblemsolving.com/c/7/a/c7a42524741c
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200816073040
 Cache expiry: 86400
@@ -490,7 +480,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>

@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2015_AMC_10B_Problems/Problem_20" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2015 AMC 10B Problems/Problem 20</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -421,16 +411,16 @@
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
 <p>Erin the ant starts at a given corner of a cube and crawls along exactly 7 edges in such a way that she visits every corner exactly once and then finds that she is unable to return along an edge to her starting point. How many paths are there meeting these conditions?
-<img src="//latex.artofproblemsolving.com/2/c/9/2c998130de2332a327d5af363fc50e7a51b6538b.png" class="latex" alt="$\textbf{(A) }\text{6}\qquad\textbf{(B) }\text{9}\qquad\textbf{(C) }\text{12}\qquad\textbf{(D) }\text{18}\qquad\textbf{(E) }\text{24}$" style="vertical-align: -4px" width="374" height="17" />
+<img src="https://latex.artofproblemsolving.com/2/c/9/2c998130de2332a327d5af363fc50e7a51b6538b.png" class="latex" alt="$\textbf{(A) }\text{6}\qquad\textbf{(B) }\text{9}\qquad\textbf{(C) }\text{12}\qquad\textbf{(D) }\text{18}\qquad\textbf{(E) }\text{24}$" style="vertical-align: -4px" width="374" height="17" />
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p><img src="//latex.artofproblemsolving.com/a/5/1/a5174d0579a4c17fc276202d601a81fa38ebc899.png" class="latexcenter" alt="[asy]import three; draw((1,1,1)--(1,0,1)--(1,0,0)--(0,0,0)--(0,0,1)--(0,1,1)--(1,1,1)--(1,1,0)--(0,1,0)--(0,1,1)); draw((0,0,1)--(1,0,1)); draw((1,0,0)--(1,1,0)); draw((0,0,0)--(0,1,0));  label(&quot;2&quot;,(0,0,0),S); label(&quot;A&quot;,(1,0,0),W); label(&quot;B&quot;,(0,0,1),N); label(&quot;1&quot;,(1,0,1),NW); label(&quot;3&quot;,(1,1,0),S); label(&quot;C&quot;,(0,1,0),E); label(&quot;D&quot;,(1,1,1),SE); label(&quot;4&quot;,(0,1,1),NE); [/asy]" width="238" height="235" />
-</p><p>We label the vertices of the cube as different letters and numbers shown above. We label these so that Erin can only crawl from a number to a letter or a letter to a number (this can be seen as a coloring argument). The starting point is labeled <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />.
-</p><p>If we define a "move" as each time Erin crawls along a single edge from 1 vertex to another, we see that after 7 moves, Erin must be on a numbered vertex. Since this numbered vertex cannot be 1 unit away from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> (since Erin cannot crawl back to <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />), this vertex must be <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />.
-</p><p>Therefore, we now just need to count the number of paths from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />. To count this, we can work backwards. There are 3 choices for which vertex Erin was at before she moved to <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />, and 2 choices for which vertex Erin was at 2 moves before <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />. All of Erin's previous moves were forced, so the total number of legal paths from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> is <img src="//latex.artofproblemsolving.com/e/5/8/e5870170ee3a5ca3643b90bd527fe9407da0b792.png" class="latex" alt="$3 \cdot 2 = \boxed{\textbf{(A)}\; 6}$" style="vertical-align: -10px" width="110" height="28" />.
+<p><img src="https://latex.artofproblemsolving.com/a/5/1/a5174d0579a4c17fc276202d601a81fa38ebc899.png" class="latexcenter" alt="[asy]import three; draw((1,1,1)--(1,0,1)--(1,0,0)--(0,0,0)--(0,0,1)--(0,1,1)--(1,1,1)--(1,1,0)--(0,1,0)--(0,1,1)); draw((0,0,1)--(1,0,1)); draw((1,0,0)--(1,1,0)); draw((0,0,0)--(0,1,0));  label(&quot;2&quot;,(0,0,0),S); label(&quot;A&quot;,(1,0,0),W); label(&quot;B&quot;,(0,0,1),N); label(&quot;1&quot;,(1,0,1),NW); label(&quot;3&quot;,(1,1,0),S); label(&quot;C&quot;,(0,1,0),E); label(&quot;D&quot;,(1,1,1),SE); label(&quot;4&quot;,(0,1,1),NE); [/asy]" width="238" height="235" />
+</p><p>We label the vertices of the cube as different letters and numbers shown above. We label these so that Erin can only crawl from a number to a letter or a letter to a number (this can be seen as a coloring argument). The starting point is labeled <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />.
+</p><p>If we define a "move" as each time Erin crawls along a single edge from 1 vertex to another, we see that after 7 moves, Erin must be on a numbered vertex. Since this numbered vertex cannot be 1 unit away from <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> (since Erin cannot crawl back to <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />), this vertex must be <img src="https://latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />.
+</p><p>Therefore, we now just need to count the number of paths from <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="https://latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />. To count this, we can work backwards. There are 3 choices for which vertex Erin was at before she moved to <img src="https://latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />, and 2 choices for which vertex Erin was at 2 moves before <img src="https://latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />. All of Erin's previous moves were forced, so the total number of legal paths from <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="https://latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> is <img src="https://latex.artofproblemsolving.com/e/5/8/e5870170ee3a5ca3643b90bd527fe9407da0b792.png" class="latex" alt="$3 \cdot 2 = \boxed{\textbf{(A)}\; 6}$" style="vertical-align: -10px" width="110" height="28" />.
 </p>
 <h2><span id="Solution_2_(3D_Geo)"></span><span class="mw-headline" id="Solution_2_.283D_Geo.29">Solution 2 (3D Geo)</span></h2>
-<p>Lets say that this cube is an unit cube and the given corner is <img src="//latex.artofproblemsolving.com/4/e/9/4e9f36b13a11a14accae8e072c0cf34d69267bb6.png" class="latex" alt="$(0,0,0)$" style="vertical-align: -4px" width="56" height="18" />. Because Erin can not return back to its starting point, he can not be on <img src="//latex.artofproblemsolving.com/9/6/5/96521b1a203c3bb20a336e59cb63b1f0d232fb63.png" class="latex" alt="$(0,0,1)$" style="vertical-align: -4px" width="56" height="18" />, <img src="//latex.artofproblemsolving.com/8/5/3/8530c391dbd145877d3fad6e5208f3c6ca98a1c5.png" class="latex" alt="$(0,1,0)$" style="vertical-align: -4px" width="56" height="18" />, or <img src="//latex.artofproblemsolving.com/d/1/0/d10e4a7cc979f7d958177f48e71c33f4f908c116.png" class="latex" alt="$(1,0,0)$" style="vertical-align: -4px" width="56" height="18" />. He can not be on <img src="//latex.artofproblemsolving.com/9/9/2/992be26a8d2b207f24cef4a13386cda421e070d6.png" class="latex" alt="$(1,1,0)$" style="vertical-align: -4px" width="56" height="18" /> , <img src="//latex.artofproblemsolving.com/e/b/4/eb469a4813ba1cc1aae00e5d449f3bfa0c344f34.png" class="latex" alt="$(1,0,1)$" style="vertical-align: -4px" width="56" height="18" />, or <img src="//latex.artofproblemsolving.com/f/1/1/f11303af251192fc5afdecd9656fcd9f0624b1c7.png" class="latex" alt="$(0,1,1,)$" style="vertical-align: -4px" width="64" height="18" /> because after <img src="//latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> moves, the sum of all the coordinates has to be odd. Thus, Erin has to be at <img src="//latex.artofproblemsolving.com/3/5/d/35d43e6e252922c8df825114d48e1418c7516d6d.png" class="latex" alt="$(1,1,1)$" style="vertical-align: -4px" width="56" height="18" />. Now, we draw a net and see that there are <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> choices for the first move, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> for the second, and the rest are forced. Thus the answer is <img src="//latex.artofproblemsolving.com/1/5/7/157f1382cfadb770a9f8716cddd839ba3293a029.png" class="latex" alt="$3*2 = \boxed{\textbf{(A)}\; 6}$" style="vertical-align: -10px" width="114" height="28" />.
+<p>Lets say that this cube is an unit cube and the given corner is <img src="https://latex.artofproblemsolving.com/4/e/9/4e9f36b13a11a14accae8e072c0cf34d69267bb6.png" class="latex" alt="$(0,0,0)$" style="vertical-align: -4px" width="56" height="18" />. Because Erin can not return back to its starting point, he can not be on <img src="https://latex.artofproblemsolving.com/9/6/5/96521b1a203c3bb20a336e59cb63b1f0d232fb63.png" class="latex" alt="$(0,0,1)$" style="vertical-align: -4px" width="56" height="18" />, <img src="https://latex.artofproblemsolving.com/8/5/3/8530c391dbd145877d3fad6e5208f3c6ca98a1c5.png" class="latex" alt="$(0,1,0)$" style="vertical-align: -4px" width="56" height="18" />, or <img src="https://latex.artofproblemsolving.com/d/1/0/d10e4a7cc979f7d958177f48e71c33f4f908c116.png" class="latex" alt="$(1,0,0)$" style="vertical-align: -4px" width="56" height="18" />. He can not be on <img src="https://latex.artofproblemsolving.com/9/9/2/992be26a8d2b207f24cef4a13386cda421e070d6.png" class="latex" alt="$(1,1,0)$" style="vertical-align: -4px" width="56" height="18" /> , <img src="https://latex.artofproblemsolving.com/e/b/4/eb469a4813ba1cc1aae00e5d449f3bfa0c344f34.png" class="latex" alt="$(1,0,1)$" style="vertical-align: -4px" width="56" height="18" />, or <img src="https://latex.artofproblemsolving.com/f/1/1/f11303af251192fc5afdecd9656fcd9f0624b1c7.png" class="latex" alt="$(0,1,1,)$" style="vertical-align: -4px" width="64" height="18" /> because after <img src="https://latex.artofproblemsolving.com/e/0/a/e0a0db32027a732ac57d37ef2ae9bb150f65b108.png" class="latex" alt="$7$" width="9" height="12" /> moves, the sum of all the coordinates has to be odd. Thus, Erin has to be at <img src="https://latex.artofproblemsolving.com/3/5/d/35d43e6e252922c8df825114d48e1418c7516d6d.png" class="latex" alt="$(1,1,1)$" style="vertical-align: -4px" width="56" height="18" />. Now, we draw a net and see that there are <img src="https://latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> choices for the first move, <img src="https://latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> for the second, and the rest are forced. Thus the answer is <img src="https://latex.artofproblemsolving.com/1/5/7/157f1382cfadb770a9f8716cddd839ba3293a029.png" class="latex" alt="$3*2 = \boxed{\textbf{(A)}\; 6}$" style="vertical-align: -10px" width="114" height="28" />.
 </p><p>-Lcz
 </p>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
@@ -453,7 +443,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715104529
 Cache expiry: 86400
@@ -483,7 +473,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>

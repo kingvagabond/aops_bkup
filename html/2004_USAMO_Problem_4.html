@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2004_USAMO_Problems/Problem_4" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2004 USAMO Problems/Problem 4</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -434,14 +424,14 @@ Alice and Bob play a game on a 6 by 6 grid.  On his or her turn, a player choose
 <ul><li>If Alice writes a number in a useless square, then Bob writes a higher number in a non-useless square in the same row on his next turn.</li>
 <li>If Alice writes a number in a non-useless square, then Bob writes a lower number in a useless square in the same row.</li></ul>
 <p>Bob can always do this because there are an even number of squares in each row.
-</p><p>In this way, Bob can prevent any useless square from being colored black at the end.  Then it will be sufficient for Bob to make the squares (1,1), (2,1), (2,2), (3,2), (3,3), (4,3), (4,4), (5,4), (5,5), (6,5), (6,6) useless, where <img src="//latex.artofproblemsolving.com/7/c/a/7ca10ffe3531cf1faf6222be7eac407c47bef878.png" class="latex" alt="$(m,n)$" style="vertical-align: -4px" width="47" height="18" /> is the square in the <img src="//latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" />th column and <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />th row.  Thus Bob can always win.
+</p><p>In this way, Bob can prevent any useless square from being colored black at the end.  Then it will be sufficient for Bob to make the squares (1,1), (2,1), (2,2), (3,2), (3,3), (4,3), (4,4), (5,4), (5,5), (6,5), (6,6) useless, where <img src="https://latex.artofproblemsolving.com/7/c/a/7ca10ffe3531cf1faf6222be7eac407c47bef878.png" class="latex" alt="$(m,n)$" style="vertical-align: -4px" width="47" height="18" /> is the square in the <img src="https://latex.artofproblemsolving.com/f/5/0/f5047d1e0cbb50ec208923a22cd517c55100fa7b.png" class="latex" alt="$m$" width="15" height="8" />th column and <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />th row.  Thus Bob can always win.
 </p><p>Note that it is not necessary for Bob to move first; even if he moves second, he will always be able to ensure that at least two squares per row of his choosing are not colored black.
 </p>
 <h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
 <p>Bob may move according to the following rules:
 </p>
 <ul><li>If Alice writes a number in rows 3, 4, 5, or 6, then Bob also writes a number in row 3, 4, 5, or 6.</li>
-<li>If Alice writes a number in row <img src="//latex.artofproblemsolving.com/e/3/1/e31488a48ec2c6fec3edc7e7c108fbbe36ea0cb8.png" class="latex" alt="$a \in \{ 1, 2 \}$" style="vertical-align: -4px" width="75" height="18" />, column <img src="//latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" />, then Bob writes a number in row <img src="//latex.artofproblemsolving.com/a/b/6/ab6dcc4dbfb697db1ee55b7b427612107819e297.png" class="latex" alt="$3 - a$" width="41" height="12" />, column <img src="//latex.artofproblemsolving.com/3/b/9/3b9f7f933262e12a20f14e084f7566e7ac2d7c92.png" class="latex" alt="$c + 3$" style="vertical-align: -1px" width="38" height="14" /> (mod 6).  If Alice's number is the highest in its row, then so is Bob's; if it is not, then neither is Bob's.</li></ul>
+<li>If Alice writes a number in row <img src="https://latex.artofproblemsolving.com/e/3/1/e31488a48ec2c6fec3edc7e7c108fbbe36ea0cb8.png" class="latex" alt="$a \in \{ 1, 2 \}$" style="vertical-align: -4px" width="75" height="18" />, column <img src="https://latex.artofproblemsolving.com/3/3/7/3372c1cb6d68cf97c2d231acc0b47b95a9ed04cc.png" class="latex" alt="$c$" width="8" height="8" />, then Bob writes a number in row <img src="https://latex.artofproblemsolving.com/a/b/6/ab6dcc4dbfb697db1ee55b7b427612107819e297.png" class="latex" alt="$3 - a$" width="41" height="12" />, column <img src="https://latex.artofproblemsolving.com/3/b/9/3b9f7f933262e12a20f14e084f7566e7ac2d7c92.png" class="latex" alt="$c + 3$" style="vertical-align: -1px" width="38" height="14" /> (mod 6).  If Alice's number is the highest in its row, then so is Bob's; if it is not, then neither is Bob's.</li></ul>
 <p>In this way, there will be 2 columns in between the black squares in rows 1 and 2, so they cannot possibly touch, which means that Bob will win.
 </p><p><br />
 <i>Alternate solutions are always welcome. If you have a different, elegant solution to this problem, please <a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php?title=2004_USAMO_Problems/Problem_4&amp;action=edit">add it</a> to this page.</i>
@@ -466,7 +456,7 @@ Alice and Bob play a game on a 6 by 6 grid.  On his or her turn, a player choose
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715013938
 Cache expiry: 86400
@@ -497,7 +487,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Combinatorics_Problems" title="Category:Olympiad Combinatorics Problems">Olympiad Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

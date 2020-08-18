@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2012_AIME_II_Problems/Problem_14" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2012 AIME II Problems/Problem 14</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem_14"><span class="tocnumber">1</span> <span class="toctext">Problem 14</span></a></li>
@@ -421,16 +411,16 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem_14">Problem 14</span></h2>
-<p>In a group of nine people each person shakes hands with exactly two of the other people from the group. Let <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> be the number of ways this handshaking can occur. Consider two handshaking arrangements different if and only if at least two people who shake hands under one arrangement do not shake hands under the other arrangement. Find the remainder when <img src="//latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> is divided by <img src="//latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" />.
+<p>In a group of nine people each person shakes hands with exactly two of the other people from the group. Let <img src="https://latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> be the number of ways this handshaking can occur. Consider two handshaking arrangements different if and only if at least two people who shake hands under one arrangement do not shake hands under the other arrangement. Find the remainder when <img src="https://latex.artofproblemsolving.com/f/c/9/fc97ef67268cd4e91bacdf12b8901d7036c9a056.png" class="latex" alt="$N$" width="16" height="12" /> is divided by <img src="https://latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" />.
 </p><p><br />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
 <p>Given that each person shakes hands with two people, we can view all of these through graph theory as 'rings'.  This will split it into four cases:  Three rings of three, one ring of three and one ring of six, one ring of four and one ring of five, and one ring of nine. (All other cases that sum to nine won't work, since they have at least one 'ring' of two or fewer points, which doesn't satisfy the handshaking conditions of the problem.)
-</p><p><b>Case 1:</b>   To create our groups of three, there are <img src="//latex.artofproblemsolving.com/d/a/1/da1937ab4b3248e36ed7bef3e40207fa9f3b7b75.png" class="latex" alt="$\dfrac{\dbinom{9}{3}\dbinom{6}{3}\dbinom{3}{3}}{3!}$" style="vertical-align: -12px" width="114" height="73" />.  In general, the number of ways we can arrange people within the rings to count properly is <img src="//latex.artofproblemsolving.com/4/1/7/41764f96294d6b98e40ca553b5e4f68c19b4313c.png" class="latex" alt="$\dfrac{(n-1)!}{2}$" style="vertical-align: -12px" width="63" height="38" />, since there are <img src="//latex.artofproblemsolving.com/c/6/8/c680399c425113bf35cf459f6690f834aa62ac47.png" class="latex" alt="$(n-1)!$" style="vertical-align: -4px" width="59" height="18" /> ways to arrange items in the circle, and then we don't want to want to consider reflections as separate entities.  Thus, each of the three cases has <img src="//latex.artofproblemsolving.com/a/a/6/aa68cf0205f474f9d239c30057ddf96449d9d49c.png" class="latex" alt="$\dfrac{(3-1)!}{2}=1$" style="vertical-align: -12px" width="96" height="38" /> arrangements.  Therefore, for this case, there are <img src="//latex.artofproblemsolving.com/3/c/e/3ce101fa8dcd59ad34a86c39f1ee5ff0b5a411e2.png" class="latex" alt="$\left(\dfrac{\dbinom{9}{3}\dbinom{6}{3}\dbinom{3}{3}}{3!}\right)(1)^3=280$" style="vertical-align: -49px" width="231" height="109" />
-</p><p><b>Case 2:</b>  For three and six, there are <img src="//latex.artofproblemsolving.com/f/8/c/f8c49b416ae3f0df821aac3f999211eed7018e0b.png" class="latex" alt="$\dbinom{9}{6}=84$" style="vertical-align: -22px" width="79" height="53" /> sets for the rings.  For organization within the ring, as before, there is only one way to arrange the ring of three.  For six, there is <img src="//latex.artofproblemsolving.com/7/0/d/70df2da5f579b356990bb53e9ebd377272c0ed8e.png" class="latex" alt="$\dfrac{(6-1)!}{2}=60$" style="vertical-align: -12px" width="105" height="38" />.  This means there are <img src="//latex.artofproblemsolving.com/e/b/0/eb0e2fc49d21583a4b661a3feab10579006db8b1.png" class="latex" alt="$(84)(1)(60)=5040$" style="vertical-align: -4px" width="147" height="18" /> arrangements.
-</p><p><b>Case 3:</b>  For four and five, there are <img src="//latex.artofproblemsolving.com/4/8/4/4849fdebae8208864ee7da22e4209901022ebcbf.png" class="latex" alt="$\dbinom{9}{5}=126$" style="vertical-align: -22px" width="88" height="53" /> sets for the rings.  Within the five, there are <img src="//latex.artofproblemsolving.com/9/8/3/98307aeb4d00fd606292ec844f92610b53586daf.png" class="latex" alt="$\dfrac{4!}{2}=12$" style="vertical-align: -12px" width="60" height="38" />, and within the four there are <img src="//latex.artofproblemsolving.com/f/7/2/f72d2f5e47778d1b0ca14953ff0411b08cce7112.png" class="latex" alt="$\dfrac{3!}{2}=3$" style="vertical-align: -12px" width="51" height="38" /> arrangements.  This means the total is <img src="//latex.artofproblemsolving.com/b/8/2/b82cbbd35f03655840db3a817be8642a2ae44f98.png" class="latex" alt="$(126)(12)(3)=4536$" style="vertical-align: -4px" width="156" height="18" />.
-</p><p><b>Case 4:</b>  For the nine case, there is <img src="//latex.artofproblemsolving.com/8/3/7/837c868aae7d634c62e67b0b89a39a6a482d3133.png" class="latex" alt="$\dbinom{9}{9}=1$" style="vertical-align: -22px" width="69" height="53" /> arrangement for the ring.  Within it, there are <img src="//latex.artofproblemsolving.com/2/2/3/22339fbf855dd86120f67ea3d93e0f0bc7aef580.png" class="latex" alt="$\dfrac{8!}{2}=20160$" style="vertical-align: -12px" width="87" height="38" /> arrangements.
-</p><p>Summing the cases, we have <img src="//latex.artofproblemsolving.com/e/6/f/e6f6b168ce4b0574b04168dbc412323f02bbe74b.png" class="latex" alt="$280+5040+4536+20160=30016 \to \boxed{016}$" style="vertical-align: -5px" width="349" height="23" />.
+</p><p><b>Case 1:</b>   To create our groups of three, there are <img src="https://latex.artofproblemsolving.com/d/a/1/da1937ab4b3248e36ed7bef3e40207fa9f3b7b75.png" class="latex" alt="$\dfrac{\dbinom{9}{3}\dbinom{6}{3}\dbinom{3}{3}}{3!}$" style="vertical-align: -12px" width="114" height="73" />.  In general, the number of ways we can arrange people within the rings to count properly is <img src="https://latex.artofproblemsolving.com/4/1/7/41764f96294d6b98e40ca553b5e4f68c19b4313c.png" class="latex" alt="$\dfrac{(n-1)!}{2}$" style="vertical-align: -12px" width="63" height="38" />, since there are <img src="https://latex.artofproblemsolving.com/c/6/8/c680399c425113bf35cf459f6690f834aa62ac47.png" class="latex" alt="$(n-1)!$" style="vertical-align: -4px" width="59" height="18" /> ways to arrange items in the circle, and then we don't want to want to consider reflections as separate entities.  Thus, each of the three cases has <img src="https://latex.artofproblemsolving.com/a/a/6/aa68cf0205f474f9d239c30057ddf96449d9d49c.png" class="latex" alt="$\dfrac{(3-1)!}{2}=1$" style="vertical-align: -12px" width="96" height="38" /> arrangements.  Therefore, for this case, there are <img src="https://latex.artofproblemsolving.com/3/c/e/3ce101fa8dcd59ad34a86c39f1ee5ff0b5a411e2.png" class="latex" alt="$\left(\dfrac{\dbinom{9}{3}\dbinom{6}{3}\dbinom{3}{3}}{3!}\right)(1)^3=280$" style="vertical-align: -49px" width="231" height="109" />
+</p><p><b>Case 2:</b>  For three and six, there are <img src="https://latex.artofproblemsolving.com/f/8/c/f8c49b416ae3f0df821aac3f999211eed7018e0b.png" class="latex" alt="$\dbinom{9}{6}=84$" style="vertical-align: -22px" width="79" height="53" /> sets for the rings.  For organization within the ring, as before, there is only one way to arrange the ring of three.  For six, there is <img src="https://latex.artofproblemsolving.com/7/0/d/70df2da5f579b356990bb53e9ebd377272c0ed8e.png" class="latex" alt="$\dfrac{(6-1)!}{2}=60$" style="vertical-align: -12px" width="105" height="38" />.  This means there are <img src="https://latex.artofproblemsolving.com/e/b/0/eb0e2fc49d21583a4b661a3feab10579006db8b1.png" class="latex" alt="$(84)(1)(60)=5040$" style="vertical-align: -4px" width="147" height="18" /> arrangements.
+</p><p><b>Case 3:</b>  For four and five, there are <img src="https://latex.artofproblemsolving.com/4/8/4/4849fdebae8208864ee7da22e4209901022ebcbf.png" class="latex" alt="$\dbinom{9}{5}=126$" style="vertical-align: -22px" width="88" height="53" /> sets for the rings.  Within the five, there are <img src="https://latex.artofproblemsolving.com/9/8/3/98307aeb4d00fd606292ec844f92610b53586daf.png" class="latex" alt="$\dfrac{4!}{2}=12$" style="vertical-align: -12px" width="60" height="38" />, and within the four there are <img src="https://latex.artofproblemsolving.com/f/7/2/f72d2f5e47778d1b0ca14953ff0411b08cce7112.png" class="latex" alt="$\dfrac{3!}{2}=3$" style="vertical-align: -12px" width="51" height="38" /> arrangements.  This means the total is <img src="https://latex.artofproblemsolving.com/b/8/2/b82cbbd35f03655840db3a817be8642a2ae44f98.png" class="latex" alt="$(126)(12)(3)=4536$" style="vertical-align: -4px" width="156" height="18" />.
+</p><p><b>Case 4:</b>  For the nine case, there is <img src="https://latex.artofproblemsolving.com/8/3/7/837c868aae7d634c62e67b0b89a39a6a482d3133.png" class="latex" alt="$\dbinom{9}{9}=1$" style="vertical-align: -22px" width="69" height="53" /> arrangement for the ring.  Within it, there are <img src="https://latex.artofproblemsolving.com/2/2/3/22339fbf855dd86120f67ea3d93e0f0bc7aef580.png" class="latex" alt="$\dfrac{8!}{2}=20160$" style="vertical-align: -12px" width="87" height="38" /> arrangements.
+</p><p>Summing the cases, we have <img src="https://latex.artofproblemsolving.com/e/6/f/e6f6b168ce4b0574b04168dbc412323f02bbe74b.png" class="latex" alt="$280+5040+4536+20160=30016 \to \boxed{016}$" style="vertical-align: -5px" width="349" height="23" />.
 </p>
 <h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
 <p>Very Neat solution: <a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=lG8N9RuI-8o">https://www.youtube.com/watch?v=lG8N9RuI-8o</a>
@@ -458,7 +448,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200815212554
 Cache expiry: 86400
@@ -488,7 +478,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

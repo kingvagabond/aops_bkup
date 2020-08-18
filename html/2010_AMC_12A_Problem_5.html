@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2010_AMC_12A_Problems/Problem_5" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,22 +393,22 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2010 AMC 12A Problems/Problem 5</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>Halfway through a 100-shot archery tournament, Chelsea leads by 50 points. For each shot a bullseye scores 10 points, with other possible scores being 8, 4, 2, and 0 points. Chelsea always scores at least 4 points on each shot. If Chelsea's next <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> shots are bullseyes she will be guaranteed victory. What is the minimum value for <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />?
-</p><p><img src="//latex.artofproblemsolving.com/f/1/c/f1cdcd819720d948d327ecb767dff769dc1983f9.png" class="latex" alt="$\textbf{(A)}\ 38 \qquad \textbf{(B)}\ 40 \qquad \textbf{(C)}\ 42 \qquad \textbf{(D)}\ 44 \qquad \textbf{(E)}\ 46$" style="vertical-align: -4px" width="394" height="17" />
+<p>Halfway through a 100-shot archery tournament, Chelsea leads by 50 points. For each shot a bullseye scores 10 points, with other possible scores being 8, 4, 2, and 0 points. Chelsea always scores at least 4 points on each shot. If Chelsea's next <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> shots are bullseyes she will be guaranteed victory. What is the minimum value for <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />?
+</p><p><img src="https://latex.artofproblemsolving.com/f/1/c/f1cdcd819720d948d327ecb767dff769dc1983f9.png" class="latex" alt="$\textbf{(A)}\ 38 \qquad \textbf{(B)}\ 40 \qquad \textbf{(C)}\ 42 \qquad \textbf{(D)}\ 44 \qquad \textbf{(E)}\ 46$" style="vertical-align: -4px" width="394" height="17" />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>Let <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> be the number of points Chelsea currently has. In order to guarantee victory, we must consider the possibility that the opponent scores the maximum amount of points by getting only bullseyes.
-</p><p><img src="//latex.artofproblemsolving.com/7/4/4/7446b964cde5275bdf791fe97994eb984c2ee262.png" class="latexcenter" alt="\begin{align*}k+ 10n + 4(50-n) &amp;&gt; (k-50) + 50\cdot{10}\\  6n &amp;&gt; 250\end{align*}" width="317" height="39" />
+<p>Let <img src="https://latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> be the number of points Chelsea currently has. In order to guarantee victory, we must consider the possibility that the opponent scores the maximum amount of points by getting only bullseyes.
+</p><p><img src="https://latex.artofproblemsolving.com/7/4/4/7446b964cde5275bdf791fe97994eb984c2ee262.png" class="latexcenter" alt="\begin{align*}k+ 10n + 4(50-n) &amp;&gt; (k-50) + 50\cdot{10}\\  6n &amp;&gt; 250\end{align*}" width="317" height="39" />
 </p><p><br />
-The lowest integer value that satisfies the inequality is <img src="//latex.artofproblemsolving.com/8/7/5/8755b1518d332dd28a36e0fe46caf7d092635c82.png" class="latex" alt="$\boxed{42\ \textbf{(C)}}$" style="vertical-align: -10px" width="64" height="28" />.
+The lowest integer value that satisfies the inequality is <img src="https://latex.artofproblemsolving.com/8/7/5/8755b1518d332dd28a36e0fe46caf7d092635c82.png" class="latex" alt="$\boxed{42\ \textbf{(C)}}$" style="vertical-align: -10px" width="64" height="28" />.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -440,7 +430,7 @@ The lowest integer value that satisfies the inequality is <img src="//latex.arto
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715104001
 Cache expiry: 86400
@@ -470,7 +460,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Algebra_Problems" title="Category:Introductory Algebra Problems">Introductory Algebra Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

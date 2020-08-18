@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2011_AMC_12A_Problems/Problem_16" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2011 AMC 12A Problems/Problem 16</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -422,34 +412,34 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>Each vertex of convex pentagon <img src="//latex.artofproblemsolving.com/f/1/3/f13a96240c51d61ba3733d9f5c3020fa92ec4136.png" class="latex" alt="$ABCDE$" width="72" height="13" /> is to be assigned a color. There are <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> colors to choose from, and the ends of each diagonal must have different colors. How many different colorings are possible?
-</p><p><img src="//latex.artofproblemsolving.com/b/2/6/b26ff3b64bdb715bf49ccc27fc5b4f592bd4be4f.png" class="latex" alt="$\textbf{(A)}\ 2520 \qquad \textbf{(B)}\ 2880 \qquad \textbf{(C)}\ 3120 \qquad \textbf{(D)}\ 3250 \qquad \textbf{(E)}\ 3750$" style="vertical-align: -4px" width="484" height="17" />
+<p>Each vertex of convex pentagon <img src="https://latex.artofproblemsolving.com/f/1/3/f13a96240c51d61ba3733d9f5c3020fa92ec4136.png" class="latex" alt="$ABCDE$" width="72" height="13" /> is to be assigned a color. There are <img src="https://latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> colors to choose from, and the ends of each diagonal must have different colors. How many different colorings are possible?
+</p><p><img src="https://latex.artofproblemsolving.com/b/2/6/b26ff3b64bdb715bf49ccc27fc5b4f592bd4be4f.png" class="latex" alt="$\textbf{(A)}\ 2520 \qquad \textbf{(B)}\ 2880 \qquad \textbf{(C)}\ 3120 \qquad \textbf{(D)}\ 3250 \qquad \textbf{(E)}\ 3750$" style="vertical-align: -4px" width="484" height="17" />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>We can do some casework when working our way around the pentagon from <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />. At each stage, there will be a makeshift diagram.
-</p><p>1.) For <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, we can choose any of the 6 colors.
+<p>We can do some casework when working our way around the pentagon from <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> to <img src="https://latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" />. At each stage, there will be a makeshift diagram.
+</p><p>1.) For <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, we can choose any of the 6 colors.
 </p>
 <pre>        A&#160;: 6
 </pre>
-<p>2.) For <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, we can either have the same color as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, or any of the other 5 colors. We do this because each vertex of the pentagon is affected by the 2 opposite vertices, and <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> will be affected by both <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />.
+<p>2.) For <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />, we can either have the same color as <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, or any of the other 5 colors. We do this because each vertex of the pentagon is affected by the 2 opposite vertices, and <img src="https://latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> will be affected by both <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />.
 </p>
 <pre>      A&#160;: 6
  B:1        B:5
 </pre>
-<p>3.) For <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, we cannot have the same color as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. Also, we can have the same color as <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> (<img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> will be affected), or any of the other 4 colors. Because <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> can't be the same as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, it can't be the same as <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> if <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> is the same as <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, so it can be any of the 5 other colors.
+<p>3.) For <img src="https://latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />, we cannot have the same color as <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />. Also, we can have the same color as <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> (<img src="https://latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> will be affected), or any of the other 4 colors. Because <img src="https://latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> can't be the same as <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, it can't be the same as <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> if <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> is the same as <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />, so it can be any of the 5 other colors.
 </p>
 <pre>      A&#160;: 6
  B:1        B:5
  C:5     C:4   C:1
 </pre>
-<p>4.) <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> is affected by <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />. If they are the same, then <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> can be any of the other 5 colors. If they are different, then <img src="//latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> can be any of the (6-2)=4 colors.
+<p>4.) <img src="https://latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> is affected by <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />. If they are the same, then <img src="https://latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> can be any of the other 5 colors. If they are different, then <img src="https://latex.artofproblemsolving.com/9/f/f/9ffb448918db29f2a72f8f87f421b3b3cad18f95.png" class="latex" alt="$D$" width="15" height="12" /> can be any of the (6-2)=4 colors.
 </p>
 <pre>      A&#160;: 6
  B:1        B:5
  C:5     C:4   C:1
  D:5     D:4   D:4
 </pre>
-<p>5.) <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> is affected by <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />. If they are the same, then <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> can be any of the other 5 colors. If they are different, then <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> can be any of the (6-2)=4 colors.
+<p>5.) <img src="https://latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> is affected by <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> and <img src="https://latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />. If they are the same, then <img src="https://latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> can be any of the other 5 colors. If they are different, then <img src="https://latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" width="14" height="12" /> can be any of the (6-2)=4 colors.
 </p>
 <pre>      A&#160;: 6
  B:1        B:5
@@ -458,11 +448,11 @@
  E:4     E:4   E:5
 </pre>
 <p>6.) Now, we can multiply these three paths and add them:
-<img src="//latex.artofproblemsolving.com/4/0/e/40e86abce2b32ffe80d30bc2d2b7e0fdfbdb66d8.png" class="latex" alt="$(6\times1\times5\times5\times4)+(6\times5\times4\times4\times4)+(6\times5\times1\times4\times5) =600+1920+600=3120$" style="vertical-align: -4px" width="709" height="18" />
-</p><p>7.) Our answer is <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />!
+<img src="https://latex.artofproblemsolving.com/4/0/e/40e86abce2b32ffe80d30bc2d2b7e0fdfbdb66d8.png" class="latex" alt="$(6\times1\times5\times5\times4)+(6\times5\times4\times4\times4)+(6\times5\times1\times4\times5) =600+1920+600=3120$" style="vertical-align: -4px" width="709" height="18" />
+</p><p>7.) Our answer is <img src="https://latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />!
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>Right off the bat, we can analyze three things: 
+<p>Right off the bat, we can analyze three things:
 </p><p><br />
 1.) There can only be two of the same color on the pentagon.
 </p><p>2.) Any pair of the same color can only be next to each other on the pentagon.
@@ -470,40 +460,40 @@
 </p><p><br />
 Now that we know this, we can solve the problem by using three cases: no same color pairs,  one same color pair, and two same color pairs.
 </p><p><br />
-1.) If there are no color pairs, it is a simple permutation: six different colors in five different spots. We count <img src="//latex.artofproblemsolving.com/9/5/2/95246be1744710288c10397eb46a97bb6778e774.png" class="latex" alt="$6!=720$" width="65" height="13" /> cases. No rotation is necessary because all permutations are accounted for.
+1.) If there are no color pairs, it is a simple permutation: six different colors in five different spots. We count <img src="https://latex.artofproblemsolving.com/9/5/2/95246be1744710288c10397eb46a97bb6778e774.png" class="latex" alt="$6!=720$" width="65" height="13" /> cases. No rotation is necessary because all permutations are accounted for.
 </p><p><br />
-2.)If there is one color pair, we must count 6 possibilities for the pair(as one element), 5 for the third vertex, 4 for the fourth vertex, and 3 for the fifth vertex. 
-</p><p>We get <img src="//latex.artofproblemsolving.com/d/1/0/d10e2f124782d382c9c3ee7e98995d13c608c730.png" class="latex" alt="$6\times5\times4\times3=360$" style="vertical-align: 0px" width="154" height="13" />.
-</p><p>However, there are 5 different locations the pair could be at. Therefore we get <img src="//latex.artofproblemsolving.com/2/5/c/25c2eee887988a7970ff7afbe7929f765d0e9938.png" class="latex" alt="$360\times5=1800$" style="vertical-align: 0px" width="118" height="13" /> possibilities for one pair.
+2.)If there is one color pair, we must count 6 possibilities for the pair(as one element), 5 for the third vertex, 4 for the fourth vertex, and 3 for the fifth vertex.
+</p><p>We get <img src="https://latex.artofproblemsolving.com/d/1/0/d10e2f124782d382c9c3ee7e98995d13c608c730.png" class="latex" alt="$6\times5\times4\times3=360$" style="vertical-align: 0px" width="154" height="13" />.
+</p><p>However, there are 5 different locations the pair could be at. Therefore we get <img src="https://latex.artofproblemsolving.com/2/5/c/25c2eee887988a7970ff7afbe7929f765d0e9938.png" class="latex" alt="$360\times5=1800$" style="vertical-align: 0px" width="118" height="13" /> possibilities for one pair.
 </p><p><br />
 3.)If there are two color pairs, we must count 6 possibilities for the first pair(as one element), 5 possibilities for the next pair(as one element), and 4 possibilities for the final vertex.
-</p><p>We get <img src="//latex.artofproblemsolving.com/5/4/8/5482288291fba231a2bd89d7e87d95017aa5a475.png" class="latex" alt="$6\times5\times4=120$" style="vertical-align: 0px" width="122" height="13" />.
-</p><p>Once again, there are 5 different rotations in the pentagon that we must account for. Therefore we get <img src="//latex.artofproblemsolving.com/8/1/e/81e3ffa8b5cb6cdf8783415485e028da1f86bff9.png" class="latex" alt="$120\times5=600$" style="vertical-align: 0px" width="109" height="13" />  possibilities for two pairs. 
+</p><p>We get <img src="https://latex.artofproblemsolving.com/5/4/8/5482288291fba231a2bd89d7e87d95017aa5a475.png" class="latex" alt="$6\times5\times4=120$" style="vertical-align: 0px" width="122" height="13" />.
+</p><p>Once again, there are 5 different rotations in the pentagon that we must account for. Therefore we get <img src="https://latex.artofproblemsolving.com/8/1/e/81e3ffa8b5cb6cdf8783415485e028da1f86bff9.png" class="latex" alt="$120\times5=600$" style="vertical-align: 0px" width="109" height="13" />  possibilities for two pairs.
 </p><p><br />
-5.) If we add all of three cases together, we get <img src="//latex.artofproblemsolving.com/a/f/0/af03702f2bc6940a7a2080c715092ad9061fe5ee.png" class="latex" alt="$720+1800+600=3120$" style="vertical-align: -1px" width="195" height="14" />. The answer is <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />.
+5.) If we add all of three cases together, we get <img src="https://latex.artofproblemsolving.com/a/f/0/af03702f2bc6940a7a2080c715092ad9061fe5ee.png" class="latex" alt="$720+1800+600=3120$" style="vertical-align: -1px" width="195" height="14" />. The answer is <img src="https://latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" />.
 </p><p>Solution by gsaelite
 </p>
 <h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
-<p>Break up the pentagon and imagine creating a "necklace" out of the diagonals with sequence <img src="//latex.artofproblemsolving.com/c/d/6/cd65c48d3a24cdfe8cf34c96ecdfb80f8e8dfb22.png" class="latex" alt="$A-D-B-E-C-A$" width="197" height="13" />.
-</p><p>We wish to determine all possible necklaces, or strings, such that <img src="//latex.artofproblemsolving.com/1/f/c/1fca68baa8c79c89e542984d58bef15a38d1a663.png" class="latex" alt="$A,D,B,E$" style="vertical-align: -3px" width="82" height="16" /> and <img src="//latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> are all different colors.
-</p><p>Let <img src="//latex.artofproblemsolving.com/b/9/4/b947817f5b853928d92773d94c1e2b8fc7d479f0.png" class="latex" alt="$F_{n}$" style="vertical-align: -2px" width="19" height="15" /> denote the number of ways to color a necklace with <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> total characters.
-</p><p>We wish to determine <img src="//latex.artofproblemsolving.com/0/5/2/052468dfb3a93ee518c1a07febaf10785c1a6a77.png" class="latex" alt="$F_{5}$" style="vertical-align: -2px" width="17" height="15" />
+<p>Break up the pentagon and imagine creating a "necklace" out of the diagonals with sequence <img src="https://latex.artofproblemsolving.com/c/d/6/cd65c48d3a24cdfe8cf34c96ecdfb80f8e8dfb22.png" class="latex" alt="$A-D-B-E-C-A$" width="197" height="13" />.
+</p><p>We wish to determine all possible necklaces, or strings, such that <img src="https://latex.artofproblemsolving.com/1/f/c/1fca68baa8c79c89e542984d58bef15a38d1a663.png" class="latex" alt="$A,D,B,E$" style="vertical-align: -3px" width="82" height="16" /> and <img src="https://latex.artofproblemsolving.com/c/3/3/c3355896da590fc491a10150a50416687626d7cc.png" class="latex" alt="$C$" width="14" height="12" /> are all different colors.
+</p><p>Let <img src="https://latex.artofproblemsolving.com/b/9/4/b947817f5b853928d92773d94c1e2b8fc7d479f0.png" class="latex" alt="$F_{n}$" style="vertical-align: -2px" width="19" height="15" /> denote the number of ways to color a necklace with <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> total characters.
+</p><p>We wish to determine <img src="https://latex.artofproblemsolving.com/0/5/2/052468dfb3a93ee518c1a07febaf10785c1a6a77.png" class="latex" alt="$F_{5}$" style="vertical-align: -2px" width="17" height="15" />
 </p><p><br />
-<img src="//latex.artofproblemsolving.com/0/7/d/07df640468845adbcca6958b4c968ec576ba4391.png" class="latex" alt="$\text{Claim}$" style="vertical-align: 0px" width="43" height="12" />: For <img src="//latex.artofproblemsolving.com/5/4/3/5431d65d1c2274ac73a10ad20237ea297b9d4804.png" class="latex" alt="$n\ge{3}$" style="vertical-align: -2px" width="43" height="15" />, we have
-</p><p><img src="//latex.artofproblemsolving.com/d/0/9/d0930e210dc74dedef85096eccfb7789c1741197.png" class="latex" alt="$F_{n}=6(5)^{n-1}-F_{n-1}$" style="vertical-align: -4px" width="161" height="19" /> for <img src="//latex.artofproblemsolving.com/5/4/3/5431d65d1c2274ac73a10ad20237ea297b9d4804.png" class="latex" alt="$n\ge{3}$" style="vertical-align: -2px" width="43" height="15" />
+<img src="https://latex.artofproblemsolving.com/0/7/d/07df640468845adbcca6958b4c968ec576ba4391.png" class="latex" alt="$\text{Claim}$" style="vertical-align: 0px" width="43" height="12" />: For <img src="https://latex.artofproblemsolving.com/5/4/3/5431d65d1c2274ac73a10ad20237ea297b9d4804.png" class="latex" alt="$n\ge{3}$" style="vertical-align: -2px" width="43" height="15" />, we have
+</p><p><img src="https://latex.artofproblemsolving.com/d/0/9/d0930e210dc74dedef85096eccfb7789c1741197.png" class="latex" alt="$F_{n}=6(5)^{n-1}-F_{n-1}$" style="vertical-align: -4px" width="161" height="19" /> for <img src="https://latex.artofproblemsolving.com/5/4/3/5431d65d1c2274ac73a10ad20237ea297b9d4804.png" class="latex" alt="$n\ge{3}$" style="vertical-align: -2px" width="43" height="15" />
 </p><p><br />
-<img src="//latex.artofproblemsolving.com/7/a/d/7ad2e410266902947f0faad3ddbbf88a915774b6.png" class="latex" alt="$\text{Proof}$" style="vertical-align: 0px" width="41" height="12" />: 
-</p><p>Consider a string of length <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />. The very first letter can be colored in <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> ways. The rest of the <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> letters can be colored in <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> ways.
-</p><p>However, we may run into the case where the first and last characters are the same color. 
-</p><p>Imagine "merging" these characters into one. Realize that this new "necklace" is simply a new distinct string, or one of length <img src="//latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" />. These are all the "bad" cases.
+<img src="https://latex.artofproblemsolving.com/7/a/d/7ad2e410266902947f0faad3ddbbf88a915774b6.png" class="latex" alt="$\text{Proof}$" style="vertical-align: 0px" width="41" height="12" />:
+</p><p>Consider a string of length <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />. The very first letter can be colored in <img src="https://latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> ways. The rest of the <img src="https://latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" /> letters can be colored in <img src="https://latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> ways.
+</p><p>However, we may run into the case where the first and last characters are the same color.
+</p><p>Imagine "merging" these characters into one. Realize that this new "necklace" is simply a new distinct string, or one of length <img src="https://latex.artofproblemsolving.com/4/b/d/4bdca93962a2beaffc172ca394e04fe05bd74ffd.png" class="latex" alt="$n-1$" style="vertical-align: 0px" width="41" height="12" />. These are all the "bad" cases.
 </p><p>Putting it all together,
-</p><p><img src="//latex.artofproblemsolving.com/d/0/9/d0930e210dc74dedef85096eccfb7789c1741197.png" class="latex" alt="$F_{n}=6(5)^{n-1}-F_{n-1}$" style="vertical-align: -4px" width="161" height="19" /> for <img src="//latex.artofproblemsolving.com/5/4/3/5431d65d1c2274ac73a10ad20237ea297b9d4804.png" class="latex" alt="$n\ge{3}$" style="vertical-align: -2px" width="43" height="15" />
+</p><p><img src="https://latex.artofproblemsolving.com/d/0/9/d0930e210dc74dedef85096eccfb7789c1741197.png" class="latex" alt="$F_{n}=6(5)^{n-1}-F_{n-1}$" style="vertical-align: -4px" width="161" height="19" /> for <img src="https://latex.artofproblemsolving.com/5/4/3/5431d65d1c2274ac73a10ad20237ea297b9d4804.png" class="latex" alt="$n\ge{3}$" style="vertical-align: -2px" width="43" height="15" />
 </p><p>Now, the rest is simple computation.
-</p><p><img src="//latex.artofproblemsolving.com/6/3/3/63336229c8d34ba2b8036b003fa363bc9b60706b.png" class="latex" alt="$F_{1}=6$" style="vertical-align: -2px" width="52" height="15" />
-</p><p><img src="//latex.artofproblemsolving.com/6/7/1/6714f90e3be9db8168580ecc1a9395e50e3b36b2.png" class="latex" alt="$F_{2}=6\cdot{5}=30$" style="vertical-align: -2px" width="116" height="15" />
-</p><p><img src="//latex.artofproblemsolving.com/2/b/3/2b32da91d09fd82d5420186b12e336d1e1f8588e.png" class="latex" alt="$F_{3}=6\cdot{5}\cdot{4}=120$" style="vertical-align: -2px" width="147" height="15" />
-</p><p><img src="//latex.artofproblemsolving.com/1/8/e/18eec07653166c5f59702b191a959e71f044862d.png" class="latex" alt="$F_{4}=6\cdot{5}^{3}-120=630$" style="vertical-align: -2px" width="182" height="17" />
-</p><p><img src="//latex.artofproblemsolving.com/c/b/d/cbdcf1936027277858c06e103afcbd24e5d7ce55.png" class="latex" alt="$F_{5}=6\cdot{5}^{4}-630=\boxed{3120}$" style="vertical-align: -5px" width="204" height="23" />
+</p><p><img src="https://latex.artofproblemsolving.com/6/3/3/63336229c8d34ba2b8036b003fa363bc9b60706b.png" class="latex" alt="$F_{1}=6$" style="vertical-align: -2px" width="52" height="15" />
+</p><p><img src="https://latex.artofproblemsolving.com/6/7/1/6714f90e3be9db8168580ecc1a9395e50e3b36b2.png" class="latex" alt="$F_{2}=6\cdot{5}=30$" style="vertical-align: -2px" width="116" height="15" />
+</p><p><img src="https://latex.artofproblemsolving.com/2/b/3/2b32da91d09fd82d5420186b12e336d1e1f8588e.png" class="latex" alt="$F_{3}=6\cdot{5}\cdot{4}=120$" style="vertical-align: -2px" width="147" height="15" />
+</p><p><img src="https://latex.artofproblemsolving.com/1/8/e/18eec07653166c5f59702b191a959e71f044862d.png" class="latex" alt="$F_{4}=6\cdot{5}^{3}-120=630$" style="vertical-align: -2px" width="182" height="17" />
+</p><p><img src="https://latex.artofproblemsolving.com/c/b/d/cbdcf1936027277858c06e103afcbd24e5d7ce55.png" class="latex" alt="$F_{5}=6\cdot{5}^{4}-630=\boxed{3120}$" style="vertical-align: -5px" width="204" height="23" />
 </p><p>Solution by Pi_3.14_Squared
 </p>
 <h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
@@ -531,7 +521,7 @@ Now that we know this, we can solve the problem by using three cases: no same co
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714140906
 Cache expiry: 86400
@@ -561,7 +551,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

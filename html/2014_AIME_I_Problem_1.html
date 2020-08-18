@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2014_AIME_I_Problems/Problem_1" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,21 +393,21 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2014 AIME I Problems/Problem 1</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem_1">Problem 1</span></h2>
 <p>The 8 eyelets for the lace of a sneaker all lie on a rectangle, four equally spaced on each of the longer sides. The rectangle has a width of 50 mm and a length of 80 mm. There is one eyelet at each vertex of the rectangle. The lace itself must pass between the vertex eyelets along a width side of the rectangle and then crisscross between successive eyelets until it reaches the two eyelets at the other width side of the rectangle as shown. After passing through these final eyelets, each of the ends of the lace must extend at least 200 mm farther to allow a knot to be tied. Find the minimum length of the lace in millimeters.
-</p><p><img src="//latex.artofproblemsolving.com/a/6/1/a61b1059117868ce9afa4391360bfa9424211553.png" class="latexcenter" alt="[asy] size(200); defaultpen(linewidth(0.7)); path laceL=(-20,-30)..tension 0.75 ..(-90,-135)..(-102,-147)..(-152,-150)..tension 2 ..(-155,-140)..(-135,-40)..(-50,-4)..tension 0.8 ..origin; path laceR=reflect((75,0),(75,-240))*laceL; draw(origin--(0,-240)--(150,-240)--(150,0)--cycle,gray); for(int i=0;i&lt;=3;i=i+1) { path circ1=circle((0,-80*i),5),circ2=circle((150,-80*i),5); unfill(circ1); draw(circ1); unfill(circ2); draw(circ2); } draw(laceL--(150,-80)--(0,-160)--(150,-240)--(0,-240)--(150,-160)--(0,-80)--(150,0)^^laceR,linewidth(1));[/asy]" width="335" height="178" />
+</p><p><img src="https://latex.artofproblemsolving.com/a/6/1/a61b1059117868ce9afa4391360bfa9424211553.png" class="latexcenter" alt="[asy] size(200); defaultpen(linewidth(0.7)); path laceL=(-20,-30)..tension 0.75 ..(-90,-135)..(-102,-147)..(-152,-150)..tension 2 ..(-155,-140)..(-135,-40)..(-50,-4)..tension 0.8 ..origin; path laceR=reflect((75,0),(75,-240))*laceL; draw(origin--(0,-240)--(150,-240)--(150,0)--cycle,gray); for(int i=0;i&lt;=3;i=i+1) { path circ1=circle((0,-80*i),5),circ2=circle((150,-80*i),5); unfill(circ1); draw(circ1); unfill(circ2); draw(circ2); } draw(laceL--(150,-80)--(0,-160)--(150,-240)--(0,-240)--(150,-160)--(0,-80)--(150,0)^^laceR,linewidth(1));[/asy]" width="335" height="178" />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>The rectangle is divided into three smaller rectangles with a width of 50 mm and a length of <img src="//latex.artofproblemsolving.com/a/5/5/a5590726989371b7e6d003b5c798f5a040b69ae6.png" class="latex" alt="$\dfrac{80}{3}$" style="vertical-align: -12px" width="20" height="37" />mm.  According to the Pythagorean Theorem, the diagonal of the rectangle is
-<img src="//latex.artofproblemsolving.com/c/1/4/c141d5d93fd6c02db3d170c02b12ba4270b7a544.png" class="latex" alt="$\sqrt{50^2+\left(\frac{80}{3}\right)^2}=\frac{170}{3}$" style="vertical-align: -18px" width="175" height="53" />mm.  Since that on the lace, there are 6 of these diagonals, a width, and an extension of at least 200 mm on each side.  Therefore, the minimum of the lace in millimeters is
-<img src="//latex.artofproblemsolving.com/8/2/6/8267e933205c7df72fe0f51938f7c776bce8be80.png" class="latexcenter" alt="\[6\times \dfrac{170}{3}+50+200\times 2=\boxed{790}.\]" width="249" height="37" />
+<p>The rectangle is divided into three smaller rectangles with a width of 50 mm and a length of <img src="https://latex.artofproblemsolving.com/a/5/5/a5590726989371b7e6d003b5c798f5a040b69ae6.png" class="latex" alt="$\dfrac{80}{3}$" style="vertical-align: -12px" width="20" height="37" />mm.  According to the Pythagorean Theorem, the diagonal of the rectangle is
+<img src="https://latex.artofproblemsolving.com/c/1/4/c141d5d93fd6c02db3d170c02b12ba4270b7a544.png" class="latex" alt="$\sqrt{50^2+\left(\frac{80}{3}\right)^2}=\frac{170}{3}$" style="vertical-align: -18px" width="175" height="53" />mm.  Since that on the lace, there are 6 of these diagonals, a width, and an extension of at least 200 mm on each side.  Therefore, the minimum of the lace in millimeters is
+<img src="https://latex.artofproblemsolving.com/8/2/6/8267e933205c7df72fe0f51938f7c776bce8be80.png" class="latexcenter" alt="\[6\times \dfrac{170}{3}+50+200\times 2=\boxed{790}.\]" width="249" height="37" />
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -439,7 +429,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714172154
 Cache expiry: 86400
@@ -469,7 +459,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Geometry_Problems" title="Category:Introductory Geometry Problems">Introductory Geometry Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1991_AIME_Problems/Problem_14" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,21 +393,21 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1991 AIME Problems/Problem 14</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>A <a href="/wiki/index.php/Hexagon" title="Hexagon">hexagon</a> is inscribed in a <a href="/wiki/index.php/Circle" title="Circle">circle</a>. Five of the sides have length <img src="//latex.artofproblemsolving.com/8/7/e/87edbdda753b32453027dc7cab023c0743b6b243.png" class="latex" alt="$81$" style="vertical-align: 0px" width="17" height="13" /> and the sixth, denoted by <img src="//latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" width="28" height="15" />, has length <img src="//latex.artofproblemsolving.com/2/9/6/296fac336caaa4265aa24b6ecbc408a348ad7e0b.png" class="latex" alt="$31$" style="vertical-align: 0px" width="17" height="13" />. Find the sum of the lengths of the three diagonals that can be drawn from <img src="//latex.artofproblemsolving.com/e/b/3/eb354b27503aba806bbbaab7f892990f5a3a6547.png" class="latex" alt="$A_{}^{}$" width="13" height="13" />.
+<p>A <a href="/wiki/index.php/Hexagon" title="Hexagon">hexagon</a> is inscribed in a <a href="/wiki/index.php/Circle" title="Circle">circle</a>. Five of the sides have length <img src="https://latex.artofproblemsolving.com/8/7/e/87edbdda753b32453027dc7cab023c0743b6b243.png" class="latex" alt="$81$" style="vertical-align: 0px" width="17" height="13" /> and the sixth, denoted by <img src="https://latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" width="28" height="15" />, has length <img src="https://latex.artofproblemsolving.com/2/9/6/296fac336caaa4265aa24b6ecbc408a348ad7e0b.png" class="latex" alt="$31$" style="vertical-align: 0px" width="17" height="13" />. Find the sum of the lengths of the three diagonals that can be drawn from <img src="https://latex.artofproblemsolving.com/e/b/3/eb354b27503aba806bbbaab7f892990f5a3a6547.png" class="latex" alt="$A_{}^{}$" width="13" height="13" />.
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<center><img src="//latex.artofproblemsolving.com/a/5/b/a5b56caddf0c74876a022cbb3946a4eda30b38d0.png" class="latexcenter" alt="[asy]defaultpen(fontsize(9)); pair A=expi(-pi/2-acos(475/486)), B=expi(-pi/2+acos(475/486)), C=expi(-pi/2+acos(475/486)+acos(7/18)), D=expi(-pi/2+acos(475/486)+2*acos(7/18)), E=expi(-pi/2+acos(475/486)+3*acos(7/18)), F=expi(-pi/2-acos(475/486)-acos(7/18)); draw(unitcircle);draw(A--B--C--D--E--F--A);draw(A--C..A--D..A--E); dot(A^^B^^C^^D^^E^^F); label(&quot;\(A\)&quot;,A,(-1,-1));label(&quot;\(B\)&quot;,B,(1,-1));label(&quot;\(C\)&quot;,C,(1,0)); label(&quot;\(D\)&quot;,D,(1,1));label(&quot;\(E\)&quot;,E,(-1,1));label(&quot;\(F\)&quot;,F,(-1,0)); label(&quot;31&quot;,A/2+B/2,(0.7,1));label(&quot;81&quot;,B/2+C/2,(0.45,-0.2)); label(&quot;81&quot;,C/2+D/2,(-1,-1));label(&quot;81&quot;,D/2+E/2,(0,-1)); label(&quot;81&quot;,E/2+F/2,(1,-1));label(&quot;81&quot;,F/2+A/2,(1,1)); label(&quot;\(x\)&quot;,A/2+C/2,(-1,1));label(&quot;\(y\)&quot;,A/2+D/2,(1,-1.5)); label(&quot;\(z\)&quot;,A/2+E/2,(1,0)); [/asy]" width="668" height="652" /></center>
-<p>Let <img src="//latex.artofproblemsolving.com/d/9/7/d97ee4403b1e24148f1b28ae2be083baf5f4cf61.png" class="latex" alt="$x=AC=BF$" width="115" height="13" />, <img src="//latex.artofproblemsolving.com/0/3/c/03c43515af1c087753b00fe8825613de1565746c.png" class="latex" alt="$y=AD=BE$" style="vertical-align: -3px" width="116" height="16" />, and <img src="//latex.artofproblemsolving.com/f/c/a/fca2853ca123ac6e07622298b605ae28f58fbce7.png" class="latex" alt="$z=AE=BD$" width="115" height="13" />.
-</p><p><a href="/wiki/index.php/Ptolemy%27s_Theorem" title="Ptolemy&#39;s Theorem">Ptolemy's Theorem</a> on <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> gives <img src="//latex.artofproblemsolving.com/c/6/0/c601905f9d4fab39286a0df05459bcc6166bc5fa.png" class="latex" alt="$81y+31\cdot 81=xz$" style="vertical-align: -3px" width="142" height="16" />, and Ptolemy on <img src="//latex.artofproblemsolving.com/1/e/c/1ec73595b50fcaac44649121d9a0f4eb8bfb4871.png" class="latex" alt="$ACDF$" width="57" height="13" /> gives <img src="//latex.artofproblemsolving.com/4/9/f/49f960b057d88666377f28d9b5906b16aaf6f0c7.png" class="latex" alt="$x\cdot z+81^2=y^2$" style="vertical-align: -3px" width="120" height="18" />.
-Subtracting these equations give <img src="//latex.artofproblemsolving.com/c/a/8/ca84ad5fd657f18b75f4120ee73dc3214b95c68f.png" class="latex" alt="$y^2-81y-112\cdot 81=0$" style="vertical-align: -3px" width="180" height="18" />, and from this <img src="//latex.artofproblemsolving.com/e/4/6/e46c7ce6d340afa2ec21fc93774f47ac9e506867.png" class="latex" alt="$y=144$" style="vertical-align: -3px" width="61" height="15" />. Ptolemy on <img src="//latex.artofproblemsolving.com/d/a/d/dad61e2885c538a9eedc7969b6639097f2e8e292.png" class="latex" alt="$ADEF$" width="57" height="13" /> gives <img src="//latex.artofproblemsolving.com/5/e/a/5ea6c8a6aa9a2439e643a801e27480f45a7193a4.png" class="latex" alt="$81y+81^2=z^2$" style="vertical-align: -3px" width="115" height="18" />, and from this <img src="//latex.artofproblemsolving.com/7/4/4/744e56bd6dd51a18e776e8ce0492fae0f95d6a78.png" class="latex" alt="$z=135$" style="vertical-align: 0px" width="60" height="13" />. Finally, plugging back into the first equation gives <img src="//latex.artofproblemsolving.com/0/f/6/0f65a6a2ea1526068ba5abba5114d38c3034d3b8.png" class="latex" alt="$x=105$" style="vertical-align: 0px" width="61" height="13" />, so <img src="//latex.artofproblemsolving.com/7/3/5/7352f84b8b697f094907bdd82b12e39cc66dc1a9.png" class="latex" alt="$x+y+z=105+144+135=\boxed{384}$" style="vertical-align: -5px" width="287" height="23" />.
+<center><img src="https://latex.artofproblemsolving.com/a/5/b/a5b56caddf0c74876a022cbb3946a4eda30b38d0.png" class="latexcenter" alt="[asy]defaultpen(fontsize(9)); pair A=expi(-pi/2-acos(475/486)), B=expi(-pi/2+acos(475/486)), C=expi(-pi/2+acos(475/486)+acos(7/18)), D=expi(-pi/2+acos(475/486)+2*acos(7/18)), E=expi(-pi/2+acos(475/486)+3*acos(7/18)), F=expi(-pi/2-acos(475/486)-acos(7/18)); draw(unitcircle);draw(A--B--C--D--E--F--A);draw(A--C..A--D..A--E); dot(A^^B^^C^^D^^E^^F); label(&quot;\(A\)&quot;,A,(-1,-1));label(&quot;\(B\)&quot;,B,(1,-1));label(&quot;\(C\)&quot;,C,(1,0)); label(&quot;\(D\)&quot;,D,(1,1));label(&quot;\(E\)&quot;,E,(-1,1));label(&quot;\(F\)&quot;,F,(-1,0)); label(&quot;31&quot;,A/2+B/2,(0.7,1));label(&quot;81&quot;,B/2+C/2,(0.45,-0.2)); label(&quot;81&quot;,C/2+D/2,(-1,-1));label(&quot;81&quot;,D/2+E/2,(0,-1)); label(&quot;81&quot;,E/2+F/2,(1,-1));label(&quot;81&quot;,F/2+A/2,(1,1)); label(&quot;\(x\)&quot;,A/2+C/2,(-1,1));label(&quot;\(y\)&quot;,A/2+D/2,(1,-1.5)); label(&quot;\(z\)&quot;,A/2+E/2,(1,0)); [/asy]" width="668" height="652" /></center>
+<p>Let <img src="https://latex.artofproblemsolving.com/d/9/7/d97ee4403b1e24148f1b28ae2be083baf5f4cf61.png" class="latex" alt="$x=AC=BF$" width="115" height="13" />, <img src="https://latex.artofproblemsolving.com/0/3/c/03c43515af1c087753b00fe8825613de1565746c.png" class="latex" alt="$y=AD=BE$" style="vertical-align: -3px" width="116" height="16" />, and <img src="https://latex.artofproblemsolving.com/f/c/a/fca2853ca123ac6e07622298b605ae28f58fbce7.png" class="latex" alt="$z=AE=BD$" width="115" height="13" />.
+</p><p><a href="/wiki/index.php/Ptolemy%27s_Theorem" title="Ptolemy&#39;s Theorem">Ptolemy's Theorem</a> on <img src="https://latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> gives <img src="https://latex.artofproblemsolving.com/c/6/0/c601905f9d4fab39286a0df05459bcc6166bc5fa.png" class="latex" alt="$81y+31\cdot 81=xz$" style="vertical-align: -3px" width="142" height="16" />, and Ptolemy on <img src="https://latex.artofproblemsolving.com/1/e/c/1ec73595b50fcaac44649121d9a0f4eb8bfb4871.png" class="latex" alt="$ACDF$" width="57" height="13" /> gives <img src="https://latex.artofproblemsolving.com/4/9/f/49f960b057d88666377f28d9b5906b16aaf6f0c7.png" class="latex" alt="$x\cdot z+81^2=y^2$" style="vertical-align: -3px" width="120" height="18" />.
+Subtracting these equations give <img src="https://latex.artofproblemsolving.com/c/a/8/ca84ad5fd657f18b75f4120ee73dc3214b95c68f.png" class="latex" alt="$y^2-81y-112\cdot 81=0$" style="vertical-align: -3px" width="180" height="18" />, and from this <img src="https://latex.artofproblemsolving.com/e/4/6/e46c7ce6d340afa2ec21fc93774f47ac9e506867.png" class="latex" alt="$y=144$" style="vertical-align: -3px" width="61" height="15" />. Ptolemy on <img src="https://latex.artofproblemsolving.com/d/a/d/dad61e2885c538a9eedc7969b6639097f2e8e292.png" class="latex" alt="$ADEF$" width="57" height="13" /> gives <img src="https://latex.artofproblemsolving.com/5/e/a/5ea6c8a6aa9a2439e643a801e27480f45a7193a4.png" class="latex" alt="$81y+81^2=z^2$" style="vertical-align: -3px" width="115" height="18" />, and from this <img src="https://latex.artofproblemsolving.com/7/4/4/744e56bd6dd51a18e776e8ce0492fae0f95d6a78.png" class="latex" alt="$z=135$" style="vertical-align: 0px" width="60" height="13" />. Finally, plugging back into the first equation gives <img src="https://latex.artofproblemsolving.com/0/f/6/0f65a6a2ea1526068ba5abba5114d38c3034d3b8.png" class="latex" alt="$x=105$" style="vertical-align: 0px" width="61" height="13" />, so <img src="https://latex.artofproblemsolving.com/7/3/5/7352f84b8b697f094907bdd82b12e39cc66dc1a9.png" class="latex" alt="$x+y+z=105+144+135=\boxed{384}$" style="vertical-align: -5px" width="287" height="23" />.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -439,7 +429,7 @@ Subtracting these equations give <img src="//latex.artofproblemsolving.com/c/a/8
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715102049
 Cache expiry: 86400
@@ -469,7 +459,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Geometry_Problems" title="Category:Intermediate Geometry Problems">Intermediate Geometry Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

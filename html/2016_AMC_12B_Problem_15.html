@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2016_AMC_12B_Problems/Problem_15" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2016 AMC 12B Problems/Problem 15</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -421,25 +411,25 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>All the numbers <img src="//latex.artofproblemsolving.com/3/8/0/380264eeecdaa2e001ecc6a81415cefc2aff6a31.png" class="latex" alt="$2, 3, 4, 5, 6, 7$" style="vertical-align: -3px" width="95" height="16" /> are assigned to the six faces of a cube, one number to each face. For each of the eight vertices of the cube, a product of three numbers is computed, where the three numbers are the numbers assigned to the three faces that include that vertex. What is the greatest possible value of the sum of these eight products?
-</p><p><img src="//latex.artofproblemsolving.com/5/6/e/56e0b40f41a69edf0717127cf181c173cd4d27d0.png" class="latex" alt="$\textbf{(A)}\ 312 \qquad \textbf{(B)}\ 343 \qquad \textbf{(C)}\ 625 \qquad \textbf{(D)}\ 729 \qquad \textbf{(E)}\ 1680$" style="vertical-align: -4px" width="448" height="17" />
+<p>All the numbers <img src="https://latex.artofproblemsolving.com/3/8/0/380264eeecdaa2e001ecc6a81415cefc2aff6a31.png" class="latex" alt="$2, 3, 4, 5, 6, 7$" style="vertical-align: -3px" width="95" height="16" /> are assigned to the six faces of a cube, one number to each face. For each of the eight vertices of the cube, a product of three numbers is computed, where the three numbers are the numbers assigned to the three faces that include that vertex. What is the greatest possible value of the sum of these eight products?
+</p><p><img src="https://latex.artofproblemsolving.com/5/6/e/56e0b40f41a69edf0717127cf181c173cd4d27d0.png" class="latex" alt="$\textbf{(A)}\ 312 \qquad \textbf{(B)}\ 343 \qquad \textbf{(C)}\ 625 \qquad \textbf{(D)}\ 729 \qquad \textbf{(E)}\ 1680$" style="vertical-align: -4px" width="448" height="17" />
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p>First assign each face the letters <img src="//latex.artofproblemsolving.com/6/7/f/67f089fdbe6e5066ae93dfdec4438bc1bba0ff82.png" class="latex" alt="$a,b,c,d,e,f$" style="vertical-align: -3px" width="94" height="16" />. The sum of the product of the faces is <img src="//latex.artofproblemsolving.com/f/0/9/f0964c8657b987e4f96a87dc1916a7edb0a3bbf7.png" class="latex" alt="$abc+acd+ade+aeb+fbc+fcd+fde+feb$" style="vertical-align: -3px" width="372" height="16" />. We can factor this into <img src="//latex.artofproblemsolving.com/a/d/c/adcd1ac78aad6ccfc44d8780eebd7a08efc2a448.png" class="latex" alt="$(a+f)(b+c)(d+e)$" style="vertical-align: -4px" width="161" height="18" /> which is the product of the sum of each pair of opposite faces. In order to maximize <img src="//latex.artofproblemsolving.com/a/d/c/adcd1ac78aad6ccfc44d8780eebd7a08efc2a448.png" class="latex" alt="$(a+f)(b+c)(d+e)$" style="vertical-align: -4px" width="161" height="18" />  we use the numbers <img src="//latex.artofproblemsolving.com/8/d/5/8d5f71f00958fa926347c125680e8e86305606c6.png" class="latex" alt="$(7+2)(6+3)(5+4)$" style="vertical-align: -4px" width="162" height="18" /> or <img src="//latex.artofproblemsolving.com/c/e/d/cedece32bb60cb67e63e24c637b5221a124745a6.png" class="latex" alt="$\boxed{\textbf{(D)}\ 729 }$" style="vertical-align: -10px" width="74" height="28" />.
+<p>First assign each face the letters <img src="https://latex.artofproblemsolving.com/6/7/f/67f089fdbe6e5066ae93dfdec4438bc1bba0ff82.png" class="latex" alt="$a,b,c,d,e,f$" style="vertical-align: -3px" width="94" height="16" />. The sum of the product of the faces is <img src="https://latex.artofproblemsolving.com/f/0/9/f0964c8657b987e4f96a87dc1916a7edb0a3bbf7.png" class="latex" alt="$abc+acd+ade+aeb+fbc+fcd+fde+feb$" style="vertical-align: -3px" width="372" height="16" />. We can factor this into <img src="https://latex.artofproblemsolving.com/a/d/c/adcd1ac78aad6ccfc44d8780eebd7a08efc2a448.png" class="latex" alt="$(a+f)(b+c)(d+e)$" style="vertical-align: -4px" width="161" height="18" /> which is the product of the sum of each pair of opposite faces. In order to maximize <img src="https://latex.artofproblemsolving.com/a/d/c/adcd1ac78aad6ccfc44d8780eebd7a08efc2a448.png" class="latex" alt="$(a+f)(b+c)(d+e)$" style="vertical-align: -4px" width="161" height="18" />  we use the numbers <img src="https://latex.artofproblemsolving.com/8/d/5/8d5f71f00958fa926347c125680e8e86305606c6.png" class="latex" alt="$(7+2)(6+3)(5+4)$" style="vertical-align: -4px" width="162" height="18" /> or <img src="https://latex.artofproblemsolving.com/c/e/d/cedece32bb60cb67e63e24c637b5221a124745a6.png" class="latex" alt="$\boxed{\textbf{(D)}\ 729 }$" style="vertical-align: -10px" width="74" height="28" />.
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
 <p>We proceed from the factorization in the above solution. By the AM-GM inequality,
-</p><p><img src="//latex.artofproblemsolving.com/a/a/6/aa67eef8049086302c27d7648d8e0d17e704e7dd.png" class="latexcenter" alt="\[\frac{a_1+a_2+a_3}{3}\geq\sqrt[3]{a_1a_2a_3}\]" width="189" height="35" />
+</p><p><img src="https://latex.artofproblemsolving.com/a/a/6/aa67eef8049086302c27d7648d8e0d17e704e7dd.png" class="latexcenter" alt="\[\frac{a_1+a_2+a_3}{3}\geq\sqrt[3]{a_1a_2a_3}\]" width="189" height="35" />
 </p><p>Cubing both sides,
-</p><p><img src="//latex.artofproblemsolving.com/2/3/3/233c106eb78fd6060382033db69c868915a0e2ac.png" class="latexcenter" alt="\[\left(\frac{a_1+a_2+a_3}{3}\right)^3\geq{a_1a_2a_3}\]" width="203" height="46" />
-</p><p>Let <img src="//latex.artofproblemsolving.com/e/8/f/e8ff7ae5b392c1403f2bd600bb711810adbb8802.png" class="latex" alt="$a_1=(a+f)$" style="vertical-align: -4px" width="96" height="18" />, <img src="//latex.artofproblemsolving.com/9/2/7/927fdd8169cdfc9fff64bf0147a3dfacc9088502.png" class="latex" alt="$a_2=(b+c)$" style="vertical-align: -4px" width="92" height="18" />, and <img src="//latex.artofproblemsolving.com/9/3/e/93eabba6a5324e9f04a5809ad1a44684ec3816f2.png" class="latex" alt="$a_3=(d+e)$" style="vertical-align: -4px" width="94" height="18" />. Let's substitute in these values.
-</p><p><img src="//latex.artofproblemsolving.com/0/6/d/06d6e468f555fb1ee6e69b3607de98a90f68cee5.png" class="latexcenter" alt="\[\left(\frac{a+b+c+d+e+f}{3}\right)^3\geq{(a+f)(b+c)(d+e)}\]" width="385" height="46" />
-</p><p><img src="//latex.artofproblemsolving.com/f/e/b/feba0c1185391cc2b2dd3198865794e4f3c764ce.png" class="latex" alt="$a+b+c+d+e+f$" style="vertical-align: -3px" width="165" height="16" /> is fixed at 27.
-</p><p><img src="//latex.artofproblemsolving.com/4/2/e/42e6a5120a4a3947aa06a9123846cb6a117c1564.png" class="latexcenter" alt="\[\left(\frac{27}{3}\right)^3\geq{(a+f)(b+c)(d+e)}\]" width="238" height="46" />
-</p><p><img src="//latex.artofproblemsolving.com/2/8/3/283da114e616eca58fa458e4073c4b6772997789.png" class="latexcenter" alt="\[\boxed{\textbf{(D)}\ 729 }\geq{(a+f)(b+c)(d+e)}\]" width="259" height="28" />
+</p><p><img src="https://latex.artofproblemsolving.com/2/3/3/233c106eb78fd6060382033db69c868915a0e2ac.png" class="latexcenter" alt="\[\left(\frac{a_1+a_2+a_3}{3}\right)^3\geq{a_1a_2a_3}\]" width="203" height="46" />
+</p><p>Let <img src="https://latex.artofproblemsolving.com/e/8/f/e8ff7ae5b392c1403f2bd600bb711810adbb8802.png" class="latex" alt="$a_1=(a+f)$" style="vertical-align: -4px" width="96" height="18" />, <img src="https://latex.artofproblemsolving.com/9/2/7/927fdd8169cdfc9fff64bf0147a3dfacc9088502.png" class="latex" alt="$a_2=(b+c)$" style="vertical-align: -4px" width="92" height="18" />, and <img src="https://latex.artofproblemsolving.com/9/3/e/93eabba6a5324e9f04a5809ad1a44684ec3816f2.png" class="latex" alt="$a_3=(d+e)$" style="vertical-align: -4px" width="94" height="18" />. Let's substitute in these values.
+</p><p><img src="https://latex.artofproblemsolving.com/0/6/d/06d6e468f555fb1ee6e69b3607de98a90f68cee5.png" class="latexcenter" alt="\[\left(\frac{a+b+c+d+e+f}{3}\right)^3\geq{(a+f)(b+c)(d+e)}\]" width="385" height="46" />
+</p><p><img src="https://latex.artofproblemsolving.com/f/e/b/feba0c1185391cc2b2dd3198865794e4f3c764ce.png" class="latex" alt="$a+b+c+d+e+f$" style="vertical-align: -3px" width="165" height="16" /> is fixed at 27.
+</p><p><img src="https://latex.artofproblemsolving.com/4/2/e/42e6a5120a4a3947aa06a9123846cb6a117c1564.png" class="latexcenter" alt="\[\left(\frac{27}{3}\right)^3\geq{(a+f)(b+c)(d+e)}\]" width="238" height="46" />
+</p><p><img src="https://latex.artofproblemsolving.com/2/8/3/283da114e616eca58fa458e4073c4b6772997789.png" class="latexcenter" alt="\[\boxed{\textbf{(D)}\ 729 }\geq{(a+f)(b+c)(d+e)}\]" width="259" height="28" />
 </p>
 <h2><span id="Solution_3_(really_fast)"></span><span class="mw-headline" id="Solution_3_.28really_fast.29">Solution 3 (really fast)</span></h2>
-<p>First, we see that we want to try and maximize each vertex. Since the multiplication of each vertex is the product of three values, we want to maximize those three values. Doing so, we see that we want them to be as close as possible, giving <img src="//latex.artofproblemsolving.com/6/c/4/6c49a5f46c513fac13dd271a7c14790547992572.png" class="latex" alt="$4.5^3$" style="vertical-align: 0px" width="29" height="15" /> (the average of all the values). This gives us the maximum for each vertex, multiplied by the 8 vertices, yields our answer <img src="//latex.artofproblemsolving.com/c/e/d/cedece32bb60cb67e63e24c637b5221a124745a6.png" class="latex" alt="$\boxed{\textbf{(D)}\ 729 }$" style="vertical-align: -10px" width="74" height="28" /> Also note that if you cannot evaluate <img src="//latex.artofproblemsolving.com/6/c/4/6c49a5f46c513fac13dd271a7c14790547992572.png" class="latex" alt="$4.5^3$" style="vertical-align: 0px" width="29" height="15" /> quickly, a rough approximation of <img src="//latex.artofproblemsolving.com/0/4/7/047ab1a3193bc17c396ca17fc78a4b85cf709329.png" class="latex" alt="$5*4.5*4*8$" style="vertical-align: 0px" width="101" height="13" /> will yield 720, very close to our answer. -rayprati
+<p>First, we see that we want to try and maximize each vertex. Since the multiplication of each vertex is the product of three values, we want to maximize those three values. Doing so, we see that we want them to be as close as possible, giving <img src="https://latex.artofproblemsolving.com/6/c/4/6c49a5f46c513fac13dd271a7c14790547992572.png" class="latex" alt="$4.5^3$" style="vertical-align: 0px" width="29" height="15" /> (the average of all the values). This gives us the maximum for each vertex, multiplied by the 8 vertices, yields our answer <img src="https://latex.artofproblemsolving.com/c/e/d/cedece32bb60cb67e63e24c637b5221a124745a6.png" class="latex" alt="$\boxed{\textbf{(D)}\ 729 }$" style="vertical-align: -10px" width="74" height="28" /> Also note that if you cannot evaluate <img src="https://latex.artofproblemsolving.com/6/c/4/6c49a5f46c513fac13dd271a7c14790547992572.png" class="latex" alt="$4.5^3$" style="vertical-align: 0px" width="29" height="15" /> quickly, a rough approximation of <img src="https://latex.artofproblemsolving.com/0/4/7/047ab1a3193bc17c396ca17fc78a4b85cf709329.png" class="latex" alt="$5*4.5*4*8$" style="vertical-align: 0px" width="101" height="13" /> will yield 720, very close to our answer. -rayprati
 </p>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -461,7 +451,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715104235
 Cache expiry: 86400
@@ -491,7 +481,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>

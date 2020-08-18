@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2019_AMC_10A_Problems/Problem_8" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,30 +393,30 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2019 AMC 10A Problems/Problem 8</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><dl><dd><i>The following problem is from both the <a href="/wiki/index.php/2019_AMC_10A_Problems" title="2019 AMC 10A Problems">2019 AMC 10A #8</a> and <a href="/wiki/index.php/2019_AMC_12A_Problems" title="2019 AMC 12A Problems">2019 AMC 12A #6</a>, so both problems redirect to this page.</i></dd></dl>
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>The figure below shows line <img src="//latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /> with a regular, infinite, recurring pattern of squares and line segments.
-</p><p><img src="//latex.artofproblemsolving.com/a/2/f/a2f165e74d6ddc1b021c8af4c74374a1a78d2815.png" class="latexcenter" alt="[asy] size(300); defaultpen(linewidth(0.8)); real r = 0.35; path P = (0,0)--(0,1)--(1,1)--(1,0), Q = (1,1)--(1+r,1+r); path Pp = (0,0)--(0,-1)--(1,-1)--(1,0), Qp = (-1,-1)--(-1-r,-1-r); for(int i=0;i &lt;= 4;i=i+1) { draw(shift((4*i,0)) * P); draw(shift((4*i,0)) * Q); } for(int i=1;i &lt;= 4;i=i+1) { draw(shift((4*i-2,0)) * Pp); draw(shift((4*i-1,0)) * Qp); } draw((-1,0)--(18.5,0),Arrows(TeXHead)); [/asy]" width="502" height="72" />
+<p>The figure below shows line <img src="https://latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /> with a regular, infinite, recurring pattern of squares and line segments.
+</p><p><img src="https://latex.artofproblemsolving.com/a/2/f/a2f165e74d6ddc1b021c8af4c74374a1a78d2815.png" class="latexcenter" alt="[asy] size(300); defaultpen(linewidth(0.8)); real r = 0.35; path P = (0,0)--(0,1)--(1,1)--(1,0), Q = (1,1)--(1+r,1+r); path Pp = (0,0)--(0,-1)--(1,-1)--(1,0), Qp = (-1,-1)--(-1-r,-1-r); for(int i=0;i &lt;= 4;i=i+1) { draw(shift((4*i,0)) * P); draw(shift((4*i,0)) * Q); } for(int i=1;i &lt;= 4;i=i+1) { draw(shift((4*i-2,0)) * Pp); draw(shift((4*i-1,0)) * Qp); } draw((-1,0)--(18.5,0),Arrows(TeXHead)); [/asy]" width="502" height="72" />
 How many of the following four kinds of rigid motion transformations of the plane in which this figure is drawn, other than the identity transformation, will transform this figure into itself?
 </p>
-<ul><li>some rotation around a point of line <img src="//latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li>
-<li>some translation in the direction parallel to line <img src="//latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li>
-<li>the reflection across line <img src="//latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li>
-<li>some reflection across a line perpendicular to line <img src="//latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li></ul>
-<p><img src="//latex.artofproblemsolving.com/7/9/0/790fd2f1643b47466e5d327bc932fe70d7503210.png" class="latex" alt="$\textbf{(A) } 0 \qquad\textbf{(B) } 1 \qquad\textbf{(C) } 2 \qquad\textbf{(D) } 3 \qquad\textbf{(E) } 4$" style="vertical-align: -4px" width="353" height="17" />
+<ul><li>some rotation around a point of line <img src="https://latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li>
+<li>some translation in the direction parallel to line <img src="https://latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li>
+<li>the reflection across line <img src="https://latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li>
+<li>some reflection across a line perpendicular to line <img src="https://latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /></li></ul>
+<p><img src="https://latex.artofproblemsolving.com/7/9/0/790fd2f1643b47466e5d327bc932fe70d7503210.png" class="latex" alt="$\textbf{(A) } 0 \qquad\textbf{(B) } 1 \qquad\textbf{(C) } 2 \qquad\textbf{(D) } 3 \qquad\textbf{(E) } 4$" style="vertical-align: -4px" width="353" height="17" />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>Statement <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> is true. A <img src="//latex.artofproblemsolving.com/3/f/0/3f0cd95f95238159d02dbcea0aca632c2928991c.png" class="latex" alt="$180^{\circ}$" style="vertical-align: 0px" width="33" height="13" /> rotation about the point half way between an up-facing square and a down-facing square will yield the same figure. 
-</p><p>Statement <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> is also true. A translation to the left or right will place the image onto itself when the figures above and below the line realign (the figure goes on infinitely in both directions). 
-</p><p>Statement <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> is false. A reflection across line <img src="//latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /> will change the up-facing squares to down-facing squares and vice versa. 
-</p><p>Finally, statement <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> is also false because it will cause the diagonal lines extending from the squares to switch direction. Thus, only <img src="//latex.artofproblemsolving.com/e/5/b/e5bf7a57b8078db7463f652c1cb9f5705c7314a2.png" class="latex" alt="$\fbox {\textbf{(C)}  2 }$" style="vertical-align: -10px" width="59" height="28" /> statements are true.
+<p>Statement <img src="https://latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: 0px" width="8" height="12" /> is true. A <img src="https://latex.artofproblemsolving.com/3/f/0/3f0cd95f95238159d02dbcea0aca632c2928991c.png" class="latex" alt="$180^{\circ}$" style="vertical-align: 0px" width="33" height="13" /> rotation about the point half way between an up-facing square and a down-facing square will yield the same figure.
+</p><p>Statement <img src="https://latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> is also true. A translation to the left or right will place the image onto itself when the figures above and below the line realign (the figure goes on infinitely in both directions).
+</p><p>Statement <img src="https://latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> is false. A reflection across line <img src="https://latex.artofproblemsolving.com/6/3/c/63c17c295325f731666c7d74952b563a01e00fcc.png" class="latex" alt="$\ell$" style="vertical-align: 0px" width="7" height="13" /> will change the up-facing squares to down-facing squares and vice versa.
+</p><p>Finally, statement <img src="https://latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> is also false because it will cause the diagonal lines extending from the squares to switch direction. Thus, only <img src="https://latex.artofproblemsolving.com/e/5/b/e5bf7a57b8078db7463f652c1cb9f5705c7314a2.png" class="latex" alt="$\fbox {\textbf{(C)}  2 }$" style="vertical-align: -10px" width="59" height="28" /> statements are true.
 </p>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -463,7 +453,7 @@ How many of the following four kinds of rigid motion transformations of the plan
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714184440
 Cache expiry: 86400
@@ -495,7 +485,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>

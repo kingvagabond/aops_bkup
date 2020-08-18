@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1988_AIME_Problems/Problem_15" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,23 +393,23 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1988 AIME Problems/Problem 15</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>In an office at various times during the day, the boss gives the secretary a letter to type, each time putting the letter on top of the pile in the secretary's in-box. When there is time, the secretary takes the top letter off the pile and types it. There are nine letters to be typed during the day, and the boss delivers them in the order <img src="//latex.artofproblemsolving.com/1/f/6/1f6e1ebffbc1cb0eec51440bbe0ddd5c03ba6b5c.png" class="latex" alt="$1, 2, 3, 4, 5, 6, 7, 8, 9$" style="vertical-align: -3px" width="146" height="16" />.
-</p><p>While leaving for lunch, the secretary tells a colleague that letter <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> has already been typed, but says nothing else about the morning's typing. The colleague wonders which of the nine letters remain to be typed after lunch and in what order they will be typed. Based upon the above information, how many such after-lunch typing orders are possible? (That there are no letters left to be typed is one of the possibilities.)
+<p>In an office at various times during the day, the boss gives the secretary a letter to type, each time putting the letter on top of the pile in the secretary's in-box. When there is time, the secretary takes the top letter off the pile and types it. There are nine letters to be typed during the day, and the boss delivers them in the order <img src="https://latex.artofproblemsolving.com/1/f/6/1f6e1ebffbc1cb0eec51440bbe0ddd5c03ba6b5c.png" class="latex" alt="$1, 2, 3, 4, 5, 6, 7, 8, 9$" style="vertical-align: -3px" width="146" height="16" />.
+</p><p>While leaving for lunch, the secretary tells a colleague that letter <img src="https://latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> has already been typed, but says nothing else about the morning's typing. The colleague wonders which of the nine letters remain to be typed after lunch and in what order they will be typed. Based upon the above information, how many such after-lunch typing orders are possible? (That there are no letters left to be typed is one of the possibilities.)
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>Re-stating the problem for clarity, let <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> be a <a href="/wiki/index.php/Set" title="Set">set</a> arranged in increasing order. At any time an element can be appended to the end of <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" />, or the last element of <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> can be removed. The question asks for the number of different orders in which the all of the remaining elements of <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> can be removed, given that <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> had been removed already.  
+<p>Re-stating the problem for clarity, let <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> be a <a href="/wiki/index.php/Set" title="Set">set</a> arranged in increasing order. At any time an element can be appended to the end of <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" />, or the last element of <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> can be removed. The question asks for the number of different orders in which the all of the remaining elements of <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> can be removed, given that <img src="https://latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> had been removed already.
 </p>
 <hr />
-<p>Since <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> had already been added to the pile, the numbers <img src="//latex.artofproblemsolving.com/f/2/f/f2fa0289a82c22a22dcf5354a3d8d1cd4375fc69.png" class="latex" alt="$1 \ldots 7$" style="vertical-align: 0px" width="45" height="12" /> had already been added at some time to the pile; <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> might or might not have been added yet. So currently <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> is a subset of <img src="//latex.artofproblemsolving.com/8/0/0/800e56dc0e1b215c83fd7abb1c3d770f747937b8.png" class="latex" alt="$\{1, 2, \ldots 7\}$" style="vertical-align: -4px" width="84" height="18" />, possibly with <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> at the end. Given that <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> has <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> elements, there are <img src="//latex.artofproblemsolving.com/f/0/5/f05f085f774fc8ab50676b778b86a1f1d1114fc8.png" class="latex" alt="$k+1$" style="vertical-align: -1px" width="40" height="14" /> intervals for <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> to be inserted, or <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> might have already been placed, giving <img src="//latex.artofproblemsolving.com/4/d/4/4d464921ad89b0c5fe3f1f302dfb61ebe050a150.png" class="latex" alt="$k+2$" style="vertical-align: -1px" width="41" height="14" /> different possibilities.
-</p><p>Thus, the answer is <img src="//latex.artofproblemsolving.com/c/d/d/cdd717ee2f9e9e30a045f60894b32e9beca953d8.png" class="latex" alt="$\sum_{k=0}^{7} {7 \choose k}(k+2)$" style="vertical-align: -22px" width="120" height="53" /> <img src="//latex.artofproblemsolving.com/1/a/b/1ab01a344e8b43ee3ce3c9b11b5428a0bc67256b.png" class="latex" alt="$= 1 \cdot 2 + 7 \cdot 3 + 21 \cdot 4 + 35 \cdot 5 + 35 \cdot 6 + 21 \cdot 7 + 7 \cdot 8 + 1 \cdot 9$" style="vertical-align: -1px" width="461" height="14" /> <img src="//latex.artofproblemsolving.com/1/7/a/17aa3af8ddf4e9c91833384747e94e1fe4487430.png" class="latex" alt="$= \boxed{704}$" style="vertical-align: -5px" width="58" height="23" />.
+<p>Since <img src="https://latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" width="8" height="12" /> had already been added to the pile, the numbers <img src="https://latex.artofproblemsolving.com/f/2/f/f2fa0289a82c22a22dcf5354a3d8d1cd4375fc69.png" class="latex" alt="$1 \ldots 7$" style="vertical-align: 0px" width="45" height="12" /> had already been added at some time to the pile; <img src="https://latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> might or might not have been added yet. So currently <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> is a subset of <img src="https://latex.artofproblemsolving.com/8/0/0/800e56dc0e1b215c83fd7abb1c3d770f747937b8.png" class="latex" alt="$\{1, 2, \ldots 7\}$" style="vertical-align: -4px" width="84" height="18" />, possibly with <img src="https://latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> at the end. Given that <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> has <img src="https://latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> elements, there are <img src="https://latex.artofproblemsolving.com/f/0/5/f05f085f774fc8ab50676b778b86a1f1d1114fc8.png" class="latex" alt="$k+1$" style="vertical-align: -1px" width="40" height="14" /> intervals for <img src="https://latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> to be inserted, or <img src="https://latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> might have already been placed, giving <img src="https://latex.artofproblemsolving.com/4/d/4/4d464921ad89b0c5fe3f1f302dfb61ebe050a150.png" class="latex" alt="$k+2$" style="vertical-align: -1px" width="41" height="14" /> different possibilities.
+</p><p>Thus, the answer is <img src="https://latex.artofproblemsolving.com/c/d/d/cdd717ee2f9e9e30a045f60894b32e9beca953d8.png" class="latex" alt="$\sum_{k=0}^{7} {7 \choose k}(k+2)$" style="vertical-align: -22px" width="120" height="53" /> <img src="https://latex.artofproblemsolving.com/1/a/b/1ab01a344e8b43ee3ce3c9b11b5428a0bc67256b.png" class="latex" alt="$= 1 \cdot 2 + 7 \cdot 3 + 21 \cdot 4 + 35 \cdot 5 + 35 \cdot 6 + 21 \cdot 7 + 7 \cdot 8 + 1 \cdot 9$" style="vertical-align: -1px" width="461" height="14" /> <img src="https://latex.artofproblemsolving.com/1/7/a/17aa3af8ddf4e9c91833384747e94e1fe4487430.png" class="latex" alt="$= \boxed{704}$" style="vertical-align: -5px" width="58" height="23" />.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -441,7 +431,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715102442
 Cache expiry: 86400
@@ -471,7 +461,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

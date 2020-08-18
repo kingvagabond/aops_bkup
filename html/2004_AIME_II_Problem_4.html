@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2004_AIME_II_Problems/Problem_4" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,22 +393,22 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2004 AIME II Problems/Problem 4</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
 <p>How many <a href="/wiki/index.php/Positive_integer" title="Positive integer">positive integers</a> less than 10,000 have at most two different <a href="/wiki/index.php/Digit" title="Digit">digits</a>?
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
 <p>First, let's count numbers with only a single digit.  We have nine of these for each length, and four lengths, so 36 total numbers.
 </p><p>Now, let's count those with two distinct digits.  We handle the cases "0 included" and "0 not included" separately.
-</p><p>There are <img src="//latex.artofproblemsolving.com/3/f/9/3f9d8d2df294a4057d606db907a382e1122bbe45.png" class="latex" alt="${9 \choose 2}$" style="vertical-align: -22px" width="33" height="53" /> ways to choose two digits, <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />.  Given two digits, there are <img src="//latex.artofproblemsolving.com/1/5/a/15af7cd3fbdd24e39a811dabd5d5b7f907405bc4.png" class="latex" alt="$2^n - 2$" width="49" height="12" /> ways to arrange them in an <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-digit number, for a total of <img src="//latex.artofproblemsolving.com/1/2/6/126db9469eb766dacab153fcafeead0470042c95.png" class="latex" alt="$(2^1 - 2) + (2^2 - 2) + (2^3 -2) + (2^4 - 2) = 22$" style="vertical-align: -4px" width="356" height="19" /> such numbers (or we can list them: <img src="//latex.artofproblemsolving.com/d/c/c/dcc08fb995ef9af62d16a155dabf2d3cd8a42ddf.png" class="latex" alt="$AB, BA, AAB, ABA, BAA, ABB, BAB, BBA, AAAB, AABA, ABAA,$" style="vertical-align: -3px" width="563" height="16" /> <img src="//latex.artofproblemsolving.com/a/f/3/af3fff88873ac35d383f1c84f5a51cc34c3b61e6.png" class="latex" alt="$BAAA, AABB, ABAB, BAAB, ABBA, BABA, BBAA, ABBB, BABB, BBAB, BBBA$" style="vertical-align: -3px" width="707" height="16" />).  Thus, we have <img src="//latex.artofproblemsolving.com/7/3/0/730cc543f8dde95f2361ee6c14e565ba407c0115.png" class="latex" alt="${9 \choose 2} \cdot 22 = 36\cdot22 = 792$" style="vertical-align: -22px" width="193" height="53" /> numbers of this form.
-</p><p>Now, suppose 0 is one of our digits.  We have nine choices for the other digit.  For each choice, we have <img src="//latex.artofproblemsolving.com/f/e/6/fe60efecd776caf09ba02b6dbef6e12231b20625.png" class="latex" alt="$2^{n - 1} - 1$" style="vertical-align: 0px" width="65" height="15" /> <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-digit numbers we can form, for a total of <img src="//latex.artofproblemsolving.com/9/e/0/9e025db14a01845ae4d99bffcc4a27c8f873c788.png" class="latex" alt="$(2^0 - 1) + (2^1 - 1) + (2^2 - 1) + (2^3 - 1) = 11$" style="vertical-align: -4px" width="356" height="19" /> such numbers (or we can list them: <img src="//latex.artofproblemsolving.com/e/a/5/ea55cef10d6549ea949c222535f5ae8c13654b43.png" class="latex" alt="$A0, A00, A0A, AA0, A000, AA00, A0A0, A00A, AAA0, AA0A, A0AA$" style="vertical-align: -3px" width="535" height="16" />).  This gives us <img src="//latex.artofproblemsolving.com/9/e/2/9e2b789bbe9c89a3410b6124017348e687ecdd77.png" class="latex" alt="$9\cdot 11 = 99$" style="vertical-align: 0px" width="82" height="13" /> numbers of this form.
-</p><p>Thus, in total, we have <img src="//latex.artofproblemsolving.com/4/8/6/486586feef81112b9aab933d9c7acd397fc49072.png" class="latex" alt="$36 + 792 + 99 = \boxed{927}$" style="vertical-align: -5px" width="171" height="23" /> such numbers.
+</p><p>There are <img src="https://latex.artofproblemsolving.com/3/f/9/3f9d8d2df294a4057d606db907a382e1122bbe45.png" class="latex" alt="${9 \choose 2}$" style="vertical-align: -22px" width="33" height="53" /> ways to choose two digits, <img src="https://latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> and <img src="https://latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />.  Given two digits, there are <img src="https://latex.artofproblemsolving.com/1/5/a/15af7cd3fbdd24e39a811dabd5d5b7f907405bc4.png" class="latex" alt="$2^n - 2$" width="49" height="12" /> ways to arrange them in an <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-digit number, for a total of <img src="https://latex.artofproblemsolving.com/1/2/6/126db9469eb766dacab153fcafeead0470042c95.png" class="latex" alt="$(2^1 - 2) + (2^2 - 2) + (2^3 -2) + (2^4 - 2) = 22$" style="vertical-align: -4px" width="356" height="19" /> such numbers (or we can list them: <img src="https://latex.artofproblemsolving.com/d/c/c/dcc08fb995ef9af62d16a155dabf2d3cd8a42ddf.png" class="latex" alt="$AB, BA, AAB, ABA, BAA, ABB, BAB, BBA, AAAB, AABA, ABAA,$" style="vertical-align: -3px" width="563" height="16" /> <img src="https://latex.artofproblemsolving.com/a/f/3/af3fff88873ac35d383f1c84f5a51cc34c3b61e6.png" class="latex" alt="$BAAA, AABB, ABAB, BAAB, ABBA, BABA, BBAA, ABBB, BABB, BBAB, BBBA$" style="vertical-align: -3px" width="707" height="16" />).  Thus, we have <img src="https://latex.artofproblemsolving.com/7/3/0/730cc543f8dde95f2361ee6c14e565ba407c0115.png" class="latex" alt="${9 \choose 2} \cdot 22 = 36\cdot22 = 792$" style="vertical-align: -22px" width="193" height="53" /> numbers of this form.
+</p><p>Now, suppose 0 is one of our digits.  We have nine choices for the other digit.  For each choice, we have <img src="https://latex.artofproblemsolving.com/f/e/6/fe60efecd776caf09ba02b6dbef6e12231b20625.png" class="latex" alt="$2^{n - 1} - 1$" style="vertical-align: 0px" width="65" height="15" /> <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />-digit numbers we can form, for a total of <img src="https://latex.artofproblemsolving.com/9/e/0/9e025db14a01845ae4d99bffcc4a27c8f873c788.png" class="latex" alt="$(2^0 - 1) + (2^1 - 1) + (2^2 - 1) + (2^3 - 1) = 11$" style="vertical-align: -4px" width="356" height="19" /> such numbers (or we can list them: <img src="https://latex.artofproblemsolving.com/e/a/5/ea55cef10d6549ea949c222535f5ae8c13654b43.png" class="latex" alt="$A0, A00, A0A, AA0, A000, AA00, A0A0, A00A, AAA0, AA0A, A0AA$" style="vertical-align: -3px" width="535" height="16" />).  This gives us <img src="https://latex.artofproblemsolving.com/9/e/2/9e2b789bbe9c89a3410b6124017348e687ecdd77.png" class="latex" alt="$9\cdot 11 = 99$" style="vertical-align: 0px" width="82" height="13" /> numbers of this form.
+</p><p>Thus, in total, we have <img src="https://latex.artofproblemsolving.com/4/8/6/486586feef81112b9aab933d9c7acd397fc49072.png" class="latex" alt="$36 + 792 + 99 = \boxed{927}$" style="vertical-align: -5px" width="171" height="23" /> such numbers.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -440,7 +430,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714180143
 Cache expiry: 86400
@@ -470,7 +460,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

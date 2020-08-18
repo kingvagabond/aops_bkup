@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1999_USAMO_Problems/Problem_1" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,31 +393,31 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1999 USAMO Problems/Problem 1</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>Some checkers placed on an <img src="//latex.artofproblemsolving.com/9/3/f/93f761f7fc79f2bec21a2f31c896840d6f36cdc0.png" class="latex" alt="$n\times n$" width="43" height="9" /> checkerboard satisfy the following conditions:
+<p>Some checkers placed on an <img src="https://latex.artofproblemsolving.com/9/3/f/93f761f7fc79f2bec21a2f31c896840d6f36cdc0.png" class="latex" alt="$n\times n$" width="43" height="9" /> checkerboard satisfy the following conditions:
 </p><p>(a) every square that does not contain a checker shares a side with one that does;
 </p><p>(b) given any pair of squares that contain checkers, there is a sequence of squares containing checkers, starting and ending with the given squares, such that every two consecutive squares of the sequence share a side.
-</p><p>Prove that at least <img src="//latex.artofproblemsolving.com/2/5/2/2523ea10ba4858e8a07ab371688be5853e35dc89.png" class="latex" alt="$(n^{2}-2)/3$" style="vertical-align: -4px" width="81" height="19" /> checkers have been placed on the board.
+</p><p>Prove that at least <img src="https://latex.artofproblemsolving.com/2/5/2/2523ea10ba4858e8a07ab371688be5853e35dc89.png" class="latex" alt="$(n^{2}-2)/3$" style="vertical-align: -4px" width="81" height="19" /> checkers have been placed on the board.
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>For the proof let's look at the checkers board as a graph <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />, where the checkers are the vertices and the edges are every pair of checkers sharing a side.
-</p><p>Define <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> as the circuit rank of <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />(the minimum number of edges to remove from a graph to remove all its cycles).
-</p><p>Define <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> as the number of checkers placed on the board.
-</p><p>1. From (a) for every square containing a checker there can be up to 4 distinct squares without checkers; thus, <img src="//latex.artofproblemsolving.com/f/7/5/f755248c85fd7d06bcece6e8288044d4f441484e.png" class="latex" alt="$4\times x + x = 5\times x \ge n^2$" style="vertical-align: -2px" width="181" height="17" /> (this is the most naive upper bound).
+<p>For the proof let's look at the checkers board as a graph <img src="https://latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />, where the checkers are the vertices and the edges are every pair of checkers sharing a side.
+</p><p>Define <img src="https://latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> as the circuit rank of <img src="https://latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />(the minimum number of edges to remove from a graph to remove all its cycles).
+</p><p>Define <img src="https://latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" /> as the number of checkers placed on the board.
+</p><p>1. From (a) for every square containing a checker there can be up to 4 distinct squares without checkers; thus, <img src="https://latex.artofproblemsolving.com/f/7/5/f755248c85fd7d06bcece6e8288044d4f441484e.png" class="latex" alt="$4\times x + x = 5\times x \ge n^2$" style="vertical-align: -2px" width="181" height="17" /> (this is the most naive upper bound).
 </p><p>2. From (b) this graph has to be connected. which means that no square which contains a checker can share 4 sides with squares that doesn't contain a checker (because it has to share at least one side with a square that  contains a checker).
-</p><p>3. Now it is possible to improve the upper bound. Since every edge in G represents a square with a checker that shares a side with a square with another checker, the new upper bound is <img src="//latex.artofproblemsolving.com/9/e/3/9e3028fa438f28ec1b1c921e0d1a62d0fae44ad9.png" class="latex" alt="$5\times x - \text{[sum of degrees in G]} \ge n^2.$" style="vertical-align: -4px" width="264" height="19" /> 
-</p><p>4. Thus, <img src="//latex.artofproblemsolving.com/3/1/3/313a0b44d99cfc3ea373c485ed519e9cfb8eeb26.png" class="latex" alt="$5x - (2x - 2 + 2R) \ge n^2$" style="vertical-align: -4px" width="193" height="19" /> (see lemma below).
-</p><p>5. Thus,  <img src="//latex.artofproblemsolving.com/b/3/b/b3b4a0810c243a0af01942c33c19f664cd29284a.png" class="latex" alt="$3x + 2 - 2R \ge n^2.$" style="vertical-align: -2px" width="142" height="17" />
-</p><p>6. Thus,  <img src="//latex.artofproblemsolving.com/9/0/2/9024f484c59d7dc21bb1b745b035456a1d22e50a.png" class="latex" alt="$x \ge \frac{n^2 - 2 + 2R}3,$" style="vertical-align: -12px" width="137" height="39" /> where <img src="//latex.artofproblemsolving.com/5/0/c/50cc98c35627fcaba675a4c90c965f626b67adad.png" class="latex" alt="$R\ge0$" style="vertical-align: -2px" width="46" height="15" /> and is equal to 0 if <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> is a tree.
-</p><p><img src="//latex.artofproblemsolving.com/7/2/f/72fd00496417877ae9b49fe0ecfb2156711e8785.png" class="latex" alt="$\textit{Clarification/Lemma:}$" style="vertical-align: -4px" width="156" height="17" /> The sum of degrees of a connected graph <img src="//latex.artofproblemsolving.com/c/c/5/cc5710c98bee34877e0a2dc6063456ab65dffa5d.png" class="latex" alt="$G = (V,E)$" style="vertical-align: -4px" width="85" height="18" /> is <img src="//latex.artofproblemsolving.com/e/6/7/e67eddcb7479bbe3742c84741b3e3dcf0177feff.png" class="latex" alt="$2V -2 + 2R = 2E,$" style="vertical-align: -3px" width="152" height="16" /> where <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> is the circuit rank of <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />.
-</p><p><img src="//latex.artofproblemsolving.com/7/4/a/74ac5066cd5812a0da375285bbeec485a585712f.png" class="latex" alt="$\textit{Proof.}$" style="vertical-align: -3px" width="42" height="15" /> <img src="//latex.artofproblemsolving.com/4/b/d/4bddf9fd94dcced6df50f0e30692330032e86bc8.png" class="latex" alt="$2 \times V -2$" width="76" height="12" /> is the sum of ranks of the spanning tree created by decircuiting the graph <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. Since the circuit rank of <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> is <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/0/e/8/0e86afd07eb8be7351058918c6ecae8e9d6eccb9.png" class="latex" alt="$2R$" width="23" height="12" /> is the sum of ranks removed from <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. Thus,  <img src="//latex.artofproblemsolving.com/f/c/1/fc1cb296d06ffb22180f2e0969b42184d49fe1ed.png" class="latex" alt="$2V -2 + 2R = 2 E.$" style="vertical-align: -1px" width="151" height="14" /> <img src="//latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
+</p><p>3. Now it is possible to improve the upper bound. Since every edge in G represents a square with a checker that shares a side with a square with another checker, the new upper bound is <img src="https://latex.artofproblemsolving.com/9/e/3/9e3028fa438f28ec1b1c921e0d1a62d0fae44ad9.png" class="latex" alt="$5\times x - \text{[sum of degrees in G]} \ge n^2.$" style="vertical-align: -4px" width="264" height="19" />
+</p><p>4. Thus, <img src="https://latex.artofproblemsolving.com/3/1/3/313a0b44d99cfc3ea373c485ed519e9cfb8eeb26.png" class="latex" alt="$5x - (2x - 2 + 2R) \ge n^2$" style="vertical-align: -4px" width="193" height="19" /> (see lemma below).
+</p><p>5. Thus,  <img src="https://latex.artofproblemsolving.com/b/3/b/b3b4a0810c243a0af01942c33c19f664cd29284a.png" class="latex" alt="$3x + 2 - 2R \ge n^2.$" style="vertical-align: -2px" width="142" height="17" />
+</p><p>6. Thus,  <img src="https://latex.artofproblemsolving.com/9/0/2/9024f484c59d7dc21bb1b745b035456a1d22e50a.png" class="latex" alt="$x \ge \frac{n^2 - 2 + 2R}3,$" style="vertical-align: -12px" width="137" height="39" /> where <img src="https://latex.artofproblemsolving.com/5/0/c/50cc98c35627fcaba675a4c90c965f626b67adad.png" class="latex" alt="$R\ge0$" style="vertical-align: -2px" width="46" height="15" /> and is equal to 0 if <img src="https://latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> is a tree.
+</p><p><img src="https://latex.artofproblemsolving.com/7/2/f/72fd00496417877ae9b49fe0ecfb2156711e8785.png" class="latex" alt="$\textit{Clarification/Lemma:}$" style="vertical-align: -4px" width="156" height="17" /> The sum of degrees of a connected graph <img src="https://latex.artofproblemsolving.com/c/c/5/cc5710c98bee34877e0a2dc6063456ab65dffa5d.png" class="latex" alt="$G = (V,E)$" style="vertical-align: -4px" width="85" height="18" /> is <img src="https://latex.artofproblemsolving.com/e/6/7/e67eddcb7479bbe3742c84741b3e3dcf0177feff.png" class="latex" alt="$2V -2 + 2R = 2E,$" style="vertical-align: -3px" width="152" height="16" /> where <img src="https://latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> is the circuit rank of <img src="https://latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />.
+</p><p><img src="https://latex.artofproblemsolving.com/7/4/a/74ac5066cd5812a0da375285bbeec485a585712f.png" class="latex" alt="$\textit{Proof.}$" style="vertical-align: -3px" width="42" height="15" /> <img src="https://latex.artofproblemsolving.com/4/b/d/4bddf9fd94dcced6df50f0e30692330032e86bc8.png" class="latex" alt="$2 \times V -2$" width="76" height="12" /> is the sum of ranks of the spanning tree created by decircuiting the graph <img src="https://latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. Since the circuit rank of <img src="https://latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> is <img src="https://latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" />, <img src="https://latex.artofproblemsolving.com/0/e/8/0e86afd07eb8be7351058918c6ecae8e9d6eccb9.png" class="latex" alt="$2R$" width="23" height="12" /> is the sum of ranks removed from <img src="https://latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" />. Thus,  <img src="https://latex.artofproblemsolving.com/f/c/1/fc1cb296d06ffb22180f2e0969b42184d49fe1ed.png" class="latex" alt="$2V -2 + 2R = 2 E.$" style="vertical-align: -1px" width="151" height="14" /> <img src="https://latex.artofproblemsolving.com/3/b/b/3bbb9e25e5be095e317771a9c5d00877ee9c8012.png" class="latex" alt="$\blacksquare$" width="13" height="12" />
 </p>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:40%;">
@@ -449,7 +439,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715095926
 Cache expiry: 86400
@@ -479,7 +469,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Olympiad_Combinatorics_Problems" title="Category:Olympiad Combinatorics Problems">Olympiad Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

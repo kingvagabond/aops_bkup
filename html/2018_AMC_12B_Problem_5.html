@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2018_AMC_12B_Problems/Problem_5" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2018 AMC 12B Problems/Problem 5</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -420,14 +410,14 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>How many subsets of  <img src="//latex.artofproblemsolving.com/2/3/f/23f8440824a9efceca3bac830578ab38c27957f2.png" class="latex" alt="$\{2,3,4,5,6,7,8,9\}$" style="vertical-align: -4px" width="146" height="18" />  contain at least one prime number?
-</p><p><img src="//latex.artofproblemsolving.com/4/f/0/4f0e7a50e13bf7a04a1ce2973cc58db07df03111.png" class="latex" alt="$(\text{A}) \indent 128 \qquad (\text{B}) \indent 192  \qquad (\text{C}) \indent 224  \qquad (\text{D}) \indent 240 \qquad (\text{E}) \indent 256$" style="vertical-align: -4px" width="399" height="18" />
+<p>How many subsets of  <img src="https://latex.artofproblemsolving.com/2/3/f/23f8440824a9efceca3bac830578ab38c27957f2.png" class="latex" alt="$\{2,3,4,5,6,7,8,9\}$" style="vertical-align: -4px" width="146" height="18" />  contain at least one prime number?
+</p><p><img src="https://latex.artofproblemsolving.com/4/f/0/4f0e7a50e13bf7a04a1ce2973cc58db07df03111.png" class="latex" alt="$(\text{A}) \indent 128 \qquad (\text{B}) \indent 192  \qquad (\text{C}) \indent 224  \qquad (\text{D}) \indent 240 \qquad (\text{E}) \indent 256$" style="vertical-align: -4px" width="399" height="18" />
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p>Since an element of a subset is either in or out, the total number of subsets of the 8 element set is <img src="//latex.artofproblemsolving.com/6/b/3/6b32901dd20471881cf91f3661abe41d60f12b5d.png" class="latex" alt="$2^8 = 256$" width="67" height="15" />. However, since we are only concerned about the subsets with at least 1 prime in it, we can use complementary counting to count the subsets without a prime and subtract that from the total. Because there are 4 non-primes, there are <img src="//latex.artofproblemsolving.com/c/d/5/cd565aeff8afad7001f1d651fb045709e7078a9d.png" class="latex" alt="$2^8 -2^4 = 240$" style="vertical-align: 0px" width="106" height="15" /> subsets with at least 1 prime so the answer is <img src="//latex.artofproblemsolving.com/a/9/8/a9897c530a30a46b6d850fb4f75c2548a62b23a0.png" class="latex" alt="$\Rightarrow \boxed { (\textbf{D}) 240 }\indent$" style="vertical-align: -10px" width="91" height="29" />
+<p>Since an element of a subset is either in or out, the total number of subsets of the 8 element set is <img src="https://latex.artofproblemsolving.com/6/b/3/6b32901dd20471881cf91f3661abe41d60f12b5d.png" class="latex" alt="$2^8 = 256$" width="67" height="15" />. However, since we are only concerned about the subsets with at least 1 prime in it, we can use complementary counting to count the subsets without a prime and subtract that from the total. Because there are 4 non-primes, there are <img src="https://latex.artofproblemsolving.com/c/d/5/cd565aeff8afad7001f1d651fb045709e7078a9d.png" class="latex" alt="$2^8 -2^4 = 240$" style="vertical-align: 0px" width="106" height="15" /> subsets with at least 1 prime so the answer is <img src="https://latex.artofproblemsolving.com/a/9/8/a9897c530a30a46b6d850fb4f75c2548a62b23a0.png" class="latex" alt="$\Rightarrow \boxed { (\textbf{D}) 240 }\indent$" style="vertical-align: -10px" width="91" height="29" />
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>We can construct our subset by choosing which primes are included and which composites are included. There are <img src="//latex.artofproblemsolving.com/4/4/5/4454c656139bfdbbd16439de5dbb320791739f86.png" class="latex" alt="$2^4-1$" style="vertical-align: 0px" width="47" height="15" /> ways to select the primes (total subsets minus the empty set) and <img src="//latex.artofproblemsolving.com/4/2/0/420813c47b9ba0edd71bba84716bd485967ac81a.png" class="latex" alt="$2^4$" width="15" height="15" /> ways to select the composites. Thus, there are <img src="//latex.artofproblemsolving.com/b/6/b/b6ba36da9823a85e76924947ebd148fe0697e797.png" class="latex" alt="$15*16$" style="vertical-align: 0px" width="53" height="13" /> ways to choose a subset of the eight numbers, or <img src="//latex.artofproblemsolving.com/2/d/c/2dcb87cb03d135737f514f5b02246ee6e0de9a68.png" class="latex" alt="$\boxed { (\textbf{D}) 240 }$" style="vertical-align: -10px" width="67" height="29" /> .
+<p>We can construct our subset by choosing which primes are included and which composites are included. There are <img src="https://latex.artofproblemsolving.com/4/4/5/4454c656139bfdbbd16439de5dbb320791739f86.png" class="latex" alt="$2^4-1$" style="vertical-align: 0px" width="47" height="15" /> ways to select the primes (total subsets minus the empty set) and <img src="https://latex.artofproblemsolving.com/4/2/0/420813c47b9ba0edd71bba84716bd485967ac81a.png" class="latex" alt="$2^4$" width="15" height="15" /> ways to select the composites. Thus, there are <img src="https://latex.artofproblemsolving.com/b/6/b/b6ba36da9823a85e76924947ebd148fe0697e797.png" class="latex" alt="$15*16$" style="vertical-align: 0px" width="53" height="13" /> ways to choose a subset of the eight numbers, or <img src="https://latex.artofproblemsolving.com/2/d/c/2dcb87cb03d135737f514f5b02246ee6e0de9a68.png" class="latex" alt="$\boxed { (\textbf{D}) 240 }$" style="vertical-align: -10px" width="67" height="29" /> .
 </p>
 <h2><span class="mw-headline" id="See_Also">See Also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -449,7 +439,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714165232
 Cache expiry: 86400
@@ -479,7 +469,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Introductory_Combinatorics_Problems" title="Category:Introductory Combinatorics Problems">Introductory Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2006_AIME_II_Problems/Problem_8" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2006 AIME II Problems/Problem 8</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -423,28 +413,28 @@
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
 <p>There is an unlimited supply of <a href="/wiki/index.php/Congruent" title="Congruent">congruent</a> <a href="/wiki/index.php/Equilateral_triangle" title="Equilateral triangle">equilateral triangles</a> made of colored paper. Each <a href="/wiki/index.php/Triangle" title="Triangle">triangle</a> is a solid color with the same color on both sides of the paper. A large equilateral triangle is constructed from four of these paper triangles. Two large triangles are considered distinguishable if it is not possible to place one on the other, using translations, rotations, and/or reflections, so that their corresponding small triangles are of the same color.
 </p><p>Given that there are six different colors of triangles from which to choose, how many distinguishable large equilateral triangles may be formed?
-</p><p><img src="//latex.artofproblemsolving.com/5/d/1/5d14bcc3857fcbc46b474b626f03db304679edb5.png" class="latexcenter" alt="[asy] pair A,B; A=(0,0); B=(2,0); pair C=rotate(60,A)*B; pair D, E, F; D = (1,0); E=rotate(60,A)*D; F=rotate(60,C)*E; draw(C--A--B--cycle); draw(D--E--F--cycle); [/asy]" width="252" height="218" />
+</p><p><img src="https://latex.artofproblemsolving.com/5/d/1/5d14bcc3857fcbc46b474b626f03db304679edb5.png" class="latexcenter" alt="[asy] pair A,B; A=(0,0); B=(2,0); pair C=rotate(60,A)*B; pair D, E, F; D = (1,0); E=rotate(60,A)*D; F=rotate(60,C)*E; draw(C--A--B--cycle); draw(D--E--F--cycle); [/asy]" width="252" height="218" />
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
 <p>If two of our big equilateral triangles have the same color for their center triangle and the same <a href="/wiki/index.php/Multiset" title="Multiset">multiset</a> of colors for their outer three triangles, we can carry one onto the other by a combination of rotation and reflection.  Thus, to make two triangles distinct, they must differ either in their center triangle or in the collection of colors which make up their outer three triangles.
 </p><p>There are 6 possible colors for the center triangle.
 </p>
-<ul><li>There are <img src="//latex.artofproblemsolving.com/e/2/3/e23f2c3cf08b69543697b556eb2e6fd163e6e0e0.png" class="latex" alt="${6\choose3} = 20$" style="vertical-align: -22px" width="79" height="53" /> possible choices for the three outer triangles, if all three have different colors.</li>
-<li>There are <img src="//latex.artofproblemsolving.com/5/9/7/597bb9333e38b77f054207665353089ef3e62289.png" class="latex" alt="$6\cdot 5 = 30$" width="73" height="12" /> (or <img src="//latex.artofproblemsolving.com/2/3/b/23ba4ee1b6668afc512fc68a5723eb5984246b38.png" class="latex" alt="$2 {6\choose2}$" style="vertical-align: -22px" width="42" height="53" />) possible choices for the three outer triangles, if two are one color and the third is a different color.</li>
-<li>There are <img src="//latex.artofproblemsolving.com/d/f/9/df9f71c813a09e2dc3ade1d1b365c2064bdfa406.png" class="latex" alt="${6\choose1} = 6$" style="vertical-align: -22px" width="70" height="53" /> possible choices for the three outer triangles, if all three are the same color.</li></ul>
-<p>Thus, in total we have <img src="//latex.artofproblemsolving.com/e/c/3/ec3caa8a353f8fa246bcdaafd01146454c7fbf22.png" class="latex" alt="$6\cdot(20 + 30 + 6) = \boxed{336}$" style="vertical-align: -5px" width="189" height="23" /> total possibilities.
+<ul><li>There are <img src="https://latex.artofproblemsolving.com/e/2/3/e23f2c3cf08b69543697b556eb2e6fd163e6e0e0.png" class="latex" alt="${6\choose3} = 20$" style="vertical-align: -22px" width="79" height="53" /> possible choices for the three outer triangles, if all three have different colors.</li>
+<li>There are <img src="https://latex.artofproblemsolving.com/5/9/7/597bb9333e38b77f054207665353089ef3e62289.png" class="latex" alt="$6\cdot 5 = 30$" width="73" height="12" /> (or <img src="https://latex.artofproblemsolving.com/2/3/b/23ba4ee1b6668afc512fc68a5723eb5984246b38.png" class="latex" alt="$2 {6\choose2}$" style="vertical-align: -22px" width="42" height="53" />) possible choices for the three outer triangles, if two are one color and the third is a different color.</li>
+<li>There are <img src="https://latex.artofproblemsolving.com/d/f/9/df9f71c813a09e2dc3ade1d1b365c2064bdfa406.png" class="latex" alt="${6\choose1} = 6$" style="vertical-align: -22px" width="70" height="53" /> possible choices for the three outer triangles, if all three are the same color.</li></ul>
+<p>Thus, in total we have <img src="https://latex.artofproblemsolving.com/e/c/3/ec3caa8a353f8fa246bcdaafd01146454c7fbf22.png" class="latex" alt="$6\cdot(20 + 30 + 6) = \boxed{336}$" style="vertical-align: -5px" width="189" height="23" /> total possibilities.
 </p>
 <h2><span id="Solution_2_(Easy_burnsides)"></span><span class="mw-headline" id="Solution_2_.28Easy_burnsides.29">Solution 2 (Easy burnsides)</span></h2>
-<p>We apply burnsides lemma and consider 3 rotations of 120 degrees, 240 degrees, and 0 degrees. We also consider three reflections from the three lines of symmetry in the triangle. Thus, we have to divide by <img src="//latex.artofproblemsolving.com/6/d/f/6df768b2b37bfea85c62dfd671b8578ed1a76872.png" class="latex" alt="$3+3=6$" style="vertical-align: -1px" width="73" height="14" /> for our final count. 
-</p><p>Case 1: 0 degree rotation. This is known as the identity rotation, and there are <img src="//latex.artofproblemsolving.com/4/9/5/4957864295116ea677c600fdd2ea91cb9deaa637.png" class="latex" alt="$6^4=1296$" style="vertical-align: 0px" width="76" height="15" /> choices because we don't have any restrictions.
-</p><p>Case 2: 120 degree rotation. Note that the three "outer" sides of the triangle have to be the same during this, and the middle one can be anything. We have <img src="//latex.artofproblemsolving.com/a/c/2/ac257a3bf0b27302b484d59955d6b896b8d09192.png" class="latex" alt="$6*6=36$" width="77" height="12" /> choices from this. 
-</p><p>Case 3: 240 degree rotation. Similar to the 120 degree rotation, each must be the same except for the middle. We have <img src="//latex.artofproblemsolving.com/a/c/2/ac257a3bf0b27302b484d59955d6b896b8d09192.png" class="latex" alt="$6*6=36$" width="77" height="12" /> choices from this.
-</p><p>Case 4: symmetry about lines. We multiply by 3 for these because the amount of colorings fixed under symmetry are the exact same each time. Two triangles do not change under this, and they must be the same. The other two triangles (1 middle and 1 outer) can be anything because they stay the same during the reflection. We have <img src="//latex.artofproblemsolving.com/7/6/0/7603d077d364b4bd78128e7328dfa98aa5396a09.png" class="latex" alt="$6*6*6=216$" style="vertical-align: 0px" width="112" height="13" /> ways for one symmetry. There are 3 symmetries, so there are <img src="//latex.artofproblemsolving.com/b/9/8/b98d9f4d17bb2b221d4d584a4a7989f869853c2f.png" class="latex" alt="$216*3=648$" style="vertical-align: 0px" width="104" height="13" /> combinations in all.
+<p>We apply burnsides lemma and consider 3 rotations of 120 degrees, 240 degrees, and 0 degrees. We also consider three reflections from the three lines of symmetry in the triangle. Thus, we have to divide by <img src="https://latex.artofproblemsolving.com/6/d/f/6df768b2b37bfea85c62dfd671b8578ed1a76872.png" class="latex" alt="$3+3=6$" style="vertical-align: -1px" width="73" height="14" /> for our final count.
+</p><p>Case 1: 0 degree rotation. This is known as the identity rotation, and there are <img src="https://latex.artofproblemsolving.com/4/9/5/4957864295116ea677c600fdd2ea91cb9deaa637.png" class="latex" alt="$6^4=1296$" style="vertical-align: 0px" width="76" height="15" /> choices because we don't have any restrictions.
+</p><p>Case 2: 120 degree rotation. Note that the three "outer" sides of the triangle have to be the same during this, and the middle one can be anything. We have <img src="https://latex.artofproblemsolving.com/a/c/2/ac257a3bf0b27302b484d59955d6b896b8d09192.png" class="latex" alt="$6*6=36$" width="77" height="12" /> choices from this.
+</p><p>Case 3: 240 degree rotation. Similar to the 120 degree rotation, each must be the same except for the middle. We have <img src="https://latex.artofproblemsolving.com/a/c/2/ac257a3bf0b27302b484d59955d6b896b8d09192.png" class="latex" alt="$6*6=36$" width="77" height="12" /> choices from this.
+</p><p>Case 4: symmetry about lines. We multiply by 3 for these because the amount of colorings fixed under symmetry are the exact same each time. Two triangles do not change under this, and they must be the same. The other two triangles (1 middle and 1 outer) can be anything because they stay the same during the reflection. We have <img src="https://latex.artofproblemsolving.com/7/6/0/7603d077d364b4bd78128e7328dfa98aa5396a09.png" class="latex" alt="$6*6*6=216$" style="vertical-align: 0px" width="112" height="13" /> ways for one symmetry. There are 3 symmetries, so there are <img src="https://latex.artofproblemsolving.com/b/9/8/b98d9f4d17bb2b221d4d584a4a7989f869853c2f.png" class="latex" alt="$216*3=648$" style="vertical-align: 0px" width="104" height="13" /> combinations in all.
 </p><p><br />
-Now, we add our cases up: <img src="//latex.artofproblemsolving.com/c/3/0/c3010d54bdf5be473775aa329fcb254a5c588b57.png" class="latex" alt="$1296+36+36+648=2016$" style="vertical-align: -1px" width="226" height="14" />. We have to divide by 6, so <img src="//latex.artofproblemsolving.com/e/d/7/ed7f053a8405bbb4a224daec30191e36065e8c0e.png" class="latex" alt="$2016/6=\boxed{336}$" style="vertical-align: -5px" width="118" height="23" /> distinguishable ways to color the triangle.
+Now, we add our cases up: <img src="https://latex.artofproblemsolving.com/c/3/0/c3010d54bdf5be473775aa329fcb254a5c588b57.png" class="latex" alt="$1296+36+36+648=2016$" style="vertical-align: -1px" width="226" height="14" />. We have to divide by 6, so <img src="https://latex.artofproblemsolving.com/e/d/7/ed7f053a8405bbb4a224daec30191e36065e8c0e.png" class="latex" alt="$2016/6=\boxed{336}$" style="vertical-align: -5px" width="118" height="23" /> distinguishable ways to color the triangle.
 </p>
 <h2><span id="Solution_3_(stars_and_bars)"></span><span class="mw-headline" id="Solution_3_.28stars_and_bars.29">Solution 3 (stars and bars)</span></h2>
-<p>There are <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> choices for the center triangle. Note that given any <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> colors, there is a unique way to assign them to the corner triangles. We have <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> different colors to choose from, so the number of ways to color the corner triangles is the same as the number of ways to arrange <img src="//latex.artofproblemsolving.com/7/4/d/74dbf5a4d426fb8bb63d88ab4f21b351d2ee670c.png" class="latex" alt="$6 - 1 = 5$" style="vertical-align: 0px" width="73" height="13" /> dividers and <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> identical items. Therefore, our answer is <img src="//latex.artofproblemsolving.com/2/4/f/24f09a7dd6c04d85b85ee42bb0172d8950f282d9.png" class="latexcenter" alt="\[6 \binom{5 + 3}{3} = 6\binom{8}{3} = \boxed{336}.\]" width="214" height="53" />
+<p>There are <img src="https://latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> choices for the center triangle. Note that given any <img src="https://latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> colors, there is a unique way to assign them to the corner triangles. We have <img src="https://latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> different colors to choose from, so the number of ways to color the corner triangles is the same as the number of ways to arrange <img src="https://latex.artofproblemsolving.com/7/4/d/74dbf5a4d426fb8bb63d88ab4f21b351d2ee670c.png" class="latex" alt="$6 - 1 = 5$" style="vertical-align: 0px" width="73" height="13" /> dividers and <img src="https://latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> identical items. Therefore, our answer is <img src="https://latex.artofproblemsolving.com/2/4/f/24f09a7dd6c04d85b85ee42bb0172d8950f282d9.png" class="latexcenter" alt="\[6 \binom{5 + 3}{3} = 6\binom{8}{3} = \boxed{336}.\]" width="214" height="53" />
 </p><p>-MP8148
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
@@ -467,7 +457,7 @@ Now, we add our cases up: <img src="//latex.artofproblemsolving.com/c/3/0/c3010d
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714191216
 Cache expiry: 86400
@@ -497,7 +487,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

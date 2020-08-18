@@ -13,10 +13,10 @@ Step 1:
 Run python aops_crawl.py
 
 Step 2:
-Do a text replace in files
+Do a text replace in files - VS Code can at most replace 10000 occurrences of a string among files, so this step has to run for a bunch of times.
 
 ```
-src="//latex.artofproblemsolving.com
+src="https://latex.artofproblemsolving.com
 ```
 
 Replaced by:

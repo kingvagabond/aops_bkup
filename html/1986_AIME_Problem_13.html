@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1986_AIME_Problems/Problem_13" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1986 AIME Problems/Problem 13</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -426,11 +416,11 @@
 <p>In a <a href="/wiki/index.php/Sequence" title="Sequence">sequence</a> of coin tosses, one can keep a record of instances in which a tail is immediately followed by a head, a head is immediately followed by a head, and etc. We denote these by <tt>TH</tt>, <tt>HH</tt>, and etc. For example, in the sequence <tt>TTTHHTHTTTHHTTH</tt> of 15 coin tosses we observe that there are two <tt>HH</tt>, three <tt>HT</tt>, four <tt>TH</tt>, and five <tt>TT</tt> subsequences. How many different sequences of 15 coin tosses will contain exactly two <tt>HH</tt>, three <tt>HT</tt>, four <tt>TH</tt>, and five <tt>TT</tt> subsequences?
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>Let's consider each of the sequences of two coin tosses as an <a href="/wiki/index.php/Operation" title="Operation">operation</a> instead; this operation takes a string and adds the next coin toss on (eg, <tt>THHTH</tt> + <tt>HT</tt> = <tt>THHTHT</tt>). We examine what happens to the last coin toss. Adding <tt>HH</tt> or <tt>TT</tt> is simply an <a href="/wiki/index.php/Identity" title="Identity">identity</a> for the last coin toss, so we will ignore them for now. However, adding <tt>HT</tt> or <tt>TH</tt> switches the last coin. <tt>H</tt> switches to <tt>T</tt> three times, but <tt>T</tt> switches to <tt>H</tt> four times; hence it follows that our string will have a structure of <tt>THTHTHTH</tt>. 
-</p><p>Now we have to count all of the different ways we can add the identities back in. There are 5 <tt>TT</tt> subsequences, which means that we have to add 5 <tt>T</tt> into the strings, as long as the new <tt>T</tt>s are adjacent to existing <tt>T</tt>s. There are already 4 <tt>T</tt>s in the sequence, and since order doesn’t matter between different tail flips this just becomes the ball-and-urn argument. We want to add 5 balls into 4 urns, which is the same as 3 dividers; hence this gives <img src="//latex.artofproblemsolving.com/c/2/7/c2758905ef7576f2afe6762ce72066c02d88f479.png" class="latex" alt="${{5+3}\choose3} = 56$" style="vertical-align: -22px" width="110" height="53" /> combinations. We do the same with 2 <tt>H</tt>s to get <img src="//latex.artofproblemsolving.com/f/6/2/f6242bcdbc64627e79ed59dc445cab344438f475.png" class="latex" alt="${{2+3}\choose3} = 10$" style="vertical-align: -22px" width="110" height="53" /> combinations; thus there are <img src="//latex.artofproblemsolving.com/b/9/3/b934317f35fdc822df6235ab7af94e0686eb84b5.png" class="latex" alt="$56 \cdot 10 = \boxed {560}$" style="vertical-align: -5px" width="112" height="23" /> possible sequences.
+<p>Let's consider each of the sequences of two coin tosses as an <a href="/wiki/index.php/Operation" title="Operation">operation</a> instead; this operation takes a string and adds the next coin toss on (eg, <tt>THHTH</tt> + <tt>HT</tt> = <tt>THHTHT</tt>). We examine what happens to the last coin toss. Adding <tt>HH</tt> or <tt>TT</tt> is simply an <a href="/wiki/index.php/Identity" title="Identity">identity</a> for the last coin toss, so we will ignore them for now. However, adding <tt>HT</tt> or <tt>TH</tt> switches the last coin. <tt>H</tt> switches to <tt>T</tt> three times, but <tt>T</tt> switches to <tt>H</tt> four times; hence it follows that our string will have a structure of <tt>THTHTHTH</tt>.
+</p><p>Now we have to count all of the different ways we can add the identities back in. There are 5 <tt>TT</tt> subsequences, which means that we have to add 5 <tt>T</tt> into the strings, as long as the new <tt>T</tt>s are adjacent to existing <tt>T</tt>s. There are already 4 <tt>T</tt>s in the sequence, and since order doesn’t matter between different tail flips this just becomes the ball-and-urn argument. We want to add 5 balls into 4 urns, which is the same as 3 dividers; hence this gives <img src="https://latex.artofproblemsolving.com/c/2/7/c2758905ef7576f2afe6762ce72066c02d88f479.png" class="latex" alt="${{5+3}\choose3} = 56$" style="vertical-align: -22px" width="110" height="53" /> combinations. We do the same with 2 <tt>H</tt>s to get <img src="https://latex.artofproblemsolving.com/f/6/2/f6242bcdbc64627e79ed59dc445cab344438f475.png" class="latex" alt="${{2+3}\choose3} = 10$" style="vertical-align: -22px" width="110" height="53" /> combinations; thus there are <img src="https://latex.artofproblemsolving.com/b/9/3/b934317f35fdc822df6235ab7af94e0686eb84b5.png" class="latex" alt="$56 \cdot 10 = \boxed {560}$" style="vertical-align: -5px" width="112" height="23" /> possible sequences.
 </p>
 <h3><span class="mw-headline" id="Slight_Variation">Slight Variation</span></h3>
-<p>The structure of the final order is <tt>T_H_T_H_T_H_T_H_</tt>, and there are 4 spots to put the 2 heads in, and 4 spots to put the 5 tails in.  By using the formula for distributing r identical objects into n distinct boxes <img src="//latex.artofproblemsolving.com/0/0/c/00c390bbf1355655374ab66049d5bc25fdb7dfda.png" class="latex" alt="$\dbinom{r+n-1}{r}$" style="vertical-align: -22px" width="97" height="53" /> and multiplication, the answer is  <img src="//latex.artofproblemsolving.com/f/9/f/f9fab40982736720394e30137849614f4d28bdc2.png" class="latex" alt="${{2+4-1}\choose2}$" style="vertical-align: -22px" width="96" height="53" />  *                  <img src="//latex.artofproblemsolving.com/0/8/a/08a9931401500b28cded1b477684818fe7c4d8cf.png" class="latex" alt="${{5+4-1}\choose5}$" style="vertical-align: -22px" width="96" height="53" /> =560
+<p>The structure of the final order is <tt>T_H_T_H_T_H_T_H_</tt>, and there are 4 spots to put the 2 heads in, and 4 spots to put the 5 tails in.  By using the formula for distributing r identical objects into n distinct boxes <img src="https://latex.artofproblemsolving.com/0/0/c/00c390bbf1355655374ab66049d5bc25fdb7dfda.png" class="latex" alt="$\dbinom{r+n-1}{r}$" style="vertical-align: -22px" width="97" height="53" /> and multiplication, the answer is  <img src="https://latex.artofproblemsolving.com/f/9/f/f9fab40982736720394e30137849614f4d28bdc2.png" class="latex" alt="${{2+4-1}\choose2}$" style="vertical-align: -22px" width="96" height="53" />  *                  <img src="https://latex.artofproblemsolving.com/0/8/a/08a9931401500b28cded1b477684818fe7c4d8cf.png" class="latex" alt="${{5+4-1}\choose5}$" style="vertical-align: -22px" width="96" height="53" /> =560
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -455,7 +445,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200722171915
 Cache expiry: 86400
@@ -485,7 +475,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

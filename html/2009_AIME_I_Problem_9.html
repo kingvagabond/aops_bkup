@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2009_AIME_I_Problems/Problem_9" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2009 AIME I Problems/Problem 9</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -420,19 +410,19 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>A game show offers a contestant three prizes A, B and C, each of which is worth a whole number of dollars from <img src="//latex.artofproblemsolving.com/9/9/a/99a3fbfb198561bee14769b5a9fbb39e139ffcfa.png" class="latex" alt="$$ 1$" style="vertical-align: -1px" width="17" height="14" /> to <img src="//latex.artofproblemsolving.com/d/b/f/dbf6357816c38c052edb4b39a215e4510dd26b95.png" class="latex" alt="$$ 9999$" style="vertical-align: -1px" width="44" height="14" /> inclusive. The contestant wins the prizes by correctly guessing the price of each prize in the order A, B, C. As a hint, the digits of the three prices are given. On a particular day, the digits given were <img src="//latex.artofproblemsolving.com/0/4/3/043e4acc3676d5998d372ec1612dfe102c16ded4.png" class="latex" alt="$1, 1, 1, 1, 3, 3, 3$" style="vertical-align: -3px" width="111" height="16" />. Find the total number of possible guesses for all three prizes consistent with the hint.
+<p>A game show offers a contestant three prizes A, B and C, each of which is worth a whole number of dollars from <img src="https://latex.artofproblemsolving.com/9/9/a/99a3fbfb198561bee14769b5a9fbb39e139ffcfa.png" class="latex" alt="$$ 1$" style="vertical-align: -1px" width="17" height="14" /> to <img src="https://latex.artofproblemsolving.com/d/b/f/dbf6357816c38c052edb4b39a215e4510dd26b95.png" class="latex" alt="$$ 9999$" style="vertical-align: -1px" width="44" height="14" /> inclusive. The contestant wins the prizes by correctly guessing the price of each prize in the order A, B, C. As a hint, the digits of the three prices are given. On a particular day, the digits given were <img src="https://latex.artofproblemsolving.com/0/4/3/043e4acc3676d5998d372ec1612dfe102c16ded4.png" class="latex" alt="$1, 1, 1, 1, 3, 3, 3$" style="vertical-align: -3px" width="111" height="16" />. Find the total number of possible guesses for all three prizes consistent with the hint.
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p>Since we have three numbers, consider the number of ways we can put these three numbers together in a string of 7 digits. For example, if <img src="//latex.artofproblemsolving.com/8/8/9/889c76953595e6afae407fb6c576a584bfe50d0c.png" class="latex" alt="$A=113, B=13, C=31$" style="vertical-align: -3px" width="194" height="16" />, then the string is
-</p><p><img src="//latex.artofproblemsolving.com/e/8/a/e8a6fbd35349a2cea1203e4a7320d88a7e80378b.png" class="latexcenter" alt="\[1131331.\]" width="65" height="13" />
-</p><p>Since the strings have seven digits and three threes, there are <img src="//latex.artofproblemsolving.com/4/f/4/4f40675008fc11f525b8d61d31105ea8e5b8dda0.png" class="latex" alt="$\binom{7}{3}=35$" style="vertical-align: -22px" width="79" height="53" /> arrangements of all such strings.
+<p>Since we have three numbers, consider the number of ways we can put these three numbers together in a string of 7 digits. For example, if <img src="https://latex.artofproblemsolving.com/8/8/9/889c76953595e6afae407fb6c576a584bfe50d0c.png" class="latex" alt="$A=113, B=13, C=31$" style="vertical-align: -3px" width="194" height="16" />, then the string is
+</p><p><img src="https://latex.artofproblemsolving.com/e/8/a/e8a6fbd35349a2cea1203e4a7320d88a7e80378b.png" class="latexcenter" alt="\[1131331.\]" width="65" height="13" />
+</p><p>Since the strings have seven digits and three threes, there are <img src="https://latex.artofproblemsolving.com/4/f/4/4f40675008fc11f525b8d61d31105ea8e5b8dda0.png" class="latex" alt="$\binom{7}{3}=35$" style="vertical-align: -22px" width="79" height="53" /> arrangements of all such strings.
 </p><p>In order to obtain all combination of A,B,C, we partition all the possible strings into 3 groups.
 </p><p>Let's look at the example. We have to partition it into 3 groups with each group having at least 1 digit. In other words, we need to find the solution to
-</p><p><img src="//latex.artofproblemsolving.com/9/5/e/95e226e82aac8471ee273f7599f82d43e97c6bc6.png" class="latexcenter" alt="\[x+y+z=7, x,y,z&gt;0.\]" width="196" height="16" />
+</p><p><img src="https://latex.artofproblemsolving.com/9/5/e/95e226e82aac8471ee273f7599f82d43e97c6bc6.png" class="latexcenter" alt="\[x+y+z=7, x,y,z&gt;0.\]" width="196" height="16" />
 </p><p>This gives us
-</p><p><img src="//latex.artofproblemsolving.com/7/0/4/704434a4f2ca296aae694cc675568f7111851674.png" class="latexcenter" alt="\[\binom{6}{2}=15\]" width="75" height="53" />
-</p><p>ways by balls and urns. But we have counted the one with 5 digit numbers; that is, <img src="//latex.artofproblemsolving.com/6/4/f/64fa9be37f32d5fc098c4dd4b550ecc460fc00b9.png" class="latex" alt="$(5,1,1),(1,1,5),(1,5,1)$" style="vertical-align: -4px" width="187" height="18" />.
-</p><p>Thus, each arrangement has <img src="//latex.artofproblemsolving.com/0/f/9/0f96290a236307f577422607af892165e6c1e467.png" class="latexcenter" alt="\[\binom{6}{2}-3=12\]" width="106" height="53" /> ways per arrangement, and there are <img src="//latex.artofproblemsolving.com/6/5/7/657ca5cc630f51c682eed3cddb0b350d007f6de7.png" class="latex" alt="$12\times35=\boxed{420}$" style="vertical-align: -5px" width="122" height="23" /> ways.
+</p><p><img src="https://latex.artofproblemsolving.com/7/0/4/704434a4f2ca296aae694cc675568f7111851674.png" class="latexcenter" alt="\[\binom{6}{2}=15\]" width="75" height="53" />
+</p><p>ways by balls and urns. But we have counted the one with 5 digit numbers; that is, <img src="https://latex.artofproblemsolving.com/6/4/f/64fa9be37f32d5fc098c4dd4b550ecc460fc00b9.png" class="latex" alt="$(5,1,1),(1,1,5),(1,5,1)$" style="vertical-align: -4px" width="187" height="18" />.
+</p><p>Thus, each arrangement has <img src="https://latex.artofproblemsolving.com/0/f/9/0f96290a236307f577422607af892165e6c1e467.png" class="latexcenter" alt="\[\binom{6}{2}-3=12\]" width="106" height="53" /> ways per arrangement, and there are <img src="https://latex.artofproblemsolving.com/6/5/7/657ca5cc630f51c682eed3cddb0b350d007f6de7.png" class="latex" alt="$12\times35=\boxed{420}$" style="vertical-align: -5px" width="122" height="23" /> ways.
 </p>
 <h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
 <p><a rel="nofollow" class="external free" href="https://youtu.be/VhyLeQufKr8">https://youtu.be/VhyLeQufKr8</a>
@@ -457,7 +447,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715102250
 Cache expiry: 86400
@@ -487,7 +477,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

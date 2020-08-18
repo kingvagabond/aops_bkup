@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2004_AMC_10B_Problems/Problem_22" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2004 AMC 10B Problems/Problem 22</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -421,23 +411,23 @@
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
 <p>A triangle with sides of 5, 12, and 13 has both an inscribed and a circumscribed circle. What is the distance between the centers of those circles?
-</p><p><img src="//latex.artofproblemsolving.com/1/6/1/1615c519e1438c3626e7d9a372e0af0522be9d4f.png" class="latex" alt="$\mathrm{(A) \ } \frac{3\sqrt{5}}{2} \qquad \mathrm{(B) \ } \frac{7}{2} \qquad \mathrm{(C) \ } \sqrt{15} \qquad \mathrm{(D) \ } \frac{\sqrt{65}}{2} \qquad \mathrm{(E) \ } \frac{9}{2}$" style="vertical-align: -12px" width="429" height="41" />
+</p><p><img src="https://latex.artofproblemsolving.com/1/6/1/1615c519e1438c3626e7d9a372e0af0522be9d4f.png" class="latex" alt="$\mathrm{(A) \ } \frac{3\sqrt{5}}{2} \qquad \mathrm{(B) \ } \frac{7}{2} \qquad \mathrm{(C) \ } \sqrt{15} \qquad \mathrm{(D) \ } \frac{\sqrt{65}}{2} \qquad \mathrm{(E) \ } \frac{9}{2}$" style="vertical-align: -12px" width="429" height="41" />
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p><img src="//latex.artofproblemsolving.com/b/3/e/b3ee7391165284ef992a65e6ec0114c4beb26869.png" class="latexcenter" alt="[asy] import geometry;  unitsize(0.6 cm);  pair A, B, C, D, E, F, I, O;  A = (5^2/13,5*12/13); B = (0,0); C = (13,0); I = incenter(A,B,C); D = (I + reflect(B,C)*(I))/2; E = (I + reflect(C,A)*(I))/2; F = (I + reflect(A,B)*(I))/2; O = (B + C)/2;  draw(A--B--C--cycle); draw(incircle(A,B,C)); draw(I--D); draw(I--E); draw(I--F); draw(I--O);  label(&quot;$A$&quot;, A, N); label(&quot;$B$&quot;, B, SW); label(&quot;$C$&quot;, C, SE); dot(&quot;$D$&quot;, D, S); dot(&quot;$E$&quot;, E, NE); dot(&quot;$F$&quot;, F, NW); dot(&quot;$I$&quot;, I, N); dot(&quot;$O$&quot;, O, S); [/asy]" width="415" height="178" />
-This is obviously a right triangle. Pick a coordinate system so that the right angle is at <img src="//latex.artofproblemsolving.com/f/9/6/f9603ca3089464e548fc6f1366bc474e7efef8d9.png" class="latex" alt="$(0,0)$" style="vertical-align: -4px" width="38" height="18" /> and the other two vertices are at <img src="//latex.artofproblemsolving.com/a/0/8/a08648694721d1ea0dce0949c4d4336b2813a933.png" class="latex" alt="$(12,0)$" style="vertical-align: -4px" width="48" height="18" /> and <img src="//latex.artofproblemsolving.com/1/1/e/11e8da5448a5f378d5b8c253cdcd3cb49a90fa49.png" class="latex" alt="$(0,5)$" style="vertical-align: -4px" width="38" height="18" />.
-</p><p>As this is a right triangle, the center of the circumcircle is in the middle of the hypotenuse, at <img src="//latex.artofproblemsolving.com/f/c/8/fc88bc9d238f8aeb2f1174fc9422fc7d125e090c.png" class="latex" alt="$(6,2.5)$" style="vertical-align: -4px" width="52" height="18" />.
-</p><p>The radius <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> of the inscribed circle can be computed using the well-known identity <img src="//latex.artofproblemsolving.com/a/e/a/aea97e45f6cec2cb3cf3540adcc5422e59291045.png" class="latex" alt="$\frac{rP}2=S$" style="vertical-align: -12px" width="63" height="37" />, where <img src="//latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> is the area of the triangle and <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> its perimeter. In our case, <img src="//latex.artofproblemsolving.com/6/a/b/6ab71bd60653f06a40d595007d4ab6639c1f206c.png" class="latex" alt="$S=\frac{5\cdot 12}{2}=30$" style="vertical-align: -12px" width="122" height="37" /> and <img src="//latex.artofproblemsolving.com/2/b/9/2b9a197f3454b90971ab737c6854f2dad2b2543c.png" class="latex" alt="$P=5+12+13=30$" style="vertical-align: -1px" width="170" height="14" />. Thus, <img src="//latex.artofproblemsolving.com/a/0/7/a0736cc24657e4fbe87410091de1c4ebd44e26db.png" class="latex" alt="$r=2$" width="41" height="12" />. As the inscribed circle touches both legs, its center must be at <img src="//latex.artofproblemsolving.com/f/a/c/fac66325c9bff20c3232182943017f13c21338ce.png" class="latex" alt="$(r,r)=(2,2)$" style="vertical-align: -4px" width="101" height="18" />.
-</p><p>The distance of these two points is then <img src="//latex.artofproblemsolving.com/9/7/f/97f950294ec3b5cdb3ac8ef47d4bd1e834278531.png" class="latex" alt="$\sqrt{ (6-2)^2 + (2.5-2)^2 } = \sqrt{16.25} = \sqrt{\frac{65}4} = \boxed{\frac{\sqrt{65}}2}$" style="vertical-align: -18px" width="396" height="53" />.
+<p><img src="https://latex.artofproblemsolving.com/b/3/e/b3ee7391165284ef992a65e6ec0114c4beb26869.png" class="latexcenter" alt="[asy] import geometry;  unitsize(0.6 cm);  pair A, B, C, D, E, F, I, O;  A = (5^2/13,5*12/13); B = (0,0); C = (13,0); I = incenter(A,B,C); D = (I + reflect(B,C)*(I))/2; E = (I + reflect(C,A)*(I))/2; F = (I + reflect(A,B)*(I))/2; O = (B + C)/2;  draw(A--B--C--cycle); draw(incircle(A,B,C)); draw(I--D); draw(I--E); draw(I--F); draw(I--O);  label(&quot;$A$&quot;, A, N); label(&quot;$B$&quot;, B, SW); label(&quot;$C$&quot;, C, SE); dot(&quot;$D$&quot;, D, S); dot(&quot;$E$&quot;, E, NE); dot(&quot;$F$&quot;, F, NW); dot(&quot;$I$&quot;, I, N); dot(&quot;$O$&quot;, O, S); [/asy]" width="415" height="178" />
+This is obviously a right triangle. Pick a coordinate system so that the right angle is at <img src="https://latex.artofproblemsolving.com/f/9/6/f9603ca3089464e548fc6f1366bc474e7efef8d9.png" class="latex" alt="$(0,0)$" style="vertical-align: -4px" width="38" height="18" /> and the other two vertices are at <img src="https://latex.artofproblemsolving.com/a/0/8/a08648694721d1ea0dce0949c4d4336b2813a933.png" class="latex" alt="$(12,0)$" style="vertical-align: -4px" width="48" height="18" /> and <img src="https://latex.artofproblemsolving.com/1/1/e/11e8da5448a5f378d5b8c253cdcd3cb49a90fa49.png" class="latex" alt="$(0,5)$" style="vertical-align: -4px" width="38" height="18" />.
+</p><p>As this is a right triangle, the center of the circumcircle is in the middle of the hypotenuse, at <img src="https://latex.artofproblemsolving.com/f/c/8/fc88bc9d238f8aeb2f1174fc9422fc7d125e090c.png" class="latex" alt="$(6,2.5)$" style="vertical-align: -4px" width="52" height="18" />.
+</p><p>The radius <img src="https://latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> of the inscribed circle can be computed using the well-known identity <img src="https://latex.artofproblemsolving.com/a/e/a/aea97e45f6cec2cb3cf3540adcc5422e59291045.png" class="latex" alt="$\frac{rP}2=S$" style="vertical-align: -12px" width="63" height="37" />, where <img src="https://latex.artofproblemsolving.com/a/d/2/ad28c83c99a8fd0dd2e2e594c9d02ee532765a0a.png" class="latex" alt="$S$" width="12" height="12" /> is the area of the triangle and <img src="https://latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> its perimeter. In our case, <img src="https://latex.artofproblemsolving.com/6/a/b/6ab71bd60653f06a40d595007d4ab6639c1f206c.png" class="latex" alt="$S=\frac{5\cdot 12}{2}=30$" style="vertical-align: -12px" width="122" height="37" /> and <img src="https://latex.artofproblemsolving.com/2/b/9/2b9a197f3454b90971ab737c6854f2dad2b2543c.png" class="latex" alt="$P=5+12+13=30$" style="vertical-align: -1px" width="170" height="14" />. Thus, <img src="https://latex.artofproblemsolving.com/a/0/7/a0736cc24657e4fbe87410091de1c4ebd44e26db.png" class="latex" alt="$r=2$" width="41" height="12" />. As the inscribed circle touches both legs, its center must be at <img src="https://latex.artofproblemsolving.com/f/a/c/fac66325c9bff20c3232182943017f13c21338ce.png" class="latex" alt="$(r,r)=(2,2)$" style="vertical-align: -4px" width="101" height="18" />.
+</p><p>The distance of these two points is then <img src="https://latex.artofproblemsolving.com/9/7/f/97f950294ec3b5cdb3ac8ef47d4bd1e834278531.png" class="latex" alt="$\sqrt{ (6-2)^2 + (2.5-2)^2 } = \sqrt{16.25} = \sqrt{\frac{65}4} = \boxed{\frac{\sqrt{65}}2}$" style="vertical-align: -18px" width="396" height="53" />.
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>We directly apply Euler’s Theorem, which states that if the circumcenter is <img src="//latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> and the incenter <img src="//latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" />, and the inradius is <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> and the circumradius is <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" />, then 
-<img src="//latex.artofproblemsolving.com/1/e/e/1ee9dc3b52bdd0ea40931dc0ca792540fcb15ebc.png" class="latexcenter" alt="\[OI^2=R(R-2r)\]" width="135" height="19" />
-</p><p>We can see that this is a right triangle, and hence has area <img src="//latex.artofproblemsolving.com/6/5/1/651ba418a810d971dbc8a326d49a71fe1541fae0.png" class="latex" alt="$30$" width="17" height="12" />. We then find the inradius with the formula <img src="//latex.artofproblemsolving.com/1/e/1/1e10db7df3e7fccf99a1ac6de439f3e2cf0723fc.png" class="latex" alt="$A=rs$" width="54" height="13" />, where <img src="//latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" /> denotes semiperimeter. We easily see that <img src="//latex.artofproblemsolving.com/d/4/a/d4a0c4f278dacc3a3519b89e9240ce12c203af9e.png" class="latex" alt="$s=15$" style="vertical-align: 0px" width="50" height="13" />, so <img src="//latex.artofproblemsolving.com/a/0/7/a0736cc24657e4fbe87410091de1c4ebd44e26db.png" class="latex" alt="$r=2$" width="41" height="12" />. 
-</p><p>We now find the circumradius with the formula <img src="//latex.artofproblemsolving.com/c/3/3/c33295a45f64955c07396031ff1f68c2b6d861d5.png" class="latex" alt="$A=\frac{abc}{4R}$" style="vertical-align: -13px" width="65" height="38" />. Solving for <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> gives <img src="//latex.artofproblemsolving.com/3/e/a/3eac4492a6e647f8c6b2ebc501c2f2998804a506.png" class="latex" alt="$R=\frac{13}{2}$" style="vertical-align: -12px" width="58" height="37" />. 
+<p>We directly apply Euler’s Theorem, which states that if the circumcenter is <img src="https://latex.artofproblemsolving.com/5/1/d/51da37d984564162c87710ca27bea422f657fb73.png" class="latex" alt="$O$" width="13" height="12" /> and the incenter <img src="https://latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" />, and the inradius is <img src="https://latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> and the circumradius is <img src="https://latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" />, then
+<img src="https://latex.artofproblemsolving.com/1/e/e/1ee9dc3b52bdd0ea40931dc0ca792540fcb15ebc.png" class="latexcenter" alt="\[OI^2=R(R-2r)\]" width="135" height="19" />
+</p><p>We can see that this is a right triangle, and hence has area <img src="https://latex.artofproblemsolving.com/6/5/1/651ba418a810d971dbc8a326d49a71fe1541fae0.png" class="latex" alt="$30$" width="17" height="12" />. We then find the inradius with the formula <img src="https://latex.artofproblemsolving.com/1/e/1/1e10db7df3e7fccf99a1ac6de439f3e2cf0723fc.png" class="latex" alt="$A=rs$" width="54" height="13" />, where <img src="https://latex.artofproblemsolving.com/f/3/7/f37bba504894945c07a32f5496d74299a37aa51c.png" class="latex" alt="$s$" width="8" height="8" /> denotes semiperimeter. We easily see that <img src="https://latex.artofproblemsolving.com/d/4/a/d4a0c4f278dacc3a3519b89e9240ce12c203af9e.png" class="latex" alt="$s=15$" style="vertical-align: 0px" width="50" height="13" />, so <img src="https://latex.artofproblemsolving.com/a/0/7/a0736cc24657e4fbe87410091de1c4ebd44e26db.png" class="latex" alt="$r=2$" width="41" height="12" />.
+</p><p>We now find the circumradius with the formula <img src="https://latex.artofproblemsolving.com/c/3/3/c33295a45f64955c07396031ff1f68c2b6d861d5.png" class="latex" alt="$A=\frac{abc}{4R}$" style="vertical-align: -13px" width="65" height="38" />. Solving for <img src="https://latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> gives <img src="https://latex.artofproblemsolving.com/3/e/a/3eac4492a6e647f8c6b2ebc501c2f2998804a506.png" class="latex" alt="$R=\frac{13}{2}$" style="vertical-align: -12px" width="58" height="37" />.
 </p><p>Substituting all of this back into our formula gives:
-<img src="//latex.artofproblemsolving.com/f/a/a/faafcf2ce22effea97ba9366498d8dfe6840fb13.png" class="latexcenter" alt="\[OI^2= \frac{65}{4}\]" width="75" height="38" />
-So, <img src="//latex.artofproblemsolving.com/a/f/b/afb044702711604a530ba684f2ab17986b23ce83.png" class="latex" alt="$OI=\frac{\sqrt{65}}{2}\implies \boxed{D}$" style="vertical-align: -12px" width="162" height="41" />
+<img src="https://latex.artofproblemsolving.com/f/a/a/faafcf2ce22effea97ba9366498d8dfe6840fb13.png" class="latexcenter" alt="\[OI^2= \frac{65}{4}\]" width="75" height="38" />
+So, <img src="https://latex.artofproblemsolving.com/a/f/b/afb044702711604a530ba684f2ab17986b23ce83.png" class="latex" alt="$OI=\frac{\sqrt{65}}{2}\implies \boxed{D}$" style="vertical-align: -12px" width="162" height="41" />
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -459,7 +449,7 @@ So, <img src="//latex.artofproblemsolving.com/a/f/b/afb044702711604a530ba684f2ab
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715104907
 Cache expiry: 86400
@@ -489,7 +479,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>

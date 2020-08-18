@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2008_AIME_II_Problems/Problem_8" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2008 AIME II Problems/Problem 8</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -424,28 +414,28 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>Let <img src="//latex.artofproblemsolving.com/b/2/e/b2eb65a95e4740345dd6809403aff78cbde25309.png" class="latex" alt="$a = \pi/2008$" style="vertical-align: -4px" width="89" height="18" />. Find the smallest positive integer <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that
-<img src="//latex.artofproblemsolving.com/1/3/0/130591afb17e8bdcc9d7334e4fcc26d57a8f65bd.png" class="latexcenter" alt="\[2[\cos(a)\sin(a) + \cos(4a)\sin(2a) + \cos(9a)\sin(3a) + \cdots + \cos(n^2a)\sin(na)]\]" width="548" height="20" />
+<p>Let <img src="https://latex.artofproblemsolving.com/b/2/e/b2eb65a95e4740345dd6809403aff78cbde25309.png" class="latex" alt="$a = \pi/2008$" style="vertical-align: -4px" width="89" height="18" />. Find the smallest positive integer <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that
+<img src="https://latex.artofproblemsolving.com/1/3/0/130591afb17e8bdcc9d7334e4fcc26d57a8f65bd.png" class="latexcenter" alt="\[2[\cos(a)\sin(a) + \cos(4a)\sin(2a) + \cos(9a)\sin(3a) + \cdots + \cos(n^2a)\sin(na)]\]" width="548" height="20" />
 is an integer.
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
 <h3><span class="mw-headline" id="Solution_1">Solution 1</span></h3>
-<p>By the <a href="/wiki/index.php/Trigonometric_identity" class="mw-redirect" title="Trigonometric identity">product-to-sum identities</a>, we have that <img src="//latex.artofproblemsolving.com/b/a/e/bae61889cb3f7cfaa77c4e0fcbbe49089e3d95ad.png" class="latex" alt="$2\cos a \sin b = \sin (a+b) - \sin (a-b)$" style="vertical-align: -4px" width="282" height="18" />. Therefore, this reduces to a <a href="/wiki/index.php/Telescope" title="Telescope">telescoping series</a>: 
-<img src="//latex.artofproblemsolving.com/4/1/7/417655839b4578551543e9697b058fe3d9c42e97.png" class="latexcenter" alt="\begin{align*} \sum_{k=1}^{n} 2\cos(k^2a)\sin(ka) &amp;= \sum_{k=1}^{n} [\sin(k(k+1)a) - \sin((k-1)ka)]\\ &amp;= -\sin(0) + \sin(2a)- \sin(2a) + \sin(6a) - \cdots - \sin((n-1)na) + \sin(n(n+1)a)\\ &amp;= -\sin(0) + \sin(n(n+1)a) = \sin(n(n+1)a) \end{align*}" width="797" height="99" />
-</p><p>Thus, we need <img src="//latex.artofproblemsolving.com/7/d/6/7d6bf14a46025fc51ea354846e2eb3d5f45ba5e7.png" class="latex" alt="$\sin \left(\frac{n(n+1)\pi}{2008}\right)$" style="vertical-align: -17px" width="130" height="43" /> to be an integer; this can be only <img src="//latex.artofproblemsolving.com/f/0/4/f0478d311225334208821f5e81b92d5e163654a0.png" class="latex" alt="$\{-1,0,1\}$" style="vertical-align: -4px" width="74" height="18" />, which occur when <img src="//latex.artofproblemsolving.com/a/7/9/a79b94c03dd8fa85c54047875c314da936a0fc48.png" class="latex" alt="$2 \cdot \frac{n(n+1)}{2008}$" style="vertical-align: -12px" width="91" height="38" /> is an integer. Thus <img src="//latex.artofproblemsolving.com/2/1/9/2191036b11ac2758a88bfa900c3a9459719abf6c.png" class="latex" alt="$1004 = 2^2 \cdot 251 | n(n+1) \Longrightarrow 251 | n, n+1$" style="vertical-align: -4px" width="321" height="19" />. It easily follows that <img src="//latex.artofproblemsolving.com/8/e/f/8ef2adb48b4a3aa9ae3157fff37c19db08d94f9b.png" class="latex" alt="$n = \boxed{251}$" style="vertical-align: -5px" width="74" height="23" /> is the smallest such integer.
+<p>By the <a href="/wiki/index.php/Trigonometric_identity" class="mw-redirect" title="Trigonometric identity">product-to-sum identities</a>, we have that <img src="https://latex.artofproblemsolving.com/b/a/e/bae61889cb3f7cfaa77c4e0fcbbe49089e3d95ad.png" class="latex" alt="$2\cos a \sin b = \sin (a+b) - \sin (a-b)$" style="vertical-align: -4px" width="282" height="18" />. Therefore, this reduces to a <a href="/wiki/index.php/Telescope" title="Telescope">telescoping series</a>:
+<img src="https://latex.artofproblemsolving.com/4/1/7/417655839b4578551543e9697b058fe3d9c42e97.png" class="latexcenter" alt="\begin{align*} \sum_{k=1}^{n} 2\cos(k^2a)\sin(ka) &amp;= \sum_{k=1}^{n} [\sin(k(k+1)a) - \sin((k-1)ka)]\\ &amp;= -\sin(0) + \sin(2a)- \sin(2a) + \sin(6a) - \cdots - \sin((n-1)na) + \sin(n(n+1)a)\\ &amp;= -\sin(0) + \sin(n(n+1)a) = \sin(n(n+1)a) \end{align*}" width="797" height="99" />
+</p><p>Thus, we need <img src="https://latex.artofproblemsolving.com/7/d/6/7d6bf14a46025fc51ea354846e2eb3d5f45ba5e7.png" class="latex" alt="$\sin \left(\frac{n(n+1)\pi}{2008}\right)$" style="vertical-align: -17px" width="130" height="43" /> to be an integer; this can be only <img src="https://latex.artofproblemsolving.com/f/0/4/f0478d311225334208821f5e81b92d5e163654a0.png" class="latex" alt="$\{-1,0,1\}$" style="vertical-align: -4px" width="74" height="18" />, which occur when <img src="https://latex.artofproblemsolving.com/a/7/9/a79b94c03dd8fa85c54047875c314da936a0fc48.png" class="latex" alt="$2 \cdot \frac{n(n+1)}{2008}$" style="vertical-align: -12px" width="91" height="38" /> is an integer. Thus <img src="https://latex.artofproblemsolving.com/2/1/9/2191036b11ac2758a88bfa900c3a9459719abf6c.png" class="latex" alt="$1004 = 2^2 \cdot 251 | n(n+1) \Longrightarrow 251 | n, n+1$" style="vertical-align: -4px" width="321" height="19" />. It easily follows that <img src="https://latex.artofproblemsolving.com/8/e/f/8ef2adb48b4a3aa9ae3157fff37c19db08d94f9b.png" class="latex" alt="$n = \boxed{251}$" style="vertical-align: -5px" width="74" height="23" /> is the smallest such integer.
 </p>
 <h3><span class="mw-headline" id="Solution_2">Solution 2</span></h3>
-<p>We proceed with complex trigonometry. We know that for all <img src="//latex.artofproblemsolving.com/5/2/e/52e8ed7a3ba22130ad3984eb2cd413406475a689.png" class="latex" alt="$\theta$" width="8" height="13" />, we have <img src="//latex.artofproblemsolving.com/2/9/9/2992e40eb06a3ae3b5404fa1267032425d36442f.png" class="latex" alt="$\cos \theta = \dfrac{1}{2} \left( z + \dfrac{1}{z} \right)$" style="vertical-align: -17px" width="144" height="43" /> and <img src="//latex.artofproblemsolving.com/2/a/0/2a09e2d947471bc626c6fd65277498fa57848590.png" class="latex" alt="$\sin \theta = \dfrac{1}{2i} \left( z - \dfrac{1}{z} \right)$" style="vertical-align: -17px" width="148" height="43" /> for some complex number <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" />. Similarly, we have <img src="//latex.artofproblemsolving.com/8/b/3/8b301361403b9d717d0101676532068a72dc9cf9.png" class="latex" alt="$\cos n \theta = \dfrac{1}{2} \left( z^n + \dfrac{1}{z^n} \right)$" style="vertical-align: -17px" width="173" height="43" /> and <img src="//latex.artofproblemsolving.com/3/e/0/3e008bfc326cae6919d4c10a64bd81ca39544200.png" class="latex" alt="$\sin n \theta = \dfrac{1}{2i} \left(z^n - \dfrac{1}{z^n} \right)$" style="vertical-align: -17px" width="177" height="43" />. Thus, we have <img src="//latex.artofproblemsolving.com/d/d/2/dd295b624ea5cd3b169e44184f2da0e54614709e.png" class="latex" alt="$\cos n^2 a \sin n a = \dfrac{1}{4i} \left( z^{n^2} + \dfrac{1}{z^{n^2}} \right) \left( z^{n} - \dfrac{1}{z^n} \right)$" style="vertical-align: -17px" width="341" height="43" />
-</p><p><img src="//latex.artofproblemsolving.com/f/1/b/f1b86469c904a8eb8f804d221373553594ef671c.png" class="latex" alt="$= \dfrac{1}{4i} \left( z^{n^2 + n} - \dfrac{1}{z^{n^2 + n}} - z^{n^2 - n} + \dfrac{1}{z^{n^2 - n}} \right)$" style="vertical-align: -17px" width="312" height="43" />
-</p><p><img src="//latex.artofproblemsolving.com/7/6/0/7607500367455d938893bf06255c8a0d17a6dbe8.png" class="latex" alt="$= \dfrac{1}{2} \left( \dfrac{1}{2i} \left(z^{n^2 + n} - \dfrac{1}{z^{n^2 + n}} \right) - \dfrac{1}{2i} \left(z^{n^2 - n} - \dfrac{1}{z^{n^2 - n}} \right) \right)$" style="vertical-align: -17px" width="402" height="43" />
-</p><p><img src="//latex.artofproblemsolving.com/5/1/f/51fa634d69f3a93e725869cd21dfc4fe0953c232.png" class="latex" alt="$= \dfrac{1}{2} \left( \sin ((n^2 + n)a) - \sin ((n^2 - n)a) \right)$" style="vertical-align: -12px" width="294" height="37" />
-</p><p><img src="//latex.artofproblemsolving.com/0/e/a/0ea3fd87f46982ef9ae2af39a2d0570664f4be38.png" class="latex" alt="$= \dfrac{1}{2} \left( \sin(((n+1)^2 - (n+1))a) - \sin((n^2 - n)a) \right)$" style="vertical-align: -12px" width="385" height="37" />
-</p><p>which clearly telescopes! Since the <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> outside the brackets cancels with the <img src="//latex.artofproblemsolving.com/4/a/4/4a4a7df1100efe353cc612d5d1c289c22d5bf8c1.png" class="latex" alt="$\dfrac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> inside, we see that the sum up to <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> terms is 
-</p><p><img src="//latex.artofproblemsolving.com/4/2/6/426b2ee32f251eda36f2c568379ab22a1fe647a6.png" class="latex" alt="$\sin ((2^2 - 2)a) - \sin ((1^2 - 1)a) + \sin ((3^3 - 3)a) - \sin ((2^2 - 2)a) \cdots + \sin (((n+1)^2 - (n+1))a) - \sin ((n^2 - n)a)$" style="vertical-align: -4px" width="880" height="19" />
-</p><p><img src="//latex.artofproblemsolving.com/b/c/9/bc97ba32e121b6ff6e565e62d9eb653f9620062f.png" class="latex" alt="$= \sin (((n+1)^2 - (n+1))a) - \sin(0)$" style="vertical-align: -4px" width="288" height="19" />
-</p><p><img src="//latex.artofproblemsolving.com/f/e/c/fece0ff305eb1ae5448639ca5961466ecfd3f0c8.png" class="latex" alt="$= \sin ((n^2 + n)a) - 0$" style="vertical-align: -4px" width="161" height="19" />
-</p><p><img src="//latex.artofproblemsolving.com/2/5/3/2539c7badea59f444289284f80fa63366cb93b9f.png" class="latex" alt="$= \sin \left( \dfrac{n(n+1) \pi}{2008} \right)$" style="vertical-align: -17px" width="149" height="43" />.
-</p><p>This expression takes on an integer value iff <img src="//latex.artofproblemsolving.com/0/8/e/08e29e359441ee702cecf272958c2cfdb77720c6.png" class="latex" alt="$\dfrac{2n(n+1)}{2008} = \dfrac{n(n+1)}{1004}$" style="vertical-align: -13px" width="174" height="39" /> is an integer; that is, <img src="//latex.artofproblemsolving.com/7/a/5/7a582c93fe8eaaf77f06162a2f954d93b1be2568.png" class="latex" alt="$1004 \mid n(n+1)$" style="vertical-align: -4px" width="117" height="18" />. Clearly, <img src="//latex.artofproblemsolving.com/9/e/3/9e3ec98227f7c8f15968d21962862e01329ecbd9.png" class="latex" alt="$1004 = 2^2 \cdot 251$" style="vertical-align: 0px" width="116" height="15" />, implying that <img src="//latex.artofproblemsolving.com/4/b/7/4b74a848a7297adf02df85df7f6c37b94692abf5.png" class="latex" alt="$251 \mid n(n+1)$" style="vertical-align: -4px" width="108" height="18" />. Since we want the smallest possible value of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, we see that we must have <img src="//latex.artofproblemsolving.com/e/5/7/e57468b268ba9e4794b081f52e673b22e6f54935.png" class="latex" alt="${n,n+1} = 251$" style="vertical-align: -3px" width="111" height="16" />. If <img src="//latex.artofproblemsolving.com/d/d/2/dd24a29e72cb6498a6f5987d0e7eb003548e2504.png" class="latex" alt="$n+1 = 251 \rightarrow n=250$" style="vertical-align: -1px" width="183" height="14" />, then we have <img src="//latex.artofproblemsolving.com/2/9/2/292752c77039e71f2e969954dea47e1d44118949.png" class="latex" alt="$n(n+1) = 250(251)$" style="vertical-align: -4px" width="158" height="18" />, which is clearly not divisible by <img src="//latex.artofproblemsolving.com/a/9/9/a99b4773ff3d3ef9cc970d28784430be58c24185.png" class="latex" alt="$1004$" style="vertical-align: 0px" width="36" height="13" />. However, if <img src="//latex.artofproblemsolving.com/b/d/0/bd0f67cde921ba951e0d1906018d9a73d28a2d1a.png" class="latex" alt="$n = 251$" style="vertical-align: 0px" width="61" height="13" />, then <img src="//latex.artofproblemsolving.com/7/a/5/7a582c93fe8eaaf77f06162a2f954d93b1be2568.png" class="latex" alt="$1004 \mid n(n+1)$" style="vertical-align: -4px" width="117" height="18" />, so our answer is <img src="//latex.artofproblemsolving.com/e/2/b/e2b73d920fb16466a208ef1beeb3c0481a69d463.png" class="latex" alt="$\boxed{251}$" style="vertical-align: -5px" width="39" height="23" />.
+<p>We proceed with complex trigonometry. We know that for all <img src="https://latex.artofproblemsolving.com/5/2/e/52e8ed7a3ba22130ad3984eb2cd413406475a689.png" class="latex" alt="$\theta$" width="8" height="13" />, we have <img src="https://latex.artofproblemsolving.com/2/9/9/2992e40eb06a3ae3b5404fa1267032425d36442f.png" class="latex" alt="$\cos \theta = \dfrac{1}{2} \left( z + \dfrac{1}{z} \right)$" style="vertical-align: -17px" width="144" height="43" /> and <img src="https://latex.artofproblemsolving.com/2/a/0/2a09e2d947471bc626c6fd65277498fa57848590.png" class="latex" alt="$\sin \theta = \dfrac{1}{2i} \left( z - \dfrac{1}{z} \right)$" style="vertical-align: -17px" width="148" height="43" /> for some complex number <img src="https://latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" width="8" height="8" />. Similarly, we have <img src="https://latex.artofproblemsolving.com/8/b/3/8b301361403b9d717d0101676532068a72dc9cf9.png" class="latex" alt="$\cos n \theta = \dfrac{1}{2} \left( z^n + \dfrac{1}{z^n} \right)$" style="vertical-align: -17px" width="173" height="43" /> and <img src="https://latex.artofproblemsolving.com/3/e/0/3e008bfc326cae6919d4c10a64bd81ca39544200.png" class="latex" alt="$\sin n \theta = \dfrac{1}{2i} \left(z^n - \dfrac{1}{z^n} \right)$" style="vertical-align: -17px" width="177" height="43" />. Thus, we have <img src="https://latex.artofproblemsolving.com/d/d/2/dd295b624ea5cd3b169e44184f2da0e54614709e.png" class="latex" alt="$\cos n^2 a \sin n a = \dfrac{1}{4i} \left( z^{n^2} + \dfrac{1}{z^{n^2}} \right) \left( z^{n} - \dfrac{1}{z^n} \right)$" style="vertical-align: -17px" width="341" height="43" />
+</p><p><img src="https://latex.artofproblemsolving.com/f/1/b/f1b86469c904a8eb8f804d221373553594ef671c.png" class="latex" alt="$= \dfrac{1}{4i} \left( z^{n^2 + n} - \dfrac{1}{z^{n^2 + n}} - z^{n^2 - n} + \dfrac{1}{z^{n^2 - n}} \right)$" style="vertical-align: -17px" width="312" height="43" />
+</p><p><img src="https://latex.artofproblemsolving.com/7/6/0/7607500367455d938893bf06255c8a0d17a6dbe8.png" class="latex" alt="$= \dfrac{1}{2} \left( \dfrac{1}{2i} \left(z^{n^2 + n} - \dfrac{1}{z^{n^2 + n}} \right) - \dfrac{1}{2i} \left(z^{n^2 - n} - \dfrac{1}{z^{n^2 - n}} \right) \right)$" style="vertical-align: -17px" width="402" height="43" />
+</p><p><img src="https://latex.artofproblemsolving.com/5/1/f/51fa634d69f3a93e725869cd21dfc4fe0953c232.png" class="latex" alt="$= \dfrac{1}{2} \left( \sin ((n^2 + n)a) - \sin ((n^2 - n)a) \right)$" style="vertical-align: -12px" width="294" height="37" />
+</p><p><img src="https://latex.artofproblemsolving.com/0/e/a/0ea3fd87f46982ef9ae2af39a2d0570664f4be38.png" class="latex" alt="$= \dfrac{1}{2} \left( \sin(((n+1)^2 - (n+1))a) - \sin((n^2 - n)a) \right)$" style="vertical-align: -12px" width="385" height="37" />
+</p><p>which clearly telescopes! Since the <img src="https://latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> outside the brackets cancels with the <img src="https://latex.artofproblemsolving.com/4/a/4/4a4a7df1100efe353cc612d5d1c289c22d5bf8c1.png" class="latex" alt="$\dfrac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> inside, we see that the sum up to <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> terms is
+</p><p><img src="https://latex.artofproblemsolving.com/4/2/6/426b2ee32f251eda36f2c568379ab22a1fe647a6.png" class="latex" alt="$\sin ((2^2 - 2)a) - \sin ((1^2 - 1)a) + \sin ((3^3 - 3)a) - \sin ((2^2 - 2)a) \cdots + \sin (((n+1)^2 - (n+1))a) - \sin ((n^2 - n)a)$" style="vertical-align: -4px" width="880" height="19" />
+</p><p><img src="https://latex.artofproblemsolving.com/b/c/9/bc97ba32e121b6ff6e565e62d9eb653f9620062f.png" class="latex" alt="$= \sin (((n+1)^2 - (n+1))a) - \sin(0)$" style="vertical-align: -4px" width="288" height="19" />
+</p><p><img src="https://latex.artofproblemsolving.com/f/e/c/fece0ff305eb1ae5448639ca5961466ecfd3f0c8.png" class="latex" alt="$= \sin ((n^2 + n)a) - 0$" style="vertical-align: -4px" width="161" height="19" />
+</p><p><img src="https://latex.artofproblemsolving.com/2/5/3/2539c7badea59f444289284f80fa63366cb93b9f.png" class="latex" alt="$= \sin \left( \dfrac{n(n+1) \pi}{2008} \right)$" style="vertical-align: -17px" width="149" height="43" />.
+</p><p>This expression takes on an integer value iff <img src="https://latex.artofproblemsolving.com/0/8/e/08e29e359441ee702cecf272958c2cfdb77720c6.png" class="latex" alt="$\dfrac{2n(n+1)}{2008} = \dfrac{n(n+1)}{1004}$" style="vertical-align: -13px" width="174" height="39" /> is an integer; that is, <img src="https://latex.artofproblemsolving.com/7/a/5/7a582c93fe8eaaf77f06162a2f954d93b1be2568.png" class="latex" alt="$1004 \mid n(n+1)$" style="vertical-align: -4px" width="117" height="18" />. Clearly, <img src="https://latex.artofproblemsolving.com/9/e/3/9e3ec98227f7c8f15968d21962862e01329ecbd9.png" class="latex" alt="$1004 = 2^2 \cdot 251$" style="vertical-align: 0px" width="116" height="15" />, implying that <img src="https://latex.artofproblemsolving.com/4/b/7/4b74a848a7297adf02df85df7f6c37b94692abf5.png" class="latex" alt="$251 \mid n(n+1)$" style="vertical-align: -4px" width="108" height="18" />. Since we want the smallest possible value of <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, we see that we must have <img src="https://latex.artofproblemsolving.com/e/5/7/e57468b268ba9e4794b081f52e673b22e6f54935.png" class="latex" alt="${n,n+1} = 251$" style="vertical-align: -3px" width="111" height="16" />. If <img src="https://latex.artofproblemsolving.com/d/d/2/dd24a29e72cb6498a6f5987d0e7eb003548e2504.png" class="latex" alt="$n+1 = 251 \rightarrow n=250$" style="vertical-align: -1px" width="183" height="14" />, then we have <img src="https://latex.artofproblemsolving.com/2/9/2/292752c77039e71f2e969954dea47e1d44118949.png" class="latex" alt="$n(n+1) = 250(251)$" style="vertical-align: -4px" width="158" height="18" />, which is clearly not divisible by <img src="https://latex.artofproblemsolving.com/a/9/9/a99b4773ff3d3ef9cc970d28784430be58c24185.png" class="latex" alt="$1004$" style="vertical-align: 0px" width="36" height="13" />. However, if <img src="https://latex.artofproblemsolving.com/b/d/0/bd0f67cde921ba951e0d1906018d9a73d28a2d1a.png" class="latex" alt="$n = 251$" style="vertical-align: 0px" width="61" height="13" />, then <img src="https://latex.artofproblemsolving.com/7/a/5/7a582c93fe8eaaf77f06162a2f954d93b1be2568.png" class="latex" alt="$1004 \mid n(n+1)$" style="vertical-align: -4px" width="117" height="18" />, so our answer is <img src="https://latex.artofproblemsolving.com/e/2/b/e2b73d920fb16466a208ef1beeb3c0481a69d463.png" class="latex" alt="$\boxed{251}$" style="vertical-align: -5px" width="39" height="23" />.
 </p><p>It should be noted that the product-to-sum rules follow directly from complex trigonometry, so this solution is essentially equivalent to the solution above.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
@@ -468,7 +458,7 @@ is an integer.
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714193738
 Cache expiry: 86400
@@ -498,7 +488,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Trigonometry_Problems" title="Category:Intermediate Trigonometry Problems">Intermediate Trigonometry Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1992_AIME_Problems/Problem_12" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1992 AIME Problems/Problem 12</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -421,20 +411,20 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>In a game of <i>Chomp</i>, two players alternately take bites from a 5-by-7 grid of <a href="/wiki/index.php/Unit_square" title="Unit square">unit squares</a>. To take a bite, a player chooses one of the remaining <a href="/wiki/index.php/Square_(geometry)" title="Square (geometry)"> squares</a>, then removes ("eats") all squares in the quadrant defined by the left edge (extended upward) and the lower edge (extended rightward) of the chosen square. For example, the bite determined by the shaded square in the diagram would remove the shaded square and the four squares marked by <img src="//latex.artofproblemsolving.com/9/8/d/98d64345bab22c575c1431fe5d252a82d559fb48.png" class="latex" alt="$\times.$" width="17" height="9" /> (The squares with two or more dotted edges have been removed form the original board in previous moves.) 
+<p>In a game of <i>Chomp</i>, two players alternately take bites from a 5-by-7 grid of <a href="/wiki/index.php/Unit_square" title="Unit square">unit squares</a>. To take a bite, a player chooses one of the remaining <a href="/wiki/index.php/Square_(geometry)" title="Square (geometry)"> squares</a>, then removes ("eats") all squares in the quadrant defined by the left edge (extended upward) and the lower edge (extended rightward) of the chosen square. For example, the bite determined by the shaded square in the diagram would remove the shaded square and the four squares marked by <img src="https://latex.artofproblemsolving.com/9/8/d/98d64345bab22c575c1431fe5d252a82d559fb48.png" class="latex" alt="$\times.$" width="17" height="9" /> (The squares with two or more dotted edges have been removed form the original board in previous moves.)
 </p><p><a href="/wiki/index.php/File:AIME_1992_Problem_12.png" class="image"><img alt="AIME 1992 Problem 12.png" src="https://wiki-images.artofproblemsolving.com//c/c6/AIME_1992_Problem_12.png" width="205" height="150" /></a>
 </p><p>The object of the game is to make one's opponent take the last bite. The diagram shows one of the many <a href="/wiki/index.php/Subset" title="Subset">subsets</a> of the <a href="/wiki/index.php/Set" title="Set">set</a> of 35 unit squares that can occur during the game of Chomp. How many different subsets are there in all? Include the full board and empty board in your count.
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
 <p>By drawing possible examples of the subset, one can easily see that making one subset is the same as dividing the game board into two parts.
 </p><p>One can also see that it is the same as finding the shortest route from the upper left hand corner to the lower right hand corner; Such a route would require 5 lengths that go down, and 7 that go across, with the shape on the right "carved" out by the path a possible subset.
-</p><p>Therefore, the total number of such paths is <img src="//latex.artofproblemsolving.com/d/f/8/df830f2d94f469bde2d7805b24b08b7084831eeb.png" class="latex" alt="$\binom{12}{5}=\boxed{792}$" style="vertical-align: -22px" width="109" height="53" />
+</p><p>Therefore, the total number of such paths is <img src="https://latex.artofproblemsolving.com/d/f/8/df830f2d94f469bde2d7805b24b08b7084831eeb.png" class="latex" alt="$\binom{12}{5}=\boxed{792}$" style="vertical-align: -22px" width="109" height="53" />
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>If any square is eaten, the squares to the right of it must also be eaten. Thus, if <img src="//latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> is the number of squares remaining on row <img src="//latex.artofproblemsolving.com/3/4/8/34857b3ba74ce5cd8607f3ebd23e9015908ada71.png" class="latex" alt="$i$" width="5" height="12" />, there is exactly one way the row can be configured (the leftmost <img src="//latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> squares are uneaten and the ones to the right are eaten.) Additionally, the squares above an eaten square must be eaten, so <img src="//latex.artofproblemsolving.com/8/a/4/8a4088a2d5a23c3d7b7b187cbb50f6028bc65346.png" class="latex" alt="$\{a_i\}$" style="vertical-align: -4px" width="32" height="18" /> is nondecreasing. We can thus write <img src="//latex.artofproblemsolving.com/3/2/0/320caab1e94b3629084e4e04b723eec201d4c733.png" class="latex" alt="$0 \leq a_1 \leq a_2 \leq \dots \leq a_5 \leq 7$" style="vertical-align: -2px" width="211" height="15" />; the number of sequences <img src="//latex.artofproblemsolving.com/8/a/4/8a4088a2d5a23c3d7b7b187cbb50f6028bc65346.png" class="latex" alt="$\{a_i\}$" style="vertical-align: -4px" width="32" height="18" /> satisfying this inequality may be found by Stars and Bars to be <img src="//latex.artofproblemsolving.com/4/6/f/46f93eb36e70a323f35b77f00ce317307b217ed6.png" class="latex" alt="$\binom{7+6-1}{6-1} = \boxed{792}$" style="vertical-align: -22px" width="163" height="53" />.
+<p>If any square is eaten, the squares to the right of it must also be eaten. Thus, if <img src="https://latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> is the number of squares remaining on row <img src="https://latex.artofproblemsolving.com/3/4/8/34857b3ba74ce5cd8607f3ebd23e9015908ada71.png" class="latex" alt="$i$" width="5" height="12" />, there is exactly one way the row can be configured (the leftmost <img src="https://latex.artofproblemsolving.com/4/1/2/412787c048e28774dc63fc27db42dc52ca858de7.png" class="latex" alt="$a_i$" style="vertical-align: -2px" width="14" height="10" /> squares are uneaten and the ones to the right are eaten.) Additionally, the squares above an eaten square must be eaten, so <img src="https://latex.artofproblemsolving.com/8/a/4/8a4088a2d5a23c3d7b7b187cbb50f6028bc65346.png" class="latex" alt="$\{a_i\}$" style="vertical-align: -4px" width="32" height="18" /> is nondecreasing. We can thus write <img src="https://latex.artofproblemsolving.com/3/2/0/320caab1e94b3629084e4e04b723eec201d4c733.png" class="latex" alt="$0 \leq a_1 \leq a_2 \leq \dots \leq a_5 \leq 7$" style="vertical-align: -2px" width="211" height="15" />; the number of sequences <img src="https://latex.artofproblemsolving.com/8/a/4/8a4088a2d5a23c3d7b7b187cbb50f6028bc65346.png" class="latex" alt="$\{a_i\}$" style="vertical-align: -4px" width="32" height="18" /> satisfying this inequality may be found by Stars and Bars to be <img src="https://latex.artofproblemsolving.com/4/6/f/46f93eb36e70a323f35b77f00ce317307b217ed6.png" class="latex" alt="$\binom{7+6-1}{6-1} = \boxed{792}$" style="vertical-align: -22px" width="163" height="53" />.
 </p>
 <h2><span class="mw-headline" id="Links_to_Branches_of_Mathematics">Links to Branches of Mathematics</span></h2>
-<p>This question is one case of the problem of counting <a href="/wiki/index.php?title=Order_ideal&amp;action=edit&amp;redlink=1" class="new" title="Order ideal (page does not exist)">order ideals</a> or <a href="/wiki/index.php?title=Antichain&amp;action=edit&amp;redlink=1" class="new" title="Antichain (page does not exist)">antichains</a> in <a href="/wiki/index.php/Poset" class="mw-redirect" title="Poset">posets</a>.  Specifically, it ask for the number of order ideals of the <a href="/wiki/index.php?title=Product_poset&amp;action=edit&amp;redlink=1" class="new" title="Product poset (page does not exist)">product poset</a> of the <a href="/wiki/index.php?title=Chain&amp;action=edit&amp;redlink=1" class="new" title="Chain (page does not exist)">chain</a> of length <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> and the chain of length <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />.
+<p>This question is one case of the problem of counting <a href="/wiki/index.php?title=Order_ideal&amp;action=edit&amp;redlink=1" class="new" title="Order ideal (page does not exist)">order ideals</a> or <a href="/wiki/index.php?title=Antichain&amp;action=edit&amp;redlink=1" class="new" title="Antichain (page does not exist)">antichains</a> in <a href="/wiki/index.php/Poset" class="mw-redirect" title="Poset">posets</a>.  Specifically, it ask for the number of order ideals of the <a href="/wiki/index.php?title=Product_poset&amp;action=edit&amp;redlink=1" class="new" title="Product poset (page does not exist)">product poset</a> of the <a href="/wiki/index.php?title=Chain&amp;action=edit&amp;redlink=1" class="new" title="Chain (page does not exist)">chain</a> of length <img src="https://latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> and the chain of length <img src="https://latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -456,7 +446,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714191646
 Cache expiry: 86400
@@ -486,7 +476,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>

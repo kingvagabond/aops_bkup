@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2000_AIME_I_Problems/Problem_12" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,27 +393,27 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2000 AIME I Problems/Problem 12</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>Given a <a href="/wiki/index.php/Function" title="Function">function</a> <img src="//latex.artofproblemsolving.com/b/b/2/bb2c93730dbb48558bb3c4738c956c4e8f816437.png" class="latex" alt="$f$" style="vertical-align: -3px" width="10" height="16" /> for which
-<img src="//latex.artofproblemsolving.com/1/a/2/1a25d42e3138957558cb585af4e0f19dfc64192a.png" class="latexcenter" alt="\[f(x) = f(398 - x) = f(2158 - x) = f(3214 - x)\]" width="379" height="18" />
-holds for all real <img src="//latex.artofproblemsolving.com/6/d/0/6d0382f3585219947b495ac2262a81b7b0c40db2.png" class="latex" alt="$x,$" style="vertical-align: -3px" width="14" height="11" /> what is the largest number of different values that can appear in the list <img src="//latex.artofproblemsolving.com/4/a/1/4a1b0327445bef67dfeedd4d699d72b9dd8005ef.png" class="latex" alt="$f(0),f(1),f(2),\ldots,f(999)?$" style="vertical-align: -4px" width="218" height="18" />
+<p>Given a <a href="/wiki/index.php/Function" title="Function">function</a> <img src="https://latex.artofproblemsolving.com/b/b/2/bb2c93730dbb48558bb3c4738c956c4e8f816437.png" class="latex" alt="$f$" style="vertical-align: -3px" width="10" height="16" /> for which
+<img src="https://latex.artofproblemsolving.com/1/a/2/1a25d42e3138957558cb585af4e0f19dfc64192a.png" class="latexcenter" alt="\[f(x) = f(398 - x) = f(2158 - x) = f(3214 - x)\]" width="379" height="18" />
+holds for all real <img src="https://latex.artofproblemsolving.com/6/d/0/6d0382f3585219947b495ac2262a81b7b0c40db2.png" class="latex" alt="$x,$" style="vertical-align: -3px" width="14" height="11" /> what is the largest number of different values that can appear in the list <img src="https://latex.artofproblemsolving.com/4/a/1/4a1b0327445bef67dfeedd4d699d72b9dd8005ef.png" class="latex" alt="$f(0),f(1),f(2),\ldots,f(999)?$" style="vertical-align: -4px" width="218" height="18" />
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
-<p><img src="//latex.artofproblemsolving.com/5/8/e/58e3d73a53f38ad2c780b6d9c83439d1dfae49fa.png" class="latexcenter" alt="\begin{align*}f(2158 - x) = f(x) &amp;= f(3214 - (2158 - x)) &amp;= f(1056 + x)\\ f(398 - x) = f(x) &amp;= f(2158 - (398 - x)) &amp;= f(1760 + x)\end{align*}" width="472" height="43" />
-</p><p>Since <img src="//latex.artofproblemsolving.com/3/1/f/31f053ccbd2bdf1f8bb69810e853e75add009147.png" class="latex" alt="$\mathrm{gcd}(1056, 1760) = 352$" style="vertical-align: -4px" width="173" height="18" /> we can conclude that (by the <a href="/wiki/index.php/Euclidean_algorithm" title="Euclidean algorithm">Euclidean algorithm</a>)
-</p><p><img src="//latex.artofproblemsolving.com/6/e/9/6e9149a031c90a84a16859cc9886eeec06f9a836.png" class="latexcenter" alt="\[f(x) = f(352 + x)\]" width="142" height="18" />
-</p><p>So we need only to consider one period <img src="//latex.artofproblemsolving.com/d/2/8/d280e5b8f83f3d7e326f4b7d91f48e2948c21780.png" class="latex" alt="$f(0), f(1), ... f(351)$" style="vertical-align: -4px" width="150" height="18" />, which can have at most <img src="//latex.artofproblemsolving.com/f/2/9/f29ff17318129de79b4f012548e444a27acefd85.png" class="latex" alt="$352$" width="26" height="12" /> distinct values which determine the value of <img src="//latex.artofproblemsolving.com/c/9/6/c96dd6ec1dc4ad7520fbdc78fcdbec9edd068d0c.png" class="latex" alt="$f(x)$" style="vertical-align: -4px" width="34" height="18" /> at all other integers.  
-</p><p>But we also know that <img src="//latex.artofproblemsolving.com/8/f/b/8fb45211756aff15f2e9daa44c74c27300d62d73.png" class="latex" alt="$f(x) = f(46 - x) = f(398 - x)$" style="vertical-align: -4px" width="243" height="18" />, so the values <img src="//latex.artofproblemsolving.com/5/5/8/5581c457d6f452274bc0076e360110bd9043c726.png" class="latex" alt="$x = 24, 25, ... 46$" style="vertical-align: -3px" width="119" height="16" /> and <img src="//latex.artofproblemsolving.com/2/6/e/26ef7b93b9bfde74565d9a6d984c61532847f5d9.png" class="latex" alt="$x = 200, 201, ... 351$" style="vertical-align: -3px" width="146" height="16" /> are repeated.  This gives a total of
-</p><p><img src="//latex.artofproblemsolving.com/6/2/e/62e798c9e5afa71ead09fa48297384cd4df01524.png" class="latexcenter" alt="\[352 - (46 - 24 + 1) - (351 - 200 + 1) = \boxed{ 177 }\]" width="361" height="23" />
+<p><img src="https://latex.artofproblemsolving.com/5/8/e/58e3d73a53f38ad2c780b6d9c83439d1dfae49fa.png" class="latexcenter" alt="\begin{align*}f(2158 - x) = f(x) &amp;= f(3214 - (2158 - x)) &amp;= f(1056 + x)\\ f(398 - x) = f(x) &amp;= f(2158 - (398 - x)) &amp;= f(1760 + x)\end{align*}" width="472" height="43" />
+</p><p>Since <img src="https://latex.artofproblemsolving.com/3/1/f/31f053ccbd2bdf1f8bb69810e853e75add009147.png" class="latex" alt="$\mathrm{gcd}(1056, 1760) = 352$" style="vertical-align: -4px" width="173" height="18" /> we can conclude that (by the <a href="/wiki/index.php/Euclidean_algorithm" title="Euclidean algorithm">Euclidean algorithm</a>)
+</p><p><img src="https://latex.artofproblemsolving.com/6/e/9/6e9149a031c90a84a16859cc9886eeec06f9a836.png" class="latexcenter" alt="\[f(x) = f(352 + x)\]" width="142" height="18" />
+</p><p>So we need only to consider one period <img src="https://latex.artofproblemsolving.com/d/2/8/d280e5b8f83f3d7e326f4b7d91f48e2948c21780.png" class="latex" alt="$f(0), f(1), ... f(351)$" style="vertical-align: -4px" width="150" height="18" />, which can have at most <img src="https://latex.artofproblemsolving.com/f/2/9/f29ff17318129de79b4f012548e444a27acefd85.png" class="latex" alt="$352$" width="26" height="12" /> distinct values which determine the value of <img src="https://latex.artofproblemsolving.com/c/9/6/c96dd6ec1dc4ad7520fbdc78fcdbec9edd068d0c.png" class="latex" alt="$f(x)$" style="vertical-align: -4px" width="34" height="18" /> at all other integers.
+</p><p>But we also know that <img src="https://latex.artofproblemsolving.com/8/f/b/8fb45211756aff15f2e9daa44c74c27300d62d73.png" class="latex" alt="$f(x) = f(46 - x) = f(398 - x)$" style="vertical-align: -4px" width="243" height="18" />, so the values <img src="https://latex.artofproblemsolving.com/5/5/8/5581c457d6f452274bc0076e360110bd9043c726.png" class="latex" alt="$x = 24, 25, ... 46$" style="vertical-align: -3px" width="119" height="16" /> and <img src="https://latex.artofproblemsolving.com/2/6/e/26ef7b93b9bfde74565d9a6d984c61532847f5d9.png" class="latex" alt="$x = 200, 201, ... 351$" style="vertical-align: -3px" width="146" height="16" /> are repeated.  This gives a total of
+</p><p><img src="https://latex.artofproblemsolving.com/6/2/e/62e798c9e5afa71ead09fa48297384cd4df01524.png" class="latexcenter" alt="\[352 - (46 - 24 + 1) - (351 - 200 + 1) = \boxed{ 177 }\]" width="361" height="23" />
 </p><p>distinct values.
-</p><p>To show that it is possible to have <img src="//latex.artofproblemsolving.com/b/c/c/bcc4ed2347c768c46015ed3c32b6d35b4ae66848.png" class="latex" alt="$f(23), f(24), \ldots, f(199)$" style="vertical-align: -4px" width="185" height="18" /> distinct, we try to find a function which fulfills the given conditions. A bit of trial and error would lead to the <a href="/wiki/index.php/Cosine" class="mw-redirect" title="Cosine">cosine</a> function: <img src="//latex.artofproblemsolving.com/2/4/b/24be9b41cdf2c7c64bd3da50c166fd5e0b883d3e.png" class="latex" alt="$f(x) = \cos \left(\frac{360}{352}(x-23)\right)$" style="vertical-align: -17px" width="205" height="43" /> (in degrees).
+</p><p>To show that it is possible to have <img src="https://latex.artofproblemsolving.com/b/c/c/bcc4ed2347c768c46015ed3c32b6d35b4ae66848.png" class="latex" alt="$f(23), f(24), \ldots, f(199)$" style="vertical-align: -4px" width="185" height="18" /> distinct, we try to find a function which fulfills the given conditions. A bit of trial and error would lead to the <a href="/wiki/index.php/Cosine" class="mw-redirect" title="Cosine">cosine</a> function: <img src="https://latex.artofproblemsolving.com/2/4/b/24be9b41cdf2c7c64bd3da50c166fd5e0b883d3e.png" class="latex" alt="$f(x) = \cos \left(\frac{360}{352}(x-23)\right)$" style="vertical-align: -17px" width="205" height="43" /> (in degrees).
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -445,7 +435,7 @@ holds for all real <img src="//latex.artofproblemsolving.com/6/d/0/6d0382f358521
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714235820
 Cache expiry: 86400
@@ -475,7 +465,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Algebra_Problems" title="Category:Intermediate Algebra Problems">Intermediate Algebra Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

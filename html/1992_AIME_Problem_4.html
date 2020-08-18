@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1992_AIME_Problems/Problem_4" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,40 +393,40 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1992 AIME Problems/Problem 4</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>In Pascal's Triangle, each entry is the sum of the two entries above it. In which row of <a href="/wiki/index.php/Pascal%27s_Triangle" class="mw-redirect" title="Pascal&#39;s Triangle">Pascal's Triangle</a> do three consecutive entries occur that are in the ratio <img src="//latex.artofproblemsolving.com/4/5/1/451c95b16e8260db8d1aee746ba052c58a786917.png" class="latex" alt="$3: 4: 5$" style="vertical-align: 0px" width="57" height="13" />?
+<p>In Pascal's Triangle, each entry is the sum of the two entries above it. In which row of <a href="/wiki/index.php/Pascal%27s_Triangle" class="mw-redirect" title="Pascal&#39;s Triangle">Pascal's Triangle</a> do three consecutive entries occur that are in the ratio <img src="https://latex.artofproblemsolving.com/4/5/1/451c95b16e8260db8d1aee746ba052c58a786917.png" class="latex" alt="$3: 4: 5$" style="vertical-align: 0px" width="57" height="13" />?
 </p>
 <h2><span class="mw-headline" id="Solution">Solution</span></h2>
 <p>Consider what the ratio means. Since we know that they are consecutive terms, we can say
-<img src="//latex.artofproblemsolving.com/f/3/e/f3e33483d23203f6389054e0a84815bcffee8cdf.png" class="latexcenter" alt="\[\frac{\dbinom{n}{k-1}}{3} = \frac{\dbinom{n}{k}}{4} = \frac{\dbinom{n}{k+1}}{5}.\]" width="240" height="74" />
-</p><p>Taking the first part, and using our expression for <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> choose <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />,
-	<img src="//latex.artofproblemsolving.com/3/2/a/32a578ddb30ed73cbbf73fcd70b6e4feb0840315.png" class="latexcenter" alt="\[\frac{n!}{3(k-1)!(n-k+1)!} = \frac{n!}{4k!(n-k)!}\]" width="278" height="42" />
-	<img src="//latex.artofproblemsolving.com/5/0/3/503bd52bc568692f8226db538887a71a8ccf2b9f.png" class="latexcenter" alt="\[\frac{1}{3(k-1)!(n-k+1)!} = \frac{1}{4k!(n-k)!}\]" width="278" height="41" />
-	<img src="//latex.artofproblemsolving.com/b/0/8/b0848184dfb1eb1b2b3074cfcfa60fcd0e756840.png" class="latexcenter" alt="\[\frac{1}{3(n-k+1)} = \frac{1}{4k}\]" width="145" height="41" />
-	<img src="//latex.artofproblemsolving.com/5/8/9/58915a82bb9c25bed309c7fdb8426683e9785266.png" class="latexcenter" alt="\[n-k+1 = \frac{4k}{3}\]" width="119" height="37" />
-	<img src="//latex.artofproblemsolving.com/9/d/1/9d1fc2d0b87614a1dacd9bfa2044c68b5ee751a2.png" class="latexcenter" alt="\[n = \frac{7k}{3} - 1\]" width="88" height="37" />
-	<img src="//latex.artofproblemsolving.com/a/1/4/a14b039f8569191a78cadb9c11599ad92ebdc823.png" class="latexcenter" alt="\[\frac{3(n+1)}{7} = k\]" width="101" height="38" />
+<img src="https://latex.artofproblemsolving.com/f/3/e/f3e33483d23203f6389054e0a84815bcffee8cdf.png" class="latexcenter" alt="\[\frac{\dbinom{n}{k-1}}{3} = \frac{\dbinom{n}{k}}{4} = \frac{\dbinom{n}{k+1}}{5}.\]" width="240" height="74" />
+</p><p>Taking the first part, and using our expression for <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> choose <img src="https://latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />,
+	<img src="https://latex.artofproblemsolving.com/3/2/a/32a578ddb30ed73cbbf73fcd70b6e4feb0840315.png" class="latexcenter" alt="\[\frac{n!}{3(k-1)!(n-k+1)!} = \frac{n!}{4k!(n-k)!}\]" width="278" height="42" />
+	<img src="https://latex.artofproblemsolving.com/5/0/3/503bd52bc568692f8226db538887a71a8ccf2b9f.png" class="latexcenter" alt="\[\frac{1}{3(k-1)!(n-k+1)!} = \frac{1}{4k!(n-k)!}\]" width="278" height="41" />
+	<img src="https://latex.artofproblemsolving.com/b/0/8/b0848184dfb1eb1b2b3074cfcfa60fcd0e756840.png" class="latexcenter" alt="\[\frac{1}{3(n-k+1)} = \frac{1}{4k}\]" width="145" height="41" />
+	<img src="https://latex.artofproblemsolving.com/5/8/9/58915a82bb9c25bed309c7fdb8426683e9785266.png" class="latexcenter" alt="\[n-k+1 = \frac{4k}{3}\]" width="119" height="37" />
+	<img src="https://latex.artofproblemsolving.com/9/d/1/9d1fc2d0b87614a1dacd9bfa2044c68b5ee751a2.png" class="latexcenter" alt="\[n = \frac{7k}{3} - 1\]" width="88" height="37" />
+	<img src="https://latex.artofproblemsolving.com/a/1/4/a14b039f8569191a78cadb9c11599ad92ebdc823.png" class="latexcenter" alt="\[\frac{3(n+1)}{7} = k\]" width="101" height="38" />
 Then, we can use the second part of the equation.
-	<img src="//latex.artofproblemsolving.com/b/9/2/b92c7832b5e1fad50b038e35f53521312df40d95.png" class="latexcenter" alt="\[\frac{n!}{4k!(n-k)!} = \frac{n!}{5(k+1)!(n-k-1)!}\]" width="278" height="42" />
-	<img src="//latex.artofproblemsolving.com/4/5/6/45697a307f8c03fd93bcf6f300ecbec30359f735.png" class="latexcenter" alt="\[\frac{1}{4k!(n-k)!} = \frac{1}{5(k+1)!(n-k-1)!}\]" width="278" height="41" />
-	<img src="//latex.artofproblemsolving.com/2/f/9/2f90a0941474d2a9ddb754d6424e72b98ea2d7c1.png" class="latexcenter" alt="\[\frac{1}{4(n-k)} = \frac{1}{5(k+1)}\]" width="159" height="41" />
-	<img src="//latex.artofproblemsolving.com/a/c/9/ac9a70b9c2e531c99cf0232dad21ad5d4469a0b7.png" class="latexcenter" alt="\[\frac{4(n-k)}{5} = k+1\]" width="133" height="38" />
-	<img src="//latex.artofproblemsolving.com/0/5/1/051d520344989aa23ee77c2d5df889ac84945b9c.png" class="latexcenter" alt="\[\frac{4n}{5}-\frac{4k}{5} = k+1\]" width="132" height="37" />
-	<img src="//latex.artofproblemsolving.com/4/a/e/4aeb3bfc5b1eebc4a99e75d5669f9f898393ac7e.png" class="latexcenter" alt="\[\frac{4n}{5} = \frac{9k}{5} +1.\]" width="104" height="37" />
-Since we know <img src="//latex.artofproblemsolving.com/5/a/a/5aa192ed01be5886c769478ac877c081f089a59c.png" class="latex" alt="$k = \frac{3(n+1)}{7}$" style="vertical-align: -12px" width="102" height="38" /> we can plug this in, giving us
-	<img src="//latex.artofproblemsolving.com/4/a/1/4a10463d7114cf38f15cacc7e047b90d09475e56.png" class="latexcenter" alt="\[\frac{4n}{5} = \frac{9\left(\frac{3(n+1)}{7}\right)}{5} +1\]" width="160" height="52" />
-	<img src="//latex.artofproblemsolving.com/e/7/d/e7d539a51583dee03266b1d3c1eba12c5297ad8c.png" class="latexcenter" alt="\[4n = 9\left(\frac{3(n+1)}{7}\right)+5\]" width="182" height="43" />
-	<img src="//latex.artofproblemsolving.com/8/1/b/81b7529b9f6f34b802ceb3c7c0d5137f9fb72818.png" class="latexcenter" alt="\[7(4n - 5) = 27n+27\]" width="167" height="18" />
-	<img src="//latex.artofproblemsolving.com/0/d/b/0db774c6a9a001f2d4b994037418f62cceaaa2d6.png" class="latexcenter" alt="\[28n - 35 = 27n+27\]" width="162" height="14" />
-	<img src="//latex.artofproblemsolving.com/c/4/6/c46dd6d2b166b7e8df4d68cb0821b5101181d709.png" class="latexcenter" alt="\[n = 62\]" width="52" height="12" />
-We can also evaluate for <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />, and find that <img src="//latex.artofproblemsolving.com/d/c/7/dc7786c31aa51bc842991aa3cc9db29ff1517fb2.png" class="latex" alt="$k = \frac{3(62+1)}{7} = 27.$" style="vertical-align: -12px" width="156" height="38" /> Since we want <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, however, our final answer is <img src="//latex.artofproblemsolving.com/b/3/5/b356db957162ae50c68eb804b3b8f675076ad2c2.png" class="latex" alt="$\boxed{062.}$" style="vertical-align: -5px" width="44" height="23" /> ~LaTeX by ciceronii
+	<img src="https://latex.artofproblemsolving.com/b/9/2/b92c7832b5e1fad50b038e35f53521312df40d95.png" class="latexcenter" alt="\[\frac{n!}{4k!(n-k)!} = \frac{n!}{5(k+1)!(n-k-1)!}\]" width="278" height="42" />
+	<img src="https://latex.artofproblemsolving.com/4/5/6/45697a307f8c03fd93bcf6f300ecbec30359f735.png" class="latexcenter" alt="\[\frac{1}{4k!(n-k)!} = \frac{1}{5(k+1)!(n-k-1)!}\]" width="278" height="41" />
+	<img src="https://latex.artofproblemsolving.com/2/f/9/2f90a0941474d2a9ddb754d6424e72b98ea2d7c1.png" class="latexcenter" alt="\[\frac{1}{4(n-k)} = \frac{1}{5(k+1)}\]" width="159" height="41" />
+	<img src="https://latex.artofproblemsolving.com/a/c/9/ac9a70b9c2e531c99cf0232dad21ad5d4469a0b7.png" class="latexcenter" alt="\[\frac{4(n-k)}{5} = k+1\]" width="133" height="38" />
+	<img src="https://latex.artofproblemsolving.com/0/5/1/051d520344989aa23ee77c2d5df889ac84945b9c.png" class="latexcenter" alt="\[\frac{4n}{5}-\frac{4k}{5} = k+1\]" width="132" height="37" />
+	<img src="https://latex.artofproblemsolving.com/4/a/e/4aeb3bfc5b1eebc4a99e75d5669f9f898393ac7e.png" class="latexcenter" alt="\[\frac{4n}{5} = \frac{9k}{5} +1.\]" width="104" height="37" />
+Since we know <img src="https://latex.artofproblemsolving.com/5/a/a/5aa192ed01be5886c769478ac877c081f089a59c.png" class="latex" alt="$k = \frac{3(n+1)}{7}$" style="vertical-align: -12px" width="102" height="38" /> we can plug this in, giving us
+	<img src="https://latex.artofproblemsolving.com/4/a/1/4a10463d7114cf38f15cacc7e047b90d09475e56.png" class="latexcenter" alt="\[\frac{4n}{5} = \frac{9\left(\frac{3(n+1)}{7}\right)}{5} +1\]" width="160" height="52" />
+	<img src="https://latex.artofproblemsolving.com/e/7/d/e7d539a51583dee03266b1d3c1eba12c5297ad8c.png" class="latexcenter" alt="\[4n = 9\left(\frac{3(n+1)}{7}\right)+5\]" width="182" height="43" />
+	<img src="https://latex.artofproblemsolving.com/8/1/b/81b7529b9f6f34b802ceb3c7c0d5137f9fb72818.png" class="latexcenter" alt="\[7(4n - 5) = 27n+27\]" width="167" height="18" />
+	<img src="https://latex.artofproblemsolving.com/0/d/b/0db774c6a9a001f2d4b994037418f62cceaaa2d6.png" class="latexcenter" alt="\[28n - 35 = 27n+27\]" width="162" height="14" />
+	<img src="https://latex.artofproblemsolving.com/c/4/6/c46dd6d2b166b7e8df4d68cb0821b5101181d709.png" class="latexcenter" alt="\[n = 62\]" width="52" height="12" />
+We can also evaluate for <img src="https://latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" />, and find that <img src="https://latex.artofproblemsolving.com/d/c/7/dc7786c31aa51bc842991aa3cc9db29ff1517fb2.png" class="latex" alt="$k = \frac{3(62+1)}{7} = 27.$" style="vertical-align: -12px" width="156" height="38" /> Since we want <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" />, however, our final answer is <img src="https://latex.artofproblemsolving.com/b/3/5/b356db957162ae50c68eb804b3b8f675076ad2c2.png" class="latex" alt="$\boxed{062.}$" style="vertical-align: -5px" width="44" height="23" /> ~LaTeX by ciceronii
 </p><p><br />
 </p>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -458,7 +448,7 @@ We can also evaluate for <img src="//latex.artofproblemsolving.com/8/c/3/8c32561
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714165520
 Cache expiry: 86400
@@ -488,7 +478,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li><li><a href="/wiki/index.php/Category:Intermediate_Number_Theory_Problems" title="Category:Intermediate Number Theory Problems">Intermediate Number Theory Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

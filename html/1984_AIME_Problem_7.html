@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1984_AIME_Problems/Problem_7" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1984 AIME Problems/Problem 7</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -421,40 +411,40 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>The <a href="/wiki/index.php/Function" title="Function">function</a> f is defined on the <a href="/wiki/index.php/Set" title="Set">set</a> of <a href="/wiki/index.php/Integer" title="Integer">integers</a> and satisfies <img src="//latex.artofproblemsolving.com/6/1/e/61e6ea0a631ce5b4cced22cb5da2ef69f5e1a0a1.png" class="latex" alt="$f(n)=\begin{cases} n-3&amp;\mbox{if}\ n\ge 1000\\ f(f(n+5))&amp;\mbox{if}\ n&lt;1000\end{cases}$" style="vertical-align: -22px" width="269" height="53" />
-</p><p>Find <img src="//latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" />.
+<p>The <a href="/wiki/index.php/Function" title="Function">function</a> f is defined on the <a href="/wiki/index.php/Set" title="Set">set</a> of <a href="/wiki/index.php/Integer" title="Integer">integers</a> and satisfies <img src="https://latex.artofproblemsolving.com/6/1/e/61e6ea0a631ce5b4cced22cb5da2ef69f5e1a0a1.png" class="latex" alt="$f(n)=\begin{cases} n-3&amp;\mbox{if}\ n\ge 1000\\ f(f(n+5))&amp;\mbox{if}\ n&lt;1000\end{cases}$" style="vertical-align: -22px" width="269" height="53" />
+</p><p>Find <img src="https://latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" />.
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p>Define <img src="//latex.artofproblemsolving.com/5/8/c/58c3a62709ef610cbc95f70dc8777ea19a291521.png" class="latex" alt="$f^{h} = f(f(\cdots f(f(x))\cdots))$" style="vertical-align: -4px" width="204" height="20" />, where the function <img src="//latex.artofproblemsolving.com/b/b/2/bb2c93730dbb48558bb3c4738c956c4e8f816437.png" class="latex" alt="$f$" style="vertical-align: -3px" width="10" height="16" /> is performed <img src="//latex.artofproblemsolving.com/8/1/8/8189a5b5a0917b8c93350827be4038af1839139d.png" class="latex" alt="$h$" width="10" height="12" /> times. We find that <img src="//latex.artofproblemsolving.com/6/6/c/66c84f498bf204338e297889624a553a46e0098a.png" class="latex" alt="$f(84) = f(f(89)) = f^2(89) = f^3(94) = \ldots f^{y}(1004)$" style="vertical-align: -4px" width="401" height="19" />. <img src="//latex.artofproblemsolving.com/d/4/9/d49dd026798fa0731cc6bc0ee30aeced4b9762bf.png" class="latex" alt="$1004 = 84 + 5(y - 1) \Longrightarrow y = 185$" style="vertical-align: -4px" width="265" height="18" />. So we now need to reduce <img src="//latex.artofproblemsolving.com/f/b/3/fb301f7c13cc1c00aa6ca831afc97ebc910bd999.png" class="latex" alt="$f^{185}(1004)$" style="vertical-align: -4px" width="80" height="19" />.
+<p>Define <img src="https://latex.artofproblemsolving.com/5/8/c/58c3a62709ef610cbc95f70dc8777ea19a291521.png" class="latex" alt="$f^{h} = f(f(\cdots f(f(x))\cdots))$" style="vertical-align: -4px" width="204" height="20" />, where the function <img src="https://latex.artofproblemsolving.com/b/b/2/bb2c93730dbb48558bb3c4738c956c4e8f816437.png" class="latex" alt="$f$" style="vertical-align: -3px" width="10" height="16" /> is performed <img src="https://latex.artofproblemsolving.com/8/1/8/8189a5b5a0917b8c93350827be4038af1839139d.png" class="latex" alt="$h$" width="10" height="12" /> times. We find that <img src="https://latex.artofproblemsolving.com/6/6/c/66c84f498bf204338e297889624a553a46e0098a.png" class="latex" alt="$f(84) = f(f(89)) = f^2(89) = f^3(94) = \ldots f^{y}(1004)$" style="vertical-align: -4px" width="401" height="19" />. <img src="https://latex.artofproblemsolving.com/d/4/9/d49dd026798fa0731cc6bc0ee30aeced4b9762bf.png" class="latex" alt="$1004 = 84 + 5(y - 1) \Longrightarrow y = 185$" style="vertical-align: -4px" width="265" height="18" />. So we now need to reduce <img src="https://latex.artofproblemsolving.com/f/b/3/fb301f7c13cc1c00aa6ca831afc97ebc910bd999.png" class="latex" alt="$f^{185}(1004)$" style="vertical-align: -4px" width="80" height="19" />.
 </p><p>Let’s write out a couple more iterations of this function:
-<img src="//latex.artofproblemsolving.com/a/4/e/a4e2cd968b0d8d8e75c209c34fa4e1722cf5f3f3.png" class="latexcenter" alt="\begin{align*}f^{185}(1004)&amp;=f^{184}(1001)=f^{183}(998)=f^{184}(1003)=f^{183}(1000)\\ &amp;=f^{182}(997)=f^{183}(1002)=f^{182}(999)=f^{183}(1004)\end{align*}" width="495" height="47" />
-So this function reiterates with a period of 2 for <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. It might be tempting at first to assume that <img src="//latex.artofproblemsolving.com/d/0/8/d0871a63aa240a86dc53a5ee5fb96f6a73c5bdd7.png" class="latex" alt="$f(1004) = 1001$" style="vertical-align: -4px" width="120" height="18" /> is the answer; however, that is not true since the solution occurs slightly before that. Start at <img src="//latex.artofproblemsolving.com/3/5/4/354ab21d0fed0b70f30b7dc684574095bc8a849e.png" class="latex" alt="$f^3(1004)$" style="vertical-align: -4px" width="67" height="19" />:
-<img src="//latex.artofproblemsolving.com/f/b/8/fb80f9ca09d81d49b8754df2ae578bf487bb2f1b.png" class="latexcenter" alt="\[f^{3}(1004)=f^{2}(1001)=f(998)=f^{2}(1003)=f(1000)=\boxed{997}\]" width="480" height="23" />
+<img src="https://latex.artofproblemsolving.com/a/4/e/a4e2cd968b0d8d8e75c209c34fa4e1722cf5f3f3.png" class="latexcenter" alt="\begin{align*}f^{185}(1004)&amp;=f^{184}(1001)=f^{183}(998)=f^{184}(1003)=f^{183}(1000)\\ &amp;=f^{182}(997)=f^{183}(1002)=f^{182}(999)=f^{183}(1004)\end{align*}" width="495" height="47" />
+So this function reiterates with a period of 2 for <img src="https://latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" width="10" height="8" />. It might be tempting at first to assume that <img src="https://latex.artofproblemsolving.com/d/0/8/d0871a63aa240a86dc53a5ee5fb96f6a73c5bdd7.png" class="latex" alt="$f(1004) = 1001$" style="vertical-align: -4px" width="120" height="18" /> is the answer; however, that is not true since the solution occurs slightly before that. Start at <img src="https://latex.artofproblemsolving.com/3/5/4/354ab21d0fed0b70f30b7dc684574095bc8a849e.png" class="latex" alt="$f^3(1004)$" style="vertical-align: -4px" width="67" height="19" />:
+<img src="https://latex.artofproblemsolving.com/f/b/8/fb80f9ca09d81d49b8754df2ae578bf487bb2f1b.png" class="latexcenter" alt="\[f^{3}(1004)=f^{2}(1001)=f(998)=f^{2}(1003)=f(1000)=\boxed{997}\]" width="480" height="23" />
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>We start by finding values of the function right under <img src="//latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" /> since they require iteration of the function.
-</p><p><img src="//latex.artofproblemsolving.com/8/5/a/85a9c77436f5cb3c5af3d0c8901fc78474cbfd4d.png" class="latexcenter" alt="\[f(999)=f(f(1004))=f(1001)=998\]" width="298" height="18" />
-<img src="//latex.artofproblemsolving.com/a/9/4/a944a7ed2c40c61a67599fd6da6a149a2d7aa08c.png" class="latexcenter" alt="\[f(998)=f(f(1003))=f(1000)=997\]" width="299" height="18" />
-<img src="//latex.artofproblemsolving.com/3/9/9/399f2e0b0c4e69d38f0d9dbe2fd9665fc73fc8d7.png" class="latexcenter" alt="\[f(997)=f(f(1002))=f(999)=998\]" width="289" height="18" />
-<img src="//latex.artofproblemsolving.com/5/5/1/551420d8083eb56bbf1e51c8d37a91fb33063b7c.png" class="latexcenter" alt="\[f(996)=f(f(1001))=f(998)=997\]" width="290" height="18" />
-</p><p>Soon we realize the <img src="//latex.artofproblemsolving.com/8/1/2/81232ecd8d9e4b5c0f24a00dabec238068f26de9.png" class="latex" alt="$f(k)$" style="vertical-align: -4px" width="33" height="18" /> for integers <img src="//latex.artofproblemsolving.com/8/e/a/8ea052bffc0ed1a4ca54fe2017b0223782b43b55.png" class="latex" alt="$k&lt;1000$" style="vertical-align: 0px" width="70" height="13" /> either equal <img src="//latex.artofproblemsolving.com/4/9/1/4914eeac89c1525c3550da96c0efba02a7f0d836.png" class="latex" alt="$998$" width="26" height="12" /> or <img src="//latex.artofproblemsolving.com/9/0/7/90782e3f18f6a430876413c43e3d163e0e8ae3f8.png" class="latex" alt="$997$" width="27" height="12" /> based on it parity. (If short on time, a guess of <img src="//latex.artofproblemsolving.com/4/9/1/4914eeac89c1525c3550da96c0efba02a7f0d836.png" class="latex" alt="$998$" width="26" height="12" /> or <img src="//latex.artofproblemsolving.com/9/0/7/90782e3f18f6a430876413c43e3d163e0e8ae3f8.png" class="latex" alt="$997$" width="27" height="12" /> can be taken now.)
-If <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> is even <img src="//latex.artofproblemsolving.com/8/a/1/8a1ccc82a0de8ee1022ae9dd7c166378ccf7fb7d.png" class="latex" alt="$f(k)=997$" style="vertical-align: -4px" width="86" height="18" /> if <img src="//latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> is odd <img src="//latex.artofproblemsolving.com/2/0/7/207ff8e411a2935fd01f5f52f40931f6b510a29c.png" class="latex" alt="$f(k)=998$" style="vertical-align: -4px" width="86" height="18" />. <img src="//latex.artofproblemsolving.com/4/1/3/4131457f67c5dbfd8b1c6be1f74a47595a9bd3be.png" class="latex" alt="$84$" style="vertical-align: 0px" width="18" height="13" /> has even parity, so <img src="//latex.artofproblemsolving.com/0/a/8/0a8d5b715b1700c32c0f98d4b82734bfee1cc393.png" class="latex" alt="$f(84)=997$" style="vertical-align: -4px" width="94" height="18" />.
+<p>We start by finding values of the function right under <img src="https://latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" /> since they require iteration of the function.
+</p><p><img src="https://latex.artofproblemsolving.com/8/5/a/85a9c77436f5cb3c5af3d0c8901fc78474cbfd4d.png" class="latexcenter" alt="\[f(999)=f(f(1004))=f(1001)=998\]" width="298" height="18" />
+<img src="https://latex.artofproblemsolving.com/a/9/4/a944a7ed2c40c61a67599fd6da6a149a2d7aa08c.png" class="latexcenter" alt="\[f(998)=f(f(1003))=f(1000)=997\]" width="299" height="18" />
+<img src="https://latex.artofproblemsolving.com/3/9/9/399f2e0b0c4e69d38f0d9dbe2fd9665fc73fc8d7.png" class="latexcenter" alt="\[f(997)=f(f(1002))=f(999)=998\]" width="289" height="18" />
+<img src="https://latex.artofproblemsolving.com/5/5/1/551420d8083eb56bbf1e51c8d37a91fb33063b7c.png" class="latexcenter" alt="\[f(996)=f(f(1001))=f(998)=997\]" width="290" height="18" />
+</p><p>Soon we realize the <img src="https://latex.artofproblemsolving.com/8/1/2/81232ecd8d9e4b5c0f24a00dabec238068f26de9.png" class="latex" alt="$f(k)$" style="vertical-align: -4px" width="33" height="18" /> for integers <img src="https://latex.artofproblemsolving.com/8/e/a/8ea052bffc0ed1a4ca54fe2017b0223782b43b55.png" class="latex" alt="$k&lt;1000$" style="vertical-align: 0px" width="70" height="13" /> either equal <img src="https://latex.artofproblemsolving.com/4/9/1/4914eeac89c1525c3550da96c0efba02a7f0d836.png" class="latex" alt="$998$" width="26" height="12" /> or <img src="https://latex.artofproblemsolving.com/9/0/7/90782e3f18f6a430876413c43e3d163e0e8ae3f8.png" class="latex" alt="$997$" width="27" height="12" /> based on it parity. (If short on time, a guess of <img src="https://latex.artofproblemsolving.com/4/9/1/4914eeac89c1525c3550da96c0efba02a7f0d836.png" class="latex" alt="$998$" width="26" height="12" /> or <img src="https://latex.artofproblemsolving.com/9/0/7/90782e3f18f6a430876413c43e3d163e0e8ae3f8.png" class="latex" alt="$997$" width="27" height="12" /> can be taken now.)
+If <img src="https://latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> is even <img src="https://latex.artofproblemsolving.com/8/a/1/8a1ccc82a0de8ee1022ae9dd7c166378ccf7fb7d.png" class="latex" alt="$f(k)=997$" style="vertical-align: -4px" width="86" height="18" /> if <img src="https://latex.artofproblemsolving.com/8/c/3/8c325612684d41304b9751c175df7bcc0f61f64f.png" class="latex" alt="$k$" width="9" height="12" /> is odd <img src="https://latex.artofproblemsolving.com/2/0/7/207ff8e411a2935fd01f5f52f40931f6b510a29c.png" class="latex" alt="$f(k)=998$" style="vertical-align: -4px" width="86" height="18" />. <img src="https://latex.artofproblemsolving.com/4/1/3/4131457f67c5dbfd8b1c6be1f74a47595a9bd3be.png" class="latex" alt="$84$" style="vertical-align: 0px" width="18" height="13" /> has even parity, so <img src="https://latex.artofproblemsolving.com/0/a/8/0a8d5b715b1700c32c0f98d4b82734bfee1cc393.png" class="latex" alt="$f(84)=997$" style="vertical-align: -4px" width="94" height="18" />.
 The result may be rigorously shown through induction.
 </p><p><br />
 </p>
 <h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
-<p>Assume that <img src="//latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" /> is to be performed <img src="//latex.artofproblemsolving.com/0/e/3/0e3efd9b14723a92c2ae891fe27780d5f8e2b215.png" class="latex" alt="$n+1$" style="vertical-align: -1px" width="41" height="13" /> times. Then we have
-<img src="//latex.artofproblemsolving.com/d/9/3/d93c0a0e3acf66ddc02aada8c3a25d238f51c9a0.png" class="latexcenter" alt="\[f(84)=f^{n+1}(84)=f(f^n(84+5))\]" width="267" height="19" />
-In order to find <img src="//latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" />, we want to know the smallest value of
-<img src="//latex.artofproblemsolving.com/b/7/8/b78c3e88444f37798f9b5c8b1ff90a050f7f689e.png" class="latexcenter" alt="\[f^n(84+5)\ge1000\]" width="142" height="18" />
+<p>Assume that <img src="https://latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" /> is to be performed <img src="https://latex.artofproblemsolving.com/0/e/3/0e3efd9b14723a92c2ae891fe27780d5f8e2b215.png" class="latex" alt="$n+1$" style="vertical-align: -1px" width="41" height="13" /> times. Then we have
+<img src="https://latex.artofproblemsolving.com/d/9/3/d93c0a0e3acf66ddc02aada8c3a25d238f51c9a0.png" class="latexcenter" alt="\[f(84)=f^{n+1}(84)=f(f^n(84+5))\]" width="267" height="19" />
+In order to find <img src="https://latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" />, we want to know the smallest value of
+<img src="https://latex.artofproblemsolving.com/b/7/8/b78c3e88444f37798f9b5c8b1ff90a050f7f689e.png" class="latexcenter" alt="\[f^n(84+5)\ge1000\]" width="142" height="18" />
 Because then
-<img src="//latex.artofproblemsolving.com/8/c/8/8c81c39639dad04ee5936a18302af8474a766698.png" class="latexcenter" alt="\[f(84)=f(f^n(84+5))=(f^n(84+5))-3\]" width="328" height="18" />
-From which we'll get a numerical value for <img src="//latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" />.
-</p><p>Notice that the value of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> we expect to find is basically the smallest <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that after <img src="//latex.artofproblemsolving.com/5/f/d/5fd5781d376b155fe1c7ccd3e47d37d46fcacd50.png" class="latex" alt="$f(x)=f(f(x+5))$" style="vertical-align: -4px" width="149" height="18" /> is performed <img src="//latex.artofproblemsolving.com/f/2/7/f275b1f33e3c37ece0e41964f0bcb806e95b46b7.png" class="latex" alt="$\frac{n}{2}$" style="vertical-align: -12px" width="13" height="33" /> times and then <img src="//latex.artofproblemsolving.com/a/3/3/a335291ad1ccc1401984c6f8abaf46d5483a49ec.png" class="latex" alt="$f(x)=x-3$" style="vertical-align: -4px" width="100" height="18" /> is performed back <img src="//latex.artofproblemsolving.com/f/2/7/f275b1f33e3c37ece0e41964f0bcb806e95b46b7.png" class="latex" alt="$\frac{n}{2}$" style="vertical-align: -12px" width="13" height="33" /> times, the result is greater than or equal to <img src="//latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" />. 
-</p><p>In this case, the value of <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> for <img src="//latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" /> is <img src="//latex.artofproblemsolving.com/0/4/9/0498fe21b29cf0b4ea7c69dec368ed6d08147dbf.png" class="latex" alt="$916$" style="vertical-align: 0px" width="26" height="13" />, because
-<img src="//latex.artofproblemsolving.com/f/b/e/fbe7e7960ac3ace98dafdbe7b41d1c01d6ff0ee6.png" class="latexcenter" alt="\[84+\frac{916}{2}\cdot5-\frac{916}{2}\cdot3=1000\Longrightarrow f^{916}(84+5))=1000\]" width="431" height="37" />
+<img src="https://latex.artofproblemsolving.com/8/c/8/8c81c39639dad04ee5936a18302af8474a766698.png" class="latexcenter" alt="\[f(84)=f(f^n(84+5))=(f^n(84+5))-3\]" width="328" height="18" />
+From which we'll get a numerical value for <img src="https://latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" />.
+</p><p>Notice that the value of <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> we expect to find is basically the smallest <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> such that after <img src="https://latex.artofproblemsolving.com/5/f/d/5fd5781d376b155fe1c7ccd3e47d37d46fcacd50.png" class="latex" alt="$f(x)=f(f(x+5))$" style="vertical-align: -4px" width="149" height="18" /> is performed <img src="https://latex.artofproblemsolving.com/f/2/7/f275b1f33e3c37ece0e41964f0bcb806e95b46b7.png" class="latex" alt="$\frac{n}{2}$" style="vertical-align: -12px" width="13" height="33" /> times and then <img src="https://latex.artofproblemsolving.com/a/3/3/a335291ad1ccc1401984c6f8abaf46d5483a49ec.png" class="latex" alt="$f(x)=x-3$" style="vertical-align: -4px" width="100" height="18" /> is performed back <img src="https://latex.artofproblemsolving.com/f/2/7/f275b1f33e3c37ece0e41964f0bcb806e95b46b7.png" class="latex" alt="$\frac{n}{2}$" style="vertical-align: -12px" width="13" height="33" /> times, the result is greater than or equal to <img src="https://latex.artofproblemsolving.com/6/e/e/6ee927e1332358c96c62c277441c907c4f51057f.png" class="latex" alt="$1000$" style="vertical-align: 0px" width="35" height="13" />.
+</p><p>In this case, the value of <img src="https://latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> for <img src="https://latex.artofproblemsolving.com/1/5/c/15c17988a8c8ecadc307239caa6100f72d4a4358.png" class="latex" alt="$f(84)$" style="vertical-align: -4px" width="41" height="18" /> is <img src="https://latex.artofproblemsolving.com/0/4/9/0498fe21b29cf0b4ea7c69dec368ed6d08147dbf.png" class="latex" alt="$916$" style="vertical-align: 0px" width="26" height="13" />, because
+<img src="https://latex.artofproblemsolving.com/f/b/e/fbe7e7960ac3ace98dafdbe7b41d1c01d6ff0ee6.png" class="latexcenter" alt="\[84+\frac{916}{2}\cdot5-\frac{916}{2}\cdot3=1000\Longrightarrow f^{916}(84+5))=1000\]" width="431" height="37" />
 Thus
-<img src="//latex.artofproblemsolving.com/b/4/1/b41f8cb98d5bdbd04d71f9994792bf81c7094186.png" class="latexcenter" alt="\[f(84)=f(f^{916}(84+5))=f(1000)=1000-3=\boxed{997}\]" width="428" height="23" />
+<img src="https://latex.artofproblemsolving.com/b/4/1/b41f8cb98d5bdbd04d71f9994792bf81c7094186.png" class="latexcenter" alt="\[f(84)=f(f^{916}(84+5))=f(1000)=1000-3=\boxed{997}\]" width="428" height="23" />
 </p><p>~ Nafer
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
@@ -477,7 +467,7 @@ Thus
 <li><a href="/wiki/index.php/American_Invitational_Mathematics_Examination" title="American Invitational Mathematics Examination">American Invitational Mathematics Examination</a></li>
 <li><a href="/wiki/index.php/Mathematics_competition_resources" class="mw-redirect" title="Mathematics competition resources">Mathematics competition resources</a></li></ul>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714193846
 Cache expiry: 86400
@@ -506,7 +496,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Algebra_Problems" title="Category:Intermediate Algebra Problems">Intermediate Algebra Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

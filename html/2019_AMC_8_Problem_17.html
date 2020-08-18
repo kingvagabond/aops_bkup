@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2019_AMC_8_Problems/Problem_17" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2019 AMC 8 Problems/Problem 17</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem_17"><span class="tocnumber">1</span> <span class="toctext">Problem 17</span></a></li>
@@ -422,21 +412,21 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem_17">Problem 17</span></h2>
-<p>What is the value of the product 
-<img src="//latex.artofproblemsolving.com/9/c/a/9ca55aef127eee6fc870173ae1b23e1abd56a02b.png" class="latexcenter" alt="\[\left(\frac{1\cdot3}{2\cdot2}\right)\left(\frac{2\cdot4}{3\cdot3}\right)\left(\frac{3\cdot5}{4\cdot4}\right)\cdots\left(\frac{97\cdot99}{98\cdot98}\right)\left(\frac{98\cdot100}{99\cdot99}\right)?\]" width="393" height="43" />
-</p><p><img src="//latex.artofproblemsolving.com/1/f/2/1f224dcf89897eb03e589c152318cccc0c66d978.png" class="latex" alt="$\textbf{(A) }\frac{1}{2}\qquad\textbf{(B) }\frac{50}{99}\qquad\textbf{(C) }\frac{9800}{9801}\qquad\textbf{(D) }\frac{100}{99}\qquad\textbf{(E) }50$" style="vertical-align: -13px" width="432" height="38" />
+<p>What is the value of the product
+<img src="https://latex.artofproblemsolving.com/9/c/a/9ca55aef127eee6fc870173ae1b23e1abd56a02b.png" class="latexcenter" alt="\[\left(\frac{1\cdot3}{2\cdot2}\right)\left(\frac{2\cdot4}{3\cdot3}\right)\left(\frac{3\cdot5}{4\cdot4}\right)\cdots\left(\frac{97\cdot99}{98\cdot98}\right)\left(\frac{98\cdot100}{99\cdot99}\right)?\]" width="393" height="43" />
+</p><p><img src="https://latex.artofproblemsolving.com/1/f/2/1f224dcf89897eb03e589c152318cccc0c66d978.png" class="latex" alt="$\textbf{(A) }\frac{1}{2}\qquad\textbf{(B) }\frac{50}{99}\qquad\textbf{(C) }\frac{9800}{9801}\qquad\textbf{(D) }\frac{100}{99}\qquad\textbf{(E) }50$" style="vertical-align: -13px" width="432" height="38" />
 </p>
 <h2><span id="Solution_1(Telescoping)"></span><span class="mw-headline" id="Solution_1.28Telescoping.29">Solution 1(Telescoping)</span></h2>
-<p>We rewrite: <img src="//latex.artofproblemsolving.com/7/2/4/724d2c4b0da8e0a1d6b0f9ba10f8269651695790.png" class="latexcenter" alt="\[\frac{1}{2}\cdot\left(\frac{3\cdot2}{2\cdot3}\right)\left(\frac{4\cdot3}{3\cdot4}\right)\cdots\left(\frac{99\cdot98}{98\cdot99}\right)\cdot\frac{100}{99}\]" width="300" height="43" />
+<p>We rewrite: <img src="https://latex.artofproblemsolving.com/7/2/4/724d2c4b0da8e0a1d6b0f9ba10f8269651695790.png" class="latexcenter" alt="\[\frac{1}{2}\cdot\left(\frac{3\cdot2}{2\cdot3}\right)\left(\frac{4\cdot3}{3\cdot4}\right)\cdots\left(\frac{99\cdot98}{98\cdot99}\right)\cdot\frac{100}{99}\]" width="300" height="43" />
 </p><p>The middle terms cancel, leaving us with
-</p><p><img src="//latex.artofproblemsolving.com/e/c/8/ec85e9681a2b497df4971e3bc0a27d4515b654e8.png" class="latexcenter" alt="\[\left(\frac{1\cdot100}{2\cdot99}\right)= \boxed{\textbf{(B)}\frac{50}{99}}\]" width="162" height="48" />
+</p><p><img src="https://latex.artofproblemsolving.com/e/c/8/ec85e9681a2b497df4971e3bc0a27d4515b654e8.png" class="latexcenter" alt="\[\left(\frac{1\cdot100}{2\cdot99}\right)= \boxed{\textbf{(B)}\frac{50}{99}}\]" width="162" height="48" />
 </p><p>~ hpotter0104
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>If you calculate the first few values of the equation, all of the values tend to <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" />, but are not equal to it. The answer closest to <img src="//latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> but not equal to it is  <img src="//latex.artofproblemsolving.com/8/e/5/8e5c7ec89bd9e66292341e5ff6bdea14daabf3f6.png" class="latex" alt="$\boxed{\textbf{(B)}\frac{50}{99}}$" style="vertical-align: -18px" width="62" height="48" />.~hpotter0104
+<p>If you calculate the first few values of the equation, all of the values tend to <img src="https://latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" />, but are not equal to it. The answer closest to <img src="https://latex.artofproblemsolving.com/2/f/9/2f960094315d60883495f9b74148e17487ee9584.png" class="latex" alt="$\frac{1}{2}$" style="vertical-align: -12px" width="11" height="37" /> but not equal to it is  <img src="https://latex.artofproblemsolving.com/8/e/5/8e5c7ec89bd9e66292341e5ff6bdea14daabf3f6.png" class="latex" alt="$\boxed{\textbf{(B)}\frac{50}{99}}$" style="vertical-align: -18px" width="62" height="48" />.~hpotter0104
 </p>
 <h2><span class="mw-headline" id="Solution_3">Solution 3</span></h2>
-<p>Rewriting the numerator and the denominator, we get <img src="//latex.artofproblemsolving.com/2/8/c/28c309be6ba94f941ec7bb49ff976791882fa624.png" class="latex" alt="$\frac{\frac{100! \cdot 98!}{2}}{\left(99!\right)^2}$" style="vertical-align: -19px" width="51" height="47" />. We can simplify by canceling 99! on both sides, leaving us with: <img src="//latex.artofproblemsolving.com/8/1/7/8176aec00b0f416267d238b8c0e1c396ce225fe8.png" class="latex" alt="$\frac{100 \cdot 98!}{2 \cdot 99!}$" style="vertical-align: -12px" width="66" height="38" /> We rewrite <img src="//latex.artofproblemsolving.com/f/5/a/f5adc4d975e3cafbe528a3984a019d19d269878d.png" class="latex" alt="$99!$" width="21" height="13" /> as <img src="//latex.artofproblemsolving.com/d/1/4/d14853b62a9893523c1e7c66dd2893fd0baa57fa.png" class="latex" alt="$99 \cdot 98!$" width="53" height="13" /> and cancel <img src="//latex.artofproblemsolving.com/0/4/6/046283a0339c09c897ff0130a30982333039fdd0.png" class="latex" alt="$98!$" width="21" height="13" />, which gets <img src="//latex.artofproblemsolving.com/c/a/f/caf2d5be50d2a879835d62d7b6c81b50d801f5d7.png" class="latex" alt="$\boxed{\frac{50}{99}}$" style="vertical-align: -18px" width="34" height="48" />. Answer B.
+<p>Rewriting the numerator and the denominator, we get <img src="https://latex.artofproblemsolving.com/2/8/c/28c309be6ba94f941ec7bb49ff976791882fa624.png" class="latex" alt="$\frac{\frac{100! \cdot 98!}{2}}{\left(99!\right)^2}$" style="vertical-align: -19px" width="51" height="47" />. We can simplify by canceling 99! on both sides, leaving us with: <img src="https://latex.artofproblemsolving.com/8/1/7/8176aec00b0f416267d238b8c0e1c396ce225fe8.png" class="latex" alt="$\frac{100 \cdot 98!}{2 \cdot 99!}$" style="vertical-align: -12px" width="66" height="38" /> We rewrite <img src="https://latex.artofproblemsolving.com/f/5/a/f5adc4d975e3cafbe528a3984a019d19d269878d.png" class="latex" alt="$99!$" width="21" height="13" /> as <img src="https://latex.artofproblemsolving.com/d/1/4/d14853b62a9893523c1e7c66dd2893fd0baa57fa.png" class="latex" alt="$99 \cdot 98!$" width="53" height="13" /> and cancel <img src="https://latex.artofproblemsolving.com/0/4/6/046283a0339c09c897ff0130a30982333039fdd0.png" class="latex" alt="$98!$" width="21" height="13" />, which gets <img src="https://latex.artofproblemsolving.com/c/a/f/caf2d5be50d2a879835d62d7b6c81b50d801f5d7.png" class="latex" alt="$\boxed{\frac{50}{99}}$" style="vertical-align: -18px" width="34" height="48" />. Answer B.
 </p>
 <h2><span class="mw-headline" id="Video_Solution">Video Solution</span></h2>
 <p><a rel="nofollow" class="external free" href="https://www.youtube.com/watch?v=ffHl1dAjs7g&amp;list=PLLCzevlMcsWNBsdpItBT4r7Pa8cZb6Viu&amp;index=1">https://www.youtube.com/watch?v=ffHl1dAjs7g&amp;list=PLLCzevlMcsWNBsdpItBT4r7Pa8cZb6Viu&amp;index=1</a> ~ MathEx
@@ -461,7 +451,7 @@
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200714190640
 Cache expiry: 86400
@@ -491,7 +481,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>

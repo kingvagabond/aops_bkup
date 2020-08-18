@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2004_AIME_II_Problems/Problem_8" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,13 +393,13 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">2004 AIME II Problems/Problem 8</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Problem"><span class="tocnumber">1</span> <span class="toctext">Problem</span></a></li>
@@ -420,19 +410,19 @@
 </div>
 
 <h2><span class="mw-headline" id="Problem">Problem</span></h2>
-<p>How many positive integer divisors of <img src="//latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> are divisible by exactly 2004 positive integers?
+<p>How many positive integer divisors of <img src="https://latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> are divisible by exactly 2004 positive integers?
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
-<p>The <a href="/wiki/index.php/Prime_factorization" title="Prime factorization">prime factorization</a> of 2004 is <img src="//latex.artofproblemsolving.com/8/5/9/859ca4dc0b892050d10036c3cdbe364941623639.png" class="latex" alt="$2^2\cdot 3\cdot 167$" style="vertical-align: 0px" width="79" height="15" />.  Thus the prime factorization of <img src="//latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> is <img src="//latex.artofproblemsolving.com/c/a/c/cac0982de222a2b81bea49797d6dc879b1e3fcf6.png" class="latex" alt="$2^{4008}\cdot 3^{2004}\cdot 167^{2004}$" style="vertical-align: 0px" width="152" height="15" />.
-</p><p>We can <a href="/wiki/index.php/Divisor_function" title="Divisor function"> count the number of divisors</a> of a number by multiplying together one more than each of the <a href="/wiki/index.php/Exponentiation" title="Exponentiation"> exponents</a> of the prime factors in its prime factorization.  For example, the number of divisors of <img src="//latex.artofproblemsolving.com/8/7/d/87d7ce53a0bda162e422c873db6497054893b4a9.png" class="latex" alt="$2004=2^2\cdot 3^1\cdot 167^1$" style="vertical-align: 0px" width="152" height="15" /> is <img src="//latex.artofproblemsolving.com/0/6/c/06c35cce0e897dadb8240df034a1e7b2c2f4ea3e.png" class="latex" alt="$(2+1)(1+1)(1+1)=12$" style="vertical-align: -4px" width="205" height="18" />.  
-</p><p>A positive integer divisor of <img src="//latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> will be of the form <img src="//latex.artofproblemsolving.com/0/e/d/0ede12bd3d9a3d05a2ffa607915986591ef5e0c8.png" class="latex" alt="$2^a\cdot 3^b\cdot 167^c$" style="vertical-align: 0px" width="92" height="16" />.  Thus we need to find how many <img src="//latex.artofproblemsolving.com/f/3/d/f3d9e22097e20a1249b5332202b24941a4bf9e1f.png" class="latex" alt="$(a,b,c)$" style="vertical-align: -4px" width="54" height="18" /> satisfy 
+<p>The <a href="/wiki/index.php/Prime_factorization" title="Prime factorization">prime factorization</a> of 2004 is <img src="https://latex.artofproblemsolving.com/8/5/9/859ca4dc0b892050d10036c3cdbe364941623639.png" class="latex" alt="$2^2\cdot 3\cdot 167$" style="vertical-align: 0px" width="79" height="15" />.  Thus the prime factorization of <img src="https://latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> is <img src="https://latex.artofproblemsolving.com/c/a/c/cac0982de222a2b81bea49797d6dc879b1e3fcf6.png" class="latex" alt="$2^{4008}\cdot 3^{2004}\cdot 167^{2004}$" style="vertical-align: 0px" width="152" height="15" />.
+</p><p>We can <a href="/wiki/index.php/Divisor_function" title="Divisor function"> count the number of divisors</a> of a number by multiplying together one more than each of the <a href="/wiki/index.php/Exponentiation" title="Exponentiation"> exponents</a> of the prime factors in its prime factorization.  For example, the number of divisors of <img src="https://latex.artofproblemsolving.com/8/7/d/87d7ce53a0bda162e422c873db6497054893b4a9.png" class="latex" alt="$2004=2^2\cdot 3^1\cdot 167^1$" style="vertical-align: 0px" width="152" height="15" /> is <img src="https://latex.artofproblemsolving.com/0/6/c/06c35cce0e897dadb8240df034a1e7b2c2f4ea3e.png" class="latex" alt="$(2+1)(1+1)(1+1)=12$" style="vertical-align: -4px" width="205" height="18" />.
+</p><p>A positive integer divisor of <img src="https://latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> will be of the form <img src="https://latex.artofproblemsolving.com/0/e/d/0ede12bd3d9a3d05a2ffa607915986591ef5e0c8.png" class="latex" alt="$2^a\cdot 3^b\cdot 167^c$" style="vertical-align: 0px" width="92" height="16" />.  Thus we need to find how many <img src="https://latex.artofproblemsolving.com/f/3/d/f3d9e22097e20a1249b5332202b24941a4bf9e1f.png" class="latex" alt="$(a,b,c)$" style="vertical-align: -4px" width="54" height="18" /> satisfy
 </p>
-<center><img src="//latex.artofproblemsolving.com/e/0/0/e00821ad1ece3c9854ffeec0c973083f4138d626.png" class="latex" alt="$(a+1)(b+1)(c+1)=2^2\cdot 3\cdot 167.$" style="vertical-align: -4px" width="268" height="19" /></center>  
-<p>We can think of this as <a href="/wiki/index.php/Partition" class="mw-redirect" title="Partition">partitioning</a> the exponents to <img src="//latex.artofproblemsolving.com/3/2/2/322ea6ec483700df87877e7c86d9536aaecab0d3.png" class="latex" alt="$a+1,$" style="vertical-align: -3px" width="45" height="15" />  <img src="//latex.artofproblemsolving.com/7/c/d/7cd846111936e564839baf91927b2df643715626.png" class="latex" alt="$b+1,$" style="vertical-align: -3px" width="43" height="16" /> and  <img src="//latex.artofproblemsolving.com/a/3/9/a398005d35072ae993a9ac8b72dd8e746fcc416e.png" class="latex" alt="$c+1$" style="vertical-align: -1px" width="38" height="13" />.  So let's partition the 2's first.  There are two 2's so this is equivalent to partitioning two items in three containers.  We can do this in <img src="//latex.artofproblemsolving.com/b/5/f/b5f3803bb802b59969d7e135f0235385427bfc79.png" class="latex" alt="${4 \choose 2} = 6$" style="vertical-align: -22px" width="70" height="53" /> ways.  We can partition the 3 in three ways and likewise we can partition the 167 in three ways.  So we have <img src="//latex.artofproblemsolving.com/2/a/4/2a49d0b3e703b09e675a082dc1c1d3d321abf246.png" class="latex" alt="$6\cdot 3\cdot 3 = \boxed{54}$" style="vertical-align: -5px" width="107" height="23" /> as our answer.
+<center><img src="https://latex.artofproblemsolving.com/e/0/0/e00821ad1ece3c9854ffeec0c973083f4138d626.png" class="latex" alt="$(a+1)(b+1)(c+1)=2^2\cdot 3\cdot 167.$" style="vertical-align: -4px" width="268" height="19" /></center>
+<p>We can think of this as <a href="/wiki/index.php/Partition" class="mw-redirect" title="Partition">partitioning</a> the exponents to <img src="https://latex.artofproblemsolving.com/3/2/2/322ea6ec483700df87877e7c86d9536aaecab0d3.png" class="latex" alt="$a+1,$" style="vertical-align: -3px" width="45" height="15" />  <img src="https://latex.artofproblemsolving.com/7/c/d/7cd846111936e564839baf91927b2df643715626.png" class="latex" alt="$b+1,$" style="vertical-align: -3px" width="43" height="16" /> and  <img src="https://latex.artofproblemsolving.com/a/3/9/a398005d35072ae993a9ac8b72dd8e746fcc416e.png" class="latex" alt="$c+1$" style="vertical-align: -1px" width="38" height="13" />.  So let's partition the 2's first.  There are two 2's so this is equivalent to partitioning two items in three containers.  We can do this in <img src="https://latex.artofproblemsolving.com/b/5/f/b5f3803bb802b59969d7e135f0235385427bfc79.png" class="latex" alt="${4 \choose 2} = 6$" style="vertical-align: -22px" width="70" height="53" /> ways.  We can partition the 3 in three ways and likewise we can partition the 167 in three ways.  So we have <img src="https://latex.artofproblemsolving.com/2/a/4/2a49d0b3e703b09e675a082dc1c1d3d321abf246.png" class="latex" alt="$6\cdot 3\cdot 3 = \boxed{54}$" style="vertical-align: -5px" width="107" height="23" /> as our answer.
 </p><p><br />
 </p>
 <h2><span id="Solution_2_(bash)"></span><span class="mw-headline" id="Solution_2_.28bash.29">Solution 2 (bash)</span></h2>
-<p>Clearly we need to find a group of numbers that multiply to 2004. We can list them all out since we know that 2004 is only <img src="//latex.artofproblemsolving.com/2/8/b/28be7a6781c742554be9f30432805d0b42dc86c7.png" class="latex" alt="$167 * 2^2 * 3$" style="vertical-align: 0px" width="86" height="15" />.
+<p>Clearly we need to find a group of numbers that multiply to 2004. We can list them all out since we know that 2004 is only <img src="https://latex.artofproblemsolving.com/2/8/b/28be7a6781c742554be9f30432805d0b42dc86c7.png" class="latex" alt="$167 * 2^2 * 3$" style="vertical-align: 0px" width="86" height="15" />.
 </p><p>167, 2, 2, 3
 </p><p>4, 3, 167
 </p><p>12, 167
@@ -444,10 +434,10 @@
 </p><p>3, 668
 </p><p>6, 334
 </p><p>2004*
-</p><p>To begin, the first multiple doesn't work because there are only 3 prime divisors of 2004. We can apply all multiples because the prime factorization of <img src="//latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> is <img src="//latex.artofproblemsolving.com/a/3/8/a38ad9dc875eb9c16a46e4434f51d09f83db4b84.png" class="latex" alt="$2^{4008} * 3^{2004} * 167^{2004}.$" style="vertical-align: 0px" width="165" height="15" /> Every multiple has six ways of distributing numbers to become powers of 167, 3, and 2, except for the ones with a star. 
+</p><p>To begin, the first multiple doesn't work because there are only 3 prime divisors of 2004. We can apply all multiples because the prime factorization of <img src="https://latex.artofproblemsolving.com/7/8/8/788ae27421ce4e3090c4bb773fa7dc3c9cf93c50.png" class="latex" alt="$2004^{2004}$" style="vertical-align: 0px" width="62" height="15" /> is <img src="https://latex.artofproblemsolving.com/a/3/8/a38ad9dc875eb9c16a46e4434f51d09f83db4b84.png" class="latex" alt="$2^{4008} * 3^{2004} * 167^{2004}.$" style="vertical-align: 0px" width="165" height="15" /> Every multiple has six ways of distributing numbers to become powers of 167, 3, and 2, except for the ones with a star.
 For a single power of 2004, we have three choices (2, 3, and 167) to give a power of 2003 to.
 For 2, 2, 501, there are three choices to give a power of 500 to and the rest get a power of 1.
-</p><p>Therefore we have <img src="//latex.artofproblemsolving.com/a/5/2/a528ed520d40cc28b7664a7a50b9d3a4238f27b5.png" class="latex" alt="$5 * 6$" width="35" height="12" /> normal multiples and <img src="//latex.artofproblemsolving.com/1/8/0/1804c7b9569ba65135b65dc78a564589f72a7a0f.png" class="latex" alt="$3 *2$" width="35" height="12" /> "half" multiples. Sum to get <img src="//latex.artofproblemsolving.com/f/4/9/f490937c0b9f1b956a4460fb79a65072f3681f6b.png" class="latex" alt="$\boxed{54}$" style="vertical-align: -5px" width="30" height="23" /> as our answer.
+</p><p>Therefore we have <img src="https://latex.artofproblemsolving.com/a/5/2/a528ed520d40cc28b7664a7a50b9d3a4238f27b5.png" class="latex" alt="$5 * 6$" width="35" height="12" /> normal multiples and <img src="https://latex.artofproblemsolving.com/1/8/0/1804c7b9569ba65135b65dc78a564589f72a7a0f.png" class="latex" alt="$3 *2$" width="35" height="12" /> "half" multiples. Sum to get <img src="https://latex.artofproblemsolving.com/f/4/9/f490937c0b9f1b956a4460fb79a65072f3681f6b.png" class="latex" alt="$\boxed{54}$" style="vertical-align: -5px" width="30" height="23" /> as our answer.
 </p>
 <h2><span class="mw-headline" id="See_also">See also</span></h2>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -469,7 +459,7 @@ For 2, 2, 501, there are three choices to give a power of 500 to and the rest ge
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200801212005
 Cache expiry: 86400
@@ -499,7 +489,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/index.php/Category:Intermediate_Number_Theory_Problems" title="Category:Intermediate Number Theory Problems">Intermediate Number Theory Problems</a></li><li><a href="/wiki/index.php/Category:Intermediate_Combinatorics_Problems" title="Category:Intermediate Combinatorics Problems">Intermediate Combinatorics Problems</a></li></ul></div></div></div>
-				
+
 
 							</div>
 		</div>

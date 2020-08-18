@@ -15,17 +15,7 @@
 		})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
 		</script>
 		<!-- End Page hiding snippet for Optimize -->
-		<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
-		ga('require', 'GTM-PJ447K5'); // Optimize Container ID
-		ga('send', 'pageview');
-		</script>
-		<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,7 +46,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="initial-scale=1">
 
-  
+
 
 		<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 
@@ -377,7 +367,7 @@
 						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/1992_AIME_Problems/Problem_2" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
 				</div>
 			</div>
-			
+
 			<div id="search" class="menu open">
 				<h1>Search</h1>
 				<div class="submenu-wrapper" style="margin-bottom:5px;">
@@ -403,23 +393,23 @@
 
 
 	<div id="main-column" style="margin-top:10px">
-				<div class="page-wrapper">	
+				<div class="page-wrapper">
 						<div id="mw-js-message" style="display:none;"></div>
 			<h1 id="firstHeading" class="firstHeading">1992 AIME Problems/Problem 2</h1>
 
-						
+
 			<div class="mw-body">
-												
+
 				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><h2><span class="mw-headline" id="Problem">Problem</span></h2>
 <p>A <a href="/wiki/index.php/Positive_integer" title="Positive integer">positive integer</a> is called ascending if, in its <a href="/wiki/index.php?title=Decimal_representation&amp;action=edit&amp;redlink=1" class="new" title="Decimal representation (page does not exist)">decimal representation</a>, there are at least two digits and each digit is less than any digit to its right. How many ascending positive integers are there?
 </p>
 <h2><span class="mw-headline" id="Solution_1">Solution 1</span></h2>
 <p>Note that an ascending number is exactly determined by its <a href="/wiki/index.php/Digit" title="Digit">digits</a>: for any <a href="/wiki/index.php/Set" title="Set">set</a> of digits (not including 0, since the only position for 0 is at the leftmost end of the number, i.e. a leading 0), there is exactly one ascending number with those digits.
-</p><p>So, there are nine digits that may be used: <img src="//latex.artofproblemsolving.com/5/8/9/5898f102b3993b114c77061c386ec09492ce713d.png" class="latex" alt="$1,2,3,4,5,6,7,8,9.$" style="vertical-align: -3px" width="150" height="16" />  Note that each digit may be present or may not be present. Hence, there are <img src="//latex.artofproblemsolving.com/e/f/8/ef8833f3659e2c51e1814d4040fa75b168d2b905.png" class="latex" alt="$2^9=512$" style="vertical-align: 0px" width="67" height="15" /> potential ascending numbers, one for each <a href="/wiki/index.php/Subset" title="Subset">subset</a> of <img src="//latex.artofproblemsolving.com/3/5/6/3567dab8971e6c478d78c2fc7d1db503501bc778.png" class="latex" alt="$\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$" style="vertical-align: -4px" width="163" height="18" />.
-</p><p>However, we've counted one-digit numbers and the <a href="/wiki/index.php/Empty_set" title="Empty set">empty set</a>, so we must subtract them off to get our answer, <img src="//latex.artofproblemsolving.com/0/5/f/05fd34676c7bd40dbddada166406213984fd7297.png" class="latex" alt="$512-10=\boxed{502}.$" style="vertical-align: -5px" width="134" height="23" />
+</p><p>So, there are nine digits that may be used: <img src="https://latex.artofproblemsolving.com/5/8/9/5898f102b3993b114c77061c386ec09492ce713d.png" class="latex" alt="$1,2,3,4,5,6,7,8,9.$" style="vertical-align: -3px" width="150" height="16" />  Note that each digit may be present or may not be present. Hence, there are <img src="https://latex.artofproblemsolving.com/e/f/8/ef8833f3659e2c51e1814d4040fa75b168d2b905.png" class="latex" alt="$2^9=512$" style="vertical-align: 0px" width="67" height="15" /> potential ascending numbers, one for each <a href="/wiki/index.php/Subset" title="Subset">subset</a> of <img src="https://latex.artofproblemsolving.com/3/5/6/3567dab8971e6c478d78c2fc7d1db503501bc778.png" class="latex" alt="$\{1, 2, 3, 4, 5, 6, 7, 8, 9\}$" style="vertical-align: -4px" width="163" height="18" />.
+</p><p>However, we've counted one-digit numbers and the <a href="/wiki/index.php/Empty_set" title="Empty set">empty set</a>, so we must subtract them off to get our answer, <img src="https://latex.artofproblemsolving.com/0/5/f/05fd34676c7bd40dbddada166406213984fd7297.png" class="latex" alt="$512-10=\boxed{502}.$" style="vertical-align: -5px" width="134" height="23" />
 </p>
 <h2><span class="mw-headline" id="Solution_2">Solution 2</span></h2>
-<p>We see that we can express the number of ways for a 2 digit number as <img src="//latex.artofproblemsolving.com/f/2/6/f26f5c43e442c2e11245ccdffa78740b4d31edc5.png" class="latex" alt="$\binom{8}{1}+\binom{7}{1}...\binom{1}{1}$" style="vertical-align: -22px" width="145" height="53" /> and a 3 digit number as <img src="//latex.artofproblemsolving.com/6/6/c/66cb7db1f2b9ddd03c55d612c7950dd534b4049e.png" class="latex" alt="$\binom{8}{2}+\binom{7}{2}+...\binom{2}{2}$" style="vertical-align: -22px" width="167" height="53" /> this is because once we choose the first number the next two numbers can be any two of the numbers above it. Using the hockey stick identity repeatedly we can get <img src="//latex.artofproblemsolving.com/f/f/3/ff334cb6c4986a903848c09033e36d21a589005e.png" class="latex" alt="$\binom{9}{2}+\binom{9}{3}+...+\binom{9}{9}$" style="vertical-align: -22px" width="189" height="53" />. We know that <img src="//latex.artofproblemsolving.com/c/9/4/c948df7e7f713c00e33ed7b52e7b57f75b571f78.png" class="latex" alt="$\binom{n}{0}+\binom{n}{1}+...\binom{n}{n}=2^n$" style="vertical-align: -22px" width="218" height="53" /> this can be proved easily by story. If you have n people and you want to know how many ways you can make a group of any size you could do this <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> ways. You could count everyone is binary in or out so <img src="//latex.artofproblemsolving.com/6/c/3/6c36f0b157e8c2fbe0638c2f2b378e08d07695aa.png" class="latex" alt="$2^n$" width="17" height="12" /> or you could count each case individually: <img src="//latex.artofproblemsolving.com/6/f/f/6ffc50f919905e0eb085e42cb8a63585ea218b82.png" class="latex" alt="$\binom{n}{0}+\binom{n}{1}+...\binom{n}{n}$" style="vertical-align: -22px" width="172" height="53" /> so the 2 statements are equivalent. Therfore we have <img src="//latex.artofproblemsolving.com/d/6/2/d6273e9f0e7e4e3623ca088dd8d3ca27e50815a1.png" class="latex" alt="$2^9-\binom{9}{1}-\binom{9}{0}=\boxed{502}$" style="vertical-align: -22px" width="198" height="53" />
+<p>We see that we can express the number of ways for a 2 digit number as <img src="https://latex.artofproblemsolving.com/f/2/6/f26f5c43e442c2e11245ccdffa78740b4d31edc5.png" class="latex" alt="$\binom{8}{1}+\binom{7}{1}...\binom{1}{1}$" style="vertical-align: -22px" width="145" height="53" /> and a 3 digit number as <img src="https://latex.artofproblemsolving.com/6/6/c/66cb7db1f2b9ddd03c55d612c7950dd534b4049e.png" class="latex" alt="$\binom{8}{2}+\binom{7}{2}+...\binom{2}{2}$" style="vertical-align: -22px" width="167" height="53" /> this is because once we choose the first number the next two numbers can be any two of the numbers above it. Using the hockey stick identity repeatedly we can get <img src="https://latex.artofproblemsolving.com/f/f/3/ff334cb6c4986a903848c09033e36d21a589005e.png" class="latex" alt="$\binom{9}{2}+\binom{9}{3}+...+\binom{9}{9}$" style="vertical-align: -22px" width="189" height="53" />. We know that <img src="https://latex.artofproblemsolving.com/c/9/4/c948df7e7f713c00e33ed7b52e7b57f75b571f78.png" class="latex" alt="$\binom{n}{0}+\binom{n}{1}+...\binom{n}{n}=2^n$" style="vertical-align: -22px" width="218" height="53" /> this can be proved easily by story. If you have n people and you want to know how many ways you can make a group of any size you could do this <img src="https://latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> ways. You could count everyone is binary in or out so <img src="https://latex.artofproblemsolving.com/6/c/3/6c36f0b157e8c2fbe0638c2f2b378e08d07695aa.png" class="latex" alt="$2^n$" width="17" height="12" /> or you could count each case individually: <img src="https://latex.artofproblemsolving.com/6/f/f/6ffc50f919905e0eb085e42cb8a63585ea218b82.png" class="latex" alt="$\binom{n}{0}+\binom{n}{1}+...\binom{n}{n}$" style="vertical-align: -22px" width="172" height="53" /> so the 2 statements are equivalent. Therfore we have <img src="https://latex.artofproblemsolving.com/d/6/2/d6273e9f0e7e4e3623ca088dd8d3ca27e50815a1.png" class="latex" alt="$2^9-\binom{9}{1}-\binom{9}{0}=\boxed{502}$" style="vertical-align: -22px" width="198" height="53" />
 Note how you could have skipped the hockey stick step by choosing all the numbers first.
 </p>
 <table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
@@ -441,7 +431,7 @@ Note how you could have skipped the hockey stick step by choosing all the number
 </p>
 <div style="clear:both;"></div>
 
-<!-- 
+<!--
 NewPP limit report
 Cached time: 20200715100623
 Cache expiry: 86400
@@ -471,7 +461,7 @@ Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.ph
 
 
 									<div class="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>
-				
+
 
 							</div>
 		</div>
