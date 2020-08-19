@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+	<head>
+					
+						<style>.async-hide { opacity: 0 !important} </style>
+			<!-- Initialize the Data Layer First -->
+			<script>
+			window.dataLayer = window.dataLayer || [];
+						</script>
+			<!-- End Data Layer Initialization -->
+			<!-- Page hiding snippet for Optimize -->
+			<script>
+			(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
+			h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+			(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);
+			})(window,document.documentElement,'async-hide','dataLayer',4000,{'GTM-PJ447K5':true}); // add optimize container ID here
+			</script>
+			<!-- End Page hiding snippet for Optimize -->
+			<!-- GA w/Optimize plugin and Enhanced Ecommerce -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+			ga('require', 'GTM-PJ447K5', {allowLinker: true}); // Optimize Container ID
+			ga('require', 'ec'); // enhanced ecommerce plugin
+			ga('set', 'dimension1', false); // boolean - is user logged in?
+			ga('set', 'dimension2', 'Not Logged In'); // string - user type - set in Aops::initTemplate() method
+			ga('send', 'pageview');
+			</script>
+			<!-- End GA w/Optimize plugin and Enhanced Ecommerce -->
+
+			<!-- Google Tag Manager -->
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-59JWRGZ');</script>
+			<!-- End Google Tag Manager -->
+						
+<script>AoPS = {
+  start_time : new Date().getTime()
+};</script>
+
+<script>
+  AoPS.bootstrap_data = {"preload_cmty_data":{"user_id":0,"category_id":4838,"rewrite_url":false},"init_time":1597858056,"server_time":"0.62310000 1597858056","datastore_path":"\/var\/data\/aops3\/","cmty_is_testing":false,"cmty_status":"slow","is_community_active":true,"community_inactive_message":"Community disabled for routine maintenance.","cmty_attachment_path":"\/\/cdn.artofproblemsolving.com\/attachments\/","cmty_toplevel_data":{"3":{"num_topics":41665,"num_posts":532048,"num_users":18,"is_locked":false},"4":{"num_topics":89465,"num_posts":488464,"num_users":3,"is_locked":false},"5":{"num_topics":23510,"num_posts":359566,"num_users":19,"is_locked":false},"6":{"num_topics":250950,"num_posts":1085380,"num_users":38,"is_locked":false},"7":{"num_topics":92678,"num_posts":366948,"num_users":11,"is_locked":false},"10":{"num_topics":13553,"num_posts":99730,"num_users":16,"is_locked":false}},"toplevel_category_permissions":{"2":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"3":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"4":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"5":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"6":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"7":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"8":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"9":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"11":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"10":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_contributor":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":true,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":true,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":true,"c_can_override_lock":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":true,"c_can_report":true,"c_can_see_real_poster":false,"c_can_set_role_inherit":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":true,"c_can_tag_new":true,"c_can_thank":true,"c_can_undelete":false,"c_undo_global_ban":false},"12":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"13":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"30":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"31":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"934345":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"89":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"90":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false},"91":{"c_can_access_all_tags":false,"c_can_add_item":true,"c_can_add_target":false,"c_can_announce":false,"c_can_change_is_public":false,"c_can_change_sort_type":false,"c_can_delete":false,"c_can_delete_category":false,"c_can_edit":false,"c_can_edit_admin_items":false,"c_can_edit_core_data":false,"c_can_edit_deny":false,"c_can_edit_mod":false,"c_can_edit_own_posts":false,"c_can_edit_owner":false,"c_can_edit_registered_user":false,"c_can_edit_tags":false,"c_can_global_announce":false,"c_can_hard_delete":false,"c_can_hard_delete_cat":false,"c_can_lock_category":false,"c_can_lock_topic":false,"c_can_monitor":false,"c_can_move_topic_out":false,"c_can_nothank":false,"c_can_read":true,"c_can_read_deleted":false,"c_can_remove_item":true,"c_can_remove_target":false,"c_can_reply":false,"c_can_report":false,"c_can_see_real_poster":false,"c_can_settle_report":false,"c_can_shout":false,"c_can_start_topic":false,"c_can_tag_new":false,"c_can_thank":false,"c_can_undelete":false,"c_undo_global_ban":false,"c_can_override_lock":false,"c_can_set_role_inherit":false}},"user_global_cmty_permissions":{"can_access_log":false,"can_create_blog":true,"can_create_category":true,"can_delete_long_topic":false,"can_edit_profile":true,"can_edit_other_profiles":false,"can_exceed_cat_limit":false,"can_add_avatar":true,"can_attach_files":true,"can_post_as_halp":true,"can_view_others_pm":false,"can_pm_anyone":false,"can_pm_as_sheriff":false,"can_post_fast":false,"can_request_friend":true,"can_revert_actions":false,"can_edit_tag_term_map":false,"can_edit_tagspace":false,"can_add_user_notes":false,"can_view_user_notes":false,"can_post_links":true,"can_post_images":true},"user_staff_perms":{"user-general":false,"perms-cmty":false,"one-click-ban":false,"see-full-memberlist":false,"ip-lookup":false,"can-access-log":false,"can-delete-long-topic":false,"can-post-fast":false},"global_feed_settings":{"global_feed_type":"custom","global_feed_fora":[3,4,5,6,7,10,50,63,64,65,66,68,70,71,163,164,172,101841]},"cmty_whois":{"num_users":513470,"num_posts":11496857,"num_topics":1136808,"user_data":{"num_registered":1043,"num_total":"1711","num_hidden":133,"shown_users":[{"a":"a_equals_LW","b":575448,"c":0},{"a":"A_FLYING_BIG_MAC","b":461516,"c":0},{"a":"aanyamangla","b":482446,"c":0},{"a":"AaronAwesome","b":530865,"c":0},{"a":"aaronliu","b":314558,"c":0},{"a":"abbyrwang","b":568549,"c":0},{"a":"Ace1stson","b":588553,"c":0},{"a":"Acupcake","b":373401,"c":0},{"a":"addstuff100","b":559571,"c":0},{"a":"Adhawan","b":413342,"c":0},{"a":"Adhayan","b":583005,"c":0},{"a":"AGRAT","b":471901,"c":0},{"a":"ahmmha","b":510948,"c":0},{"a":"ahumphreys","b":581257,"c":1},{"a":"aidaid","b":557773,"c":0},{"a":"aidanliu","b":345393,"c":0},{"a":"AJS2019","b":480658,"c":0},{"a":"ajs6","b":566954,"c":0},{"a":"ak.santana","b":261321,"c":1},{"a":"ak247","b":562431,"c":0},{"a":"akkasas2","b":530391,"c":0},{"a":"AKW08","b":422324,"c":0},{"a":"Al3jandro0000","b":482911,"c":0},{"a":"al8icecream","b":573902,"c":0},{"a":"Alan891206","b":459239,"c":0},{"a":"Alculator11","b":352544,"c":0},{"a":"alecamporo","b":574404,"c":0},{"a":"alex.wang1627","b":480342,"c":0},{"a":"Alex20200108","b":529170,"c":0},{"a":"alex443399","b":461574,"c":0},{"a":"alexclamate","b":517776,"c":0},{"a":"Alexlac2007","b":579931,"c":0},{"a":"Ali3085","b":452524,"c":0},{"a":"Alibaba06","b":530404,"c":0},{"a":"aliceolson","b":544303,"c":0},{"a":"alicezhang","b":477144,"c":0},{"a":"aliciaqu","b":467469,"c":0},{"a":"aliu2048","b":404800,"c":0},{"a":"alkt12345","b":573928,"c":0},{"a":"alokkumar1974","b":287333,"c":0},{"a":"alot27","b":591110,"c":0},{"a":"AlphaNeoAlphaNeoTheta","b":425465,"c":0},{"a":"Alyak","b":499939,"c":0},{"a":"AM_Math","b":555491,"c":0},{"a":"am06101","b":508756,"c":0},{"a":"amayzing","b":432196,"c":0},{"a":"Amazedlamp7009","b":458751,"c":0},{"a":"ambrose","b":482539,"c":0},{"a":"AMDgenius","b":451749,"c":0},{"a":"AMELOCOTON","b":534943,"c":0},{"a":"Amith","b":582193,"c":0},{"a":"amuthup","b":214404,"c":0},{"a":"Anakinskywalker","b":416790,"c":0},{"a":"ananya22609","b":547821,"c":0},{"a":"Anapolisetti","b":474733,"c":0},{"a":"andrenguyen","b":364681,"c":0},{"a":"Andrew_Dou","b":565740,"c":0},{"a":"andreyl","b":491888,"c":0},{"a":"andy09","b":547847,"c":0},{"a":"anirkan","b":528174,"c":0},{"a":"Anish.A","b":542917,"c":0},{"a":"anishbatra","b":535218,"c":0},{"a":"anjana.goli","b":304659,"c":0},{"a":"annagram","b":410825,"c":0},{"a":"annehu65","b":534025,"c":0},{"a":"anonman","b":397360,"c":0},{"a":"Anonperson7","b":310001,"c":0},{"a":"anqu20","b":565360,"c":0},{"a":"anshsingh","b":423417,"c":0},{"a":"aopal","b":584005,"c":0},{"a":"aopsallday","b":580296,"c":0},{"a":"AOPSLearner101","b":536749,"c":0},{"a":"aopsmasta","b":459116,"c":0},{"a":"aopsrabbit10","b":488796,"c":0},{"a":"aopsthoughtfulbear96","b":580199,"c":0},{"a":"apan123","b":570085,"c":0},{"a":"Apocellipse","b":464845,"c":0},{"a":"AppleMathPhun3","b":406175,"c":0},{"a":"aqiu","b":392951,"c":0},{"a":"aqua23","b":580181,"c":0},{"a":"arav18","b":336242,"c":0},{"a":"ARay10","b":478292,"c":0},{"a":"Arcee","b":349647,"c":0},{"a":"archeodon","b":414740,"c":0},{"a":"Archeon","b":364622,"c":0},{"a":"Aresli","b":586827,"c":0},{"a":"ariatheamazing","b":485171,"c":0},{"a":"aricw","b":365058,"c":0},{"a":"aroodman","b":180522,"c":0},{"a":"AshCatchUm","b":571223,"c":0},{"a":"AshleyZhu","b":516493,"c":0},{"a":"AshNor","b":574488,"c":0},{"a":"AshritzCrackers06","b":512890,"c":0},{"a":"ashu121805","b":422694,"c":0},{"a":"asianpear","b":560832,"c":0},{"a":"asoccerfan10","b":535264,"c":0},{"a":"aturk","b":477048,"c":1},{"a":"Aurora64","b":484017,"c":0},{"a":"Avinash123","b":591086,"c":0},{"a":"Awesome_owl","b":485379,"c":0},{"a":"Awesome3.14","b":454759,"c":0},{"a":"awesomeatpiano","b":457710,"c":0},{"a":"awesomedog","b":571776,"c":0},{"a":"awesomeming327.","b":456237,"c":0},{"a":"awesomeonfire","b":461340,"c":0},{"a":"Axiomatical","b":292276,"c":0},{"a":"Azhu415","b":305734,"c":0},{"a":"azobichamtorta","b":489474,"c":0},{"a":"ba.na.na","b":543524,"c":0},{"a":"Bagelhole","b":546064,"c":0},{"a":"BaileyCat","b":427345,"c":0},{"a":"BananaeGod","b":509208,"c":0},{"a":"barbourofelis","b":489759,"c":0},{"a":"baxxer","b":259457,"c":0},{"a":"bbbscratch","b":498900,"c":0},{"a":"beastacademyrocks","b":253535,"c":0},{"a":"beishexi","b":346814,"c":0},{"a":"Bellona","b":575201,"c":0},{"a":"ben179","b":446577,"c":0},{"a":"benthegreatest","b":481951,"c":0},{"a":"bestzack66","b":547702,"c":0},{"a":"Bewitched","b":428246,"c":0},{"a":"Bfattori","b":475427,"c":0},{"a":"bill1993","b":583008,"c":0},{"a":"BillyBobJoe135","b":517722,"c":0},{"a":"Bimikel","b":345442,"c":0},{"a":"Bir1ikki2","b":586257,"c":0},{"a":"Birds123","b":566058,"c":0},{"a":"Black_Panther","b":549081,"c":0},{"a":"blueballoon","b":418359,"c":0},{"a":"Bluedaisy05","b":564848,"c":0},{"a":"Bluedevils","b":465467,"c":0},{"a":"blueice","b":577568,"c":0},{"a":"BlueToucan","b":430183,"c":0},{"a":"blueyellowgreen","b":292635,"c":0},{"a":"BluRose11","b":481760,"c":0},{"a":"bm2004","b":292958,"c":0},{"a":"bmf996","b":552109,"c":0},{"a":"boba0408","b":552580,"c":0},{"a":"bobthefam","b":512178,"c":0},{"a":"breakingman","b":493214,"c":0},{"a":"brenseneth581","b":581191,"c":0},{"a":"brightswan","b":478533,"c":0},{"a":"Brissingr","b":590445,"c":0},{"a":"BritneySparks","b":588696,"c":0},{"a":"bronco18","b":368017,"c":0},{"a":"Brooklyn.Shi","b":456661,"c":0},{"a":"brutusbuckeye","b":452186,"c":0},{"a":"bryanguo","b":363744,"c":0},{"a":"Bun-Bun","b":541940,"c":0},{"a":"bupo","b":507997,"c":0},{"a":"Burnt_Tomato","b":471773,"c":0},{"a":"bxjdk","b":100708,"c":0},{"a":"C-123Math","b":487029,"c":0},{"a":"C4RustySpottedCat","b":569567,"c":0},{"a":"cai40","b":356246,"c":0},{"a":"calculatorgirl1","b":587931,"c":0},{"a":"caleighfeng","b":574707,"c":0},{"a":"CalTech_2023","b":414739,"c":0},{"a":"calxjust","b":358245,"c":0},{"a":"CamiKim","b":578162,"c":0},{"a":"candiceqi","b":568787,"c":0},{"a":"candythecorgi","b":499924,"c":0},{"a":"Caracas","b":426944,"c":0},{"a":"Carpemath","b":319390,"c":0},{"a":"Carter2020","b":591116,"c":0},{"a":"casi","b":225381,"c":0},{"a":"CastW1ng","b":581058,"c":0},{"a":"CH328","b":350811,"c":0},{"a":"changh201","b":571204,"c":0},{"a":"charlieb1658","b":397258,"c":0},{"a":"charliesk","b":428243,"c":0},{"a":"Charlietaft","b":482780,"c":0},{"a":"CheerGirl","b":568976,"c":0},{"a":"cheesehead92","b":373432,"c":0},{"a":"Cheetah1000","b":530502,"c":0},{"a":"cheetahboy93","b":570112,"c":0},{"a":"chenxiaomin","b":221824,"c":0},{"a":"cherryolive","b":473826,"c":0},{"a":"chessmasterL","b":486187,"c":0},{"a":"chester127","b":469078,"c":0},{"a":"chester30","b":381653,"c":0},{"a":"chirita.andrei","b":491854,"c":0},{"a":"chiton08","b":397377,"c":0},{"a":"Chlodabomb","b":555113,"c":0},{"a":"ChocChip","b":457550,"c":0},{"a":"chottomatic","b":523397,"c":0},{"a":"Chrissie","b":587648,"c":0},{"a":"chrysalxsm","b":590922,"c":0},{"a":"chuti","b":523655,"c":0},{"a":"chuyi387","b":509318,"c":0},{"a":"CircuitMaster","b":317310,"c":0},{"a":"cirrus20","b":422635,"c":0},{"a":"cjquines0","b":171325,"c":0},{"a":"clairepang","b":495363,"c":0},{"a":"clydebeagle5","b":554458,"c":0},{"a":"coconuthead","b":568664,"c":0},{"a":"codingclass","b":588717,"c":0},{"a":"coley2027","b":589264,"c":0},{"a":"ColtsFan10","b":534023,"c":0},{"a":"Com10atorics","b":554511,"c":0},{"a":"Cooelman","b":433940,"c":0},{"a":"Cookie2006","b":498880,"c":0},{"a":"Cookie9876","b":567173,"c":0},{"a":"cool07","b":568887,"c":0},{"a":"coolart","b":356019,"c":0},{"a":"coolkid2020","b":576488,"c":0},{"a":"Cosmosiq","b":584631,"c":0},{"a":"CountdownChampion","b":544434,"c":0},{"a":"counterstrike","b":552335,"c":0},{"a":"countingarithmetic","b":149578,"c":0},{"a":"CrazyBoulder","b":482020,"c":0},{"a":"CrazyDuke","b":354861,"c":0},{"a":"CT17","b":408441,"c":0},{"a":"cuautzina","b":491974,"c":0},{"a":"cupsofchai","b":576654,"c":0},{"a":"cusd356111","b":561002,"c":0},{"a":"CVCAISAIAHLUTZ","b":590342,"c":0},{"a":"cwhi1593","b":448246,"c":0},{"a":"CYH","b":489573,"c":0},{"a":"DakuMangalSingh","b":454355,"c":0},{"a":"danamite","b":262396,"c":0},{"a":"dancingmonkey","b":560602,"c":0},{"a":"dancingmonkey21","b":571015,"c":0},{"a":"danielnamgoong","b":506131,"c":0},{"a":"danielp","b":336269,"c":0},{"a":"danielwang4466","b":419916,"c":0},{"a":"dao30","b":456315,"c":0},{"a":"DapperPeppermint","b":508669,"c":0},{"a":"darlingakki","b":531790,"c":0},{"a":"darren7777","b":381962,"c":0},{"a":"Darthandre","b":477718,"c":0},{"a":"DarthVader2618","b":470544,"c":0},{"a":"dasies","b":298661,"c":0},{"a":"datoucai","b":465273,"c":0},{"a":"dc4459","b":567777,"c":0},{"a":"DCheng","b":343175,"c":0},{"a":"dchenmathcounts","b":350894,"c":0},{"a":"DD_440","b":573995,"c":0},{"a":"Desertsnow","b":450017,"c":0},{"a":"dgreenb801","b":32886,"c":0},{"a":"Diamond2100","b":572170,"c":0},{"a":"diamondgreat","b":585947,"c":0},{"a":"DiamondPuppy22","b":477342,"c":0},{"a":"diego.garridouson","b":577615,"c":0},{"a":"difekt","b":477626,"c":0},{"a":"diomantogh","b":579411,"c":0},{"a":"Divimaster","b":457541,"c":0},{"a":"DJN2007","b":287635,"c":0},{"a":"dkneezel","b":147216,"c":0},{"a":"doctorpi","b":471494,"c":0},{"a":"DogLover23","b":502467,"c":0},{"a":"dollymadison","b":336492,"c":0},{"a":"Dolphin8","b":188603,"c":0},{"a":"donkeykong10506","b":485499,"c":0},{"a":"DoNotTouch24","b":590388,"c":0},{"a":"Dot22","b":256271,"c":0},{"a":"DoThinh2001","b":414514,"c":0},{"a":"doudouliuyan","b":582184,"c":0},{"a":"DragonBallerina","b":482413,"c":0},{"a":"drink_water","b":557900,"c":0},{"a":"drrosey","b":548455,"c":0},{"a":"Drshiru","b":535813,"c":0},{"a":"druidchain","b":215668,"c":0},{"a":"Dseg123","b":319146,"c":0},{"a":"DSL13","b":575222,"c":0},{"a":"ducksfo64","b":522041,"c":0},{"a":"Dude26","b":578045,"c":0},{"a":"dududsu1","b":577496,"c":0},{"a":"dumbblonde","b":510960,"c":0},{"a":"Dumbo","b":541943,"c":0},{"a":"dumplingz","b":448657,"c":0},{"a":"duwipr","b":254592,"c":0},{"a":"ebarneson","b":257989,"c":0},{"a":"ebirks","b":542885,"c":0},{"a":"ecastner","b":246892,"c":1},{"a":"Eclipse471","b":507219,"c":0},{"a":"EDailey","b":571679,"c":0},{"a":"Edelweiss7","b":578946,"c":0},{"a":"EDKthepro","b":546142,"c":0},{"a":"Edwina224","b":573241,"c":0},{"a":"EGMath","b":473332,"c":0},{"a":"El_matematico","b":422291,"c":0},{"a":"Elaine_Wang","b":509584,"c":0},{"a":"eleanora11","b":411011,"c":0},{"a":"Elexsis","b":469307,"c":0},{"a":"Elinhchung","b":537651,"c":0},{"a":"EliY","b":412421,"c":0},{"a":"Ellaberry","b":589138,"c":0},{"a":"ElsaFrozen","b":407846,"c":0},{"a":"emma.gwynn","b":573147,"c":0},{"a":"emraldape2","b":258455,"c":0},{"a":"ENDERGAMER25","b":550947,"c":0},{"a":"enhanced","b":353963,"c":0},{"a":"epcvan","b":423429,"c":0},{"a":"epigao","b":527360,"c":0},{"a":"Eric2009","b":483859,"c":0},{"a":"Ericsz","b":496563,"c":0},{"a":"eshu_mittal","b":387094,"c":0},{"a":"EugeneSi","b":490282,"c":0},{"a":"evanku197","b":572975,"c":0},{"a":"EvanZ","b":394242,"c":0},{"a":"EWenslawski","b":551109,"c":0},{"a":"ewp1234321","b":522760,"c":0},{"a":"Extremelysupercooldude","b":436117,"c":0},{"a":"ezhang717","b":567312,"c":0},{"a":"fairnightzz","b":423597,"c":0},{"a":"Fawkes2020","b":567178,"c":0},{"a":"fd3535","b":583322,"c":0},{"a":"Feddoceddo","b":581851,"c":0},{"a":"FinB","b":520848,"c":0},{"a":"firedragon789","b":575796,"c":0},{"a":"firetorch","b":476817,"c":0},{"a":"Flatlander","b":371915,"c":0},{"a":"flec","b":507434,"c":0},{"a":"floof421","b":566892,"c":0},{"a":"floradaisy136","b":304256,"c":0},{"a":"flower101","b":404288,"c":0},{"a":"flowerpowers","b":429903,"c":0},{"a":"flowertail","b":495420,"c":0},{"a":"fluffy5","b":571658,"c":0},{"a":"fluffyclouds","b":392403,"c":0},{"a":"fluffyfox","b":521610,"c":0},{"a":"flying-droid","b":467644,"c":0},{"a":"FlyrX1","b":571365,"c":0},{"a":"ForestCrow10","b":542542,"c":0},{"a":"foreverlulu1","b":516138,"c":0},{"a":"Fortytwok","b":438911,"c":0},{"a":"freeboy","b":522647,"c":0},{"a":"Frestho","b":257942,"c":0},{"a":"Fries4life4630","b":446467,"c":0},{"a":"FrydPotato","b":490643,"c":0},{"a":"fucongcong","b":512453,"c":0},{"a":"funmath2020","b":559540,"c":0},{"a":"Fvr_Vain","b":302562,"c":0},{"a":"G1-100","b":470768,"c":0},{"a":"Galaxy99","b":478175,"c":0},{"a":"GCA","b":360212,"c":0},{"a":"GDmath","b":365441,"c":0},{"a":"genius08","b":566853,"c":0},{"a":"geniusdancer123","b":549500,"c":0},{"a":"GeoNZ3","b":582814,"c":0},{"a":"GGS","b":472894,"c":0},{"a":"Giantsloth","b":568167,"c":0},{"a":"giftedredstone","b":505004,"c":0},{"a":"GingerTabby","b":550372,"c":0},{"a":"gkapp1","b":502399,"c":0},{"a":"gmannnnnnn","b":483395,"c":0},{"a":"GoggleGirl","b":300288,"c":0},{"a":"golfgamer","b":576754,"c":0},{"a":"Gomes17","b":319669,"c":0},{"a":"goodgirl24","b":337644,"c":0},{"a":"Goodgoodstudy","b":432504,"c":0},{"a":"goodhitter12","b":529796,"c":0},{"a":"gordonhero","b":469345,"c":0},{"a":"GovernmentCheeseAhoy","b":298006,"c":0},{"a":"gphire","b":587734,"c":0},{"a":"gracefulharmony","b":409424,"c":0},{"a":"grayspider","b":548998,"c":0},{"a":"GreenBandit","b":574748,"c":0},{"a":"GreenIvyMath","b":563546,"c":0},{"a":"Groot","b":351620,"c":0},{"a":"GTS2019","b":480664,"c":0},{"a":"gunegrl","b":540993,"c":0},{"a":"GymnasticsGirl","b":487735,"c":0},{"a":"gZell06","b":589721,"c":0},{"a":"hahndol","b":560338,"c":0},{"a":"hALAL_cartDonut","b":486714,"c":0},{"a":"hamon","b":323854,"c":0},{"a":"hankinjg","b":210385,"c":0},{"a":"HannahW","b":250956,"c":0},{"a":"hao168","b":314940,"c":0},{"a":"haochi","b":449195,"c":0},{"a":"happyhana","b":480832,"c":0},{"a":"happyhana2","b":480833,"c":0},{"a":"HarMen","b":558924,"c":0},{"a":"harrypotter19","b":473872,"c":0},{"a":"Hax.Mode.ON3","b":522474,"c":0},{"a":"hedwigwig","b":570733,"c":0},{"a":"HeldermanL","b":591101,"c":0},{"a":"helen365","b":424382,"c":0},{"a":"HelenZhang2006","b":358074,"c":0},{"a":"HElloooooo","b":510088,"c":0},{"a":"Henry0121","b":560110,"c":0},{"a":"hexafandra","b":570818,"c":0},{"a":"hhussain85","b":346953,"c":0},{"a":"highpeaks2020","b":554163,"c":0},{"a":"highsierra","b":473846,"c":0},{"a":"hiphophippo","b":394987,"c":0},{"a":"HoiHoi","b":389553,"c":0},{"a":"Hoopdreams","b":585293,"c":0},{"a":"horsefeedapples","b":489445,"c":0},{"a":"HSS1","b":553000,"c":0},{"a":"HumanCalculator9","b":281228,"c":0},{"a":"Hungri","b":560773,"c":0},{"a":"Hwu6","b":556749,"c":0},{"a":"Hypercube11","b":492255,"c":0},{"a":"I-_-I","b":293983,"c":0},{"a":"i3435","b":398167,"c":0},{"a":"iamnotdoingthat","b":579440,"c":0},{"a":"icedancing","b":343215,"c":0},{"a":"IceWolf10","b":401225,"c":0},{"a":"icezoubing","b":518509,"c":0},{"a":"IFthenElse246","b":574119,"c":0},{"a":"ihan01","b":404420,"c":0},{"a":"ik113","b":567688,"c":0},{"a":"ike.chen","b":572986,"c":0},{"a":"iLeviathan","b":290136,"c":0},{"a":"ilikemath07","b":575028,"c":0},{"a":"ilovely11","b":516021,"c":0},{"a":"ILoveMathVeryMuch","b":566944,"c":0},{"a":"ilovemusic12","b":558258,"c":0},{"a":"iloveorigami","b":407536,"c":0},{"a":"iman007","b":485879,"c":0},{"a":"Inconsistent","b":478350,"c":0},{"a":"Infdef","b":471201,"c":0},{"a":"infinity26484","b":321790,"c":0},{"a":"IntelligentElephant2010","b":565051,"c":0},{"a":"interactivemath","b":569019,"c":0},{"a":"InvisibleBob","b":382267,"c":0},{"a":"Ip_123","b":398655,"c":0},{"a":"iris27225","b":491685,"c":0},{"a":"Irshad","b":315122,"c":0},{"a":"Ish_Sahh","b":452892,"c":0},{"a":"ivan02138","b":315146,"c":0},{"a":"IWantYouToBeHappy","b":505060,"c":0},{"a":"J_123","b":567144,"c":0},{"a":"J20080109","b":503907,"c":0},{"a":"JackHammer45","b":570356,"c":0},{"a":"JacobJB","b":397870,"c":0},{"a":"JadeJaguar17","b":481329,"c":0},{"a":"jaehanae","b":528535,"c":0},{"a":"JamesJKim","b":577205,"c":0},{"a":"Jay17","b":418717,"c":0},{"a":"JayLi666","b":430612,"c":0},{"a":"jblair","b":347280,"c":0},{"a":"JCJC","b":474311,"c":0},{"a":"jcklosalamos","b":522706,"c":0},{"a":"jcl-12","b":497682,"c":0},{"a":"JDKim","b":422400,"c":0},{"a":"jechi7","b":424967,"c":0},{"a":"jeffisepic","b":207580,"c":0},{"a":"Jellybean007","b":406352,"c":0},{"a":"jellyfish5","b":572121,"c":0},{"a":"jenchen","b":479793,"c":0},{"a":"Jennie2020","b":557022,"c":0},{"a":"Jennyw","b":565867,"c":0},{"a":"jeremytao5703","b":467854,"c":0},{"a":"Jerry122805","b":449407,"c":0},{"a":"jessica7chen","b":555246,"c":0},{"a":"Jessie2","b":468369,"c":0},{"a":"JFWP","b":574245,"c":0},{"a":"JGeneson","b":3066,"c":0},{"a":"jiujiuaops","b":475160,"c":0},{"a":"jiuruaops","b":542907,"c":0},{"a":"Jjesus","b":568310,"c":0},{"a":"jlikemath","b":281837,"c":0},{"a":"jling21","b":576101,"c":0},{"a":"jmar270","b":591111,"c":0},{"a":"jns123","b":583363,"c":0},{"a":"jonahc426","b":447773,"c":0},{"a":"Jonathan1","b":367845,"c":0},{"a":"jonny","b":134102,"c":0},{"a":"joseph.quan","b":435692,"c":0},{"a":"josephineli","b":416802,"c":0},{"a":"joshmms","b":512994,"c":0},{"a":"josiah2020","b":591114,"c":0},{"a":"joych9999","b":412936,"c":0},{"a":"JPL","b":397557,"c":0},{"a":"jrcatoe2025","b":432449,"c":0},{"a":"jSoftball","b":515181,"c":0},{"a":"judgefan99","b":507350,"c":0},{"a":"judyyuan","b":519440,"c":0},{"a":"justdoit8","b":347615,"c":0},{"a":"JustSquid","b":559429,"c":0},{"a":"JW6720","b":589147,"c":0},{"a":"jwang616","b":328451,"c":0},{"a":"jwoo1127","b":496892,"c":0},{"a":"kaavyab","b":326861,"c":0},{"a":"Kabu","b":414920,"c":0},{"a":"Kaishin","b":522222,"c":0},{"a":"kendrickkim09","b":590397,"c":0},{"a":"kenpike","b":288806,"c":0},{"a":"kgibson","b":486601,"c":0},{"a":"Kirotori","b":585049,"c":0},{"a":"KirtanSai","b":442937,"c":0},{"a":"kitkat23","b":555263,"c":0},{"a":"Kittymaymay","b":547196,"c":0},{"a":"kjs10583","b":554675,"c":0},{"a":"KK_KK","b":432477,"c":0},{"a":"KK-butter","b":501906,"c":0},{"a":"KKrew","b":572359,"c":0},{"a":"km2020","b":572135,"c":0},{"a":"kred9","b":407095,"c":0},{"a":"krisharathod","b":517136,"c":0},{"a":"krishjha","b":336983,"c":0},{"a":"krithikrokcs","b":429786,"c":0},{"a":"KriyaM","b":565835,"c":0},{"a":"kuchev","b":486264,"c":0},{"a":"Kurchi","b":579648,"c":0},{"a":"kvs","b":235412,"c":0},{"a":"kxuflash47","b":575225,"c":0},{"a":"Labradoodle23","b":582104,"c":0},{"a":"LaBugGaming","b":503513,"c":0},{"a":"lahmacun","b":522545,"c":0},{"a":"lbondurant","b":524039,"c":0},{"a":"LC2019","b":489379,"c":0},{"a":"lc426","b":447771,"c":0},{"a":"leahwu","b":571660,"c":0},{"a":"learning0119","b":400264,"c":0},{"a":"Learnmathwaops","b":539995,"c":0},{"a":"LeaSkates","b":471128,"c":0},{"a":"lemonsect","b":571088,"c":0},{"a":"Leo.Euler","b":565875,"c":0},{"a":"Liang1016","b":474080,"c":0},{"a":"LightiningBlazer","b":543804,"c":0},{"a":"LightMaster427","b":410048,"c":0},{"a":"linkleep","b":418578,"c":0},{"a":"linkx","b":231999,"c":0},{"a":"linus3","b":590623,"c":0},{"a":"linyan509","b":384286,"c":0},{"a":"lions0709","b":568449,"c":0},{"a":"littlecarolz17","b":509178,"c":0},{"a":"LittleKyodon","b":392719,"c":0},{"a":"littlepetwolf","b":542847,"c":0},{"a":"llhchs25","b":520622,"c":0},{"a":"llr","b":307696,"c":0},{"a":"lock","b":353355,"c":0},{"a":"lodeiro","b":566314,"c":0},{"a":"Lol_man000","b":412290,"c":0},{"a":"LucaTu1","b":407677,"c":0},{"a":"Lucky_ducky","b":482500,"c":0},{"a":"Luckywinner1234","b":508357,"c":0},{"a":"Lucusgun","b":576677,"c":0},{"a":"luofeii04","b":589663,"c":0},{"a":"luxx0137","b":477715,"c":0},{"a":"M.M","b":579003,"c":0},{"a":"MabelMa1","b":580050,"c":0},{"a":"mabhi","b":438321,"c":0},{"a":"Maddiezhu","b":543961,"c":0},{"a":"madmathmeow","b":479480,"c":0},{"a":"Mal0601","b":523484,"c":0},{"a":"malitasgr8","b":584335,"c":0},{"a":"Malulu","b":401036,"c":0},{"a":"maneti_na_amfeti","b":581153,"c":0},{"a":"margaret2010","b":567825,"c":0},{"a":"Marpe1","b":563678,"c":0},{"a":"marshmallow26","b":560762,"c":0},{"a":"marymaomao","b":553977,"c":0},{"a":"masadca","b":546874,"c":0},{"a":"MaskedHunter664","b":558328,"c":0},{"a":"math_cnb","b":589956,"c":0},{"a":"Math_Genius_beast.com","b":456009,"c":0},{"a":"Math-Nerd101","b":526142,"c":0},{"a":"math129","b":163087,"c":0},{"a":"Math2008pa","b":451664,"c":0},{"a":"Math2016Center","b":294963,"c":0},{"a":"math202","b":519353,"c":0},{"a":"mathboy1","b":143919,"c":0},{"a":"mathboykl2018","b":417703,"c":0},{"a":"mathbw225","b":515770,"c":0},{"a":"Mathcat321","b":565430,"c":0},{"a":"mathdolphin123","b":432382,"c":0},{"a":"MathematicianFlippityboii","b":452784,"c":0},{"a":"mathfun5","b":119421,"c":0},{"a":"mathgeek07","b":317252,"c":0},{"a":"mathguy2025","b":511398,"c":0},{"a":"MATHGUY7582","b":568632,"c":0},{"a":"Mathical","b":529109,"c":0},{"a":"mathicorn","b":224560,"c":0},{"a":"Mathisawsome1234","b":589892,"c":0},{"a":"mathkids8888","b":252861,"c":0},{"a":"mathlearner2000","b":514289,"c":0},{"a":"mathnerdnair","b":484207,"c":0},{"a":"mathsign1","b":491581,"c":0},{"a":"MathsProf101","b":323029,"c":0},{"a":"MathsZ","b":556929,"c":0},{"a":"mathtiger6","b":236812,"c":0},{"a":"MathUnicorn","b":301742,"c":0},{"a":"MathWillow","b":583404,"c":0},{"a":"MatteD","b":580122,"c":0},{"a":"mattyrobot","b":539621,"c":0},{"a":"MaverickMan","b":519230,"c":0},{"a":"MaxMa1","b":415377,"c":0},{"a":"Mayank04","b":325593,"c":0},{"a":"mayau","b":550193,"c":0},{"a":"MBergstrom","b":589591,"c":0},{"a":"MD0617","b":569847,"c":0},{"a":"Me.021","b":509789,"c":0},{"a":"Medha","b":481467,"c":0},{"a":"megaplayer29","b":532392,"c":0},{"a":"MegaProblemSolver","b":257358,"c":0},{"a":"Meh7","b":578312,"c":0},{"a":"mehmaster","b":440102,"c":0},{"a":"meichenlaub","b":411370,"c":1},{"a":"meimei.708","b":558301,"c":0},{"a":"menlo","b":417898,"c":0},{"a":"MerlinWiz","b":409406,"c":0},{"a":"merrym","b":583662,"c":0},{"a":"mfoley1848","b":410218,"c":0},{"a":"MI2008","b":556623,"c":0},{"a":"MiceJune2020","b":564781,"c":0},{"a":"michaelwen","b":350716,"c":0},{"a":"MichaelYeh","b":512112,"c":0},{"a":"mihikamishra","b":585111,"c":0},{"a":"mijail","b":338783,"c":0},{"a":"Mike_The_Pro_420xx","b":583245,"c":0},{"a":"milab123","b":591106,"c":0},{"a":"milkitbun","b":481823,"c":0},{"a":"mind_palace","b":404890,"c":0},{"a":"miscellieneous","b":493011,"c":0},{"a":"MissoulaMath","b":571277,"c":0},{"a":"mistypond2018","b":411994,"c":0},{"a":"mIVm","b":462611,"c":0},{"a":"mixi","b":499409,"c":0},{"a":"ml1234","b":509327,"c":0},{"a":"mnyan","b":493563,"c":0},{"a":"mobro","b":568683,"c":0},{"a":"MomoChen","b":414199,"c":0},{"a":"monks","b":514685,"c":0},{"a":"montana_mathlete","b":348032,"c":0},{"a":"mop","b":492216,"c":0},{"a":"MORMATE","b":539946,"c":0},{"a":"Mr.C","b":524450,"c":0},{"a":"Mr.PineappleMan","b":566481,"c":0},{"a":"MRENTHUSIASM","b":180334,"c":0},{"a":"mrtylerwu","b":413759,"c":0},{"a":"Muqiliang","b":496421,"c":0},{"a":"murka_","b":391226,"c":0},{"a":"music.kitty","b":567817,"c":0},{"a":"MW2018","b":423185,"c":0},{"a":"my_fish_died_2020","b":567562,"c":0},{"a":"Mysterious-Monster","b":485818,"c":0},{"a":"MysteryGuy25","b":491857,"c":0},{"a":"naman1125","b":498837,"c":0},{"a":"Nanaruggins","b":523123,"c":0},{"a":"nancyevans","b":339150,"c":0},{"a":"NaroPn","b":531749,"c":0},{"a":"nat7","b":364219,"c":0},{"a":"nebulagirl","b":213338,"c":0},{"a":"nemasaleh","b":492008,"c":0},{"a":"Neo-Pythagorean","b":570193,"c":0},{"a":"Netherite","b":550814,"c":0},{"a":"NeverBohring","b":562830,"c":0},{"a":"newovertimee","b":498567,"c":0},{"a":"neymar2020","b":548022,"c":0},{"a":"nickjet","b":557771,"c":0},{"a":"NightFury101","b":445170,"c":0},{"a":"Niqhtwolf","b":541496,"c":0},{"a":"Nithila","b":568734,"c":0},{"a":"njdk","b":487238,"c":0},{"a":"NLA","b":566214,"c":0},{"a":"nloskor","b":586869,"c":0},{"a":"nm2224","b":505825,"c":0},{"a":"nmorales27","b":591102,"c":0},{"a":"NotReally","b":426564,"c":0},{"a":"Nsap","b":551539,"c":0},{"a":"nss1974","b":434038,"c":0},{"a":"ntheo919","b":570413,"c":0},{"a":"nupurb","b":579289,"c":0},{"a":"nye","b":453418,"c":0},{"a":"ObjectZ","b":513298,"c":0},{"a":"ocohen2","b":590354,"c":0},{"a":"Ocra004","b":363941,"c":0},{"a":"oddmoo","b":591103,"c":0},{"a":"ogljj","b":476368,"c":0},{"a":"ohjoshuaoh","b":545459,"c":0},{"a":"oliboli1224","b":584991,"c":0},{"a":"oligof_reni","b":573941,"c":0},{"a":"OliverA","b":350017,"c":0},{"a":"OlympusHero","b":350767,"c":0},{"a":"onionheadjr","b":450529,"c":0},{"a":"Opalturtle","b":564802,"c":0},{"a":"opkilo","b":575178,"c":0},{"a":"OrangeBoy2020","b":556585,"c":0},{"a":"OrangePeel","b":481334,"c":0},{"a":"Orestis_Lignos","b":417508,"c":0},{"a":"OronSH","b":411040,"c":0},{"a":"Oscarella","b":589386,"c":0},{"a":"osunm","b":557598,"c":0},{"a":"Ottersea","b":572053,"c":0},{"a":"oval","b":406689,"c":0},{"a":"oyc_1975","b":478632,"c":0},{"a":"P2Tan","b":476743,"c":0},{"a":"P3Tan","b":579142,"c":0},{"a":"pablovempala","b":581860,"c":0},{"a":"pAdic","b":521841,"c":0},{"a":"pakhonli","b":574016,"c":0},{"a":"palindrome868","b":539091,"c":0},{"a":"panda_bear","b":564589,"c":0},{"a":"pandabearcat","b":527305,"c":0},{"a":"patelishi","b":575860,"c":0},{"a":"PCChess","b":383954,"c":0},{"a":"pco","b":29428,"c":0},{"a":"pecan_pie","b":544152,"c":0},{"a":"peggy.aops","b":542763,"c":0},{"a":"Pen888","b":575257,"c":0},{"a":"PenDragon107","b":588458,"c":0},{"a":"Penguin20_KX","b":528311,"c":0},{"a":"penguinsrule","b":548337,"c":0},{"a":"PenguinTornado","b":582377,"c":0},{"a":"person21","b":383141,"c":0},{"a":"personH","b":568714,"c":0},{"a":"Phennessy26","b":505744,"c":0},{"a":"Phillip77","b":568222,"c":0},{"a":"phoenix123","b":225363,"c":0},{"a":"Pi-314159","b":558035,"c":0},{"a":"pianoman24","b":239548,"c":0},{"a":"PieDay","b":543949,"c":0},{"a":"piforeveryone","b":568285,"c":0},{"a":"Pirkuliyev Rovsen","b":68025,"c":0},{"a":"platform9.75","b":404587,"c":0},{"a":"Pleaseletmewin","b":513074,"c":0},{"a":"pli9","b":311978,"c":0},{"a":"Pluto1708","b":408882,"c":0},{"a":"PM.MATHLEAGUE.VA.CHAMP","b":503534,"c":0},{"a":"pogizhobi","b":573120,"c":0},{"a":"poinsettiatu","b":499449,"c":0},{"a":"poisonleo","b":477726,"c":0},{"a":"ponylearner","b":564071,"c":0},{"a":"poopycake","b":405418,"c":0},{"a":"Poseidon11","b":541675,"c":0},{"a":"Possible","b":480568,"c":0},{"a":"Potato16","b":550191,"c":0},{"a":"potterfan","b":560750,"c":0},{"a":"Prabh1512","b":565307,"c":0},{"a":"pranavi07","b":446542,"c":0},{"a":"prathiklolla","b":221889,"c":0},{"a":"Pratik12","b":561018,"c":0},{"a":"PROA200","b":411300,"c":0},{"a":"probanterjr","b":549102,"c":0},{"a":"programmist1","b":551856,"c":0},{"a":"prostedt27","b":591108,"c":0},{"a":"Prydom","b":574744,"c":0},{"a":"PS4412","b":590335,"c":0},{"a":"pved","b":249938,"c":0},{"a":"pvfuentes","b":588169,"c":0},{"a":"PythonLearner","b":579712,"c":0},{"a":"quasarking","b":556779,"c":0},{"a":"QueenSusan","b":575939,"c":0},{"a":"qzc","b":543446,"c":0},{"a":"Racar1","b":566454,"c":0},{"a":"rafaello","b":576256,"c":0},{"a":"rainbow_asteroid","b":306050,"c":0},{"a":"rainbow1111","b":566323,"c":0},{"a":"RainbowSquirrel53B","b":570578,"c":0},{"a":"RamanConjecture","b":270175,"c":0},{"a":"Random_Person_921","b":520145,"c":0},{"a":"random314","b":465429,"c":0},{"a":"Raptor99","b":459344,"c":0},{"a":"rascal-3420","b":385219,"c":0},{"a":"ratatuy","b":546758,"c":0},{"a":"ravens25","b":494274,"c":0},{"a":"rayfish","b":394377,"c":0},{"a":"recoco","b":466122,"c":0},{"a":"red_lion_4944","b":525774,"c":0},{"a":"redelephant876","b":450922,"c":0},{"a":"RedFireTruck","b":445184,"c":0},{"a":"redglasses23","b":586596,"c":0},{"a":"Redhawk2","b":433566,"c":0},{"a":"RedKoala","b":571348,"c":0},{"a":"reeva28","b":487779,"c":0},{"a":"rekagarwal","b":530593,"c":0},{"a":"remymartin","b":528137,"c":0},{"a":"rench23sugar","b":561727,"c":0},{"a":"rf20008","b":371269,"c":0},{"a":"ria.gavvala","b":348033,"c":0},{"a":"Riasberry","b":231270,"c":0},{"a":"Ribbot213","b":577853,"c":0},{"a":"RichLord","b":578916,"c":0},{"a":"ridhan300","b":479677,"c":0},{"a":"riverblossom","b":499882,"c":0},{"a":"rku","b":579668,"c":1},{"a":"rkuroyama","b":528467,"c":1},{"a":"rmtf1111","b":274926,"c":0},{"a":"RoboticsJamb","b":507527,"c":0},{"a":"rockgem","b":484366,"c":0},{"a":"RockyCoco","b":553493,"c":0},{"a":"RohanV","b":564093,"c":0},{"a":"roller_hockey","b":490636,"c":0},{"a":"ronav.gopal","b":568445,"c":0},{"a":"rss1979","b":434035,"c":0},{"a":"Rwitabrata","b":501393,"c":0},{"a":"ryanfu2008","b":424856,"c":0},{"a":"RYang2","b":381053,"c":0},{"a":"RyanL2019","b":494236,"c":0},{"a":"RyanWang","b":545913,"c":0},{"a":"ryguy53","b":574194,"c":0},{"a":"s0607","b":567890,"c":0},{"a":"S0ccerGenie","b":554736,"c":0},{"a":"Saahilpatel","b":494981,"c":0},{"a":"Sabsab","b":449641,"c":0},{"a":"sae123","b":516095,"c":0},{"a":"SafeTurtle1256","b":563308,"c":0},{"a":"SagnikC","b":194100,"c":0},{"a":"SAKAGA","b":536928,"c":0},{"a":"saksubs","b":457978,"c":0},{"a":"salinalover","b":413458,"c":0},{"a":"Sanblue","b":465561,"c":0},{"a":"sanjusri","b":248135,"c":0},{"a":"saphirekoala","b":566902,"c":0},{"a":"SaphireTurtle","b":548664,"c":0},{"a":"Sarah010","b":473609,"c":0},{"a":"saritha","b":304499,"c":0},{"a":"SarM","b":571846,"c":0},{"a":"saturnrocket","b":482360,"c":0},{"a":"SaturnV","b":428379,"c":0},{"a":"Saxenas01","b":577639,"c":0},{"a":"Scyr","b":585977,"c":0},{"a":"sdd2026","b":496907,"c":0},{"a":"sdpandit","b":221021,"c":0},{"a":"sealsrock","b":364963,"c":0},{"a":"seanisgreat","b":549499,"c":0},{"a":"Seeraj","b":530135,"c":0},{"a":"Selfstudy123","b":576584,"c":0},{"a":"selinapan","b":482115,"c":0},{"a":"seltia","b":579749,"c":0},{"a":"SenorIncongito","b":513456,"c":0},{"a":"serenitysky","b":550703,"c":0},{"a":"serikk","b":577784,"c":0},{"a":"Sevenacres","b":521486,"c":0},{"a":"sfurfine","b":547523,"c":1},{"a":"shane.v.good","b":576009,"c":0},{"a":"Shark0wl","b":330613,"c":0},{"a":"SharpApricot123","b":345776,"c":0},{"a":"Shibam10","b":570892,"c":0},{"a":"shinystar","b":409468,"c":0},{"a":"shlik","b":304474,"c":0},{"a":"Shon4poth","b":580146,"c":0},{"a":"shreyagoel234","b":320063,"c":0},{"a":"shuang123","b":515615,"c":0},{"a":"Shuri","b":484467,"c":0},{"a":"Siddharth13","b":396740,"c":0},{"a":"Siddharthan","b":556464,"c":0},{"a":"sidvenk","b":568379,"c":0},{"a":"sidzamp","b":574166,"c":0},{"a":"silverlotus1","b":556040,"c":0},{"a":"SilverSelkie","b":584515,"c":0},{"a":"silverstone21","b":580837,"c":0},{"a":"Simpson10","b":583622,"c":0},{"a":"skanda.atticus","b":502372,"c":0},{"a":"Skchang7","b":318910,"c":0},{"a":"skeeto06","b":545660,"c":0},{"a":"Skulblaka","b":339759,"c":0},{"a":"skyblue19","b":571690,"c":0},{"a":"skyblue3","b":583614,"c":0},{"a":"skylah_dance","b":585598,"c":0},{"a":"SleepingDragon","b":337212,"c":0},{"a":"SlLV3RZ","b":582282,"c":0},{"a":"Smallstudent","b":361050,"c":0},{"a":"SmartGroot","b":560744,"c":0},{"a":"SmeeVena","b":394323,"c":0},{"a":"smilebig04","b":567884,"c":0},{"a":"snake102","b":443388,"c":0},{"a":"snakeaid","b":572039,"c":0},{"a":"snakejaguar13","b":549760,"c":0},{"a":"snow52","b":405704,"c":0},{"a":"soap_kween","b":583447,"c":0},{"a":"solomon0307","b":526816,"c":0},{"a":"some1","b":306763,"c":0},{"a":"SomethingSquared","b":408905,"c":0},{"a":"sonone","b":311331,"c":0},{"a":"sophab","b":572003,"c":0},{"a":"soryn","b":344350,"c":0},{"a":"sotpidot","b":426558,"c":0},{"a":"SourMilk","b":495624,"c":0},{"a":"Spancham","b":416374,"c":0},{"a":"Sparkle16","b":408525,"c":0},{"a":"speckledapple","b":575558,"c":0},{"a":"srlovesmath","b":379245,"c":0},{"a":"ssr_07","b":542415,"c":0},{"a":"StalePC","b":571332,"c":0},{"a":"Starburst13","b":482089,"c":0},{"a":"stardust1004","b":454289,"c":0},{"a":"STEMLion","b":586980,"c":0},{"a":"stevecabbage","b":580250,"c":0},{"a":"stop_it-","b":590319,"c":0},{"a":"strangerock","b":569332,"c":0},{"a":"sturdycrab","b":268137,"c":0},{"a":"sub_math","b":370777,"c":0},{"a":"subaops1","b":490297,"c":0},{"a":"subr3587835","b":455160,"c":0},{"a":"Sugiyem","b":413171,"c":0},{"a":"Sultan2","b":591096,"c":0},{"a":"Summit7","b":576642,"c":0},{"a":"sumrandomperson","b":582356,"c":0},{"a":"sunflower42day","b":499380,"c":0},{"a":"sunnysam","b":566373,"c":0},{"a":"supa_eggy","b":587470,"c":0},{"a":"supergamer1394","b":583368,"c":0},{"a":"supersushiwins","b":582113,"c":0},{"a":"Surlu46896","b":478822,"c":0},{"a":"sv739","b":549420,"c":0},{"a":"Swankytiger11","b":546068,"c":0},{"a":"swarnavj","b":298844,"c":0},{"a":"sweet.criticism","b":492721,"c":0},{"a":"sweetdestiny","b":549989,"c":0},{"a":"swifty07","b":567874,"c":0},{"a":"Swo0sh","b":578878,"c":0},{"a":"szheng0312","b":540990,"c":0},{"a":"TadByper","b":352100,"c":0},{"a":"Tambourine5","b":363930,"c":0},{"a":"Tanish03","b":563214,"c":0},{"a":"TAOTAOLIU","b":476852,"c":0},{"a":"Tapeman","b":247578,"c":0},{"a":"taranwanderer","b":493544,"c":0},{"a":"TAX","b":326066,"c":0},{"a":"techno3000","b":487196,"c":0},{"a":"Technodoggo","b":532454,"c":0},{"a":"Techy_Engineer","b":549132,"c":0},{"a":"Teddy4520","b":331585,"c":0},{"a":"teddybear28","b":566974,"c":0},{"a":"Teengle19","b":497754,"c":0},{"a":"tennisplayer2007","b":350021,"c":0},{"a":"testudothe8th","b":484794,"c":0},{"a":"tetonstone","b":420153,"c":0},{"a":"tferront","b":574907,"c":0},{"a":"TheGoldenRetriever","b":569521,"c":0},{"a":"theodoremui","b":401774,"c":0},{"a":"theoneandonlyshark","b":560452,"c":0},{"a":"therapy","b":522550,"c":0},{"a":"TheSapientGoat","b":552396,"c":0},{"a":"TheSmartestEnzo","b":574122,"c":0},{"a":"ThetaPi_123","b":522807,"c":0},{"a":"TheWizard","b":414564,"c":0},{"a":"Thornclaw9000","b":368776,"c":0},{"a":"ThornyBush_123","b":565748,"c":0},{"a":"ThriftyPiano","b":439931,"c":0},{"a":"tiger456","b":487506,"c":0},{"a":"tigerwu","b":363970,"c":0},{"a":"tigeryun","b":479096,"c":0},{"a":"Tija","b":414703,"c":0},{"a":"tillu","b":532623,"c":0},{"a":"Tim0017","b":519488,"c":0},{"a":"TimTom","b":446990,"c":0},{"a":"Tintarn","b":212018,"c":0},{"a":"tinypet","b":574113,"c":0},{"a":"titli_2010","b":583350,"c":0},{"a":"TJLAcademy","b":492964,"c":0},{"a":"tkubota","b":554311,"c":0},{"a":"torontoscholar","b":529352,"c":0},{"a":"TortilloSquad","b":577572,"c":0},{"a":"TotalPro77777","b":554964,"c":0},{"a":"totoro.selsel","b":408788,"c":0},{"a":"tree_3","b":486446,"c":0},{"a":"Tree315","b":412400,"c":0},{"a":"Treebark","b":578559,"c":0},{"a":"treedoeseverything","b":506442,"c":0},{"a":"tricky.math.spider.gold.1","b":485719,"c":0},{"a":"Triko8","b":590504,"c":0},{"a":"Trishna","b":560687,"c":0},{"a":"trixieandbear","b":581420,"c":0},{"a":"Trollface60","b":349206,"c":0},{"a":"TRYanglePi","b":508912,"c":0},{"a":"TTN1717","b":589237,"c":0},{"a":"TTZ","b":544220,"c":0},{"a":"turquoise22","b":580805,"c":0},{"a":"turtle322","b":585305,"c":0},{"a":"turtles0120","b":354228,"c":0},{"a":"tuttopisa","b":571951,"c":0},{"a":"tverahunt28","b":464494,"c":0},{"a":"twinbrian","b":393119,"c":0},{"a":"ValeriaPC","b":556238,"c":0},{"a":"Valkoorsky18","b":475747,"c":0},{"a":"vanilla.froyo","b":483330,"c":0},{"a":"vapodaca","b":431370,"c":1},{"a":"varahamihir","b":287847,"c":0},{"a":"Vavapoopy","b":586758,"c":0},{"a":"ve1kat","b":412434,"c":0},{"a":"VenomLord1","b":375996,"c":0},{"a":"vgaurav","b":530287,"c":0},{"a":"vinayreddy","b":554836,"c":0},{"a":"vincexu","b":565018,"c":0},{"a":"vinhla","b":580705,"c":0},{"a":"vinodini.thota","b":572759,"c":0},{"a":"violet_baudelaire","b":479380,"c":0},{"a":"VIOLET14","b":401846,"c":0},{"a":"violetyan","b":415291,"c":0},{"a":"violinFLUTE","b":428348,"c":0},{"a":"virjoy2001","b":471991,"c":0},{"a":"vishadlamba","b":577643,"c":0},{"a":"Vitali","b":567706,"c":0},{"a":"VivianLiao","b":550869,"c":0},{"a":"vladcristian","b":427203,"c":0},{"a":"vmr123","b":504355,"c":0},{"a":"vnrt2","b":552858,"c":0},{"a":"volleballnat19","b":574818,"c":0},{"a":"vralex","b":527965,"c":0},{"a":"vutukuri","b":538432,"c":0},{"a":"VWA","b":320846,"c":0},{"a":"vwv","b":512583,"c":0},{"a":"vyao","b":501651,"c":0},{"a":"waffles4life","b":418960,"c":0},{"a":"Wally123","b":590343,"c":0},{"a":"WallyWalrus","b":314621,"c":0},{"a":"wangxzh","b":398516,"c":0},{"a":"watermelon10","b":558006,"c":0},{"a":"wei4949","b":568642,"c":0},{"a":"Wells2019","b":499314,"c":0},{"a":"Wendy0324","b":590282,"c":0},{"a":"Wesak","b":566674,"c":0},{"a":"WetSoX","b":586661,"c":0},{"a":"wh83","b":360598,"c":0},{"a":"whoareu","b":518148,"c":0},{"a":"Williamgolly","b":420311,"c":0},{"a":"winterrain01","b":345643,"c":0},{"a":"wj732","b":418548,"c":0},{"a":"wlflin","b":364301,"c":0},{"a":"wmengzhe","b":541915,"c":0},{"a":"woilmm","b":353943,"c":0},{"a":"wonderstar","b":566590,"c":0},{"a":"wonni","b":546546,"c":0},{"a":"woojias","b":473571,"c":0},{"a":"wordwhiz","b":213422,"c":0},{"a":"wper27","b":591104,"c":0},{"a":"wyang888","b":461795,"c":0},{"a":"WyattB","b":563289,"c":0},{"a":"x1lc","b":582087,"c":0},{"a":"xjoyx","b":574008,"c":0},{"a":"XTJin","b":469323,"c":0},{"a":"Xx_AwesomeSauce_xX","b":286855,"c":0},{"a":"xzhang0001","b":506601,"c":0},{"a":"yaay","b":566238,"c":0},{"a":"yangi26","b":560558,"c":0},{"a":"yanir24","b":449540,"c":0},{"a":"Yashius","b":580670,"c":0},{"a":"yayitsme","b":543927,"c":0},{"a":"yekolo","b":337729,"c":0},{"a":"yofro","b":440062,"c":0},{"a":"Yourdeath9111","b":541545,"c":0},{"a":"yourowndad","b":583270,"c":0},{"a":"ypang9804","b":243947,"c":0},{"a":"ypd39","b":586787,"c":0},{"a":"Yqji2000","b":568335,"c":0},{"a":"yu_margaret","b":303227,"c":0},{"a":"yukarin0811","b":576343,"c":0},{"a":"zachtian","b":584235,"c":0},{"a":"zcsharon","b":501585,"c":0},{"a":"zeroguy","b":557147,"c":0},{"a":"Zholia","b":553612,"c":0},{"a":"zhouhui966","b":576014,"c":0},{"a":"zhuzhu","b":372688,"c":0},{"a":"zyr","b":587235,"c":0}]}},"global_announcements":[],"preload_watchers":{"127915":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"1130606":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"GreenIvyMath","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_563546.jpg?t=1590441968"},"2028267":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"awesomeonfire","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_461340.jpeg?t=1596220206"},"2123123":{"num_named_watchers":1,"num_watchers":2,"watchers_usernames":" Pluto1708","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_408882.jpg?t=1594491636"},"2187230":{"num_named_watchers":2,"num_watchers":3,"watchers_usernames":" TortilloSquad yofro","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_577572.jpg?t=1597350083 \/\/avatar.artofproblemsolving.com\/avatar_440062.jpg?t=1540609134"},"2235947":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2236501":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2237590":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2239270":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2239591":{"num_named_watchers":2,"num_watchers":2,"watchers_usernames":"kred9 random314","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_465429.png \/\/avatar.artofproblemsolving.com\/avatar_407095.png?t=1595653027"},"2240134":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240285":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240293":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240300":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"El_matematico","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_422291.jpg?t=1597588946"},"2240388":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240467":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"2240473":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240528":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240547":{"num_named_watchers":1,"num_watchers":1,"watchers_usernames":"CountdownChampion","watchers_avatars":"\/\/avatar.artofproblemsolving.com\/avatar_544434.png"},"2240551":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"2240569":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240572":{"num_named_watchers":0,"num_watchers":1,"watchers_usernames":"","watchers_avatars":""},"2240626":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""},"2240661":{"num_named_watchers":0,"num_watchers":0,"watchers_usernames":"","watchers_avatars":""}},"logout_url":"\/community"};
+  AoPS.bd = AoPS.bootstrap_data; // Alias!
+	AoPS.session = {"id":"78d2e90c4f367fdf50ab6f72078eff41","user_id":1,"username":"Anonymous","avatar":"","logged_in":false,"role":"unregistered_user","a":false,"n":false,"show_privacy":null,"cmty_collection":""};
+	AoPS.bd.assetVersion = 2846;
+  AoPS.bd.environment = 'production';
+	AoPS.protected_url = 'https://artofproblemsolving.com/';	
+	AoPS.aops_url = 'https://artofproblemsolving.com/';
+	AoPS.academy_url = 'https://aopsacademy.org/';
+</script>
+		
+<script>
+	AoPS.sentry = {};
+ 	AoPS.sentry.assetVersion = 2846;
+ 	AoPS.sentry.aopsEnvironment = 'production';
+	AoPS.sentry.acadEnvironment = '';
+	AoPS.repo = 'aops';
+ </script>
+
+  <script src="/assets/dist/v1494/aops_errors.js"></script>
+
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+												<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+		<meta name="referrer" content="origin">
+
+		
+		<link rel="apple-touch-icon" href="//assets.artofproblemsolving.com/images/apple-touch-icon.png">
+		<title>Community</title>
+
+		
+		<link href="/assets/fonts/font-awesome/css/all.css" rel="stylesheet">
+
+					<link rel="stylesheet" href="/assets/dist/v1494/css/main-head.css">
+			<link rel="stylesheet" href="/assets/dist/v1494/css/sharedsite.css">
+			<link rel="stylesheet" href="/assets/dist/v1494/css/navheader.css">
+			<link rel="stylesheet" href="/assets/dist/v1494/css/footer.css">
+		
+					<link rel="icon" href="/online-favicon.ico?v=2">
+		
+						<link rel="stylesheet" href="/assets/pythonbook/_static/codemirrorEdited.css?__v__=2846">
+						<link rel="stylesheet" href="/assets/dist/v1494/css/feed.css?v=58">
+						<link rel="stylesheet" href="/assets/dist/v1494/css/community_common.css?v=58j">
+						<link rel="stylesheet" href="/assets/vendor/dropzone/css/dropzone.css?__v__=2846">
+						<link rel="stylesheet" href="/assets/dist/v1494/css/community.css?v=58">
+						<link rel="stylesheet" href="/assets/dist/v1494/css/community_header.css?v=58">
+		
+		<script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.prototype.findIndex%2CArray.prototype.includes%2CString.prototype.endsWith%2CString.prototype.includes%2CString.prototype.startsWith%2CString.prototype.repeat%2CURL"></script>
+<script>
+  if (!window.console) console = {log: function() {}, dir: function() {}};
+  $$ = function( selector ) { return document.getElementById( selector ); }
+</script>
+
+						<script src="//assets.artofproblemsolving.com/js/jquery.min.js"></script>
+							</head>
+		<body class="production community small-footer">
+						<noscript>
+					<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe>
+			</noscript>
+				<div id="page-wrapper">
+
+			<!-- search:off -->
+			
+			<div id="header-wrapper" class="no-select">
+				<div class="header-underlay">
+					<div id="header">
+
+						<!-- The gray bar at top -->
+						<!-- see shared-site.css -->
+						<div id="top-bar" class="sharedsite-wrapper">
+							<div class="sharedsitebar">
+								<a href="/" class="mobile-title"></a>
+								<div class="sharedsite-links">
+																	<a class="site-link main" href="/company">
+																		Art of Problem Solving
+									</a>
+									<div class="site">
+																			<a class="site-link selected" href="/">
+																				<img src="/assets/images/logos/icon-online.svg" class="site-icon">
+											<span class="site-name">AoPS Online</span>
+										</a>
+										<!-- Rich dropdown -->
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="/assets/images/logos/aops-online.svg"/>
+													</div>
+													<div class="site-snippet">
+														Math texts, online classes, and more
+														<br/>for students in grades 5-12.
+													</div>
+													<a target="_blank" class="site-visit aops-primary" href="/">
+														Visit AoPS Online <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="/store" class="btn btn-primary aops-btn">
+														Books for Grades 5-12
+													</a>
+													<a target="_blank" href="/school" class="btn btn-primary aops-btn">
+														Online Courses
+													</a>
+												</div>
+											</div>
+										</div>
+										<!-- End rich dropdown -->
+									</div>
+									<div class="site">
+										<a class="site-link" href="https://beastacademy.com">
+											<img src="/assets/images/logos/icon-ba.svg" class="site-icon">
+											<span class="site-name">Beast Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="/assets/images/logos/aops-ba.svg"/>
+													</div>
+													<div class="site-snippet">
+														Engaging math books and online learning
+														<br/>for students ages 8-13.
+													</div>
+													<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+														Visit Beast Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+														Books for Ages 8-13
+													</a>
+													<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+														Beast Academy Online
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="site">
+										<a class="site-link" href="//aopsacademy.org">
+											<img src="/assets/images/logos/icon-academy.svg" class="site-icon">
+											<span class="site-name">AoPS Academy</span>
+										</a>
+										<div class="site-dropdown-wrapper">
+											<div class="site-dropdown">
+												<div class="site-info">
+													<div class="site-logo">
+														<img src="/assets/images/logos/aops-academy.svg"/>
+													</div>
+													<div class="site-snippet">
+														Nationwide learning centers
+														<br/>for students in grades 2-12.
+													</div>
+													<a target="_blank" class="site-visit academy-primary" href="//aopsacademy.org">
+														Visit AoPS Academy <span class="aops-font">‚</span>
+													</a>
+												</div>
+												<div class="site-quick-nav">
+													<a target="_blank" href="//aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+														Find a Campus
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- The white area where main menu options appear -->
+
+						<!-- The menu links -->
+													<div id="main-menubar">
+								<div class="menubar-content">
+									<div class="menubar-logo online">
+										<img class="menubar-hamburger" src="/assets/images/hamburger.svg"/>
+										<a class="logo-img-link" href="/online">
+											<img class="logo-img" src="/assets/images/logos/aops-online.svg"/>
+											<img class="logo-img-mobile" src="/assets/images/logos/aops-online-mobile.svg"/>
+											<img class="logo-img-small" src="/assets/images/logos/aops-online-mobile.svg"/>
+										</a>
+									</div>
+									<div class="menubar-links-outer">
+										<!-- The login links -->
+										<div class="menu-login-wrapper online">
+																						<div class="menu-login-item">
+																									<div id="header-login" class="login-button online-login-button no-select not-signed-in">
+														Sign In/<br class="sign-in-break">Register
+													</div>
+																							</div>
+
+											
+										</div>
+										<div class="menubar-labels online">
+											                      <div class="menubar-label school">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/school">
+                            online school
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+														<!-- These have IDs for A/B testing purposes. T27691 -->
+                                                        <a id="online-school-menu-how-school-works" href="/school/how-school-works"> How Classes Work </a>
+                            <a id="online-school-menu-catalog" href="/school/catalog"> Course Catalog </a>
+                            <a id="online-school-menu-schedule" href="/school/schedule"> Class Schedule </a>
+                            <a id="online-school-menu-recommmendations" href="/school/recommendations"> Recommendations </a>
+                            <a id="online-school-menu-woot-courses" href="/school/woot?gtmlist=School_Nav"> WOOT Courses </a>
+                            <a id="online-school-menu-handbook" href="/school/handbook/prospective">
+                              School Handbook </a>
+                            <a id="online-school-menu-mathjams" href="/school/mathjams"> Math Jams </a>
+                                                                                  </div>
+                        </div>
+                      </div>
+                      <div class="menubar-label store">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/store">
+                            books<span class="menubar-link-ext">tore </span>
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                                                                                                                <a href="/store/list/aops-curriculum">AoPS Curriculum</a>
+                            <a href="/store/list/beast-academy">Beast Academy</a>
+                            <a href="/store/online">Online Books</a>
+                            <a href="/store/recommendations">Recommendations</a>
+                            <a href="/store/list/other-products">Other Books &amp; Gear</a>
+                            <a href="/store/list/all-products">All Products</a>
+                            <a href="/store/gift-certificates?gtmlist=Bookstore_Nav">Gift Certificates</a>
+                                                      </div>
+                        </div>
+                      </div>
+                      <div class="menubar-label community">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link selected" href="/community">
+                            community
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+                                                        <a data-cmty href="/community">Forums</a>
+                            <a data-cmty href="/community/c13_contests">Contests</a>
+                            <a data-cmty href="/community/search">Search</a>
+                            <a data-cmty href="/community/faq">Help</a>
+                                                                                                              </div>
+                        </div>
+                      </div>
+                      <div class="menubar-label resources">
+                        <div class="menubar-label-link-outer">
+                          <a class="menubar-label-link " href="/resources">
+                            resources
+                          </a>
+                        </div>
+                        <div class="menubar-dropdown">
+                          <div class="triangle"></div>
+                          <div class="dropdown-content">
+														<div class="dropdown-columns">
+															<div class="dropdown-category">
+																<span class="dropdown-category-label">math training & tools</span>
+																<a href="/alcumus">Alcumus</a>
+																<a href="/videos">Videos</a>
+																<a href="/ftw">For the Win!</a>
+																<a href="/mathcounts_trainer">MATHCOUNTS Trainer</a>
+																<a href="/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+																<a href="/texer">LaTeX TeXeR</a>
+																<a href="/polymath">MIT PRIMES/CrowdMath</a>
+																<a href="/keeplearning">Keep Learning</a>
+																<a href="/contests/mathcounts-week-2020">MATHCOUNTS Week</a>
+																<a href="/contests/amc">AMC on AoPS</a>
+																															</div>
+															<div class="dropdown-column">
+																																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">emergency homeschool</span>
+																	<a href="/homeschool">Curriculum Recs</a>
+																	<a href="/homeschool/podcast">Podcast</a>
+																</div>
+																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">just for fun</span>
+																	<a href="/reaper">Reaper</a>
+																	<a href="/greedcontrol">Greed Control</a>
+																</div>
+															</div>
+														</div>
+														<div class="dropdown-view-more-link-container">
+															<a href="/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+														</div>
+                          </div>
+                        </div>
+                      </div>
+                                            <div class="menubar-label menu-login-item">
+                                                  <div id="header-login" class="login-button online-login-button no-select">
+                            Sign In/Register
+                          </div>
+                                              </div>
+                                          </div>
+                  </div>
+                </div>
+              </div>
+                      </div>
+        </div>
+
+								<noscript>
+					<div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div>
+				</noscript>
+
+
+									<div id="breadcrumbs-wrapper">
+						<div id="submenu-icon"></div>
+						<div id="breadcrumbs">
+														<div class="crumb-wrapper">
+																										<span class="crumb crumb-1">
+																			<a href="/community/index.php">Community</a>
+																		</span>
+															</div>
+						</div>
+					</div>
+							</div>
+
+			<!-- search icon script lives in footer.phtml-->
+
+			<!-- /search:off -->
+
+<div id="main-content">
+	<div id="main-column-standard">
+		
+	</div>
+</div>
+
+<!-- search:off -->
+	<div class="clearfix"></div>
+
+	
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+											<a href="/online">
+							<img class="footer-mainLogo"
+							src="/assets/images/logos/aops-online-footer.svg"/>
+						</a>
+										<div class="footer-wasc">
+						<span>
+							Art of Problem Solving is an
+							<br class="wasc-break"/>
+							<span class="footer-accredited">ACS WASC Accredited School</span>
+						</span>
+						<img class="footer-wascLogo"
+						src="/assets/images/logos/wasc.png"/>
+					</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<div><a class="link" href="https://artofproblemsolving.com/online">AoPS Online</a></div>
+					<div><a class="link" href="https://beastacademy.com">Beast Academy</a></div>
+					<div><a class="link" href="//aopsacademy.org">AoPS Academy</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<div><a class="link" href="/company/about">About AoPS</a></div>
+					<div><a class="link" href="/company/staff">Our Team</a></div>
+					<div><a class="link" href="/company/history">Our History</a></div>
+					<div><a class="link" href="/company/careers">Jobs</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<div><a class="link" href="/company/tos">Terms</a></div>
+					<div><a class="link" href="/company/privacy">Privacy</a></div>
+											<div><a class="link" href="/contact">Contact Us</a></div>
+									</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+							</a>
+											</div>
+				</div>
+									<div class="footer-col subscribe">
+						<div class="footer-colHeader">
+							Subscribe for news and updates
+						</div>
+						<form method="post" action="/mailinglist">
+							<input data-hj-suppress="" data-hj-masked="" type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+							<input type="hidden" name="new-books" value="on">
+							<input type="hidden" name="classes" value="on">
+							<input type="hidden" name="mathjams" value="on">
+							<input type="submit" class="footer-submit" value="">
+							<div class="footer-submit-arrow">
+								<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+									<g>
+										<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+									</g>
+								</svg>
+							</div>
+						</form>
+					</div>
+							</div>
+			<div class="copyright">
+				<span>&copy; 2020 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="/online">
+					<img class="footer-mainLogo"
+					src="/assets/images/logos/aops-online-footer.svg"/>
+				</a>
+						<div class="copyright">
+				&copy; 2020 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="/company">About Us</a>
+					&nbsp;•&nbsp;
+											<a href="/contact">Contact Us</a>
+										&nbsp;•&nbsp;
+					<a href="/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<form id="registration-form" method="post" action="/user/register.php">
+	<input type="hidden" name="username" value="">
+	<input type="hidden" name="password" value="">
+	<input type="hidden" name="from-login" value="true">
+	</form>
+	<div id="login-form">
+
+		<div class="error">
+			Invalid username
+		</div>
+
+		<div class="info" style="text-align:center">
+		<img width="200" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg">
+		<span style="position:relative;color:#1A355D;font-size:30px;left:3px;top:7px;display:inline-block">Sign In</span>
+		</div>
+		<form>
+			<div class="form-group username">
+				<div>
+					<label>Username:</label>
+				</div>
+				<div>
+					<input data-hj-suppress="" data-hj-masked="" name="username" class="form-control" id="login-username" type="text" placeholder="Enter username or email address" autocapitalize="off">
+				</div>
+			</div>
+			<div class="form-group password">
+				<div>
+					<label>Password:</label>
+				</div>
+				<div>
+					<input data-hj-suppress="" data-hj-masked="" name="password" class="form-control" id="login-password" type="hidden" placeholder="Enter password" autocomplete="off">
+				</div>
+			</div>
+		</form>
+		<div class="form-group">
+			<div>
+			</div>
+			<div class="login-buttons">
+				<button class="btn btn-primary" id="login-button" href="#">Sign In</button>
+				<button class="btn" id="register-button" href="#">Create Account</button>
+				<div style="margin-top:5px;box-sizing: border-box;">
+					<label style="display:block;float:left;padding-right:10px;white-space:nowrap;line-height:1em;font-weight:normal">
+						<input type="checkbox" name="stay-logged-in" id="login-stay-logged-in" style="vertical-align:middle;margin:0;">
+						<span style="vertical-align:middle">Stay signed in</span>
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div id="login-form-links">
+			<p>
+				<a href="/user/resend-activation.php">Lost your activation email?</a>
+			</p>
+			<p>
+				<a href="/user/reset-pw.php">Forgot your password or username?</a>
+			</p>
+		</div>
+	</div>
+<div id="print-footer" class="printer">Copyright &copy; 2020 Art of Problem Solving</div>
+
+
+
+<div id="epicfail" class="aops-html-modal-epic-fail" style="display: none">
+	<div class="aops-html-modal-inner-epic-fail">
+		<div class="aops-html-modal-main-epic-fail">
+			<p>Something appears to not have loaded correctly.</p>
+		</div>
+		<div class="aops-html-modal-bottom-epic-fail">
+			<p><a onclick="location.reload(true);return false">Click to refresh</a>.</p>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" href="/assets/css/epic-fail.css">
+<script src="/assets/vendor/common-combined-2.js"></script>
+
+	<script src="/assets/dist/v1494/aops_core.js"></script>
+
+
+<script src="/s/sourceRecording/dist/v1494/source_recording.js"></script>
+
+
+
+	<script src="/assets/vendor/jqueryui/1.10.3/jquery-ui.min.js?__v__=2846"></script>
+	<script src="/assets/vendor/jquery.editable.js?__v__=2846"></script>
+	<script src="/assets/pythonbook/_static/codemirror-compressed.js?__v__=2846"></script>
+	<script src="/assets/pythonbook/_static/skulpt.min.js?__v__=2846"></script>
+	<script src="/assets/pythonbook/_static/skulpt-stdlib.js?__v__=2846"></script>
+	<script src="/assets/pythonbook/_static/aopsmods.js?__v__=2846"></script>
+	<script src="//cache.artofproblemsolving.com/js/community_data.js?v=1597858056&__v__=2846"></script>
+	<script src="/assets/dist/v1494/cmty_core.js?__v__=2846"></script>
+	<script src="/m/community/dist/v1494/precomp_community_common.js?__v__=2846"></script>
+	<script src="/assets/vendor/dropzone/dropzone.js?__v__=2846"></script>
+	<script src="/m/community/dist/v1494/precomp_in_community.js?__v__=2846"></script>
+	<script src="//cache.artofproblemsolving.com/js/community_topics.js?r=1597858056&__v__=2846"></script>
+	<script src="/m/community/js/CommunityBase.js?v=58&__v__=2846"></script>
+
+
+<!-- /search:off -->
+
+
+<!-- copied from contact page index, with edits -->
+<script id="footer-tpl-email-dialog" type="text/x-handlebars-template">
+	<div id="mail-dialog">
+		<h1>Email Art of Problem Solving</h1>
+		<p>
+			<input data-hj-suppress="" data-hj-masked="" type="text" id="email" name="email" placeholder="Your email address">
+			<input data-hj-suppress="" data-hj-masked="" type="text" id="subject" name="subject" placeholder="Subject of message">
+			<textarea data-hj-suppress="" data-hj-masked="" id="message" name="message" placeholder="Enter your message"></textarea>
+			<div style="padding:5px 30px">
+				<input type="checkbox" id="email-copy" name="email_copy">
+				<label for="email-copy" id="email-copy-label">Send a copy to my email address.</label>
+			</div>
+			<div style="padding:5px 30px 20px">
+				<input id="footer-submit-btn" type="submit" class="btn btn-primary" value="Send">
+				<input id="footer-cancel-btn" type="submit" class="btn btn-default" value="Cancel">
+			</div>
+		</p>
+		<p id="email-error"></p>
+	</div>
+</script>
+
+
+<script id="footer-tpl-email-confirm" type="text/x-handlebars-template">
+	<div id="mail-dialog-confirm">
+		<h2>Email Sent</h2>
+		<p>Thank you for your email. We will respond to it soon.</p>
+	</div>
+</script>
+
+
+<script>
+	// Try to prevent sending email multiple times
+	var last_email = '';
+
+	$( document ).ready( function() {
+		$( ".aops-contact" ).on( "click", displayFooterEmailDialog );
+
+		$( "body" ).on( "click", "#footer-submit-btn", submitFooterEmail );
+		$( "body" ).on( "click", "#footer-cancel-btn",  cancelFooterEmail );
+	} );
+
+	function displayFooterEmailDialog() {
+		AoPS.Ui.Modal.show( {
+			body : document.getElementById( "footer-tpl-email-dialog" ).innerHTML,
+			max_width : '600px',
+			max_height : '100%',
+			scrollable : true
+		} );
+	}
+
+
+	/**
+	 * Submit email
+	 *
+	 * Note: Copy does not work in non-production mode because Mailer::quick() is
+	 * used which does not do force send.
+	 */
+	function submitFooterEmail() {
+		var obj = {
+			action : "email",
+			email : $( "#email" ).val(),
+			subject : $( "#subject" ).val(),
+			message : $( "#message" ).val(),
+			copy : $( "#email-copy" ).is( ":checked" )
+		};
+
+		if ( obj.email === last_email ) {
+			return;
+		}
+		last_email = obj.email;
+
+		// If this still happens multiple times, we have
+		// something wrong with the internal ajax call.
+		AoPS.Ui.Modal.closeAllModals();
+		$.post( "/m/contact/ajax.php", obj, function( data ) {
+			if ( data.error_code ) {
+				$( "#email-error" ).html( data.error_msg ? data.error_msg : data.error_code ).show();
+			} else {
+				AoPS.Ui.Modal.show( {
+					body : document.getElementById( "footer-tpl-email-confirm" ).innerHTML,
+					max_width : '600px',
+					max_height : '100%',
+					scrollable : true
+				} );
+			}
+		}, "json" );
+	}
+	function cancelFooterEmail() {
+		AoPS.Ui.Modal.closeAllModals();
+	}
+</script>
+
+
+<!-- bing -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5105596"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5105596&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+</body>
+</html>
+

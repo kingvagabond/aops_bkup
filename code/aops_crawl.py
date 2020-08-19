@@ -15,6 +15,7 @@ import urllib.error
 import logging
 
 def crawl_url(url, length, withSeperatedPage):
+  # get filename after the last / character
   filenamebase = url[url.rindex('/') + 1 : ]
   urllib.request.urlretrieve(url, '../html/' + filenamebase + '.html')
   urllib.request.urlretrieve(url + '_Problems', '../html/' + filenamebase + '_Problems' + '.html')
